@@ -81,37 +81,37 @@
             combo_plus {
                 timeout-ms = <50>;
                 key-positions = <23 24>;
-                bindings = <&kp PLUS>
+                bindings = <&kp PLUS>;
             };
             combo_equal {
                 timeout-ms = <50>;
                 key-positions = <22 23>;
-                bindings = <&kp EQUAL>
+                bindings = <&kp EQUAL>;
             };
             combo_minus {
                 timeout-ms = <50>;
                 key-positions = <26 27>;
-                bindings = <&kp MINUS>
+                bindings = <&kp MINUS>;
             };
             combo_under {
                 timeout-ms = <50>;
                 key-positions = <26 28>;
-                bindings = <&kp UNDER>
+                bindings = <&kp UNDER>;
             };
             combo_colon {
                 timeout-ms = <50>;
                 key-positions = <6 16>;
-                bindings = <&kp COLON>
+                bindings = <&kp COLON>;
             };
             combo_dqt {
                 timeout-ms = <50>;
                 key-positions = <7 17>;
-                bindings = <&kp DQT>
+                bindings = <&kp DQT>;
             };
             combo_sqt {
                 timeout-ms = <50>;
                 key-positions = <8 18>;
-                bindings = <&kp SQT>
+                bindings = <&kp SQT>;
             };
     };
 
