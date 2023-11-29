@@ -1,10 +1,6 @@
 include:
   - board: seeeduino_xiao_ble
-    shield:
-      - totem_left
-      - hummingbird rgbled_widget
+    shield: totem_left rgbled_widget
   - board: seeeduino_xiao_ble
-    shield:
-      - totem_right
-      - hummingbird rgbled_widget
+    shield: totem_right rgbled_widget
 # there is no settingsreset (needed) for the XIAO
