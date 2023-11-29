@@ -222,8 +222,8 @@ label= "NAVI"                              ;
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
                 &kp ESC     &bt BT_CLR  &kp UP      &kp EQUAL   &kp LBRC        &trans      &kp HOME    &kp UP      &kp END     &kp PG_UP
-                &kp LSHFT   &kp LEFT    &kp DOWN    &kp RIGHT   &kp LBKT        U_WH_U      &kp LEFT    &kp DOWN    &kp RIGHT   &kp PG_DN
-    &trans      &kp DEL     &kp PG_UP   &kp CAPS    &kp PG_DN   &kp LPAR        U_MS_D      &kp INS     &kp DEL     &trans      &trans      &trans      
+                &kp LSHFT   &kp LEFT    &kp DOWN    &kp RIGHT   &kp LBKT        &trans      &kp LEFT    &kp DOWN    &kp RIGHT   &kp PG_DN
+    &trans      &kp DEL     &kp PG_UP   &kp CAPS    &kp PG_DN   &kp LPAR        &trans      &kp INS     &kp DEL     &trans      &trans      &trans      
                                         &trans      &trans      &trans          &mo ADJ     &trans      &trans      
                         >;
         };
