@@ -1,6 +1,6 @@
 layout: {qmk_keyboard: totem}
 layers:
-  base:
+  BASE:
   - Q
   - W
   - E
@@ -33,18 +33,18 @@ layers:
   - .
   - /
   - RSHFT
-  - {t: LGUI, h: nav}
-  - {t: TAB, h: num}
-  - {t: BSPC, h: sys}
-  - {t: SPACE, h: sys}
-  - {t: ENTER, h: num}
-  - {t: RALT, h: nav}
-  nav:
+  - {t: LGUI, h: NAV}
+  - {t: TAB, h: NUM}
+  - {t: BSPC, h: SYS}
+  - {t: SPACE, h: SYS}
+  - {t: ENTER, h: NUM}
+  - {t: RALT, h: NAV}
+  NAV:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&mwh SCROLL_LEFT'
-  - '&mwh SCROLL_RIGHT'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - HOME
   - UP
@@ -54,7 +54,7 @@ layers:
   - LALT
   - LSHFT
   - LCTRL
-  - '&mkp MB2'
+  - '&mkp LCLK'
   - '&mwh SCROLL_UP'
   - LEFT
   - DOWN
@@ -65,7 +65,7 @@ layers:
   - '&mmv MOVE_RIGHT'
   - '&mmv MOVE_UP'
   - '&mmv MOVE_DOWN'
-  - '&mkp MB1'
+  - '&mkp RCLK'
   - '&mwh SCROLL_DOWN'
   - INS
   - DEL
@@ -78,7 +78,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  num:
+  NUM:
   - '`'
   - '~'
   - ^
@@ -117,7 +117,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '0'
-  sys:
+  SYS:
   - BT NXT
   - BT PRV
   - BT CLR
@@ -156,7 +156,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  etc1:
+  ETC1:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -195,7 +195,7 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  etc2:
+  ETC2:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -236,7 +236,7 @@ layers:
   - {t: ▽, type: trans}
 combos:
 - p: [34, 35]
-  k: etc1
+  k: ETC1
 - p: [0, 1]
   k: ESC
 - p: [12, 13]
