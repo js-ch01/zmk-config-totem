@@ -220,10 +220,10 @@ label= "NAVI"                              ;
  bindings = <
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
-                &kp ESC     &bt BT_CLR  &kp UP      &kp EQUAL   &kp LBRC        &trans      &kp HOME    &kp UP      &kp END     &kp PG_UP
-                &kp LSHFT   &kp LEFT    &kp DOWN    &kp RIGHT   &kp LBKT        U_WH_U      &kp LEFT    &kp DOWN    &kp RIGHT   &kp PG_DN
-    &trans      &kp DEL     &kp PG_UP   &kp CAPS    &kp PG_DN   &kp LPAR        U_WH_D      &kp INS     &kp DEL     &trans      &trans      &trans      
-                                        &trans      &trans      &trans          &mo ADJ     &trans      &trans      
+                &trans      &trans      &trans      U_WH_L      U_WH_R          &trans      &kp HOME    &kp UP      &kp END     &kp PG_UP
+                &kp LGUI    &kp LALT    &kp LSHFT   &kp LCTRL   U_BTN2          U_WH_U      &kp LEFT    &kp DOWN    &kp RIGHT   &kp PG_DN
+    &trans      U_MS_L      U_MS_R      U_MS_U      U_MS_D      U_BTN1          U_WH_D      &kp INS     &kp DEL     &trans      &trans      &trans      
+                                        &trans      &trans      &trans          &trans      &trans      &trans      
                         >;
         };
 
