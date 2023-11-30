@@ -161,8 +161,8 @@ layers:
   - '&mwh SCROLL_LEFT'
   - '&mmv MOVE_UP'
   - '&mwh SCROLL_RIGHT'
-  - '&mwh SCROLL_UP'
-  - '&mwh SCROLL_UP'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '&mwh SCROLL_LEFT'
   - '&mmv MOVE_UP'
   - '&mwh SCROLL_RIGHT'
@@ -171,7 +171,7 @@ layers:
   - '&mmv MOVE_LEFT'
   - '&mmv MOVE_DOWN'
   - '&mmv MOVE_RIGHT'
-  - '&mwh SCROLL_DOWN'
+  - '&mwh SCROLL_UP'
   - '&mwh SCROLL_DOWN'
   - '&mmv MOVE_LEFT'
   - '&mmv MOVE_DOWN'
@@ -182,8 +182,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&mwh SCROLL_DOWN'
+  - '&mwh SCROLL_DOWN'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
