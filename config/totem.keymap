@@ -230,17 +230,17 @@
            &kp Q       &kp W       &kp E        &kp R        &kp T             &kp Y        &kp U                &kp I         &kp O       &kp P
            &mt LGUI A  &mt LALT S  &mt LSHFT D  &mt LCTRL F  &kp G             &kp H        &mt RIGHT_CONTROL J  &mt RSHIFT K  &mt LALT L  &mt RGUI SEMI
 &kp LSHFT  &lt 4 Z     &kp X       &kp C        &kp V        &kp B             &kp N        &kp M                &kp COMMA     &kp DOT     &lt 4 SLASH    &kp RSHFT
-                                   &kp TAB      &lt 2 SPACE  &kp LEFT_SHIFT    &lt 3 ENTER  &lt 2 SPACE          &lt 1 RALT
+                                   &lt 3 TAB    &lt 2 SPACE  &kp LEFT_SHIFT    &lt 3 ENTER  &lt 2 SPACE          &lt 1 RALT
             >;
         };
 
         nav_layer {
             label = "NAV";
             bindings = <
-        &trans    &mwh SCROLL_LEFT  &trans     &mwh SCROLL_RIGHT  &trans    &kp INS           &kp HOME   &kp UP     &kp END    &kp PG_UP
-        &kp LGUI  &kp LALT          &kp LSHFT  &kp LCTRL          &trans    &mwh SCROLL_UP    &kp LEFT   &kp DOWN   &kp RIGHT  &kp PG_DN
-&trans  &trans    &trans            &trans     &trans             &trans    &mwh SCROLL_DOWN  &kp LC(V)  &kp LC(C)  &kp LC(X)  &kp LC(Z)  &trans
-                                    &trans     &trans             &trans    &trans            &trans     &trans
+           &trans     &mwh SCROLL_LEFT  &trans     &mwh SCROLL_RIGHT  &trans              &kp INS           &kp HOME   &kp UP     &kp END    &kp PG_UP
+           &kp LGUI   &kp LALT          &kp LSHFT  &kp LCTRL          &mwh SCROLL_UP      &mwh SCROLL_UP    &kp LEFT   &kp DOWN   &kp RIGHT  &kp PG_DN
+&kp LC(F)  &kp LC(Z)  &kp LC(X)         &kp LC(C)  &kp LC(V)          &mwh SCROLL_DOWN    &mwh SCROLL_DOWN  &kp LC(V)  &kp LC(C)  &kp LC(X)  &kp LC(Z)  &kp LC(F)
+                                        &trans     &trans             &trans              &trans            &trans     &trans
             >;
         };
 
