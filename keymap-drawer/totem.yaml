@@ -41,9 +41,9 @@ layers:
   - {t: RALT, h: NAV}
   NAV:
   - {t: ▽, type: trans}
+  - '&mwh SCROLL_LEFT'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&mwh SCROLL_RIGHT'
   - {t: ▽, type: trans}
   - INS
   - HOME
@@ -67,10 +67,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&mwh SCROLL_DOWN'
-  - INS
-  - DEL
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LC(C)
+  - LC(V)
+  - LC(X)
+  - LC(Z)
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
@@ -100,7 +100,7 @@ layers:
   - '6'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LC(C)
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -290,3 +290,9 @@ combos:
   l: [BASE, NAV, NUM]
 - p: [34, 35]
   k: MSE
+- p: [16, 27]
+  k: BACKSPACE
+  l: [BASE, NAV, NUM]
+- p: [17, 28]
+  k: DEL
+  l: [BASE, NUM, NAV]
