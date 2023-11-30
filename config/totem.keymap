@@ -25,10 +25,11 @@
 #define U_MOUSE_SCROLL_MAX 100  /* default: 10  */
 
 &mmv {
-    acceleration-exponent = <2>;
+    acceleration-exponent = <5>;
 };
 
 &mwh {
+    acceleration-exponent = <3>;
 };
 
 //      ┏━━━━┳━━━━┳━━━━┳━━━━┳━━━━┓  ┏━━━━┳━━━━┳━━━━┳━━━━┳━━━━┓
