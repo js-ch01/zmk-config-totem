@@ -22,7 +22,7 @@ layers:
   - {t: L, h: LALT}
   - {t: ;, h: RGUI}
   - LSHFT
-  - Z
+  - {t: Z, h: MSE}
   - X
   - C
   - V
@@ -31,12 +31,12 @@ layers:
   - M
   - ','
   - .
-  - /
+  - {t: /, h: MSE}
   - RSHFT
-  - {t: LSHIFT, h: MSE}
+  - TAB
   - {t: SPACE, h: NUM}
-  - {t: TAB, h: SYS}
-  - {t: ENTER, h: MSE}
+  - LEFT SHIFT
+  - RIGHT SHIFT
   - {t: SPACE, h: NUM}
   - {t: RALT, h: NAV}
   NAV:
@@ -67,8 +67,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&mwh SCROLL_DOWN'
-  - LC(C)
   - LC(V)
+  - LC(C)
   - LC(X)
   - LC(Z)
   - {t: ▽, type: trans}
@@ -121,7 +121,7 @@ layers:
   - BT NXT
   - BT PRV
   - BT CLR
-  - '&bootloader'
+  - {t: ▽, type: trans}
   - CAPS
   - PSCRN
   - F7
@@ -152,7 +152,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -178,6 +178,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&mkp LCLK'
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -188,49 +189,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: '&mkp LCLK', type: held}
+  - '&mkp LCLK'
   - '&mkp MCLK'
   - '&mkp RCLK'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  ETC:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -304,9 +265,10 @@ combos:
   k: DEL
   l: [BASE, NAV, NUM]
 - p: [18, 29]
-  k: SPACE
+  k: ENTER
   l: [BASE, NAV, NUM]
 - p: [11, 22]
-  k: SPACE
+  k: ENTER
+  l: [BASE, NAV, NUM]
 - p: [10, 11, 12, 13]
   k: CLEAN
