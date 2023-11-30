@@ -264,7 +264,7 @@ combos:
   k: DEL
   l: [BASE, NAV, NUM]
 - p: [18, 29]
-  k: ENTER
+  k: TAB
   l: [BASE, NAV, NUM]
 - p: [11, 22]
   k: ENTER
@@ -272,3 +272,6 @@ combos:
 - p: [10, 11, 12, 13]
   k: CLEAN
   l: [BASE, CLEAN]
+- p: [34, 35]
+  k: MSE
+  l: [BASE, MSE]
