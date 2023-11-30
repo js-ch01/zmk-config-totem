@@ -235,14 +235,14 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
-- p: [34, 35]
-  k: MSE
 - p: [0, 1]
   k: ESC
 - p: [12, 13]
   k: (
+  l: [BASE, NAV, NUM]
 - p: [16, 17]
   k: )
+  l: [BASE, NUM, NAV]
 - p: [11, 12]
   k: '['
 - p: [17, 18]
@@ -273,3 +273,5 @@ combos:
   k: '1'
 - p: [6, 7]
   k: '0'
+- p: [34, 35]
+  k: MSE
