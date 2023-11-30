@@ -161,22 +161,22 @@ layers:
   - '&mwh SCROLL_LEFT'
   - '&mmv MOVE_UP'
   - '&mwh SCROLL_RIGHT'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&mwh SCROLL_UP'
+  - '&mwh SCROLL_UP'
+  - '&mwh SCROLL_LEFT'
+  - '&mmv MOVE_UP'
+  - '&mwh SCROLL_RIGHT'
+  - '&mwh SCROLL_UP'
   - '&mwh SCROLL_DOWN'
   - '&mmv MOVE_LEFT'
   - '&mmv MOVE_DOWN'
   - '&mmv MOVE_RIGHT'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&mwh SCROLL_DOWN'
+  - '&mwh SCROLL_DOWN'
+  - '&mmv MOVE_LEFT'
+  - '&mmv MOVE_DOWN'
+  - '&mmv MOVE_RIGHT'
+  - '&mwh SCROLL_DOWN'
   - '&mkp LCLK'
   - {type: held}
   - {t: ▽, type: trans}
@@ -188,13 +188,13 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&mkp LCLK'
   - '&mkp LCLK'
   - '&mkp MCLK'
   - '&mkp RCLK'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&mkp LCLK'
+  - '&mkp MCLK'
+  - '&mkp RCLK'
   CLEAN: ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '']
 combos:
 - p: [1, 0]
