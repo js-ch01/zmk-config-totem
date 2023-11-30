@@ -25,11 +25,10 @@
 #define U_MOUSE_SCROLL_MAX 100  /* default: 10  */
 
 &mmv {
-    time-to-max-speed-ms = <400>;
+    acceleration-exponent = <1.5>;
 };
 
 &mwh {
-    time-to-max-speed-ms = <500>;
 };
 
 //      ┏━━━━┳━━━━┳━━━━┳━━━━┳━━━━┓  ┏━━━━┳━━━━┳━━━━┳━━━━┳━━━━┓
@@ -238,7 +237,7 @@
             bindings = <
         &kp GRAVE  &kp TILDE  &kp CARET  &kp AMPS  &kp STAR     &trans    &kp N7  &kp N8  &kp N9  &trans
         &kp EXCL   &kp AT     &kp HASH   &kp DLLR  &kp PRCNT    &trans    &kp N4  &kp N5  &kp N6  &trans
-&trans  &trans     &trans     &trans     &trans    &trans       &kp PIPE  &kp N1  &kp N2  &kp N3  &kp BSLH  &trans
+&trans  &kp LC(C)  &trans     &trans     &trans    &trans       &kp PIPE  &kp N1  &kp N2  &kp N3  &kp BSLH  &trans
                               &trans     &trans    &trans       &trans    &trans  &kp N0
             >;
         };
