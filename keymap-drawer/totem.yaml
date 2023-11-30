@@ -33,11 +33,11 @@ layers:
   - .
   - /
   - RSHFT
-  - {t: LGUI, h: NAV}
-  - {t: TAB, h: NUM}
-  - {t: BSPC, h: SYS}
-  - {t: SPACE, h: SYS}
-  - {t: ENTER, h: NUM}
+  - {t: LSHIFT, h: NAV}
+  - {t: BACKSPACE, h: NUM}
+  - {t: TAB, h: SYS}
+  - {t: ENTER, h: MSE}
+  - {t: SPACE, h: NUM}
   - {t: RALT, h: NAV}
   NAV:
   - {t: ▽, type: trans}
@@ -45,7 +45,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - INS
   - HOME
   - UP
   - END
@@ -54,18 +54,18 @@ layers:
   - LALT
   - LSHFT
   - LCTRL
-  - '&mkp LCLK'
+  - {t: ▽, type: trans}
   - '&mwh SCROLL_UP'
   - LEFT
   - DOWN
   - RIGHT
   - PG DN
   - {t: ▽, type: trans}
-  - '&mmv MOVE_LEFT'
-  - '&mmv MOVE_RIGHT'
-  - '&mmv MOVE_UP'
-  - '&mmv MOVE_DOWN'
-  - '&mkp RCLK'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '&mwh SCROLL_DOWN'
   - INS
   - DEL
@@ -156,7 +156,21 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  ETC1:
+  MSE:
+  - '&mwh SCROLL_UP'
+  - '&mwh SCROLL_LEFT'
+  - '&mmv MOVE_UP'
+  - '&mwh SCROLL_RIGHT'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&mwh SCROLL_DOWN'
+  - '&mmv MOVE_LEFT'
+  - '&mmv MOVE_DOWN'
+  - '&mmv MOVE_RIGHT'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -175,23 +189,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
+  - '&mkp LCLK'
+  - '&mkp MCLK'
+  - '&mkp RCLK'
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -236,7 +236,7 @@ layers:
   - {t: ▽, type: trans}
 combos:
 - p: [34, 35]
-  k: ETC1
+  k: MSE
 - p: [0, 1]
   k: ESC
 - p: [12, 13]
