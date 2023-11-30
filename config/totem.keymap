@@ -261,10 +261,10 @@
         mouse_layer {
             label = "MSE";
             bindings = <
-           &mwh SCROLL_UP    &mwh SCROLL_LEFT  &mmv MOVE_UP    &mwh SCROLL_RIGHT  &trans       &trans  &trans  &trans  &trans  &trans
-           &mwh SCROLL_DOWN  &mmv MOVE_LEFT    &mmv MOVE_DOWN  &mmv MOVE_RIGHT    &trans       &trans  &trans  &trans  &trans  &trans
-&mkp LCLK  &trans            &trans            &trans          &trans             &trans       &trans  &trans  &trans  &trans  &trans  &trans
-                                               &mkp LCLK       &mkp MCLK          &mkp RCLK    &trans  &trans  &trans
+           &mwh SCROLL_UP    &mwh SCROLL_LEFT  &mmv MOVE_UP    &mwh SCROLL_RIGHT  &mwh SCROLL_UP      &mwh SCROLL_UP    &mwh SCROLL_LEFT  &mmv MOVE_UP    &mwh SCROLL_RIGHT  &mwh SCROLL_UP
+           &mwh SCROLL_DOWN  &mmv MOVE_LEFT    &mmv MOVE_DOWN  &mmv MOVE_RIGHT    &mwh SCROLL_DOWN    &mwh SCROLL_DOWN  &mmv MOVE_LEFT    &mmv MOVE_DOWN  &mmv MOVE_RIGHT    &mwh SCROLL_DOWN
+&mkp LCLK  &trans            &trans            &trans          &trans             &trans              &trans            &trans            &trans          &trans             &trans            &mkp LCLK
+                                               &mkp LCLK       &mkp MCLK          &mkp RCLK           &mkp LCLK         &mkp MCLK         &mkp RCLK
             >;
         };
 
