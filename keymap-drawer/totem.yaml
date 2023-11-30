@@ -17,8 +17,8 @@ layers:
   - {t: F, h: LCTRL}
   - G
   - H
-  - {t: J, h: LCTRL}
-  - {t: K, h: LSHFT}
+  - {t: J, h: RIGHT CONTROL}
+  - {t: K, h: RSHIFT}
   - {t: L, h: LALT}
   - {t: ;, h: RGUI}
   - LSHFT
@@ -199,6 +199,7 @@ layers:
 combos:
 - p: [11, 12, 13]
   k: ESC
+  l: [BASE]
 - p: [12, 13]
   k: (
   l: [BASE, NAV, NUM]
@@ -250,8 +251,6 @@ combos:
 - p: [6, 7]
   k: '0'
   l: [BASE, NAV, NUM]
-- p: [34, 35]
-  k: MSE
 - p: [16, 27]
   k: BACKSPACE
   l: [BASE, NAV, NUM]
@@ -272,3 +271,4 @@ combos:
   l: [BASE, NAV, NUM]
 - p: [10, 11, 12, 13]
   k: CLEAN
+  l: [BASE, CLEAN]
