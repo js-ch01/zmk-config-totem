@@ -47,7 +47,7 @@
 
         combo_esc {
             timeout-ms = <50>;
-            key-positions = <11 12 13>;
+            key-positions = <1 0>;
             bindings = <&kp ESC>;
             layers = <0>;
         };
@@ -124,14 +124,14 @@
 
         combo_minus {
             timeout-ms = <50>;
-            key-positions = <26 27>;
+            key-positions = <27 28>;
             bindings = <&kp MINUS>;
             layers = <0 1 2>;
         };
 
         combo_under {
             timeout-ms = <50>;
-            key-positions = <27 28>;
+            key-positions = <28 29>;
             bindings = <&kp UNDER>;
             layers = <0 1 2>;
         };
@@ -243,7 +243,7 @@
             bindings = <
         &kp GRAVE  &kp TILDE  &kp CARET  &kp AMPS  &kp STAR     &trans    &kp N7  &kp N8  &kp N9  &trans
         &kp EXCL   &kp AT     &kp HASH   &kp DLLR  &kp PRCNT    &trans    &kp N4  &kp N5  &kp N6  &trans
-&trans  &trans     &trans     &trans     &trans    &trans       &kp PIPE  &kp N1  &kp N2  &kp N3  &kp BSLH  &trans
+&trans  &trans     &kp N1     &kp N2     &kp N3    &trans       &kp PIPE  &kp N1  &kp N2  &kp N3  &kp BSLH  &trans
                               &trans     &trans    &trans       &trans    &trans  &kp N0
             >;
         };
