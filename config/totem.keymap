@@ -19,6 +19,9 @@
     tapping-term-ms = <300>;
 };
 
+// mouse key
+#define U_MOUSE_MOVE_MAX 1250   /* default: 600 */
+#define U_MOUSE_SCROLL_MAX 100  /* default: 10  */
 &mmv {
     time-to-max-speed-ms = <400>;
 };
