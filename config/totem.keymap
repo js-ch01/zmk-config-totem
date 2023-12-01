@@ -11,6 +11,7 @@
 #define ETC  5
 
 // mod-tap
+
 &mt {
     quick-tap-ms = <100>;
     global-quick-tap;
@@ -41,12 +42,13 @@
 
 / {
     behaviors {
-        gresc: grave_escape {
+        test: test {
             compatible = "zmk,behavior-mod-morph";
-            label = "GRAVE_ESCAPE";
+            label = "TEST";
             #binding-cells = <0>;
-            bindings = <&kp Q>, <&kp GRAVE>;
-            mods = <(MOD_LGUI|MOD_LSFT|MOD_RGUI|MOD_RSFT)>;
+            bindings = <&kp LEFT_BRACE>, <&kp LEFT_BRACKET>;
+
+            mods = <(MOD_LSFT|MOD_RSFT)>;
         };
     };
 };
@@ -223,7 +225,6 @@
             key-positions = <34 35>;
             layers = <0 4>;
         };
-
     };
 
     keymap {
@@ -242,7 +243,7 @@
         navi_layer {
             label = "NAV";
             bindings = <
-           &trans     &mwh SCROLL_LEFT  &trans     &mwh SCROLL_RIGHT  &trans              &kp INS           &kp HOME   &kp UP     &kp END    &kp PG_UP
+           &trans     &mwh SCROLL_LEFT  &trans     &mwh SCROLL_RIGHT  &test               &kp INS           &kp HOME   &kp UP     &kp END    &kp PG_UP
            &kp LGUI   &kp LALT          &kp LSHFT  &kp LCTRL          &mwh SCROLL_UP      &mwh SCROLL_UP    &kp LEFT   &kp DOWN   &kp RIGHT  &kp PG_DN
 &kp LC(F)  &kp LC(Z)  &kp LC(X)         &kp LC(C)  &kp LC(V)          &mwh SCROLL_DOWN    &mwh SCROLL_DOWN  &kp LC(V)  &kp LC(C)  &kp LC(X)  &kp LC(Z)  &kp LC(F)
                                         &trans     &trans             &trans              &trans            &trans     &trans
