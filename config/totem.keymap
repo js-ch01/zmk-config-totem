@@ -48,7 +48,7 @@
             #binding-cells = <0>;
             bindings = <&kp LEFT_BRACE>, <&kp LEFT_BRACKET>;
 
-            mods = <(MOD_LSFT|MOD_RSFT)>;
+            mods = <(MOD_LSFT)>;
         };
     };
 };
