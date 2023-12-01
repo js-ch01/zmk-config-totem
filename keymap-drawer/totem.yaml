@@ -72,7 +72,7 @@ layers:
   - LC(X)
   - LC(Z)
   - LC(F)
-  - {t: '&key_repeat', type: held}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -112,10 +112,10 @@ layers:
   - \
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: '&key_repeat', type: held}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&key_repeat'
+  - {t: ▽, type: trans}
   - '0'
   FUN:
   - CAPS
@@ -152,8 +152,8 @@ layers:
   - ''
   - ''
   - ''
-  - {t: '&key_repeat', type: held}
-  - '&key_repeat'
+  - {type: held}
+  - ''
   - ''
   - ''
   MSE:
