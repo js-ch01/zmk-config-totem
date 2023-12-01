@@ -21,7 +21,7 @@ layers:
   - {t: K, h: RSHIFT}
   - {t: L, h: LALT}
   - {t: ;, h: RGUI}
-  - '&caps_word'
+  - LSHIFT
   - {t: Z, h: MSE}
   - X
   - C
@@ -44,7 +44,7 @@ layers:
   - '&mwh SCROLL_LEFT'
   - {t: ▽, type: trans}
   - '&mwh SCROLL_RIGHT'
-  - {t: '{', s: '['}
+  - {t: ▽, type: trans}
   - INS
   - HOME
   - UP
@@ -99,8 +99,8 @@ layers:
   - '5'
   - '6'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LSHIFT
+  - {t: '{', s: '['}
   - '1'
   - '2'
   - '3'
