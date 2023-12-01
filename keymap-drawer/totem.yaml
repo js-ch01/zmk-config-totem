@@ -21,7 +21,7 @@ layers:
   - {t: K, h: RSHIFT}
   - {t: L, h: LALT}
   - {t: ;, h: RGUI}
-  - ESC
+  - '&caps_word'
   - {t: Z, h: MSE}
   - X
   - C
@@ -32,7 +32,7 @@ layers:
   - ','
   - .
   - {t: /, h: MSE}
-  - RSHFT
+  - '&key_repeat'
   - {t: TAB, h: NAV}
   - {t: BACKSPACE, h: NUM}
   - {t: DEL, h: FUN}
@@ -138,7 +138,7 @@ layers:
   - F5
   - F6
   - F11
-  - ''
+  - '&bootloader'
   - RIGHT ALT
   - ''
   - VOL UP
