@@ -54,6 +54,13 @@
 
             mods = <(MOD_LSFT|MOD_LCTL)>;
         };
+
+        tabDanceCtrl: tabDanceCtrl {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TABDANCECTRL";
+            #binding-cells = <0>;
+            bindings = <&mt LCTRL F>, <&sk LCTRL>;
+        };
     };
 };
 
@@ -224,7 +231,7 @@
             label = "BASE";
             bindings = <
             &mt LS(Q) Q  &mt LS(W) W  &mt LS(E) E  &mt LS(R) R      &mt LS(T) T    &kp Y        &kp U                &kp I         &mt LS(O) O  &mt LS(P) P
-            &mt LGUI A   &mt LALT S   &mt LSHFT D  &mt LCTRL F      &kp G          &kp H        &mt RIGHT_CONTROL J  &mt RSHIFT K  &mt LALT L   &mt RGUI SEMI
+            &mt LGUI A   &mt LALT S   &mt LSHFT D  &tabDanceCtrl    &kp G          &kp H        &mt RIGHT_CONTROL J  &mt RSHIFT K  &mt LALT L   &mt RGUI SEMI
 &kp LSHIFT  &lt 4 Z      &kp X        &kp C        &kp V            &kp B          &kp N        &kp M                &kp COMMA     &kp DOT      &lt 4 SLASH    &key_repeat
                                       &lt 1 TAB    &lt 2 BACKSPACE  &lt 3 DEL      &lt 3 ENTER  &lt 2 SPACE          &lt 1 RALT
             >;
