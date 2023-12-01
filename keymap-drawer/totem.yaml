@@ -100,7 +100,7 @@ layers:
   - '6'
   - {t: ▽, type: trans}
   - LSHIFT
-  - {t: '{', s: '['}
+  - {t: A, s: Z}
   - '1'
   - '2'
   - '3'
