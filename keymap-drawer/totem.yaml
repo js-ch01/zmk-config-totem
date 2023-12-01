@@ -21,7 +21,7 @@ layers:
   - {t: K, h: RSHIFT}
   - {t: L, h: LALT}
   - {t: ;, h: RGUI}
-  - LSHFT
+  - ESC
   - {t: Z, h: MSE}
   - X
   - C
