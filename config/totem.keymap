@@ -11,7 +11,6 @@
 #define ETC  5
 
 // mod-tap
-
 &mt {
     quick-tap-ms = <100>;
     global-quick-tap;
@@ -20,9 +19,8 @@
 };
 
 // mouse key
-
-#define U_MOUSE_MOVE_MAX 1250   /* default: 600 */
-#define U_MOUSE_SCROLL_MAX 100  /* default: 10  */
+// #define U_MOUSE_MOVE_MAX 1250   /* default: 600 */
+// #define U_MOUSE_SCROLL_MAX 100  /* default: 10  */
 
 &mmv {
     acceleration-exponent = <1>;
@@ -40,6 +38,18 @@
 // ┗━━━━┻━━━━┻━━━━╋━━━━╋━━━━╋━━━━┫  ┣━━━━╋━━━━╋━━━━╋━━━━┻━━━━┻━━━━┛
 //                ┃ 32 ┃ 33 ┃ 34 ┃  ┃ 35 ┃ 36 ┃ 37 ┃
 //                ┗━━━━┻━━━━┻━━━━┛  ┗━━━━┻━━━━┻━━━━┛
+
+/ {
+    behaviors {
+        gresc: grave_escape {
+            compatible = "zmk,behavior-mod-morph";
+            label = "GRAVE_ESCAPE";
+            #binding-cells = <0>;
+            bindings = <&kp Q>, <&kp GRAVE>;
+            mods = <(MOD_LGUI|MOD_LSFT|MOD_RGUI|MOD_RSFT)>;
+        };
+    };
+};
 
 / {
     combos {
@@ -214,11 +224,6 @@
             layers = <0 4>;
         };
 
-        combo_E {
-            bindings = <&kp LS(E)>;
-            key-positions = <2 12>;
-            layers = <0>;
-        };
     };
 
     keymap {
