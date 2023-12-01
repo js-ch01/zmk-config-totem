@@ -21,7 +21,7 @@ layers:
   - {t: K, h: RSHIFT}
   - {t: L, h: LALT}
   - {t: ;, h: RGUI}
-  - LSHIFT
+  - '&caps_word'
   - {t: Z, h: MSE}
   - X
   - C
@@ -100,10 +100,10 @@ layers:
   - '6'
   - {t: ▽, type: trans}
   - LSHIFT
-  - {t: ▽, type: trans}
-  - '1'
-  - '2'
-  - '3'
+  - {t: LEFT GUI, h: sticky}
+  - {t: LEFT ALT, h: sticky}
+  - {t: LEFT SHIFT, h: sticky}
+  - {t: LCTRL, h: sticky}
   - {t: ▽, type: trans}
   - '|'
   - '1'
@@ -304,6 +304,3 @@ combos:
 - p: [34, 35]
   k: MSE
   l: [BASE, MSE]
-- p: [13, 12]
-  k: {t: LS(LCTRL), h: sticky}
-  l: [BASE, NUM, NAV]
