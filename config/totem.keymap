@@ -202,12 +202,6 @@
             layers = <0 1 2>;
         };
 
-        combo_spc1 {
-            bindings = <&kp ENTER>;
-            key-positions = <11 22>;
-            layers = <0 1 2>;
-        };
-
         combo_cleanLayer {
             bindings = <&tog 5>;
             key-positions = <10 11 12 13>;
