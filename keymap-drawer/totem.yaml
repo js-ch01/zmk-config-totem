@@ -179,14 +179,14 @@ layers:
   - '&mwh SCROLL_DOWN'
   - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - MSE
+  - LEFT SHIFT
+  - LCTRL
   - '&mwh SCROLL_DOWN'
   - '&mwh SCROLL_DOWN'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LCTRL
+  - LEFT SHIFT
+  - MSE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&mkp LCLK'
@@ -282,12 +282,6 @@ combos:
   l: [BASE, NAV, NUM]
 - p: [8, 18]
   k: ''''
-  l: [BASE, NAV, NUM]
-- p: [2, 3]
-  k: '1'
-  l: [BASE, NAV, NUM]
-- p: [6, 7]
-  k: '0'
   l: [BASE, NAV, NUM]
 - p: [16, 27]
   k: BACKSPACE
