@@ -14,7 +14,7 @@ layers:
   - {t: A, h: LGUI}
   - {t: S, h: LALT}
   - {t: D, h: LSHFT}
-  - '&tabDanceCtrl'
+  - {t: F, h: LCTRL}
   - G
   - H
   - {t: J, h: RIGHT CONTROL}
@@ -71,7 +71,7 @@ layers:
   - LC(C)
   - LC(X)
   - LC(Z)
-  - LC(F)
+  - LC(J)
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -304,3 +304,6 @@ combos:
 - p: [34, 35]
   k: MSE
   l: [BASE, MSE]
+- p: [13, 12]
+  k: {t: LS(LCTRL), h: sticky}
+  l: [BASE, NUM, NAV]

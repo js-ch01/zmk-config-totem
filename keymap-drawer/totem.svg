@@ -167,7 +167,8 @@ path.combo {
 </g>
 <g transform="translate(267, 112)" class="key keypos-13">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 60%">&amp;tabDanceCtrl</tspan></text>
+<text x="0" y="0" class="key tap">F</text>
+<text x="0" y="24" class="key hold">LCTRL</text>
 </g>
 <g transform="translate(326, 121)" class="key keypos-14">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
@@ -371,6 +372,11 @@ path.combo {
 <rect rx="6" ry="6" x="407" y="257" width="28" height="26" class="combo"/>
 <text x="421" y="270" class="combo tap">MSE</text>
 </g>
+<g class="combo combopos-23">
+<rect rx="6" ry="6" x="223" y="85" width="28" height="26" class="combo"/>
+<text x="237" y="98" class="combo tap"><tspan style="font-size: 78%">LS(LCTRL)</tspan></text>
+<text x="237" y="109" class="combo hold">sticky</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 366)" class="layer-NAV">
@@ -518,7 +524,7 @@ path.combo {
 </g>
 <g transform="translate(812, 209) rotate(10.0)" class="key keypos-31">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
-<text x="0" y="0" class="key tap">LC(F)</text>
+<text x="0" y="0" class="key tap">LC(J)</text>
 </g>
 <g transform="translate(250, 236)" class="key held keypos-32">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key held"/>
@@ -622,6 +628,11 @@ path.combo {
 <g class="combo combopos-19">
 <rect rx="6" ry="6" x="682" y="133" width="28" height="26" class="combo"/>
 <text x="696" y="146" class="combo tap">TAB</text>
+</g>
+<g class="combo combopos-20">
+<rect rx="6" ry="6" x="223" y="85" width="28" height="26" class="combo"/>
+<text x="237" y="98" class="combo tap"><tspan style="font-size: 78%">LS(LCTRL)</tspan></text>
+<text x="237" y="109" class="combo hold">sticky</text>
 </g>
 </g>
 </g>
@@ -858,6 +869,11 @@ path.combo {
 <g class="combo combopos-19">
 <rect rx="6" ry="6" x="682" y="133" width="28" height="26" class="combo"/>
 <text x="696" y="146" class="combo tap">TAB</text>
+</g>
+<g class="combo combopos-20">
+<rect rx="6" ry="6" x="223" y="85" width="28" height="26" class="combo"/>
+<text x="237" y="98" class="combo tap"><tspan style="font-size: 78%">LS(LCTRL)</tspan></text>
+<text x="237" y="109" class="combo hold">sticky</text>
 </g>
 </g>
 </g>
