@@ -44,7 +44,7 @@ layers:
   - '&mwh SCROLL_LEFT'
   - {t: ▽, type: trans}
   - '&mwh SCROLL_RIGHT'
-  - '&kt LEFT_ALT'
+  - {t: ▽, type: trans}
   - INS
   - HOME
   - UP
