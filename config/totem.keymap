@@ -2,6 +2,7 @@
 #include <dt-bindings/zmk/mouse.h>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/keys.h>
 
 #define BASE 0
 #define NAV  1
@@ -42,13 +43,13 @@
 
 / {
     behaviors {
-        test: test {
+        morph_a_z: morph_a_z {
             compatible = "zmk,behavior-mod-morph";
-            label = "TEST";
+            label = "MORPH_A_Z";
             #binding-cells = <0>;
             bindings = <&kp A>, <&kp Z>;
 
-            mods = <(MOD_LSFT)>;
+            mods = <(MOD_LSFT|MOD_LCTL)>;
         };
     };
 };
@@ -243,7 +244,7 @@
         navi_layer {
             label = "NAV";
             bindings = <
-           &trans     &mwh SCROLL_LEFT  &trans     &mwh SCROLL_RIGHT  &trans              &kp INS           &kp HOME   &kp UP     &kp END    &kp PG_UP
+           &trans     &mwh SCROLL_LEFT  &trans     &mwh SCROLL_RIGHT  &kt LEFT_ALT        &kp INS           &kp HOME   &kp UP     &kp END    &kp PG_UP
            &kp LGUI   &kp LALT          &kp LSHFT  &kp LCTRL          &mwh SCROLL_UP      &mwh SCROLL_UP    &kp LEFT   &kp DOWN   &kp RIGHT  &kp PG_DN
 &kp LC(F)  &kp LC(Z)  &kp LC(X)         &kp LC(C)  &kp LC(V)          &mwh SCROLL_DOWN    &mwh SCROLL_DOWN  &kp LC(V)  &kp LC(C)  &kp LC(X)  &kp LC(Z)  &kp LC(F)
                                         &trans     &trans             &trans              &trans            &trans     &trans
@@ -255,7 +256,7 @@
             bindings = <
             &kp GRAVE  &kp TILDE  &kp CARET  &kp AMPS  &kp STAR     &trans    &kp N7  &kp N8  &kp N9  &trans
             &kp EXCL   &kp AT     &kp HASH   &kp DLLR  &kp PRCNT    &trans    &kp N4  &kp N5  &kp N6  &trans
-&kp LSHIFT  &test      &kp N1     &kp N2     &kp N3    &trans       &kp PIPE  &kp N1  &kp N2  &kp N3  &kp BSLH  &trans
+&kp LSHIFT  &trans     &kp N1     &kp N2     &kp N3    &trans       &kp PIPE  &kp N1  &kp N2  &kp N3  &kp BSLH  &trans
                                   &trans     &trans    &trans       &trans    &trans  &kp N0
             >;
         };
@@ -282,10 +283,10 @@
 
         clean_layer {
             bindings = <
-       &none  &none  &none  &none  &none    &none  &none  &none  &none  &none
-       &none  &none  &none  &none  &none    &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
-                     &none  &none  &none    &none  &none  &none
+       &morph_a_z  &none  &none  &none  &none    &none  &none  &none  &none  &none
+       &none       &none  &none  &none  &none    &none  &none  &none  &none  &none
+&none  &none       &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
+                          &none  &none  &none    &none  &none  &none
             >;
 
             label = "CLEAN";
