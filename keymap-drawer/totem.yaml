@@ -35,7 +35,7 @@ layers:
   - RSHFT
   - {t: TAB, h: SYS}
   - {t: SPACE, h: NUM}
-  - BACKSPACE
+  - {t: BACKSPACE, h: NAV}
   - {t: ENTER, h: SYS}
   - {t: SPACE, h: NUM}
   - {t: RALT, h: NAV}
@@ -74,10 +74,10 @@ layers:
   - LC(F)
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   NUM:
   - '`'
   - '~'
