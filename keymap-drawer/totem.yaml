@@ -72,7 +72,7 @@ layers:
   - LC(X)
   - LC(Z)
   - LC(F)
-  - {type: held}
+  - {t: TAB, type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -112,16 +112,16 @@ layers:
   - \
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: SPACE, type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - SPACE
   - '0'
   FUN:
   - CAPS
-  - ''
-  - BT NXT
-  - BT PRV
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
   - BT CLR
   - PSCRN
   - F7
@@ -152,8 +152,8 @@ layers:
   - ''
   - ''
   - ''
-  - {type: held}
-  - ''
+  - {t: BACKSPACE, type: held}
+  - ENTER
   - ''
   - ''
   MSE:
