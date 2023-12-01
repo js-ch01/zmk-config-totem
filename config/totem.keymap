@@ -236,11 +236,11 @@
          &kp Q       &kp W       &kp E        &kp R        &kp T              &kp Y        &kp U                &kp I         &kp O       &kp P
          &mt LGUI A  &mt LALT S  &mt LSHFT D  &mt LCTRL F  &kp G              &kp H        &mt RIGHT_CONTROL J  &mt RSHIFT K  &mt LALT L  &mt RGUI SEMI
 &kp ESC  &lt 4 Z     &kp X       &kp C        &kp V        &kp B              &kp N        &kp M                &kp COMMA     &kp DOT     &lt 4 SLASH    &kp RSHFT
-                                 &lt 3 TAB    &lt 2 SPACE  &lt 1 BACKSPACE    &lt 3 ENTER  &lt 2 SPACE          &lt 1 RALT
+                                 &lt 1 TAB    &lt 2 SPACE  &lt 3 BACKSPACE    &lt 3 ENTER  &lt 2 SPACE          &lt 1 RALT
             >;
         };
 
-        nav_layer {
+        navi_layer {
             label = "NAV";
             bindings = <
            &trans     &mwh SCROLL_LEFT  &trans     &mwh SCROLL_RIGHT  &trans              &kp INS           &kp HOME   &kp UP     &kp END    &kp PG_UP
@@ -260,23 +260,23 @@
             >;
         };
 
-        sys_layer {
-            label = "SYS";
+        func_layer {
+            label = "FUN";
             bindings = <
-        &bt BT_NXT    &bt BT_PRV    &bt BT_CLR  &trans  &kp CAPS    &kp PSCRN        &kp F7  &kp F8  &kp F9  &kp F12
-        &kp C_NEXT    &kp C_PREV    &kp C_PP    &trans  &trans      &kp SLCK         &kp F4  &kp F5  &kp F6  &kp F11
-&trans  &kp C_VOL_UP  &kp C_VOL_DN  &kp C_MUTE  &trans  &trans      &kp PAUSE_BREAK  &kp F1  &kp F2  &kp F3  &kp F10  &trans
-                                    &trans      &trans  &trans      &trans           &trans  &trans
+       &kp CAPS  &none  &bt BT_NXT    &bt BT_PRV    &bt BT_CLR    &kp PSCRN        &kp F7  &kp F8  &kp F9  &kp F12
+       &none     &none  &kp C_NEXT    &kp C_PREV    &kp C_PP      &kp SLCK         &kp F4  &kp F5  &kp F6  &kp F11
+&none  &none     &none  &kp C_VOL_UP  &kp C_VOL_DN  &kp C_MUTE    &kp PAUSE_BREAK  &kp F1  &kp F2  &kp F3  &kp F10  &none
+                        &none         &none         &none         &none            &none   &none
             >;
         };
 
         mouse_layer {
             label = "MSE";
             bindings = <
-           &mwh SCROLL_UP    &mwh SCROLL_LEFT  &mmv MOVE_UP    &mwh SCROLL_RIGHT  &trans              &trans            &mwh SCROLL_LEFT  &mmv MOVE_UP    &mwh SCROLL_RIGHT  &mwh SCROLL_UP
-           &mwh SCROLL_DOWN  &mmv MOVE_LEFT    &mmv MOVE_DOWN  &mmv MOVE_RIGHT    &mwh SCROLL_UP      &mwh SCROLL_DOWN  &mmv MOVE_LEFT    &mmv MOVE_DOWN  &mmv MOVE_RIGHT    &mwh SCROLL_DOWN
-&mkp LCLK  &trans            &trans            &trans          &trans             &mwh SCROLL_DOWN    &mwh SCROLL_DOWN  &trans            &trans          &trans             &trans            &mkp LCLK
-                                               &mkp LCLK       &mkp MCLK          &mkp RCLK           &mkp LCLK         &mkp MCLK         &mkp RCLK
+        &mwh SCROLL_UP    &mwh SCROLL_LEFT  &mmv MOVE_UP    &mwh SCROLL_RIGHT  &trans              &trans            &mwh SCROLL_LEFT  &mmv MOVE_UP    &mwh SCROLL_RIGHT  &mwh SCROLL_UP
+        &mwh SCROLL_DOWN  &mmv MOVE_LEFT    &mmv MOVE_DOWN  &mmv MOVE_RIGHT    &mwh SCROLL_UP      &mwh SCROLL_DOWN  &mmv MOVE_LEFT    &mmv MOVE_DOWN  &mmv MOVE_RIGHT    &mwh SCROLL_DOWN
+&trans  &trans            &trans            &trans          &trans             &mwh SCROLL_DOWN    &mwh SCROLL_DOWN  &trans            &trans          &trans             &trans            &trans
+                                            &mkp LCLK       &mkp MCLK          &mkp RCLK           &mkp LCLK         &mkp MCLK         &mkp RCLK
             >;
         };
 
