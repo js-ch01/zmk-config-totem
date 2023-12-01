@@ -235,7 +235,7 @@
             bindings = <
             &mt LS(Q) Q  &mt LS(W) W  &mt LS(E) E  &mt LS(R) R      &mt LS(T) T    &kp Y        &kp U                &kp I         &mt LS(O) O  &mt LS(P) P
             &mt LGUI A   &mt LALT S   &mt LSHFT D  &mt LCTRL F      &kp G          &kp H        &mt RIGHT_CONTROL J  &mt RSHIFT K  &mt LALT L   &mt RGUI SEMI
-&caps_word  &lt 4 Z      &kp X        &kp C        &kp V            &kp B          &kp N        &kp M                &kp COMMA     &kp DOT      &lt 4 SLASH    &key_repeat
+&kp LSHIFT  &lt 4 Z      &kp X        &kp C        &kp V            &kp B          &kp N        &kp M                &kp COMMA     &kp DOT      &lt 4 SLASH    &key_repeat
                                       &lt 1 TAB    &lt 2 BACKSPACE  &lt 3 DEL      &lt 3 ENTER  &lt 2 SPACE          &lt 1 RALT
             >;
         };
@@ -243,7 +243,7 @@
         navi_layer {
             label = "NAV";
             bindings = <
-           &trans     &mwh SCROLL_LEFT  &trans     &mwh SCROLL_RIGHT  &test               &kp INS           &kp HOME   &kp UP     &kp END    &kp PG_UP
+           &trans     &mwh SCROLL_LEFT  &trans     &mwh SCROLL_RIGHT  &trans              &kp INS           &kp HOME   &kp UP     &kp END    &kp PG_UP
            &kp LGUI   &kp LALT          &kp LSHFT  &kp LCTRL          &mwh SCROLL_UP      &mwh SCROLL_UP    &kp LEFT   &kp DOWN   &kp RIGHT  &kp PG_DN
 &kp LC(F)  &kp LC(Z)  &kp LC(X)         &kp LC(C)  &kp LC(V)          &mwh SCROLL_DOWN    &mwh SCROLL_DOWN  &kp LC(V)  &kp LC(C)  &kp LC(X)  &kp LC(Z)  &kp LC(F)
                                         &trans     &trans             &trans              &trans            &trans     &trans
@@ -253,10 +253,10 @@
         num_layer {
             label = "NUM";
             bindings = <
-        &kp GRAVE  &kp TILDE  &kp CARET  &kp AMPS  &kp STAR     &trans    &kp N7  &kp N8  &kp N9  &trans
-        &kp EXCL   &kp AT     &kp HASH   &kp DLLR  &kp PRCNT    &trans    &kp N4  &kp N5  &kp N6  &trans
-&trans  &trans     &kp N1     &kp N2     &kp N3    &trans       &kp PIPE  &kp N1  &kp N2  &kp N3  &kp BSLH  &trans
-                              &trans     &trans    &trans       &trans    &trans  &kp N0
+            &kp GRAVE  &kp TILDE  &kp CARET  &kp AMPS  &kp STAR     &trans    &kp N7  &kp N8  &kp N9  &trans
+            &kp EXCL   &kp AT     &kp HASH   &kp DLLR  &kp PRCNT    &trans    &kp N4  &kp N5  &kp N6  &trans
+&kp LSHIFT  &test      &kp N1     &kp N2     &kp N3    &trans       &kp PIPE  &kp N1  &kp N2  &kp N3  &kp BSLH  &trans
+                                  &trans     &trans    &trans       &trans    &trans  &kp N0
             >;
         };
 
