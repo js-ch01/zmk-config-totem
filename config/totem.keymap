@@ -222,6 +222,12 @@
             key-positions = <34 35>;
             layers = <0 4>;
         };
+
+        combo_sk_sc {
+            bindings = <&sk LS(LCTRL)>;
+            key-positions = <13 12>;
+            layers = <0 2 1>;
+        };
     };
 
     keymap {
@@ -231,7 +237,7 @@
             label = "BASE";
             bindings = <
             &mt LS(Q) Q  &mt LS(W) W  &mt LS(E) E  &mt LS(R) R      &mt LS(T) T    &kp Y        &kp U                &kp I         &mt LS(O) O  &mt LS(P) P
-            &mt LGUI A   &mt LALT S   &mt LSHFT D  &tabDanceCtrl    &kp G          &kp H        &mt RIGHT_CONTROL J  &mt RSHIFT K  &mt LALT L   &mt RGUI SEMI
+            &mt LGUI A   &mt LALT S   &mt LSHFT D  &mt LCTRL F      &kp G          &kp H        &mt RIGHT_CONTROL J  &mt RSHIFT K  &mt LALT L   &mt RGUI SEMI
 &kp LSHIFT  &lt 4 Z      &kp X        &kp C        &kp V            &kp B          &kp N        &kp M                &kp COMMA     &kp DOT      &lt 4 SLASH    &key_repeat
                                       &lt 1 TAB    &lt 2 BACKSPACE  &lt 3 DEL      &lt 3 ENTER  &lt 2 SPACE          &lt 1 RALT
             >;
@@ -242,7 +248,7 @@
             bindings = <
            &trans     &mwh SCROLL_LEFT  &trans     &mwh SCROLL_RIGHT  &trans              &kp INS           &kp HOME   &kp UP     &kp END    &kp PG_UP
            &kp LGUI   &kp LALT          &kp LSHFT  &kp LCTRL          &mwh SCROLL_UP      &mwh SCROLL_UP    &kp LEFT   &kp DOWN   &kp RIGHT  &kp PG_DN
-&kp LC(F)  &kp LC(Z)  &kp LC(X)         &kp LC(C)  &kp LC(V)          &mwh SCROLL_DOWN    &mwh SCROLL_DOWN  &kp LC(V)  &kp LC(C)  &kp LC(X)  &kp LC(Z)  &kp LC(F)
+&kp LC(F)  &kp LC(Z)  &kp LC(X)         &kp LC(C)  &kp LC(V)          &mwh SCROLL_DOWN    &mwh SCROLL_DOWN  &kp LC(V)  &kp LC(C)  &kp LC(X)  &kp LC(Z)  &kp LC(J)
                                         &trans     &trans             &trans              &trans            &trans     &trans
             >;
         };
