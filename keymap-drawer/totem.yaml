@@ -34,8 +34,8 @@ layers:
   - {t: /, h: MSE}
   - RSHFT
   - {t: TAB, h: NAV}
-  - {t: SPACE, h: NUM}
-  - {t: BACKSPACE, h: FUN}
+  - {t: BACKSPACE, h: NUM}
+  - {t: DEL, h: FUN}
   - {t: ENTER, h: FUN}
   - {t: SPACE, h: NUM}
   - {t: RALT, h: NAV}
@@ -112,7 +112,7 @@ layers:
   - \
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: SPACE, type: held}
+  - {t: BACKSPACE, type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - SPACE
@@ -128,10 +128,10 @@ layers:
   - F8
   - F9
   - F12
+  - RCTRL
   - ''
-  - ''
-  - NEXT
-  - PREV
+  - BRIGHTNESS INC
+  - BRIGHTNESS DEC
   - PP
   - SLCK
   - F4
@@ -139,7 +139,7 @@ layers:
   - F6
   - F11
   - ''
-  - ''
+  - RIGHT ALT
   - ''
   - VOL UP
   - VOL DN
@@ -152,7 +152,7 @@ layers:
   - ''
   - ''
   - ''
-  - {t: BACKSPACE, type: held}
+  - {t: DEL, type: held}
   - ENTER
   - ''
   - ''
@@ -258,10 +258,10 @@ combos:
   k: DEL
   l: [BASE, NUM, NAV]
 - p: [12, 23]
-  k: BACKSPACE
+  k: ENTER
   l: [BASE, NAV, NUM]
 - p: [13, 24]
-  k: DEL
+  k: SPACE
   l: [BASE, NAV, NUM]
 - p: [18, 29]
   k: TAB
