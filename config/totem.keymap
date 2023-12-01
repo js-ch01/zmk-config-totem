@@ -54,13 +54,6 @@
 
             mods = <(MOD_LSFT|MOD_LCTL)>;
         };
-
-        tabDanceCtrl: tabDanceCtrl {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TABDANCECTRL";
-            #binding-cells = <0>;
-            bindings = <&mt LCTRL F>, <&sk LCTRL>;
-        };
     };
 };
 
@@ -222,12 +215,6 @@
             key-positions = <34 35>;
             layers = <0 4>;
         };
-
-        combo_sk_sc {
-            bindings = <&sk LS(LCTRL)>;
-            key-positions = <13 12>;
-            layers = <0 2 1>;
-        };
     };
 
     keymap {
@@ -238,7 +225,7 @@
             bindings = <
             &mt LS(Q) Q  &mt LS(W) W  &mt LS(E) E  &mt LS(R) R      &mt LS(T) T    &kp Y        &kp U                &kp I         &mt LS(O) O  &mt LS(P) P
             &mt LGUI A   &mt LALT S   &mt LSHFT D  &mt LCTRL F      &kp G          &kp H        &mt RIGHT_CONTROL J  &mt RSHIFT K  &mt LALT L   &mt RGUI SEMI
-&kp LSHIFT  &lt 4 Z      &kp X        &kp C        &kp V            &kp B          &kp N        &kp M                &kp COMMA     &kp DOT      &lt 4 SLASH    &key_repeat
+&caps_word  &lt 4 Z      &kp X        &kp C        &kp V            &kp B          &kp N        &kp M                &kp COMMA     &kp DOT      &lt 4 SLASH    &key_repeat
                                       &lt 1 TAB    &lt 2 BACKSPACE  &lt 3 DEL      &lt 3 ENTER  &lt 2 SPACE          &lt 1 RALT
             >;
         };
@@ -256,10 +243,10 @@
         num_layer {
             label = "NUM";
             bindings = <
-            &kp GRAVE  &kp TILDE  &kp CARET  &kp AMPS  &kp STAR     &trans    &kp N7  &kp N8  &kp N9  &trans
-            &kp EXCL   &kp AT     &kp HASH   &kp DLLR  &kp PRCNT    &trans    &kp N4  &kp N5  &kp N6  &trans
-&kp LSHIFT  &trans     &kp N1     &kp N2     &kp N3    &trans       &kp PIPE  &kp N1  &kp N2  &kp N3  &kp BSLH  &trans
-                                  &trans     &trans    &trans       &trans    &trans  &kp N0
+            &kp GRAVE     &kp TILDE     &kp CARET       &kp AMPS   &kp STAR     &trans    &kp N7  &kp N8  &kp N9  &trans
+            &kp EXCL      &kp AT        &kp HASH        &kp DLLR   &kp PRCNT    &trans    &kp N4  &kp N5  &kp N6  &trans
+&kp LSHIFT  &sk LEFT_GUI  &sk LEFT_ALT  &sk LEFT_SHIFT  &sk LCTRL  &trans       &kp PIPE  &kp N1  &kp N2  &kp N3  &kp BSLH  &trans
+                                        &trans          &trans     &trans       &trans    &trans  &kp N0
             >;
         };
 
