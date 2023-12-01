@@ -266,9 +266,6 @@ combos:
 - p: [18, 29]
   k: TAB
   l: [BASE, NAV, NUM]
-- p: [11, 22]
-  k: ENTER
-  l: [BASE, NAV, NUM]
 - p: [10, 11, 12, 13]
   k: CLEAN
   l: [BASE, CLEAN]
