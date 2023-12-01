@@ -17,6 +17,7 @@
     global-quick-tap;
     flavor = "tap-preferred";
     tapping-term-ms = <200>;
+    require-prior-idle-ms = <125>;
 };
 
 // mouse key
@@ -253,10 +254,10 @@
         func_layer {
             label = "FUN";
             bindings = <
-        &kp CAPS       &bt BT_SEL 0  &bt BT_SEL 1          &bt BT_SEL 2          &bt BT_CLR    &kp PSCRN        &kp F7  &kp F8  &kp F9  &kp F12
-        &kp RCTRL      &none         &kp C_BRIGHTNESS_INC  &kp C_BRIGHTNESS_DEC  &kp C_PP      &kp SLCK         &kp F4  &kp F5  &kp F6  &kp F11
-&trans  &kp RIGHT_ALT  &none         &kp C_VOL_UP          &kp C_VOL_DN          &kp C_MUTE    &kp PAUSE_BREAK  &kp F1  &kp F2  &kp F3  &kp F10  &none
-                                     &none                 &none                 &none         &none            &none   &none
+        &kp CAPS       &bt BT_SEL 0        &bt BT_SEL 1          &bt BT_SEL 2          &bt BT_CLR    &kp PSCRN        &kp F7  &kp F8  &kp F9  &kp F12
+        &kp RCTRL      &none               &kp C_BRIGHTNESS_INC  &kp C_BRIGHTNESS_DEC  &kp C_PP      &kp SLCK         &kp F4  &kp F5  &kp F6  &kp F11
+&trans  &kp RIGHT_ALT  &kp K_CONTEXT_MENU  &kp C_VOL_UP          &kp C_VOL_DN          &kp C_MUTE    &kp PAUSE_BREAK  &kp F1  &kp F2  &kp F3  &kp F10  &none
+                                           &none                 &none                 &none         &none            &none   &none
             >;
         };
 
@@ -265,7 +266,7 @@
             bindings = <
         &mwh SCROLL_UP    &mwh SCROLL_LEFT  &mmv MOVE_UP    &mwh SCROLL_RIGHT  &trans              &trans            &mwh SCROLL_LEFT  &mmv MOVE_UP    &mwh SCROLL_RIGHT  &mwh SCROLL_UP
         &mwh SCROLL_DOWN  &mmv MOVE_LEFT    &mmv MOVE_DOWN  &mmv MOVE_RIGHT    &mwh SCROLL_UP      &mwh SCROLL_DOWN  &mmv MOVE_LEFT    &mmv MOVE_DOWN  &mmv MOVE_RIGHT    &mwh SCROLL_DOWN
-&trans  &trans            &tog 4            &kp LEFT_SHIFT  &kp LCTRL          &mwh SCROLL_DOWN    &mwh SCROLL_DOWN  &kp LCTRL         &kp LEFT_SHIFT  &tog 4             &trans            &trans
+&trans  &trans            &trans            &kp LEFT_SHIFT  &kp LCTRL          &mwh SCROLL_DOWN    &mwh SCROLL_DOWN  &kp LCTRL         &kp LEFT_SHIFT  &trans             &trans            &trans
                                             &mkp LCLK       &mkp MCLK          &mkp RCLK           &mkp LCLK         &mkp MCLK         &mkp RCLK
             >;
         };
