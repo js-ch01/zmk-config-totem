@@ -275,3 +275,6 @@ combos:
 - p: [34, 35]
   k: MSE
   l: [BASE, MSE]
+- p: [2, 12]
+  k: LS(E)
+  l: [BASE]
