@@ -140,7 +140,7 @@ layers:
   - F11
   - {t: ▽, type: trans}
   - RIGHT ALT
-  - ''
+  - CONTEXT MENU
   - VOL UP
   - VOL DN
   - MUTE
@@ -179,14 +179,14 @@ layers:
   - '&mwh SCROLL_DOWN'
   - {t: ▽, type: trans}
   - {type: held}
-  - MSE
+  - {t: ▽, type: trans}
   - LEFT SHIFT
   - LCTRL
   - '&mwh SCROLL_DOWN'
   - '&mwh SCROLL_DOWN'
   - LCTRL
   - LEFT SHIFT
-  - MSE
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&mkp LCLK'
