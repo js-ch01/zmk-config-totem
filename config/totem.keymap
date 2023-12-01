@@ -173,20 +173,6 @@
             layers = <0 1 2>;
         };
 
-        combo_N1 {
-            timeout-ms = <50>;
-            key-positions = <2 3>;
-            bindings = <&kp N1>;
-            layers = <0 1 2>;
-        };
-
-        combo_N0 {
-            timeout-ms = <50>;
-            key-positions = <6 7>;
-            bindings = <&kp N0>;
-            layers = <0 1 2>;
-        };
-
         combo_bspc2 {
             bindings = <&kp BACKSPACE>;
             key-positions = <16 27>;
@@ -279,7 +265,7 @@
             bindings = <
         &mwh SCROLL_UP    &mwh SCROLL_LEFT  &mmv MOVE_UP    &mwh SCROLL_RIGHT  &trans              &trans            &mwh SCROLL_LEFT  &mmv MOVE_UP    &mwh SCROLL_RIGHT  &mwh SCROLL_UP
         &mwh SCROLL_DOWN  &mmv MOVE_LEFT    &mmv MOVE_DOWN  &mmv MOVE_RIGHT    &mwh SCROLL_UP      &mwh SCROLL_DOWN  &mmv MOVE_LEFT    &mmv MOVE_DOWN  &mmv MOVE_RIGHT    &mwh SCROLL_DOWN
-&trans  &trans            &trans            &trans          &trans             &mwh SCROLL_DOWN    &mwh SCROLL_DOWN  &trans            &trans          &trans             &trans            &trans
+&trans  &trans            &tog 4            &kp LEFT_SHIFT  &kp LCTRL          &mwh SCROLL_DOWN    &mwh SCROLL_DOWN  &kp LCTRL         &kp LEFT_SHIFT  &tog 4             &trans            &trans
                                             &mkp LCLK       &mkp MCLK          &mkp RCLK           &mkp LCLK         &mkp MCLK         &mkp RCLK
             >;
         };
