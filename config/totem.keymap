@@ -46,7 +46,7 @@
             compatible = "zmk,behavior-mod-morph";
             label = "TEST";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_BRACE>, <&kp LEFT_BRACKET>;
+            bindings = <&kp A>, <&kp Z>;
 
             mods = <(MOD_LSFT)>;
         };
