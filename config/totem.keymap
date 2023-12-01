@@ -219,6 +219,12 @@
             key-positions = <34 35>;
             layers = <0 4>;
         };
+
+        combo_E {
+            bindings = <&kp LS(E)>;
+            key-positions = <2 12>;
+            layers = <0>;
+        };
     };
 
     keymap {
