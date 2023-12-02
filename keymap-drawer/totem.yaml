@@ -229,7 +229,7 @@ layers:
   - /
   - RSHFT
   - {t: TAB, h: game_num}
-  - {t: BACKSPACE, h: NUM}
+  - {t: SPACE, h: NUM}
   - {t: ESC, h: FUN}
   - {t: RALT, h: FUN}
   - {t: SPACE, h: NUM}
@@ -268,7 +268,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
+  - BACKSPACE
   - DEL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
