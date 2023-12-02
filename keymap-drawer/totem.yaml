@@ -335,7 +335,7 @@ combos:
 - p: [6, 16]
   k: ':'
   l: [BASE, NAV, NUM]
-- p: [4, 14]
+- p: [3, 13]
   k: '&caps_word'
   l: [BASE, NUM, NAV]
 - p: [5, 15]
