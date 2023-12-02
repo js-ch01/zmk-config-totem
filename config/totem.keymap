@@ -248,7 +248,7 @@
         base_layer {
             label = "BASE";
             bindings = <
-            &mt LS(Q) Q  &mt LS(W) W  &mt LS(E) E  &mt LS(R) R      &mt LS(T) T    &kp Y      &kp U                &kp I         &mt LS(O) O  &mt LS(P) P
+            &mt LS(Q) Q  &mt LS(W) W  &mt LS(E) E  &mt LS(R) R      &mt LS(T) T    &kp Y      &kp U                &mt LS(I) I   &mt LS(O) O  &mt LS(P) P
             &mt LGUI A   &mt LALT S   &mt LSHFT D  &mt LCTRL F      &kp G          &kp H      &mt RIGHT_CONTROL J  &mt RSHIFT K  &mt LALT L   &mt RGUI SEMI
 &caps_word  &lt 4 Z      &kp X        &kp C        &kp V            &kp B          &kp N      &kp M                &kp COMMA     &kp DOT      &lt 4 QUESTION  &key_repeat
                                       &lt 1 TAB    &lt 2 BACKSPACE  &lt 3 DEL      &lt 3 ESC  &lt 2 SPACE          &lt 1 ENTER
