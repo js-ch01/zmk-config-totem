@@ -31,7 +31,7 @@ layers:
   - M
   - ','
   - .
-  - MSE
+  - {t: /, h: MSE}
   - '&key_repeat'
   - {t: TAB, h: NAV}
   - {t: BACKSPACE, h: NUM}
@@ -84,7 +84,7 @@ layers:
   - ^
   - '&'
   - '|'
-  - {t: ▽, type: trans}
+  - '*'
   - '7'
   - '8'
   - '9'
@@ -94,7 +94,7 @@ layers:
   - '#'
   - $
   - '%'
-  - {t: ▽, type: trans}
+  - /
   - '4'
   - '5'
   - '6'
@@ -109,7 +109,7 @@ layers:
   - '1'
   - '2'
   - '3'
-  - {t: ▽, type: trans}
+  - \
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
@@ -314,9 +314,6 @@ combos:
 - p: [28, 29]
   k: _
   l: [BASE, NAV, NUM]
-- p: [15, 26]
-  k: '*'
-  l: [BASE, NAV, NUM]
 - p: [7, 17]
   k: '"'
   l: [BASE, NAV, NUM]
@@ -337,9 +334,6 @@ combos:
   l: [BASE, NAV, NUM]
 - p: [6, 16]
   k: ':'
-  l: [BASE, NAV, NUM]
-- p: [14, 25]
-  k: /
   l: [BASE, NAV, NUM]
 - p: [4, 14]
   k: \
