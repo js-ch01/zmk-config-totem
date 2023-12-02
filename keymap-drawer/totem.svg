@@ -105,51 +105,51 @@ path.combo {
 <g transform="translate(0, 56)">
 <g transform="translate(73, 113) rotate(-10.0)" class="key keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
-<text x="0" y="0" class="key tap">A</text>
-<text x="0" y="24" class="key hold">LGUI</text>
+<text x="0" y="0" class="key tap">Q</text>
+<text x="0" y="24" class="key hold">LS(Q)</text>
 </g>
 <g transform="translate(140, 62) rotate(-4.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
-<text x="0" y="0" class="key tap">S</text>
-<text x="0" y="24" class="key hold">LALT</text>
+<text x="0" y="0" class="key tap">W</text>
+<text x="0" y="24" class="key hold">LS(W)</text>
 </g>
 <g transform="translate(207, 28)" class="key keypos-2">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
-<text x="0" y="0" class="key tap">D</text>
-<text x="0" y="24" class="key hold">LSHFT</text>
+<text x="0" y="0" class="key tap">E</text>
+<text x="0" y="24" class="key hold">LS(E)</text>
 </g>
 <g transform="translate(267, 56)" class="key keypos-3">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
-<text x="0" y="0" class="key tap">F</text>
-<text x="0" y="24" class="key hold">LCTRL</text>
+<text x="0" y="0" class="key tap">R</text>
+<text x="0" y="24" class="key hold">LS(R)</text>
 </g>
 <g transform="translate(326, 65)" class="key keypos-4">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
-<text x="0" y="0" class="key tap">G</text>
+<text x="0" y="0" class="key tap">T</text>
+<text x="0" y="24" class="key hold">LS(T)</text>
 </g>
 <g transform="translate(516, 65)" class="key keypos-5">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
-<text x="0" y="0" class="key tap">H</text>
+<text x="0" y="0" class="key tap">Y</text>
 </g>
 <g transform="translate(575, 56)" class="key keypos-6">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
-<text x="0" y="0" class="key tap">J</text>
-<text x="0" y="24" class="key hold"><tspan style="font-size: 60%">RIGHT CONTROL</tspan></text>
+<text x="0" y="0" class="key tap">U</text>
 </g>
 <g transform="translate(634, 28)" class="key keypos-7">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
-<text x="0" y="0" class="key tap">K</text>
-<text x="0" y="24" class="key hold">RSHIFT</text>
+<text x="0" y="0" class="key tap">I</text>
+<text x="0" y="24" class="key hold">LS(I)</text>
 </g>
 <g transform="translate(702, 62) rotate(4.0)" class="key keypos-8">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
-<text x="0" y="0" class="key tap">L</text>
-<text x="0" y="24" class="key hold">LALT</text>
+<text x="0" y="0" class="key tap">O</text>
+<text x="0" y="24" class="key hold">LS(O)</text>
 </g>
 <g transform="translate(769, 113) rotate(10.0)" class="key keypos-9">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
-<text x="0" y="0" class="key tap">;</text>
-<text x="0" y="24" class="key hold">RGUI</text>
+<text x="0" y="0" class="key tap">P</text>
+<text x="0" y="24" class="key hold">LS(P)</text>
 </g>
 <g transform="translate(83, 168) rotate(-10.0)" class="key keypos-10">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
