@@ -177,7 +177,7 @@ layers:
   - '&mmv MOVE_DOWN'
   - '&mmv MOVE_RIGHT'
   - '&mwh SCROLL_DOWN'
-  - LS(LC(ESC))
+  - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - LEFT SHIFT
