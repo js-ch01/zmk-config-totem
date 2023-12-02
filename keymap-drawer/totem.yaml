@@ -237,10 +237,10 @@ combos:
   k: _
   l: [BASE, NAV, NUM]
 - p: [6, 16]
-  k: ':'
+  k: '&'
   l: [BASE, NAV, NUM]
 - p: [7, 17]
-  k: '"'
+  k: '*'
   l: [BASE, NAV, NUM]
 - p: [8, 18]
   k: ''''
@@ -267,9 +267,9 @@ combos:
   k: MSE
   l: [BASE, MSE]
 - p: [5, 15]
-  k: '|'
+  k: ^
   l: [BASE, NAV, NUM]
-- p: [15, 26]
+- p: [0, 10]
   k: '!'
   l: [BASE, NAV, NUM]
 - p: [11, 1]
