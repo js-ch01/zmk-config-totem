@@ -88,7 +88,7 @@ layers:
   - '7'
   - '8'
   - '9'
-  - {t: ▽, type: trans}
+  - +
   - '!'
   - '@'
   - '#'
@@ -98,7 +98,7 @@ layers:
   - '4'
   - '5'
   - '6'
-  - {t: ▽, type: trans}
+  - '-'
   - LSHIFT
   - {t: LEFT GUI, h: sticky}
   - {t: LEFT ALT, h: sticky}
@@ -317,10 +317,10 @@ combos:
 - p: [7, 17]
   k: '"'
   l: [BASE, NAV, NUM]
-- p: [12, 23]
+- p: [24, 13]
   k: ENTER
   l: [BASE, NAV, NUM, GAME]
-- p: [13, 24]
+- p: [12, 23]
   k: SPACE
   l: [BASE, NAV, NUM]
 - p: [10, 11, 12, 13]
@@ -335,13 +335,10 @@ combos:
 - p: [6, 16]
   k: ':'
   l: [BASE, NAV, NUM]
-- p: [27, 16]
-  k: ;
-  l: [BASE, NAV, NUM]
 - p: [4, 14]
   k: '&caps_word'
   l: [BASE, NUM, NAV]
-- p: [17, 28]
+- p: [5, 15]
   k: '&key_repeat'
   l: [BASE, NAV, NUM]
 - p: [33, 32]
@@ -350,3 +347,7 @@ combos:
 - p: [35, 34]
   k: GAME
   l: [BASE, GAME]
+- p: [16, 27]
+  k: BACKSPACE
+- p: [17, 28]
+  k: DEL
