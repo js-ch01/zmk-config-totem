@@ -242,20 +242,11 @@ combos:
 - p: [7, 17]
   k: '"'
   l: [BASE, NAV, NUM]
-- p: [16, 27]
-  k: BSPC
-  l: [BASE, NAV, NUM]
-- p: [17, 28]
-  k: DEL
-  l: [BASE, NUM, NAV]
 - p: [12, 23]
   k: ENTER
   l: [BASE, NAV, NUM]
 - p: [13, 24]
   k: SPACE
-  l: [BASE, NAV, NUM]
-- p: [18, 29]
-  k: TAB
   l: [BASE, NAV, NUM]
 - p: [10, 11, 12, 13]
   k: CLEAN
