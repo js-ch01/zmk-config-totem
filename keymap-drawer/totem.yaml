@@ -187,7 +187,7 @@ layers:
   - LCTRL
   - LEFT SHIFT
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - BASE
   - {t: ▽, type: trans}
   - '&mkp LCLK'
   - '&mkp MCLK'
