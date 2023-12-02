@@ -88,28 +88,28 @@
 
         combo_lbkt {
             timeout-ms = <50>;
-            key-positions = <11 12>;
+            key-positions = <14 13>;
             bindings = <&kp LBKT>;
             layers = <0 1 2>;
         };
 
         combo_rbkt {
             timeout-ms = <50>;
-            key-positions = <17 18>;
+            key-positions = <15 16>;
             bindings = <&kp RBKT>;
             layers = <0 1 2>;
         };
 
         combo_lbrc {
             timeout-ms = <50>;
-            key-positions = <1 2>;
+            key-positions = <12 11>;
             bindings = <&kp LBRC>;
             layers = <0 1 2>;
         };
 
         combo_rbrc {
             timeout-ms = <50>;
-            key-positions = <7 8>;
+            key-positions = <17 18>;
             bindings = <&kp RBRC>;
             layers = <0 1 2>;
         };
@@ -165,7 +165,7 @@
 
         combo_star {
             timeout-ms = <50>;
-            key-positions = <7 17>;
+            key-positions = <15 26>;
             bindings = <&kp STAR>;
             layers = <0 1 2>;
         };
@@ -271,7 +271,14 @@
 
         combo_colon {
             bindings = <&kp COLON>;
-            key-positions = <15 26>;
+            key-positions = <7 17>;
+            timeout-ms = <50>;
+            layers = <0 1 2>;
+        };
+
+        combo_slash {
+            bindings = <&kp SLASH>;
+            key-positions = <14 25>;
             timeout-ms = <50>;
             layers = <0 1 2>;
         };
@@ -285,7 +292,7 @@
             bindings = <
             &mt LS(Q) Q  &mt LS(W) W  &mt LS(E) E  &mt LS(R) R      &mt LS(T) T    &kp Y        &kp U                &kp I         &mt LS(O) O  &mt LS(P) P
             &mt LGUI A   &mt LALT S   &mt LSHFT D  &mt LCTRL F      &kp G          &kp H        &mt RIGHT_CONTROL J  &mt RSHIFT K  &mt LALT L   &mt RGUI SEMI
-&caps_word  &lt 4 Z      &kp X        &kp C        &kp V            &kp B          &kp N        &kp M                &kp COMMA     &kp DOT      &lt 4 SLASH    &key_repeat
+&caps_word  &lt 4 Z      &kp X        &kp C        &kp V            &kp B          &kp N        &kp M                &kp COMMA     &kp DOT      &lt 4 QUESTION  &key_repeat
                                       &lt 1 TAB    &lt 2 BACKSPACE  &lt 3 DEL      &lt 3 ENTER  &lt 2 SPACE          &lt 1 RALT
             >;
         };
@@ -303,10 +310,10 @@
         num_layer {
             label = "NUM";
             bindings = <
-            &kp GRAVE     &kp TILDE     &kp CARET       &kp AMPS   &trans    &kp STAR   &kp N7  &kp N8  &kp N9  &trans
-            &trans        &trans        &trans          &trans     &trans    &kp SLASH  &kp N4  &kp N5  &kp N6  &trans
-&kp LSHIFT  &sk LEFT_GUI  &sk LEFT_ALT  &sk LEFT_SHIFT  &sk LCTRL  &trans    &kp DOT    &kp N1  &kp N2  &kp N3  &kp BSLH  &trans
-                                        &trans          &trans     &trans    &trans     &trans  &kp N0
+            &kp GRAVE     &kp TILDE     &trans          &trans     &trans    &trans   &kp N7  &kp N8  &kp N9  &trans
+            &trans        &trans        &trans          &trans     &trans    &trans   &kp N4  &kp N5  &kp N6  &trans
+&kp LSHIFT  &sk LEFT_GUI  &sk LEFT_ALT  &sk LEFT_SHIFT  &sk LCTRL  &trans    &kp DOT  &kp N1  &kp N2  &kp N3  &kp BSLH  &trans
+                                        &trans          &trans     &trans    &trans   &trans  &kp N0
             >;
         };
 
