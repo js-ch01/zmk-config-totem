@@ -173,7 +173,7 @@
         combo_sqt {
             timeout-ms = <50>;
             key-positions = <8 18>;
-            bindings = <&kp SQT>;
+            bindings = <&kp DQT>;
             layers = <0 1 2>;
         };
 
@@ -258,6 +258,20 @@
         combo_percent {
             bindings = <&kp PERCENT>;
             key-positions = <4 14>;
+            timeout-ms = <50>;
+            layers = <0 1 2>;
+        };
+
+        combo_sqt {
+            bindings = <&kp SQT>;
+            key-positions = <9 19>;
+            timeout-ms = <50>;
+            layers = <0 1 2>;
+        };
+
+        combo_colon {
+            bindings = <&kp COLON>;
+            key-positions = <15 26>;
             timeout-ms = <50>;
             layers = <0 1 2>;
         };
