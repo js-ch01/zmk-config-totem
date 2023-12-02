@@ -89,11 +89,11 @@ layers:
   - '8'
   - '9'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
   - {t: ▽, type: trans}
   - '4'
   - '5'
@@ -266,21 +266,6 @@ combos:
 - p: [34, 35]
   k: MSE
   l: [BASE, MSE]
-- p: [0, 10]
-  k: '!'
-  l: [BASE, NAV, NUM]
-- p: [11, 1]
-  k: '@'
-  l: [BASE, NAV, NUM]
-- p: [2, 12]
-  k: '#'
-  l: [BASE, NAV, NUM]
-- p: [3, 13]
-  k: $
-  l: [BASE, NAV, NUM]
-- p: [4, 14]
-  k: '%'
-  l: [BASE, NAV, NUM]
 - p: [9, 19]
   k: ''''
   l: [BASE, NAV, NUM]
