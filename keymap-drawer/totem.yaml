@@ -36,7 +36,7 @@ layers:
   - {t: TAB, h: NAV}
   - {t: BACKSPACE, h: NUM}
   - {t: DEL, h: FUN}
-  - {t: LSHIFT, h: FUN}
+  - {t: ESC, h: FUN}
   - {t: SPACE, h: NUM}
   - {t: ENTER, h: NAV}
   NAV:
