@@ -317,10 +317,10 @@ combos:
 - p: [7, 17]
   k: '"'
   l: [BASE, NAV, NUM]
-- p: [24, 13]
+- p: [23, 12]
   k: ENTER
   l: [BASE, NAV, NUM, GAME]
-- p: [12, 23]
+- p: [13, 24, 13, 24]
   k: SPACE
   l: [BASE, NAV, NUM]
 - p: [10, 11, 12, 13]
@@ -353,3 +353,9 @@ combos:
 - p: [17, 28]
   k: DEL
   l: [BASE, NAV, NUM]
+- p: [1, 11]
+  k: '0'
+  l: [BASE, NUM, NAV]
+- p: [2, 12]
+  k: '1'
+  l: [BASE, NUM, NAV]
