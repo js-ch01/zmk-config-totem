@@ -68,6 +68,15 @@
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
         };
+
+        LT_TOG: LT_TOG {
+            compatible = "zmk,behavior-hold-tap";
+            label = "LT_TOG";
+            bindings = <&lt>, <&tog>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <300>;
+        };
     };
 };
 
@@ -79,7 +88,7 @@
             timeout-ms = <50>;
             key-positions = <1 0>;
             bindings = <&kp ESC>;
-            layers = <0>;
+            layers = <0 2 1>;
         };
 
         combo_lpar {
@@ -224,6 +233,18 @@
             timeout-ms = <50>;
             layers = <0 1 2>;
         };
+
+        combo_bslash {
+            bindings = <&kp BSLH>;
+            key-positions = <4 14>;
+            layers = <0 1 2>;
+        };
+
+        combo_semicolon {
+            bindings = <&kp SEMI>;
+            key-positions = <27 16>;
+            layers = <0 1 2>;
+        };
     };
 
     keymap {
@@ -234,7 +255,7 @@
             bindings = <
             &as LS(Q) Q  &as LS(W) W  &as LS(E) E  &as LS(R) R      &as LS(T) T    &kp Y       &kp U                &as LS(I) I   &as LS(O) O  &as LS(P) P
             &mt LGUI A   &mt LALT S   &mt LSHFT D  &mt LCTRL F      &kp G          &kp H       &mt RIGHT_CONTROL J  &mt RSHIFT K  &mt LALT L   &mt RGUI SEMI
-&caps_word  &lt 4 Z      &kp X        &kp C        &kp V            &kp B          &kp N       &kp M                &kp COMMA     &kp DOT      &lt 4 SLASH    &key_repeat
+&caps_word  &lt 4 Z      &kp X        &kp C        &kp V            &kp B          &kp N       &kp M                &kp COMMA     &kp DOT      &LT_TOG 4 4    &key_repeat
                                       &lt 1 TAB    &lt 2 BACKSPACE  &lt 3 DEL      &lt 3 RALT  &lt 2 SPACE          &lt 1 ENTER
             >;
         };
@@ -254,7 +275,7 @@
             bindings = <
             &kp GRAVE     &kp TILDE     &kp CARET       &kp AMPS    &kp PIPE        &trans   &kp N7  &kp N8  &kp N9  &trans
             &kp EXCL      &kp AT        &kp HASH        &kp DOLLAR  &kp PERCENT     &trans   &kp N4  &kp N5  &kp N6  &trans
-&kp LSHIFT  &sk LEFT_GUI  &sk LEFT_ALT  &sk LEFT_SHIFT  &sk LCTRL   &kp QUESTION    &kp DOT  &kp N1  &kp N2  &kp N3  &kp BSLH  &trans
+&kp LSHIFT  &sk LEFT_GUI  &sk LEFT_ALT  &sk LEFT_SHIFT  &sk LCTRL   &kp QUESTION    &kp DOT  &kp N1  &kp N2  &kp N3  &trans  &trans
                                         &trans          &trans      &trans          &trans   &trans  &kp N0
             >;
         };
@@ -262,10 +283,10 @@
         func_layer {
             label = "FUN";
             bindings = <
-        &kp CAPS       &bt BT_SEL 0        &bt BT_SEL 1          &bt BT_SEL 2          &bt BT_CLR    &kp PSCRN        &kp F7  &kp F8  &kp F9  &kp F12
-        &kp RCTRL      &none               &kp C_BRIGHTNESS_INC  &kp C_BRIGHTNESS_DEC  &kp C_PP      &kp SLCK         &kp F4  &kp F5  &kp F6  &kp F11
-&trans  &kp RIGHT_ALT  &kp K_CONTEXT_MENU  &kp C_VOL_UP          &kp C_VOL_DN          &kp C_MUTE    &kp PAUSE_BREAK  &kp F1  &kp F2  &kp F3  &kp F10  &none
-                                           &none                 &none                 &none         &none            &none   &none
+        &kp CAPS           &bt BT_SEL 0  &bt BT_SEL 1          &bt BT_SEL 2          &bt BT_CLR    &kp PSCRN        &kp F7  &kp F8  &kp F9  &kp F12
+        &kp RCTRL          &none         &kp C_BRIGHTNESS_INC  &kp C_BRIGHTNESS_DEC  &kp C_PP      &kp SLCK         &kp F4  &kp F5  &kp F6  &kp F11
+&trans  &kp K_APPLICATION  &trans        &kp C_VOL_UP          &kp C_VOL_DN          &kp C_MUTE    &kp PAUSE_BREAK  &kp F1  &kp F2  &kp F3  &kp F10  &none
+                                         &none                 &none                 &none         &none            &none   &none
             >;
         };
 
