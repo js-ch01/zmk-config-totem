@@ -84,7 +84,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ^
   - '7'
   - '8'
   - '9'
@@ -266,9 +266,6 @@ combos:
 - p: [34, 35]
   k: MSE
   l: [BASE, MSE]
-- p: [5, 15]
-  k: ^
-  l: [BASE, NAV, NUM]
 - p: [0, 10]
   k: '!'
   l: [BASE, NAV, NUM]
