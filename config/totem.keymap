@@ -63,10 +63,11 @@
             compatible = "zmk,behavior-hold-tap";
             label = "AUTO_SHIFT";
             #binding-cells = <2>;
-            tapping_term_ms = <180>;
-            quick_tap_ms = <0>;
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
+
+            tapping-term-ms = <180>;
+            quick-tap-ms = <180>;
         };
 
         LT_TOG: LT_TOG {
