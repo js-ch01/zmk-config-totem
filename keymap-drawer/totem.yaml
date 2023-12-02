@@ -17,7 +17,7 @@ layers:
   - {t: F, h: LCTRL}
   - G
   - H
-  - {t: J, h: RIGHT CONTROL}
+  - {t: J, h: LCTRL}
   - {t: K, h: RSHIFT}
   - {t: L, h: LALT}
   - {t: ;, h: RGUI}
@@ -32,7 +32,7 @@ layers:
   - ','
   - .
   - {t: /, h: MSE}
-  - '&key_repeat'
+  - {t: LEFT ALT, h: sticky}
   - {t: TAB, h: NAV}
   - {t: BACKSPACE, h: NUM}
   - {t: DEL, h: FUN}
@@ -340,7 +340,7 @@ combos:
   l: [BASE, NUM, NAV]
 - p: [5, 15]
   k: '&key_repeat'
-  l: [BASE, NAV, NUM]
+  l: [BASE, NAV, NUM, FUN, MSE]
 - p: [33, 32]
   k: MSE
   l: [BASE, MSE]
@@ -349,5 +349,7 @@ combos:
   l: [BASE, GAME]
 - p: [16, 27]
   k: BACKSPACE
+  l: [BASE, NAV, NUM]
 - p: [17, 28]
   k: DEL
+  l: [BASE, NAV, NUM]
