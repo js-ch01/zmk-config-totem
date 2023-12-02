@@ -10,6 +10,8 @@
 #define MSE  4
 #define ETC  5
 
+#define AS(keycode) &as LS(keycode) keycode     // Autoshift Macro
+
 // mod-tap
 
 &mt {
