@@ -284,10 +284,10 @@ combos:
 - p: [16, 17]
   k: )
   l: [BASE, NAV, NUM]
-- p: [14, 13]
+- p: [1, 2]
   k: '['
   l: [BASE, NAV, NUM]
-- p: [15, 16]
+- p: [7, 8]
   k: ']'
   l: [BASE, NAV, NUM]
 - p: [12, 11]
