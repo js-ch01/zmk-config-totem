@@ -31,12 +31,12 @@ layers:
   - M
   - ','
   - .
-  - {t: '?', h: MSE}
+  - {t: /, h: MSE}
   - '&key_repeat'
   - {t: TAB, h: NAV}
   - {t: BACKSPACE, h: NUM}
   - {t: DEL, h: FUN}
-  - {t: ESC, h: FUN}
+  - {t: RALT, h: FUN}
   - {t: SPACE, h: NUM}
   - {t: ENTER, h: NAV}
   NAV:
@@ -104,7 +104,7 @@ layers:
   - {t: LEFT ALT, h: sticky}
   - {t: LEFT SHIFT, h: sticky}
   - {t: LCTRL, h: sticky}
-  - {t: ▽, type: trans}
+  - '?'
   - .
   - '1'
   - '2'
@@ -271,7 +271,4 @@ combos:
   l: [BASE, NAV, NUM]
 - p: [14, 25]
   k: /
-  l: [BASE, NAV, NUM]
-- p: [19, 18]
-  k: RALT
   l: [BASE, NAV, NUM]
