@@ -31,7 +31,7 @@ layers:
   - M
   - ','
   - .
-  - {t: MSE, h: '&lt 4'}
+  - MSE
   - '&key_repeat'
   - {t: TAB, h: NAV}
   - {t: BACKSPACE, h: NUM}
@@ -187,7 +187,7 @@ layers:
   - LCTRL
   - LEFT SHIFT
   - {t: ▽, type: trans}
-  - BASE
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&mkp LCLK'
   - '&mkp MCLK'
