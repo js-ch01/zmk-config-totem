@@ -246,6 +246,12 @@
             key-positions = <33 32>;
             layers = <0 4>;
         };
+
+        combo_game_layer {
+            bindings = <&tog 5>;
+            key-positions = <35 34>;
+            layers = <0 5>;
+        };
     };
 
     keymap {
