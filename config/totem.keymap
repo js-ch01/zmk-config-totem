@@ -180,7 +180,7 @@
         combo_spc1 {
             bindings = <&kp SPACE>;
             key-positions = <13 24>;
-            layers = <0 1 2 5>;
+            layers = <0 1 2>;
         };
 
         combo_cleanLayer {
