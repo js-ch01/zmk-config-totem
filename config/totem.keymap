@@ -157,13 +157,6 @@
             layers = <0 1 2>;
         };
 
-        combo_star {
-            timeout-ms = <50>;
-            key-positions = <15 26>;
-            bindings = <&kp STAR>;
-            layers = <0 1 2>;
-        };
-
         combo_dqt {
             timeout-ms = <50>;
             key-positions = <7 17>;
@@ -205,13 +198,6 @@
         combo_colon {
             bindings = <&kp COLON>;
             key-positions = <6 16>;
-            timeout-ms = <50>;
-            layers = <0 1 2>;
-        };
-
-        combo_slash {
-            bindings = <&kp SLASH>;
-            key-positions = <14 25>;
             timeout-ms = <50>;
             layers = <0 1 2>;
         };
@@ -262,7 +248,7 @@
             bindings = <
            &auto_shift LS(Q) Q  &auto_shift LS(W) W  &auto_shift LS(E) E  &auto_shift LS(R) R  &auto_shift LS(T) T    &kp Y       &kp U                &auto_shift LS(I) I  &auto_shift LS(O) O  &auto_shift LS(P) P
            &mt LGUI A           &mt LALT S           &mt LSHFT D          &mt LCTRL F          &kp G                  &kp H       &mt RIGHT_CONTROL J  &mt RSHIFT K         &mt LALT L           &mt RGUI SEMI
-&sk LCTRL  &lt 4 Z              &kp X                &kp C                &kp V                &kp B                  &kp N       &kp M                &kp COMMA            &kp DOT              &mo 4                &key_repeat
+&sk LCTRL  &lt 4 Z              &kp X                &kp C                &kp V                &kp B                  &kp N       &kp M                &kp COMMA            &kp DOT              &lt 4 SLASH          &key_repeat
                                                      &lt 1 TAB            &lt 2 BACKSPACE      &lt 3 DEL              &lt 3 RALT  &lt 2 SPACE          &lt 1 ENTER
             >;
         };
@@ -280,10 +266,10 @@
         num_layer {
             label = "NUM";
             bindings = <
-            &kp GRAVE     &kp TILDE     &kp CARET       &kp AMPS    &kp PIPE        &trans   &kp N7  &kp N8  &kp N9  &trans
-            &kp EXCL      &kp AT        &kp HASH        &kp DOLLAR  &kp PERCENT     &trans   &kp N4  &kp N5  &kp N6  &trans
-&kp LSHIFT  &sk LEFT_GUI  &sk LEFT_ALT  &sk LEFT_SHIFT  &sk LCTRL   &kp QUESTION    &kp DOT  &kp N1  &kp N2  &kp N3  &trans  &trans
-                                        &trans          &trans      &trans          &trans   &trans  &kp N0
+            &kp GRAVE     &kp TILDE     &kp CARET       &kp AMPS    &kp PIPE        &kp STAR   &kp N7  &kp N8  &kp N9  &trans
+            &kp EXCL      &kp AT        &kp HASH        &kp DOLLAR  &kp PERCENT     &kp SLASH  &kp N4  &kp N5  &kp N6  &trans
+&kp LSHIFT  &sk LEFT_GUI  &sk LEFT_ALT  &sk LEFT_SHIFT  &sk LCTRL   &kp QUESTION    &kp DOT    &kp N1  &kp N2  &kp N3  &kp BSLH  &trans
+                                        &trans          &trans      &trans          &trans     &trans  &kp N0
             >;
         };
 
