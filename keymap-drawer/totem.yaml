@@ -272,6 +272,6 @@ combos:
 - p: [14, 25]
   k: /
   l: [BASE, NAV, NUM]
-- p: [26, 27]
+- p: [19, 18]
   k: RALT
   l: [BASE, NAV, NUM]
