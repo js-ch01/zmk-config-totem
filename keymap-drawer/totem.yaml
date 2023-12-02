@@ -195,6 +195,84 @@ layers:
   - '&mkp LCLK'
   - '&mkp MCLK'
   - '&mkp RCLK'
+  GAME:
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - ;
+  - LSHFT
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - RSHFT
+  - {t: TAB, h: game_num}
+  - {t: BACKSPACE, h: NUM}
+  - {t: DEL, h: FUN}
+  - {t: RALT, h: FUN}
+  - {t: SPACE, h: NUM}
+  - {t: ENTER, h: NAV}
+  game_num:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Y
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '4'
+  - '5'
+  - {t: ▽, type: trans}
+  - H
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '1'
+  - '2'
+  - '3'
+  - N
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   CLEAN: ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '']
 combos:
 - p: [1, 0]
@@ -247,11 +325,11 @@ combos:
   l: [BASE, NAV, NUM]
 - p: [13, 24]
   k: SPACE
-  l: [BASE, NAV, NUM]
+  l: [BASE, NAV, NUM, GAME]
 - p: [10, 11, 12, 13]
   k: CLEAN
   l: [BASE, CLEAN]
-- p: [34, 35]
+- p: [36, 37]
   k: MSE
   l: [BASE, MSE]
 - p: [8, 18]
@@ -275,3 +353,6 @@ combos:
 - p: [17, 28]
   k: '&key_repeat'
   l: [BASE, NAV, NUM]
+- p: [33, 32]
+  k: MSE
+  l: [BASE, MSE]
