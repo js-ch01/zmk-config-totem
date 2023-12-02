@@ -325,7 +325,7 @@ combos:
   l: [BASE, NAV, NUM, GAME]
 - p: [13, 24]
   k: SPACE
-  l: [BASE, NAV, NUM, GAME]
+  l: [BASE, NAV, NUM]
 - p: [10, 11, 12, 13]
   k: CLEAN
   l: [BASE, CLEAN]
