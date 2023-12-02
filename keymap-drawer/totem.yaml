@@ -31,7 +31,7 @@ layers:
   - M
   - ','
   - .
-  - {t: /, h: MSE}
+  - {t: MSE, h: '&lt 4'}
   - '&key_repeat'
   - {t: TAB, h: NAV}
   - {t: BACKSPACE, h: NUM}
@@ -109,7 +109,7 @@ layers:
   - '1'
   - '2'
   - '3'
-  - \
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
@@ -139,8 +139,8 @@ layers:
   - F6
   - F11
   - {t: ▽, type: trans}
-  - RIGHT ALT
-  - CONTEXT MENU
+  - APPLICATION
+  - {t: ▽, type: trans}
   - VOL UP
   - VOL DN
   - MUTE
@@ -199,7 +199,7 @@ layers:
 combos:
 - p: [1, 0]
   k: ESC
-  l: [BASE]
+  l: [BASE, NUM, NAV]
 - p: [12, 13]
   k: (
   l: [BASE, NAV, NUM]
@@ -262,4 +262,10 @@ combos:
   l: [BASE, NAV, NUM]
 - p: [14, 25]
   k: /
+  l: [BASE, NAV, NUM]
+- p: [4, 14]
+  k: \
+  l: [BASE, NAV, NUM]
+- p: [27, 16]
+  k: ;
   l: [BASE, NAV, NUM]
