@@ -245,6 +245,19 @@
             key-positions = <27 16>;
             layers = <0 1 2>;
         };
+
+        combo.capswords {
+            bindings = <&caps_word>;
+            key-positions = <11 22>;
+            timeout-ms = <50>;
+            layers = <0 2 1>;
+        };
+
+        combo_repeat {
+            bindings = <&key_repeat>;
+            key-positions = <17 28>;
+            layers = <0 1 2>;
+        };
     };
 
     keymap {
@@ -253,10 +266,10 @@
         base_layer {
             label = "BASE";
             bindings = <
-            &as LS(Q) Q  &as LS(W) W  &as LS(E) E  &as LS(R) R      &as LS(T) T    &kp Y       &kp U                &as LS(I) I   &as LS(O) O  &as LS(P) P
-            &mt LGUI A   &mt LALT S   &mt LSHFT D  &mt LCTRL F      &kp G          &kp H       &mt RIGHT_CONTROL J  &mt RSHIFT K  &mt LALT L   &mt RGUI SEMI
-&caps_word  &lt 4 Z      &kp X        &kp C        &kp V            &kp B          &kp N       &kp M                &kp COMMA     &kp DOT      &LT_TOG 4 4    &key_repeat
-                                      &lt 1 TAB    &lt 2 BACKSPACE  &lt 3 DEL      &lt 3 RALT  &lt 2 SPACE          &lt 1 ENTER
+           &as LS(Q) Q  &as LS(W) W  &as LS(E) E  &as LS(R) R      &as LS(T) T    &kp Y       &kp U                &as LS(I) I   &as LS(O) O  &as LS(P) P
+           &mt LGUI A   &mt LALT S   &mt LSHFT D  &mt LCTRL F      &kp G          &kp H       &mt RIGHT_CONTROL J  &mt RSHIFT K  &mt LALT L   &mt RGUI SEMI
+&sk LCTRL  &lt 4 Z      &kp X        &kp C        &kp V            &kp B          &kp N       &kp M                &kp COMMA     &kp DOT      &LT_TOG 4 4    &key_repeat
+                                     &lt 1 TAB    &lt 2 BACKSPACE  &lt 3 DEL      &lt 3 RALT  &lt 2 SPACE          &lt 1 ENTER
             >;
         };
 
