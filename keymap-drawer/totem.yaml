@@ -36,9 +36,9 @@ layers:
   - {t: TAB, h: NAV}
   - {t: BACKSPACE, h: NUM}
   - {t: DEL, h: FUN}
-  - {t: ENTER, h: FUN}
+  - {t: LSHIFT, h: FUN}
   - {t: SPACE, h: NUM}
-  - {t: RALT, h: NAV}
+  - {t: ENTER, h: NAV}
   NAV:
   - {t: ▽, type: trans}
   - '&mwh SCROLL_LEFT'
@@ -271,4 +271,7 @@ combos:
   l: [BASE, NAV, NUM]
 - p: [14, 25]
   k: /
+  l: [BASE, NAV, NUM]
+- p: [26, 27]
+  k: RALT
   l: [BASE, NAV, NUM]
