@@ -177,7 +177,7 @@ layers:
   - '&mmv MOVE_DOWN'
   - '&mmv MOVE_RIGHT'
   - '&mwh SCROLL_DOWN'
-  - {t: ▽, type: trans}
+  - LS(LC(ESC))
   - {type: held}
   - {t: ▽, type: trans}
   - LEFT SHIFT
@@ -216,7 +216,7 @@ layers:
   - K
   - L
   - ;
-  - LSHFT
+  - LEFT ALT
   - Z
   - X
   - C
@@ -230,7 +230,7 @@ layers:
   - RSHFT
   - {t: TAB, h: game_num}
   - {t: BACKSPACE, h: NUM}
-  - {t: DEL, h: FUN}
+  - {t: ESC, h: FUN}
   - {t: RALT, h: FUN}
   - {t: SPACE, h: NUM}
   - {t: ENTER, h: NAV}
@@ -255,7 +255,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LS(LC(ESC))
   - '`'
   - '1'
   - '2'
@@ -269,7 +269,7 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - DEL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
