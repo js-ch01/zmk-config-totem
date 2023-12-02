@@ -236,7 +236,7 @@ combos:
 - p: [28, 29]
   k: _
   l: [BASE, NAV, NUM]
-- p: [6, 16]
+- p: [5, 15]
   k: '&'
   l: [BASE, NAV, NUM]
 - p: [15, 26]
@@ -246,7 +246,7 @@ combos:
   k: '"'
   l: [BASE, NAV, NUM]
 - p: [16, 27]
-  k: BACKSPACE
+  k: BSPC
   l: [BASE, NAV, NUM]
 - p: [17, 28]
   k: DEL
@@ -292,4 +292,7 @@ combos:
   l: [BASE, NAV, NUM]
 - p: [14, 25]
   k: /
+  l: [BASE, NAV, NUM]
+- p: [6, 16]
+  k: '|'
   l: [BASE, NAV, NUM]
