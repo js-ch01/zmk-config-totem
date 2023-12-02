@@ -268,7 +268,7 @@
             bindings = <
            &as LS(Q) Q  &as LS(W) W  &as LS(E) E  &as LS(R) R      &as LS(T) T    &kp Y       &kp U                &as LS(I) I   &as LS(O) O  &as LS(P) P
            &mt LGUI A   &mt LALT S   &mt LSHFT D  &mt LCTRL F      &kp G          &kp H       &mt RIGHT_CONTROL J  &mt RSHIFT K  &mt LALT L   &mt RGUI SEMI
-&sk LCTRL  &lt 4 Z      &kp X        &kp C        &kp V            &kp B          &kp N       &kp M                &kp COMMA     &kp DOT      &LT_TOG 4 4    &key_repeat
+&sk LCTRL  &lt 4 Z      &kp X        &kp C        &kp V            &kp B          &kp N       &kp M                &kp COMMA     &kp DOT      &mo 4          &key_repeat
                                      &lt 1 TAB    &lt 2 BACKSPACE  &lt 3 DEL      &lt 3 RALT  &lt 2 SPACE          &lt 1 ENTER
             >;
         };
@@ -308,7 +308,7 @@
             bindings = <
         &mwh SCROLL_UP    &mwh SCROLL_LEFT  &mmv MOVE_UP    &mwh SCROLL_RIGHT  &trans              &trans            &mwh SCROLL_LEFT  &mmv MOVE_UP    &mwh SCROLL_RIGHT  &mwh SCROLL_UP
         &mwh SCROLL_DOWN  &mmv MOVE_LEFT    &mmv MOVE_DOWN  &mmv MOVE_RIGHT    &mwh SCROLL_UP      &mwh SCROLL_UP    &mmv MOVE_LEFT    &mmv MOVE_DOWN  &mmv MOVE_RIGHT    &mwh SCROLL_DOWN
-&trans  &trans            &trans            &kp LEFT_SHIFT  &kp LCTRL          &mwh SCROLL_DOWN    &mwh SCROLL_DOWN  &kp LCTRL         &kp LEFT_SHIFT  &trans             &tog 0            &trans
+&trans  &trans            &trans            &kp LEFT_SHIFT  &kp LCTRL          &mwh SCROLL_DOWN    &mwh SCROLL_DOWN  &kp LCTRL         &kp LEFT_SHIFT  &trans             &trans            &trans
                                             &mkp LCLK       &mkp MCLK          &mkp RCLK           &mkp LCLK         &mkp MCLK         &mkp RCLK
             >;
         };
