@@ -156,13 +156,6 @@
             layers = <0 1 2>;
         };
 
-        combo_amp {
-            timeout-ms = <50>;
-            key-positions = <5 15>;
-            bindings = <&kp AMPS>;
-            layers = <0 1 2>;
-        };
-
         combo_star {
             timeout-ms = <50>;
             key-positions = <15 26>;
@@ -172,7 +165,7 @@
 
         combo_dqt {
             timeout-ms = <50>;
-            key-positions = <8 18>;
+            key-positions = <7 17>;
             bindings = <&kp DQT>;
             layers = <0 1 2>;
         };
@@ -222,14 +215,14 @@
 
         combo_sqt {
             bindings = <&kp SQT>;
-            key-positions = <9 19>;
+            key-positions = <8 18>;
             timeout-ms = <50>;
             layers = <0 1 2>;
         };
 
         combo_colon {
             bindings = <&kp COLON>;
-            key-positions = <7 17>;
+            key-positions = <6 16>;
             timeout-ms = <50>;
             layers = <0 1 2>;
         };
@@ -237,13 +230,6 @@
         combo_slash {
             bindings = <&kp SLASH>;
             key-positions = <14 25>;
-            timeout-ms = <50>;
-            layers = <0 1 2>;
-        };
-
-        combo_pipe {
-            bindings = <&kp PIPE>;
-            key-positions = <6 16>;
             timeout-ms = <50>;
             layers = <0 1 2>;
         };
@@ -275,10 +261,10 @@
         num_layer {
             label = "NUM";
             bindings = <
-            &kp GRAVE     &kp TILDE     &trans          &trans      &trans         &kp CARET  &kp N7  &kp N8  &kp N9  &trans
-            &kp EXCL      &kp AT        &kp HASH        &kp DOLLAR  &kp PERCENT    &trans     &kp N4  &kp N5  &kp N6  &trans
-&kp LSHIFT  &sk LEFT_GUI  &sk LEFT_ALT  &sk LEFT_SHIFT  &sk LCTRL   &trans         &kp DOT    &kp N1  &kp N2  &kp N3  &kp BSLH  &trans
-                                        &trans          &trans      &trans         &trans     &trans  &kp N0
+            &kp GRAVE     &kp TILDE     &kp CARET       &kp AMPS    &kp PIPE       &trans   &kp N7  &kp N8  &kp N9  &trans
+            &kp EXCL      &kp AT        &kp HASH        &kp DOLLAR  &kp PERCENT    &trans   &kp N4  &kp N5  &kp N6  &trans
+&kp LSHIFT  &sk LEFT_GUI  &sk LEFT_ALT  &sk LEFT_SHIFT  &sk LCTRL   &trans         &kp DOT  &kp N1  &kp N2  &kp N3  &kp BSLH  &trans
+                                        &trans          &trans      &trans         &trans   &trans  &kp N0
             >;
         };
 
