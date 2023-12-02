@@ -156,21 +156,21 @@
             layers = <0 1 2>;
         };
 
-        combo_colon {
+        combo_amp {
             timeout-ms = <50>;
             key-positions = <6 16>;
             bindings = <&kp AMPS>;
             layers = <0 1 2>;
         };
 
-        combo_dqt {
+        combo_star {
             timeout-ms = <50>;
             key-positions = <7 17>;
             bindings = <&kp STAR>;
             layers = <0 1 2>;
         };
 
-        combo_sqt {
+        combo_dqt {
             timeout-ms = <50>;
             key-positions = <8 18>;
             bindings = <&kp DQT>;
@@ -220,7 +220,7 @@
             layers = <0 4>;
         };
 
-        combo_pipe {
+        combo_caret {
             bindings = <&kp CARET>;
             key-positions = <5 15>;
             timeout-ms = <50>;
