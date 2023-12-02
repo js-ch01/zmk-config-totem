@@ -180,19 +180,6 @@
             layers = <0 1 2>;
         };
 
-        combo_bspc2 {
-            bindings = <&kp BSPC>;
-            key-positions = <16 27>;
-            timeout-ms = <50>;
-            layers = <0 1 2>;
-        };
-
-        combo_del2 {
-            bindings = <&kp DEL>;
-            key-positions = <17 28>;
-            layers = <0 2 1>;
-        };
-
         combo_enter1 {
             bindings = <&kp ENTER>;
             key-positions = <12 23>;
@@ -202,12 +189,6 @@
         combo_spc1 {
             bindings = <&kp SPACE>;
             key-positions = <13 24>;
-            layers = <0 1 2>;
-        };
-
-        combo_tab {
-            bindings = <&kp TAB>;
-            key-positions = <18 29>;
             layers = <0 1 2>;
         };
 
