@@ -1,16 +1,9 @@
 layout: {qmk_keyboard: totem}
 layers:
   BASE:
-  - {t: Q, h: LS(Q)}
-  - {t: W, h: LS(W)}
-  - {t: E, h: LS(E)}
-  - {t: R, h: LS(R)}
-  - {t: T, h: LS(T)}
+  - '&AS(Q) AS(W) AS(E) AS(R) AS(T) AS(Y)'
   - Y
-  - U
-  - {t: I, h: LS(I)}
-  - {t: O, h: LS(O)}
-  - {t: P, h: LS(P)}
+  - '&kp U AS(I) AS(O) AS(P)'
   - {t: A, h: LGUI}
   - {t: S, h: LALT}
   - {t: D, h: LSHFT}
@@ -65,14 +58,14 @@ layers:
   - LC(X)
   - LC(C)
   - LC(V)
-  - '&mwh SCROLL_DOWN'
+  - {t: '&mwh SCROLL_DOWN', type: held}
   - '&mwh SCROLL_DOWN'
   - LC(V)
   - LC(C)
   - LC(X)
   - LC(Z)
   - LC(J)
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -105,14 +98,14 @@ layers:
   - {t: LEFT SHIFT, h: sticky}
   - {t: LCTRL, h: sticky}
   - {t: ▽, type: trans}
-  - .
+  - {t: ., type: held}
   - '1'
   - '2'
   - '3'
   - \
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -145,14 +138,14 @@ layers:
   - VOL DN
   - MUTE
   - PAUSE BREAK
-  - F1
+  - {t: F1, type: held}
   - F2
   - F3
   - F10
   - ''
   - ''
   - ''
-  - {type: held}
+  - ''
   - ''
   - ''
   - ''
@@ -171,14 +164,14 @@ layers:
   - '&mmv MOVE_LEFT'
   - '&mmv MOVE_DOWN'
   - '&mmv MOVE_RIGHT'
-  - '&mwh SCROLL_UP'
+  - {t: '&mwh SCROLL_UP', type: held}
   - '&mwh SCROLL_UP'
   - '&mmv MOVE_LEFT'
   - '&mmv MOVE_DOWN'
   - '&mmv MOVE_RIGHT'
   - '&mwh SCROLL_DOWN'
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LEFT SHIFT
   - LCTRL
