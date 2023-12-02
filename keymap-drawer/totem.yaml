@@ -1,17 +1,16 @@
 layout: {qmk_keyboard: totem}
 layers:
   BASE:
-  - {t: Q, h: LS(Q)}
-  - {t: W, h: LS(W)}
-  - {t: E, h: LS(E)}
-  - {t: R, h: LS(R)}
-  - {t: T, h: LS(T)}
-  - {t: Y, h: LS(Y)}
-  - Y
-  - U
-  - {t: I, h: LS(I)}
-  - {t: O, h: LS(O)}
-  - {t: P, h: LS(P)}
+  - {t: A, h: LGUI}
+  - {t: S, h: LALT}
+  - {t: D, h: LSHFT}
+  - {t: F, h: LCTRL}
+  - G
+  - H
+  - {t: J, h: RIGHT CONTROL}
+  - {t: K, h: RSHIFT}
+  - {t: L, h: LALT}
+  - {t: ;, h: RGUI}
   - {t: A, h: LGUI}
   - {t: S, h: LALT}
   - {t: D, h: LSHFT}
@@ -73,8 +72,8 @@ layers:
   - LC(X)
   - LC(Z)
   - LC(J)
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -113,8 +112,8 @@ layers:
   - \
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '0'
@@ -153,8 +152,8 @@ layers:
   - ''
   - ''
   - ''
-  - ''
   - {type: held}
+  - ''
   - ''
   - ''
   MSE:
@@ -179,8 +178,8 @@ layers:
   - '&mmv MOVE_RIGHT'
   - '&mwh SCROLL_DOWN'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - LEFT SHIFT
   - LCTRL
   - '&mwh SCROLL_DOWN'
