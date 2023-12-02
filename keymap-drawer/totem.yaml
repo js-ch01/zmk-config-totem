@@ -81,10 +81,10 @@ layers:
   NUM:
   - '`'
   - '~'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - ^
+  - '&'
+  - '|'
+  - {t: ▽, type: trans}
   - '7'
   - '8'
   - '9'
@@ -236,13 +236,10 @@ combos:
 - p: [28, 29]
   k: _
   l: [BASE, NAV, NUM]
-- p: [5, 15]
-  k: '&'
-  l: [BASE, NAV, NUM]
 - p: [15, 26]
   k: '*'
   l: [BASE, NAV, NUM]
-- p: [8, 18]
+- p: [7, 17]
   k: '"'
   l: [BASE, NAV, NUM]
 - p: [16, 27]
@@ -266,15 +263,12 @@ combos:
 - p: [34, 35]
   k: MSE
   l: [BASE, MSE]
-- p: [9, 19]
+- p: [8, 18]
   k: ''''
   l: [BASE, NAV, NUM]
-- p: [7, 17]
+- p: [6, 16]
   k: ':'
   l: [BASE, NAV, NUM]
 - p: [14, 25]
   k: /
-  l: [BASE, NAV, NUM]
-- p: [6, 16]
-  k: '|'
   l: [BASE, NAV, NUM]
