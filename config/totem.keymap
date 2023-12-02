@@ -220,41 +220,6 @@
             layers = <0 4>;
         };
 
-        combo_excl {
-            bindings = <&kp EXCL>;
-            key-positions = <0 10>;
-            timeout-ms = <50>;
-            layers = <0 1 2>;
-        };
-
-        combo_at {
-            bindings = <&kp AT>;
-            key-positions = <11 1>;
-            timeout-ms = <50>;
-            layers = <0 1 2>;
-        };
-
-        combo_hash {
-            bindings = <&kp HASH>;
-            key-positions = <2 12>;
-            timeout-ms = <50>;
-            layers = <0 1 2>;
-        };
-
-        combo_dollar {
-            bindings = <&kp DOLLAR>;
-            key-positions = <3 13>;
-            timeout-ms = <50>;
-            layers = <0 1 2>;
-        };
-
-        combo_percent {
-            bindings = <&kp PERCENT>;
-            key-positions = <4 14>;
-            timeout-ms = <50>;
-            layers = <0 1 2>;
-        };
-
         combo_sqt {
             bindings = <&kp SQT>;
             key-positions = <9 19>;
@@ -310,10 +275,10 @@
         num_layer {
             label = "NUM";
             bindings = <
-            &kp GRAVE     &kp TILDE     &trans          &trans     &trans    &kp CARET  &kp N7  &kp N8  &kp N9  &trans
-            &trans        &trans        &trans          &trans     &trans    &trans     &kp N4  &kp N5  &kp N6  &trans
-&kp LSHIFT  &sk LEFT_GUI  &sk LEFT_ALT  &sk LEFT_SHIFT  &sk LCTRL  &trans    &kp DOT    &kp N1  &kp N2  &kp N3  &kp BSLH  &trans
-                                        &trans          &trans     &trans    &trans     &trans  &kp N0
+            &kp GRAVE     &kp TILDE     &trans          &trans      &trans         &kp CARET  &kp N7  &kp N8  &kp N9  &trans
+            &kp EXCL      &kp AT        &kp HASH        &kp DOLLAR  &kp PERCENT    &trans     &kp N4  &kp N5  &kp N6  &trans
+&kp LSHIFT  &sk LEFT_GUI  &sk LEFT_ALT  &sk LEFT_SHIFT  &sk LCTRL   &trans         &kp DOT    &kp N1  &kp N2  &kp N3  &kp BSLH  &trans
+                                        &trans          &trans      &trans         &trans     &trans  &kp N0
             >;
         };
 
