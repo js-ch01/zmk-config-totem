@@ -174,7 +174,7 @@
         combo_enter1 {
             bindings = <&kp ENTER>;
             key-positions = <12 23>;
-            layers = <0 1 2>;
+            layers = <0 1 2 5>;
         };
 
         combo_spc1 {
@@ -320,10 +320,10 @@
 
         game_num_layer {
             bindings = <
-        &trans  &trans  &trans  &trans  &kp Y     &trans  &trans  &trans  &trans  &trans
-        &trans  &kp N4  &kp N5  &trans  &kp H     &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &kp N1  &kp N2  &kp N3  &kp N     &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+        &trans     &trans  &trans  &trans  &kp Y     &trans  &trans  &trans  &trans  &trans
+        &trans     &kp N4  &kp N5  &kp N6  &kp H     &trans  &trans  &trans  &trans  &trans
+&trans  &kp GRAVE  &kp N1  &kp N2  &kp N3  &kp N     &trans  &trans  &trans  &trans  &trans  &trans
+                           &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
 
