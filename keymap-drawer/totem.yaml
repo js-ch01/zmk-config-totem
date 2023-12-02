@@ -248,7 +248,7 @@ layers:
   - {t: ▽, type: trans}
   - '4'
   - '5'
-  - {t: ▽, type: trans}
+  - '6'
   - H
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -256,7 +256,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '`'
   - '1'
   - '2'
   - '3'
@@ -322,7 +322,7 @@ combos:
   l: [BASE, NAV, NUM]
 - p: [12, 23]
   k: ENTER
-  l: [BASE, NAV, NUM]
+  l: [BASE, NAV, NUM, GAME]
 - p: [13, 24]
   k: SPACE
   l: [BASE, NAV, NUM, GAME]
