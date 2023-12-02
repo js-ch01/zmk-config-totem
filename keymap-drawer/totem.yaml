@@ -172,7 +172,7 @@ layers:
   - '&mmv MOVE_DOWN'
   - '&mmv MOVE_RIGHT'
   - '&mwh SCROLL_UP'
-  - '&mwh SCROLL_DOWN'
+  - '&mwh SCROLL_UP'
   - '&mmv MOVE_LEFT'
   - '&mmv MOVE_DOWN'
   - '&mmv MOVE_RIGHT'
