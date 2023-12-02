@@ -335,13 +335,10 @@ combos:
 - p: [6, 16]
   k: ':'
   l: [BASE, NAV, NUM]
-- p: [4, 14]
-  k: \
-  l: [BASE, NAV, NUM]
 - p: [27, 16]
   k: ;
   l: [BASE, NAV, NUM]
-- p: [11, 22]
+- p: [4, 14]
   k: '&caps_word'
   l: [BASE, NUM, NAV]
 - p: [17, 28]
