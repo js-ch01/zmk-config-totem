@@ -389,6 +389,10 @@ path.combo {
 <rect rx="6" ry="6" x="269" y="228" width="28" height="26" class="combo"/>
 <text x="283" y="241" class="combo tap">MSE</text>
 </g>
+<g class="combo combopos-27">
+<rect rx="6" ry="6" x="407" y="257" width="28" height="26" class="combo"/>
+<text x="421" y="270" class="combo tap">GAME</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 366)" class="layer-NAV">
@@ -1469,6 +1473,10 @@ path.combo {
 <g class="combo combopos-0">
 <rect rx="6" ry="6" x="253" y="127" width="28" height="26" class="combo"/>
 <text x="267" y="140" class="combo tap">SPACE</text>
+</g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="407" y="257" width="28" height="26" class="combo"/>
+<text x="421" y="270" class="combo tap">GAME</text>
 </g>
 </g>
 </g>

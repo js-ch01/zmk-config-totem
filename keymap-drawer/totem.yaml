@@ -356,3 +356,6 @@ combos:
 - p: [33, 32]
   k: MSE
   l: [BASE, MSE]
+- p: [35, 34]
+  k: GAME
+  l: [BASE, GAME]
