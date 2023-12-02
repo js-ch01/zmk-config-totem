@@ -21,7 +21,7 @@ layers:
   - {t: K, h: RSHIFT}
   - {t: L, h: LALT}
   - {t: ;, h: RGUI}
-  - '&caps_word'
+  - {t: LCTRL, h: sticky}
   - {t: Z, h: MSE}
   - X
   - C
@@ -268,4 +268,10 @@ combos:
   l: [BASE, NAV, NUM]
 - p: [27, 16]
   k: ;
+  l: [BASE, NAV, NUM]
+- p: [11, 22]
+  k: '&caps_word'
+  l: [BASE, NUM, NAV]
+- p: [17, 28]
+  k: '&key_repeat'
   l: [BASE, NAV, NUM]
