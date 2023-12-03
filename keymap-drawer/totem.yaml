@@ -320,9 +320,6 @@ combos:
 - p: [23, 12]
   k: ENTER
   l: [BASE, NAV, NUM, GAME]
-- p: [13, 24, 13, 24]
-  k: SPACE
-  l: [BASE, NAV, NUM]
 - p: [10, 11, 12, 13]
   k: CLEAN
   l: [BASE, CLEAN]
@@ -358,4 +355,7 @@ combos:
   l: [BASE, NUM, NAV]
 - p: [2, 12]
   k: '1'
+  l: [BASE, NUM, NAV]
+- p: [13, 24]
+  k: SPACE
   l: [BASE, NUM, NAV]
