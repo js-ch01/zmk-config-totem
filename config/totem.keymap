@@ -46,6 +46,16 @@
 
             tapping-term-ms = <180>;
         };
+
+        as_o: as_o {
+            compatible = "zmk,behavior-hold-tap";
+            label = "AS_O";
+            #binding-cells = <2>;
+            flavor = "tap-preferred";
+            bindings = <&kp>, <&kp>;
+
+            tapping-term-ms = <250>;
+        };
     };
 };
 
@@ -247,9 +257,9 @@
         base_layer {
             label = "BASE";
             bindings = <
-           &auto_shift LS(Q) Q  &auto_shift LS(W) W  &auto_shift LS(E) E  &auto_shift LS(R) R  &auto_shift LS(T) T    &kp Y       &kp U        &auto_shift LS(I) I  &auto_shift LS(O) O  &auto_shift LS(P) P
-           &mt LGUI A           &mt LALT S           &mt LSHFT D          &mt LCTRL F          &kp G                  &kp H       &mt LCTRL J  &mt RSHIFT K         &mt LALT L           &mt RGUI SEMI
-&sk LCTRL  &lt 4 Z              &kp X                &kp C                &kp V                &kp B                  &kp N       &kp M        &kp COMMA            &kp DOT              &lt 4 SLASH          &key_repeat
+           &auto_shift LS(Q) Q  &auto_shift LS(W) W  &auto_shift LS(E) E  &auto_shift LS(R) R  &auto_shift LS(T) T    &kp Y       &kp U        &auto_shift LS(I) I  &as_o LS(O) O  &auto_shift LS(P) P
+           &mt LGUI A           &mt LALT S           &mt LSHFT D          &mt LCTRL F          &kp G                  &kp H       &mt LCTRL J  &mt RSHIFT K         &mt LALT L     &mt RGUI SEMI
+&sk LCTRL  &lt 4 Z              &kp X                &kp C                &kp V                &kp B                  &kp N       &kp M        &kp COMMA            &kp DOT        &lt 4 SLASH          &key_repeat
                                                      &lt 1 TAB            &lt 2 BACKSPACE      &lt 3 DEL              &lt 3 RALT  &lt 2 SPACE  &lt 1 ENTER
             >;
         };
