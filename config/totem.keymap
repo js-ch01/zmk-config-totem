@@ -167,12 +167,6 @@
             layers = <0 1 2 5>;
         };
 
-        combo_spc {
-            bindings = <&kp SPACE>;
-            key-positions = <13 24 13 24>;
-            layers = <0 1 2>;
-        };
-
         combo_cleanLayer {
             bindings = <&tog 7>;
             key-positions = <10 11 12 13>;
@@ -246,6 +240,13 @@
         combo_N1 {
             bindings = <&kp N1>;
             key-positions = <2 12>;
+            timeout-ms = <50>;
+            layers = <0 2 1>;
+        };
+
+        combo_spc {
+            bindings = <&kp SPACE>;
+            key-positions = <13 24>;
             timeout-ms = <50>;
             layers = <0 2 1>;
         };
