@@ -167,7 +167,7 @@
             layers = <0 1 2 5>;
         };
 
-        combo_spc1 {
+        combo_spc {
             bindings = <&kp SPACE>;
             key-positions = <13 24 13 24>;
             layers = <0 1 2>;
