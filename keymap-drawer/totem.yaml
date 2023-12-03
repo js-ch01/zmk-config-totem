@@ -18,9 +18,9 @@ layers:
   - G
   - H
   - {t: J, h: LCTRL}
-  - {t: K, h: RSHIFT}
+  - {t: K, h: LEFT SHIFT}
   - {t: L, h: LALT}
-  - {t: ;, h: RGUI}
+  - {t: ;, h: LEFT GUI}
   - {t: LCTRL, h: sticky}
   - {t: Z, h: MSE}
   - X
