@@ -71,7 +71,6 @@
             key-positions = <1 0>;
             bindings = <&kp ESC>;
             layers = <0 2 1>;
-            require-prior-idle-ms = <100>;
         };
 
         combo_lpar {
