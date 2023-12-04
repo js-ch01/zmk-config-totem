@@ -67,8 +67,8 @@ layers:
   - LEFT SHIFT
   - '&mkp RCLK'
   - {t: ▽, type: trans}
-  - '&drag_left'
-  - {t: ▽, type: trans}
+  - '&drag_left_start'
+  - '&drag_left_stop'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
