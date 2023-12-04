@@ -534,11 +534,11 @@ path.combo {
 </g>
 <g transform="translate(575, 168)" class="key keypos-27">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 60%">&amp;drag_left_start</tspan></text>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 60%">&amp;mouse_left_dance</tspan></text>
 </g>
 <g transform="translate(634, 140)" class="key keypos-28">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 60%">&amp;drag_left_stop</tspan></text>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 60%">&amp;mouse_left_dance300</tspan></text>
 </g>
 <g transform="translate(694, 174) rotate(4.0)" class="key trans keypos-29">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key trans"/>

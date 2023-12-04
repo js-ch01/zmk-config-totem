@@ -98,14 +98,14 @@
             compatible = "zmk,behavior-tap-dance";
             label = "MOUSE_LEFT_DANCE";
             #binding-cells = <0>;
-            bindings = <&mmv MOVE_LEFT>, <&mmv MOVE_HOR 600>;
+            bindings = <&mmv MOVE_LEFT>, <&mmv MOVE_HOR(600)>;
         };
 
         mouse_left_dance300: mouse_left_dance300 {
             compatible = "zmk,behavior-tap-dance";
             label = "MOUSE_LEFT_DANCE300";
             #binding-cells = <0>;
-            bindings = <&mmv MOVE_LEFT>, <&mmv MOVE_HOR 300>;
+            bindings = <&mmv MOVE_LEFT>, <&mmv MOVE_HOR(300)>;
         };
     };
 };
