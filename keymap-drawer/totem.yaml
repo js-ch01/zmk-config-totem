@@ -1,24 +1,24 @@
 layout: {qmk_keyboard: totem}
 layers:
   BASE:
-  - {t: Q, h: LS(Q)}
-  - {t: W, h: LS(W)}
-  - {t: E, h: LS(E)}
-  - {t: R, h: LS(R)}
-  - {t: T, h: LS(T)}
+  - Q
+  - W
+  - E
+  - R
+  - T
   - Y
   - U
-  - {t: I, h: LS(I)}
-  - {t: O, h: LS(O)}
-  - {t: P, h: LS(P)}
+  - I
+  - O
+  - P
   - {t: A, h: LGUI}
   - {t: S, h: LALT}
-  - {t: D, h: LSHFT}
+  - D
   - {t: F, h: LCTRL}
   - G
   - H
   - {t: J, h: LCTRL}
-  - {t: K, h: LEFT SHIFT}
+  - K
   - {t: L, h: LALT}
   - {t: ;, h: LEFT GUI}
   - {t: LCTRL, h: sticky}
