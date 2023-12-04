@@ -147,14 +147,14 @@
             timeout-ms = <50>;
             key-positions = <27 28>;
             bindings = <&kp MINUS>;
-            layers = <0 1 2>;
+            layers = <0 2>;
         };
 
         combo_under {
             timeout-ms = <50>;
             key-positions = <28 29>;
             bindings = <&kp UNDER>;
-            layers = <0 1 2>;
+            layers = <0 2>;
         };
 
         combo_dqt {
@@ -278,10 +278,10 @@
         navi_layer {
             label = "NAV";
             bindings = <
-           &trans     &mwh SCROLL_LEFT  &trans     &mwh SCROLL_RIGHT  &trans              &kp INS           &kp HOME   &kp UP     &kp END    &kp PG_UP
-           &kp LGUI   &kp LALT          &kp LSHFT  &kp LCTRL          &mwh SCROLL_UP      &mwh SCROLL_UP    &kp LEFT   &kp DOWN   &kp RIGHT  &kp PG_DN
-&kp LC(F)  &kp LC(Z)  &kp LC(X)         &kp LC(C)  &kp LC(V)          &mwh SCROLL_DOWN    &mwh SCROLL_DOWN  &kp LC(V)  &kp LC(C)  &kp LC(X)  &kp LC(Z)  &kp LC(J)
-                                        &trans     &trans             &trans              &trans            &trans     &trans
+       &none      &mwh SCROLL_LEFT  &none      &mwh SCROLL_RIGHT  &none               &kp INS           &kp HOME        &kp UP        &kp END         &kp PG_UP
+       &kp LGUI   &kp LALT          &kp LSHFT  &kp LCTRL          &mwh SCROLL_UP      &mwh SCROLL_UP    &kp LEFT        &kp DOWN      &kp RIGHT       &kp PG_DN
+&to 4  &kp LC(Z)  &kp LC(X)         &kp LC(C)  &kp LC(V)          &mwh SCROLL_DOWN    &mwh SCROLL_DOWN  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_LEFT  &mmv MOVE_RIGHT  &to 4
+                                    &trans     &trans             &trans              &trans            &trans          &trans
             >;
         };
 
@@ -310,7 +310,7 @@
             bindings = <
        &mwh SCROLL_UP    &mwh SCROLL_LEFT  &mmv MOVE_UP    &mwh SCROLL_RIGHT  &none               &none             &mwh SCROLL_LEFT  &mmv MOVE_UP    &mwh SCROLL_RIGHT  &mwh SCROLL_UP
        &mwh SCROLL_DOWN  &mmv MOVE_LEFT    &mmv MOVE_DOWN  &mmv MOVE_RIGHT    &mwh SCROLL_UP      &mwh SCROLL_UP    &mmv MOVE_LEFT    &mmv MOVE_DOWN  &mmv MOVE_RIGHT    &mwh SCROLL_DOWN
-&none  &none             &none             &kp LEFT_SHIFT  &kp LCTRL          &mwh SCROLL_DOWN    &mwh SCROLL_DOWN  &kp LCTRL         &kp LEFT_SHIFT  &none              &none             &none
+&to 0  &none             &none             &kp LEFT_SHIFT  &kp LCTRL          &mwh SCROLL_DOWN    &mwh SCROLL_DOWN  &kp LCTRL         &kp LEFT_SHIFT  &none              &none             &to 0
                                            &mkp LCLK       &mkp MCLK          &mkp RCLK           &mkp LCLK         &mkp MCLK         &mkp RCLK
             >;
         };
