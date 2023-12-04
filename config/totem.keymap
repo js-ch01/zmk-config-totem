@@ -331,12 +331,20 @@
             label = "DOUBLE_MIMUS";
         };
 
-        drag_left: drag_left {
+        drag_left_start: drag_left_start {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&mmv MOVE_LEFT &mkp LCLK>, <&macro_tap>;
+            bindings = <&mmv MOVE_LEFT &mkp LCLK>, <&macro_press>;
 
-            label = "DRAG_LEFT";
+            label = "DRAG_LEFT_START";
+        };
+
+        drag_left_stop: drag_left_stop {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&mmv MOVE_LEFT &mkp LCLK>, <&macro_release>;
+
+            label = "DRAG_LEFT_STOP";
         };
     };
 
@@ -356,10 +364,10 @@
         navi_layer {
             label = "NAV";
             bindings = <
-       &mwh SCROLL_UP    &mwh SCROLL_LEFT  &mmv MOVE_UP    &mwh SCROLL_RIGHT  &mkp LCLK    &kp INS  &kp HOME    &kp UP    &kp END    &kp PG_UP
-       &mwh SCROLL_DOWN  &mmv MOVE_LEFT    &mmv MOVE_DOWN  &mmv MOVE_RIGHT    &mkp MCLK    &trans   &kp LEFT    &kp DOWN  &kp RIGHT  &kp PG_DN
-&to 4  &trans            &trans            &kp LCTRL       &kp LEFT_SHIFT     &mkp RCLK    &trans   &drag_left  &trans    &trans     &trans     &trans
-                                           &trans          &trans             &trans       &trans   &trans      &trans
+       &mwh SCROLL_UP    &mwh SCROLL_LEFT  &mmv MOVE_UP    &mwh SCROLL_RIGHT  &mkp LCLK    &kp INS  &kp HOME          &kp UP           &kp END    &kp PG_UP
+       &mwh SCROLL_DOWN  &mmv MOVE_LEFT    &mmv MOVE_DOWN  &mmv MOVE_RIGHT    &mkp MCLK    &trans   &kp LEFT          &kp DOWN         &kp RIGHT  &kp PG_DN
+&to 4  &trans            &trans            &kp LCTRL       &kp LEFT_SHIFT     &mkp RCLK    &trans   &drag_left_start  &drag_left_stop  &trans     &trans     &trans
+                                           &trans          &trans             &trans       &trans   &trans            &trans
             >;
         };
 
