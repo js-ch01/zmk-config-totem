@@ -253,6 +253,13 @@
             timeout-ms = <50>;
             layers = <0 2 1>;
         };
+
+        combo_del {
+            bindings = <&kp DEL>;
+            key-positions = <11 22>;
+            timeout-ms = <50>;
+            layers = <0 2 1>;
+        };
     };
 
     keymap {
