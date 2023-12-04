@@ -359,3 +359,6 @@ combos:
 - p: [13, 24]
   k: SPACE
   l: [BASE, NUM, NAV]
+- p: [11, 22]
+  k: DEL
+  l: [BASE, NUM, NAV]

@@ -385,6 +385,10 @@ path.combo {
 <rect rx="6" ry="6" x="253" y="127" width="28" height="26" class="combo"/>
 <text x="267" y="140" class="combo tap">SPACE</text>
 </g>
+<g class="combo combopos-28">
+<rect rx="6" ry="6" x="131" y="133" width="28" height="26" class="combo"/>
+<text x="145" y="146" class="combo tap">DEL</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 366)" class="layer-NAV">
@@ -653,6 +657,10 @@ path.combo {
 <rect rx="6" ry="6" x="253" y="127" width="28" height="26" class="combo"/>
 <text x="267" y="140" class="combo tap">SPACE</text>
 </g>
+<g class="combo combopos-24">
+<rect rx="6" ry="6" x="131" y="133" width="28" height="26" class="combo"/>
+<text x="145" y="146" class="combo tap">DEL</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 731)" class="layer-NUM">
@@ -909,6 +917,10 @@ path.combo {
 <g class="combo combopos-23">
 <rect rx="6" ry="6" x="253" y="127" width="28" height="26" class="combo"/>
 <text x="267" y="140" class="combo tap">SPACE</text>
+</g>
+<g class="combo combopos-24">
+<rect rx="6" ry="6" x="131" y="133" width="28" height="26" class="combo"/>
+<text x="145" y="146" class="combo tap">DEL</text>
 </g>
 </g>
 </g>
