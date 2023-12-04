@@ -138,9 +138,9 @@ layers:
   - F5
   - F6
   - F11
-  - {t: ▽, type: trans}
+  - ''
   - APPLICATION
-  - {t: ▽, type: trans}
+  - ''
   - VOL UP
   - VOL DN
   - MUTE
@@ -161,8 +161,8 @@ layers:
   - '&mwh SCROLL_LEFT'
   - '&mmv MOVE_UP'
   - '&mwh SCROLL_RIGHT'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
   - '&mwh SCROLL_LEFT'
   - '&mmv MOVE_UP'
   - '&mwh SCROLL_RIGHT'
@@ -177,18 +177,18 @@ layers:
   - '&mmv MOVE_DOWN'
   - '&mmv MOVE_RIGHT'
   - '&mwh SCROLL_DOWN'
-  - {t: ▽, type: trans}
+  - ''
   - {type: held}
-  - {t: ▽, type: trans}
+  - ''
   - LEFT SHIFT
   - LCTRL
   - '&mwh SCROLL_DOWN'
   - '&mwh SCROLL_DOWN'
   - LCTRL
   - LEFT SHIFT
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
   - '&mkp LCLK'
   - '&mkp MCLK'
   - '&mkp RCLK'
@@ -277,7 +277,7 @@ layers:
 combos:
 - p: [1, 0]
   k: ESC
-  l: [BASE, NUM, NAV]
+  l: [BASE, NUM, NAV, GAME]
 - p: [12, 13]
   k: (
   l: [BASE, NAV, NUM]
