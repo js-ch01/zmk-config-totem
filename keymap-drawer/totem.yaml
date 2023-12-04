@@ -105,7 +105,7 @@ layers:
   - MUTE
   - {t: LCTRL, h: sticky}
   - '?'
-  - '0'
+  - .
   - '1'
   - '2'
   - '3'
@@ -116,7 +116,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - .
+  - '0'
   FUN:
   - CAPS
   - {t: BT, h: '0'}
@@ -323,7 +323,7 @@ combos:
 - p: [10, 11, 12, 13]
   k: CLEAN
   l: [BASE, CLEAN]
-- p: [36, 37]
+- p: [30, 19]
   k: MSE
   l: [BASE, MSE]
 - p: [8, 18]
@@ -338,10 +338,10 @@ combos:
 - p: [5, 15]
   k: '&key_repeat'
   l: [BASE, NAV, NUM, FUN, MSE]
-- p: [33, 32]
+- p: [21, 10]
   k: MSE
   l: [BASE, MSE]
-- p: [35, 34]
+- p: [20, 31]
   k: GAME
   l: [BASE, GAME]
 - p: [16, 27]
