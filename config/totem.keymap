@@ -278,20 +278,20 @@
         navi_layer {
             label = "NAV";
             bindings = <
-       &none      &mwh SCROLL_LEFT  &none      &mwh SCROLL_RIGHT  &none               &kp INS           &kp HOME        &kp UP        &kp END         &kp PG_UP
-       &kp LGUI   &kp LALT          &kp LSHFT  &kp LCTRL          &mwh SCROLL_UP      &mwh SCROLL_UP    &kp LEFT        &kp DOWN      &kp RIGHT       &kp PG_DN
-&to 4  &kp LC(Z)  &kp LC(X)         &kp LC(C)  &kp LC(V)          &mwh SCROLL_DOWN    &mwh SCROLL_DOWN  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_LEFT  &mmv MOVE_RIGHT  &to 4
-                                    &trans     &trans             &trans              &trans            &trans          &trans
+           &mwh SCROLL_LEFT  &mwh SCROLL_RIGHT  &none            &none             &none               &kp INS           &kp HOME        &kp UP        &kp END         &kp PG_UP
+           &mmv MOVE_LEFT    &mmv MOVE_UP       &kp LCTRL        &mwh SCROLL_UP    &mwh SCROLL_UP      &mwh SCROLL_UP    &kp LEFT        &kp DOWN      &kp RIGHT       &kp PG_DN
+&mkp LCLK  &mkp MCLK         &mmv MOVE_DOWN     &mmv MOVE_RIGHT  &mwh SCROLL_DOWN  &mwh SCROLL_DOWN    &mwh SCROLL_DOWN  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_LEFT  &mmv MOVE_RIGHT  &trans
+                                                &trans           &trans            &trans              &trans            &trans          &trans
             >;
         };
 
         num_layer {
             label = "NUM";
             bindings = <
-            &kp GRAVE        &kp TILDE     &kp CARET   &kp AMPS    &kp PIPE        &kp STAR   &kp N7  &kp N8  &kp N9  &kp PLUS
-            &kp EXCL         &kp AT        &kp HASH    &kp DOLLAR  &kp PERCENT     &kp SLASH  &kp N4  &kp N5  &kp N6  &kp MINUS
-&kp LSHIFT  &kp C_VOLUME_UP  &kp C_VOL_DN  &kp C_MUTE  &sk LCTRL   &kp QUESTION    &kp DOT    &kp N1  &kp N2  &kp N3  &kp BSLH   &kp SPACE
-                                           &trans      &trans      &trans          &trans     &trans  &kp N0
+        &kp GRAVE        &kp TILDE     &kp CARET   &kp AMPS    &kp PIPE        &kp STAR   &kp N7  &kp N8  &kp N9  &kp PLUS
+        &kp EXCL         &kp AT        &kp HASH    &kp DOLLAR  &kp PERCENT     &kp SLASH  &kp N4  &kp N5  &kp N6  &kp MINUS
+&trans  &kp C_VOLUME_UP  &kp C_VOL_DN  &kp C_MUTE  &sk LCTRL   &kp QUESTION    &kp DOT    &kp N1  &kp N2  &kp N3  &kp BSLH   &kp SPACE
+                                       &trans      &trans      &trans          &trans     &trans  &kp N0
             >;
         };
 
@@ -310,7 +310,7 @@
             bindings = <
        &mwh SCROLL_UP    &mwh SCROLL_LEFT  &mmv MOVE_UP    &mwh SCROLL_RIGHT  &none               &none             &mwh SCROLL_LEFT  &mmv MOVE_UP    &mwh SCROLL_RIGHT  &mwh SCROLL_UP
        &mwh SCROLL_DOWN  &mmv MOVE_LEFT    &mmv MOVE_DOWN  &mmv MOVE_RIGHT    &mwh SCROLL_UP      &mwh SCROLL_UP    &mmv MOVE_LEFT    &mmv MOVE_DOWN  &mmv MOVE_RIGHT    &mwh SCROLL_DOWN
-&to 0  &none             &none             &kp LEFT_SHIFT  &kp LCTRL          &mwh SCROLL_DOWN    &mwh SCROLL_DOWN  &kp LCTRL         &kp LEFT_SHIFT  &none              &none             &to 0
+&to 0  &none             &none             &kp LCTRL       &kp LEFT_SHIFT     &mwh SCROLL_DOWN    &mwh SCROLL_DOWN  &kp LEFT_SHIFT    &kp LCTRL       &none              &none             &to 0
                                            &mkp LCLK       &mkp MCLK          &mkp RCLK           &mkp LCLK         &mkp MCLK         &mkp RCLK
             >;
         };
