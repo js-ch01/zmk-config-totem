@@ -39,7 +39,7 @@
         pipe_hold_double: pipe_hold_double {
             compatible = "zmk,behavior-hold-tap";
             label = "PIPE_HOLD_DOUBLE";
-            bindings = <&new_macro>, <&kp>;
+            bindings = <&double_pipe>, <&kp>;
 
             #binding-cells = <2>;
             flavor = "tap-preferred";
@@ -236,12 +236,35 @@
     };
 
     macros {
-        new_macro: new_macro {
+        double_pipe: double_pipe {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp PIPE>, <&macro_tap>, <&key_repeat>, <&macro_tap>;
+            bindings = <&kp PIPE &kp PIPE>, <&macro_tap>;
 
-            label = "NEW_MACRO";
+            label = "DOUBLE_PIPE";
+        };
+
+        double_amp: double_amp {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp AMPS &kp AMPS>, <&macro_tap>;
+
+            label = "DOUBLE_AMP";
+        };
+
+        double_equal: double_equal {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp EQUAL &kp EQUAL>, <&macro_tap>;
+
+            label = "DOUBLE_EQUAL";
+        };
+
+        not_equal: not_equal {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp EXCL &kp EQUAL>;
+            label = "NOT_EQUAL";
         };
     };
 
