@@ -75,6 +75,24 @@
             tapping-term-ms = <200>;
             flavor = "tap-preferred";
         };
+
+        plus_hold_double: plus_hold_double {
+            compatible = "zmk,behavior-hold-tap";
+            label = "PLUS_HOLD_DOUBLE";
+            bindings = <&double_plus>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+        };
+
+        minus_hold_double: minus_hold_double {
+            compatible = "zmk,behavior-hold-tap";
+            label = "MINUS_HOLD_DOUBLE";
+            bindings = <&double_mimus>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+        };
     };
 };
 
@@ -148,7 +166,7 @@
         combo_plus {
             timeout-ms = <50>;
             key-positions = <23 24>;
-            bindings = <&kp PLUS>;
+            bindings = <&plus_hold_double 0 PLUS>;
             layers = <0 1 2>;
         };
 
@@ -162,7 +180,7 @@
         combo_minus {
             timeout-ms = <50>;
             key-positions = <27 28>;
-            bindings = <&kp MINUS>;
+            bindings = <&minus_hold_double 0 MINUS>;
             layers = <0 2>;
         };
 
@@ -295,6 +313,22 @@
             #binding-cells = <0>;
             bindings = <&kp EXCL &kp EQUAL>;
             label = "NOT_EQUAL";
+        };
+
+        double_plus: double_plus {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp PLUS &kp PLUS>, <&macro_tap>;
+
+            label = "DOUBLE_PLUS";
+        };
+
+        double_mimus: double_mimus {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp MINUS &kp MINUS>, <&macro_tap>;
+
+            label = "DOUBLE_MIMUS";
         };
     };
 
