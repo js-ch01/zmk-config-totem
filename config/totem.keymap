@@ -334,7 +334,7 @@
         drag_left_start: drag_left_start {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&mmv MOVE_LEFT &mkp LCLK>, <&macro_press>;
+            bindings = <&mkp LCLK &mmv MOVE_LEFT>, <&macro_tap_time 1000>;
 
             label = "DRAG_LEFT_START";
         };
@@ -342,7 +342,7 @@
         drag_left_stop: drag_left_stop {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&mmv MOVE_LEFT &mkp LCLK>, <&macro_release>;
+            bindings = <&mkp LCLK &mmv MOVE_LEFT>, <&macro_release>;
 
             label = "DRAG_LEFT_STOP";
         };
