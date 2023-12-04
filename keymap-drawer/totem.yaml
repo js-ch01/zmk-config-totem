@@ -14,10 +14,10 @@ layers:
   - {t: A, h: LGUI}
   - {t: S, h: LALT}
   - {t: D, h: LCTRL}
-  - F
+  - {t: F, h: LSHFT}
   - G
   - H
-  - J
+  - {t: J, h: LSHFT}
   - {t: K, h: LCTRL}
   - {t: L, h: LALT}
   - {t: ;, h: LEFT GUI}
@@ -99,8 +99,8 @@ layers:
   - '5'
   - '6'
   - '-'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LG(LS(S))
+  - PLAY PAUSE
   - VOLUME UP
   - VOL DN
   - MUTE
@@ -284,10 +284,10 @@ combos:
 - p: [16, 17]
   k: )
   l: [BASE, NAV, NUM]
-- p: [1, 2]
+- p: [11, 13]
   k: '['
   l: [BASE, NAV, NUM]
-- p: [7, 8]
+- p: [16, 18]
   k: ']'
   l: [BASE, NAV, NUM]
 - p: [12, 11]
@@ -323,9 +323,6 @@ combos:
 - p: [10, 11, 12, 13]
   k: CLEAN
   l: [BASE, CLEAN]
-- p: [30, 19]
-  k: MSE
-  l: [BASE, MSE]
 - p: [8, 18]
   k: ''''
   l: [BASE, NAV, NUM]
@@ -338,7 +335,7 @@ combos:
 - p: [5, 15]
   k: '&key_repeat'
   l: [BASE, NAV, NUM, FUN, MSE]
-- p: [21, 10]
+- p: [34, 35]
   k: MSE
   l: [BASE, MSE]
 - p: [20, 31]
