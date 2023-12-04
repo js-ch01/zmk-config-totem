@@ -33,9 +33,9 @@ layers:
   - .
   - {t: /, h: MSE}
   - '&key_repeat'
-  - LEFT SHIFT
+  - {t: TAB, h: NAV}
   - {t: BACKSPACE, h: NUM}
-  - {t: TAB, h: FUN}
+  - LEFT SHIFT
   - {t: RALT, h: FUN}
   - {t: SPACE, h: NUM}
   - {t: ENTER, h: NAV}
@@ -72,12 +72,12 @@ layers:
   - LC(X)
   - LC(Z)
   - LC(J)
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   NUM:
   - '`'
   - '~'
@@ -152,8 +152,8 @@ layers:
   - ''
   - ''
   - ''
-  - {type: held}
   - ''
+  - {type: held}
   - ''
   - ''
   MSE:
