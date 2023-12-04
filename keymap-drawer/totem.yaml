@@ -40,37 +40,37 @@ layers:
   - {t: SPACE, h: NUM}
   - {t: ENTER, h: NAV}
   NAV:
+  - '&mwh SCROLL_UP'
   - '&mwh SCROLL_LEFT'
+  - '&mmv MOVE_UP'
   - '&mwh SCROLL_RIGHT'
-  - ''
-  - ''
-  - ''
+  - '&mkp LCLK'
   - INS
   - HOME
   - UP
   - END
   - PG UP
+  - '&mwh SCROLL_DOWN'
   - '&mmv MOVE_LEFT'
-  - '&mmv MOVE_UP'
-  - LCTRL
-  - '&mwh SCROLL_UP'
-  - '&mwh SCROLL_UP'
-  - '&mwh SCROLL_UP'
+  - '&mmv MOVE_DOWN'
+  - '&mmv MOVE_RIGHT'
+  - '&mkp MCLK'
+  - {t: ▽, type: trans}
   - LEFT
   - DOWN
   - RIGHT
   - PG DN
-  - '&mkp LCLK'
-  - '&mkp MCLK'
-  - '&mmv MOVE_DOWN'
-  - '&mmv MOVE_RIGHT'
-  - '&mwh SCROLL_DOWN'
-  - '&mwh SCROLL_DOWN'
-  - '&mwh SCROLL_DOWN'
-  - '&mmv MOVE_DOWN'
-  - '&mmv MOVE_UP'
-  - '&mmv MOVE_LEFT'
-  - '&mmv MOVE_RIGHT'
+  - MSE
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LCTRL
+  - LEFT SHIFT
+  - '&mkp RCLK'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
@@ -100,10 +100,10 @@ layers:
   - '6'
   - '-'
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - VOLUME UP
   - VOL DN
   - MUTE
-  - {t: LCTRL, h: sticky}
   - '?'
   - .
   - '1'
@@ -141,9 +141,9 @@ layers:
   - ''
   - APPLICATION
   - ''
-  - VOL UP
-  - VOL DN
-  - MUTE
+  - ''
+  - ''
+  - ''
   - PAUSE BREAK
   - F1
   - F2
@@ -171,8 +171,8 @@ layers:
   - '&mmv MOVE_LEFT'
   - '&mmv MOVE_DOWN'
   - '&mmv MOVE_RIGHT'
-  - '&mwh SCROLL_UP'
-  - '&mwh SCROLL_UP'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '&mmv MOVE_LEFT'
   - '&mmv MOVE_DOWN'
   - '&mmv MOVE_RIGHT'
@@ -182,8 +182,8 @@ layers:
   - ''
   - LCTRL
   - LEFT SHIFT
-  - '&mwh SCROLL_DOWN'
-  - '&mwh SCROLL_DOWN'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - LEFT SHIFT
   - LCTRL
   - ''
@@ -317,7 +317,7 @@ combos:
 - p: [7, 17]
   k: '"'
   l: [BASE, NAV, NUM]
-- p: [23, 12]
+- p: [24, 13]
   k: ENTER
   l: [BASE, NAV, NUM, GAME]
 - p: [10, 11, 12, 13]
@@ -356,9 +356,6 @@ combos:
 - p: [2, 12]
   k: '1'
   l: [BASE, NUM, NAV]
-- p: [13, 24]
+- p: [12, 23]
   k: SPACE
-  l: [BASE, NUM, NAV]
-- p: [11, 22]
-  k: DEL
   l: [BASE, NUM, NAV]
