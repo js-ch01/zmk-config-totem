@@ -229,11 +229,11 @@ layers:
   - /
   - RSHFT
   - {t: TAB, h: game_num}
-  - {t: SPACE, h: NUM}
-  - {t: ESC, h: FUN}
-  - {t: RALT, h: FUN}
-  - {t: SPACE, h: NUM}
-  - {t: ENTER, h: NAV}
+  - SPACE
+  - LEFT SHIFT
+  - RIGHT ALT
+  - SPACE
+  - ENTER
   game_num:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -268,8 +268,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - BACKSPACE
-  - DEL
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -346,10 +346,10 @@ combos:
   l: [BASE, GAME]
 - p: [16, 27]
   k: BACKSPACE
-  l: [BASE, NAV, NUM]
+  l: [BASE, NAV, NUM, GAME]
 - p: [17, 28]
   k: DEL
-  l: [BASE, NAV, NUM]
+  l: [BASE, NAV, NUM, GAME]
 - p: [1, 11]
   k: '0'
   l: [BASE, NUM, NAV]
