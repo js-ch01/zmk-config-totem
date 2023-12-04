@@ -98,14 +98,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "MOUSE_LEFT_DANCE";
             #binding-cells = <0>;
-            bindings = <&mmv MOVE_LEFT>, <&mmv MOVE_HOR(600)>;
-        };
-
-        mouse_left_dance300: mouse_left_dance300 {
-            compatible = "zmk,behavior-tap-dance";
-            label = "MOUSE_LEFT_DANCE300";
-            #binding-cells = <0>;
-            bindings = <&mmv MOVE_LEFT>, <&mmv MOVE_HOR(300)>;
+            bindings = <&mouse_left_double>, <&mouse_left_trice>;
         };
     };
 };
@@ -344,6 +337,24 @@
 
             label = "DOUBLE_MIMUS";
         };
+
+        mouse_left_double: mouse_left_double {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&mmv MOVE_LEFT &mmv MOVE_LEFT>, <&macro_tap>;
+
+            label = "MOUSE_LEFT_DOUBLE";
+        };
+
+        mouse_left_trice: mouse_left_trice {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&mmv MOVE_LEFT &mmv MOVE_LEFT &mmv MOVE_LEFT>,
+                <&macro_tap>;
+
+            label = "MOUSE_LEFT_TRICE";
+        };
     };
 
     keymap {
@@ -362,10 +373,10 @@
         navi_layer {
             label = "NAV";
             bindings = <
-       &mwh SCROLL_UP    &mwh SCROLL_LEFT  &mmv MOVE_UP    &mwh SCROLL_RIGHT  &mkp LCLK    &kp INS  &kp HOME           &kp UP                &kp END    &kp PG_UP
-       &mwh SCROLL_DOWN  &mmv MOVE_LEFT    &mmv MOVE_DOWN  &mmv MOVE_RIGHT    &mkp MCLK    &trans   &kp LEFT           &kp DOWN              &kp RIGHT  &kp PG_DN
-&to 4  &trans            &trans            &kp LCTRL       &kp LEFT_SHIFT     &mkp RCLK    &trans   &mouse_left_dance  &mouse_left_dance300  &trans     &trans     &trans
-                                           &trans          &trans             &trans       &trans   &trans             &trans
+       &mwh SCROLL_UP    &mwh SCROLL_LEFT  &mmv MOVE_UP    &mwh SCROLL_RIGHT  &mkp LCLK    &kp INS      &kp HOME           &kp UP    &kp END    &kp PG_UP
+       &mwh SCROLL_DOWN  &mmv MOVE_LEFT    &mmv MOVE_DOWN  &mmv MOVE_RIGHT    &mkp MCLK    &trans       &kp LEFT           &kp DOWN  &kp RIGHT  &kp PG_DN
+&to 4  &trans            &trans            &kp LCTRL       &kp LEFT_SHIFT     &mkp RCLK    &key_repeat  &mouse_left_dance  &trans    &trans     &trans     &trans
+                                           &trans          &trans             &trans       &trans       &trans             &trans
             >;
         };
 
