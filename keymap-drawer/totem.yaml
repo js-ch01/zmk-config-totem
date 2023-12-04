@@ -82,14 +82,14 @@ layers:
   - '`'
   - '~'
   - ^
-  - '&'
+  - {t: '&', h: '&double_amp'}
   - {t: '|', h: '&double_pipe'}
   - '*'
   - '7'
   - '8'
   - '9'
   - +
-  - '!'
+  - {t: '!', h: '&not_equal'}
   - '@'
   - '#'
   - $
@@ -306,7 +306,7 @@ combos:
   k: +
   l: [BASE, NAV, NUM]
 - p: [22, 23]
-  k: '='
+  k: {t: '=', h: '&double_equal'}
   l: [BASE, NAV, NUM]
 - p: [27, 28]
   k: '-'
