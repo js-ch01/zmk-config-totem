@@ -105,7 +105,7 @@ layers:
   - {t: LEFT SHIFT, h: sticky}
   - {t: LCTRL, h: sticky}
   - '?'
-  - .
+  - '0'
   - '1'
   - '2'
   - '3'
@@ -116,7 +116,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '0'
+  - .
   FUN:
   - CAPS
   - {t: BT, h: '0'}
