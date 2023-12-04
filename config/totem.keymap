@@ -36,6 +36,15 @@
 
 / {
     behaviors {
+        pipe_hold_double: pipe_hold_double {
+            compatible = "zmk,behavior-hold-tap";
+            label = "PIPE_HOLD_DOUBLE";
+            bindings = <&new_macro>, <&kp>;
+
+            #binding-cells = <2>;
+            flavor = "tap-preferred";
+            tapping-term-ms = <200>;
+        };
     };
 };
 
@@ -226,6 +235,16 @@
         };
     };
 
+    macros {
+        new_macro: new_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp PIPE>, <&macro_tap>, <&key_repeat>, <&macro_tap>;
+
+            label = "NEW_MACRO";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -252,10 +271,10 @@
         num_layer {
             label = "NUM";
             bindings = <
-               &kp GRAVE         &kp TILDE        &kp CARET     &kp AMPS    &kp PIPE        &kp STAR   &kp N7  &kp N8  &kp N9  &kp PLUS
-               &kp EXCL          &kp AT           &kp HASH      &kp DOLLAR  &kp PERCENT     &kp SLASH  &kp N4  &kp N5  &kp N6  &kp MINUS
-&kp LG(LS(S))  &kp C_PLAY_PAUSE  &kp C_VOLUME_UP  &kp C_VOL_DN  &kp C_MUTE  &kp QUESTION    &kp DOT    &kp N1  &kp N2  &kp N3  &kp BSLH   &kp SPACE
-                                                  &trans        &trans      &trans          &trans     &trans  &kp N0
+               &kp GRAVE         &kp TILDE        &kp CARET     &kp AMPS    &pipe_hold_double 0 PIPE    &kp STAR   &kp N7  &kp N8  &kp N9  &kp PLUS
+               &kp EXCL          &kp AT           &kp HASH      &kp DOLLAR  &kp PERCENT                 &kp SLASH  &kp N4  &kp N5  &kp N6  &kp MINUS
+&kp LG(LS(S))  &kp C_PLAY_PAUSE  &kp C_VOLUME_UP  &kp C_VOL_DN  &kp C_MUTE  &kp QUESTION                &kp DOT    &kp N1  &kp N2  &kp N3  &kp BSLH   &kp SPACE
+                                                  &trans        &trans      &trans                      &trans     &trans  &kp N0
             >;
         };
 
