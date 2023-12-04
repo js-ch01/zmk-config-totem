@@ -40,38 +40,38 @@ layers:
   - {t: SPACE, h: NUM}
   - {t: ENTER, h: NAV}
   NAV:
-  - ''
   - '&mwh SCROLL_LEFT'
-  - ''
   - '&mwh SCROLL_RIGHT'
+  - ''
+  - ''
   - ''
   - INS
   - HOME
   - UP
   - END
   - PG UP
-  - LGUI
-  - LALT
-  - LSHFT
+  - '&mmv MOVE_LEFT'
+  - '&mmv MOVE_UP'
   - LCTRL
+  - '&mwh SCROLL_UP'
   - '&mwh SCROLL_UP'
   - '&mwh SCROLL_UP'
   - LEFT
   - DOWN
   - RIGHT
   - PG DN
-  - MSE
-  - LC(Z)
-  - LC(X)
-  - LC(C)
-  - LC(V)
+  - '&mkp LCLK'
+  - '&mkp MCLK'
+  - '&mmv MOVE_DOWN'
+  - '&mmv MOVE_RIGHT'
+  - '&mwh SCROLL_DOWN'
   - '&mwh SCROLL_DOWN'
   - '&mwh SCROLL_DOWN'
   - '&mmv MOVE_DOWN'
   - '&mmv MOVE_UP'
   - '&mmv MOVE_LEFT'
   - '&mmv MOVE_RIGHT'
-  - MSE
+  - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -99,7 +99,7 @@ layers:
   - '5'
   - '6'
   - '-'
-  - LSHIFT
+  - {t: ▽, type: trans}
   - VOLUME UP
   - VOL DN
   - MUTE
@@ -180,12 +180,12 @@ layers:
   - BASE
   - {type: held}
   - ''
-  - LEFT SHIFT
-  - LCTRL
-  - '&mwh SCROLL_DOWN'
-  - '&mwh SCROLL_DOWN'
   - LCTRL
   - LEFT SHIFT
+  - '&mwh SCROLL_DOWN'
+  - '&mwh SCROLL_DOWN'
+  - LEFT SHIFT
+  - LCTRL
   - ''
   - ''
   - BASE
