@@ -359,7 +359,7 @@
         lte: lte {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LT &kp EQUAL>, <&macro_tap_time 1>, <&macro_tap>;
+            bindings = <&kp LT &kp EQUAL>, <&macro_tap>;
 
             label = "LTE";
         };
