@@ -287,11 +287,35 @@
             layers = <0 1 2 8>;
         };
 
-        combo_ch {
+        combo_sh {
             bindings = <&type_sh>;
             key-positions = <2 3>;
             timeout-ms = <50>;
             layers = <0 1 2 8>;
+        };
+
+        combo_wh {
+            bindings = <&type_wh>;
+            key-positions = <6 7>;
+            timeout-ms = <50>;
+            layers = <0 1 2 8>;
+        };
+
+        combo_gh {
+            bindings = <&type_gh>;
+            key-positions = <7 8>;
+            timeout-ms = <50>;
+            layers = <0 1 2 8>;
+        };
+
+        combo_ch {
+            bindings = <&type_ch>;
+            key-positions = <18 19>;
+        };
+
+        combo_ph {
+            bindings = <&type_ph>;
+            key-positions = <11 10>;
         };
     };
 
@@ -378,7 +402,7 @@
         type_ch: type_ch {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp C &kp H>, <&macro_tap_time 200>;
+            bindings = <&kp C &kp H>, <&macro_tap_time 1>;
 
             label = "TYPE_CH";
         };
@@ -386,9 +410,9 @@
         type_sh: type_sh {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp S &kp H>, <&macro_tap_time 1>;
+            bindings = <&kp S &kp H>, <&macro_tap_time 200>;
 
-            label = "TYPE_CH";
+            label = "TYPE_SH";
         };
 
         type_wh: type_wh {
@@ -396,7 +420,7 @@
             #binding-cells = <0>;
             bindings = <&kp W &kp H>, <&macro_tap_time 1>;
 
-            label = "TYPE_CH";
+            label = "TYPE_WH";
         };
 
         type_gh: type_gh {
@@ -404,7 +428,7 @@
             #binding-cells = <0>;
             bindings = <&kp G &kp H>, <&macro_tap_time 1>;
 
-            label = "TYPE_CH";
+            label = "TYPE_GH";
         };
 
         type_ph: type_ph {
@@ -412,7 +436,7 @@
             #binding-cells = <0>;
             bindings = <&kp P &kp H>, <&macro_tap_time 1>;
 
-            label = "TYPE_CH";
+            label = "TYPE_PH";
         };
     };
 
