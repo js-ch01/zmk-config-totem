@@ -412,3 +412,4 @@ combos:
   l: [BASE, NAV, NUM, MSE, GAME, COLEMAK]
 - p: [6, 16]
   k: '&key_repeat'
+  l: [BASE, NAV, NUM, GAME, COLEMAK]
