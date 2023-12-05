@@ -32,7 +32,7 @@ layers:
   - ','
   - .
   - {t: /, h: LEFT SHIFT}
-  - '&key_repeat'
+  - COLEMAK
   - {t: TAB, h: NAV}
   - {t: BACKSPACE, h: NUM}
   - {t: DEL, h: FUN}
@@ -306,7 +306,7 @@ layers:
   - ','
   - .
   - /
-  - '&key_repeat'
+  - BASE
   - {t: TAB, h: NAV}
   - {t: BACKSPACE, h: NUM}
   - {t: DEL, h: FUN}
