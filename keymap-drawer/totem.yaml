@@ -22,7 +22,7 @@ layers:
   - {t: L, h: LALT}
   - {t: ;, h: LEFT GUI}
   - LCTRL
-  - {t: Z, h: LEFT SHIFT}
+  - {t: Z, h: '*'}
   - X
   - C
   - V
@@ -31,7 +31,7 @@ layers:
   - M
   - ','
   - .
-  - {t: /, h: LEFT SHIFT}
+  - {t: /, h: \}
   - '&toggle_colemak'
   - {t: TAB, h: NAV}
   - {t: BACKSPACE, h: NUM}
@@ -296,7 +296,7 @@ layers:
   - {t: I, h: LALT}
   - {t: O, h: LEFT GUI}
   - LCTRL
-  - Z
+  - {t: Z, h: '*'}
   - X
   - C
   - D
@@ -305,7 +305,7 @@ layers:
   - H
   - ','
   - .
-  - /
+  - {t: /, h: \}
   - '&toggle_colemak'
   - {t: TAB, h: NAV}
   - {t: BACKSPACE, h: NUM}
@@ -356,9 +356,6 @@ combos:
 - p: [7, 17]
   k: '"'
   l: [BASE, NAV, NUM, COLEMAK]
-- p: [24, 13]
-  k: ENTER
-  l: [BASE, NAV, NUM, GAME, COLEMAK]
 - p: [10, 11, 12, 13]
   k: CLEAN
   l: [BASE, CLEAN]
@@ -380,9 +377,6 @@ combos:
 - p: [17, 28]
   k: DEL
   l: [BASE, NAV, NUM, GAME, COLEMAK]
-- p: [12, 23]
-  k: SPACE
-  l: [BASE, NAV, NUM, COLEMAK]
 - p: [6, 7]
   k: '&type_th'
   l: [BASE, COLEMAK]
@@ -401,3 +395,18 @@ combos:
 - p: [3, 2]
   k: '&type_ph'
   l: [BASE, COLEMAK]
+- p: [21, 10]
+  k: LC(Z)
+  l: [BASE, COLEMAK]
+- p: [11, 22]
+  k: LC(X)
+  l: [BASE, COLEMAK]
+- p: [23, 12]
+  k: LC(C)
+  l: [BASE, COLEMAK]
+- p: [13, 24]
+  k: LC(V)
+  l: [BASE, COLEMAK]
+- p: [25, 14]
+  k: ENTER
+  l: [BASE, NAV, NUM, MSE, GAME, COLEMAK]
