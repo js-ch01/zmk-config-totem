@@ -332,9 +332,6 @@ combos:
 - p: [3, 13]
   k: '&caps_word'
   l: [BASE, NUM, NAV]
-- p: [5, 15]
-  k: '&key_repeat'
-  l: [BASE, NAV, NUM, FUN, MSE]
 - p: [34, 35]
   k: MSE
   l: [BASE, MSE]
@@ -347,12 +344,6 @@ combos:
 - p: [17, 28]
   k: DEL
   l: [BASE, NAV, NUM, GAME]
-- p: [1, 11]
-  k: '0'
-  l: [BASE, NUM, NAV]
-- p: [2, 12]
-  k: '1'
-  l: [BASE, NUM, NAV]
 - p: [12, 23]
   k: SPACE
   l: [BASE, NUM, NAV]
