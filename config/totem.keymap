@@ -99,6 +99,8 @@
             label = "DANCE_Q_Q";
             #binding-cells = <0>;
             bindings = <&kp Q>, <&kp LS(Q)>;
+
+            tapping-term-ms = <300>;
         };
 
         dance_w_W: dance_w_W {
@@ -106,6 +108,8 @@
             label = "DANCE_W_W";
             #binding-cells = <0>;
             bindings = <&kp W>, <&kp LS(W)>;
+
+            tapping-term-ms = <300>;
         };
 
         dance_e_E: dance_e_E {
@@ -113,6 +117,8 @@
             label = "DANCE_E_E";
             #binding-cells = <0>;
             bindings = <&kp E>, <&kp LS(E)>;
+
+            tapping-term-ms = <300>;
         };
 
         dance_r_R: dance_r_R {
@@ -120,6 +126,8 @@
             label = "DANCE_R_R";
             #binding-cells = <0>;
             bindings = <&kp R>, <&kp LS(R)>;
+
+            tapping-term-ms = <300>;
         };
 
         dance_t_T: dance_t_T {
@@ -127,6 +135,8 @@
             label = "DANCE_T_T";
             #binding-cells = <0>;
             bindings = <&kp T>, <&kp LS(T)>;
+
+            tapping-term-ms = <400>;
         };
 
         dance_o_O: dance_o_O {
@@ -134,6 +144,8 @@
             label = "DANCE_O_O";
             #binding-cells = <0>;
             bindings = <&kp O>, <&kp LS(O)>;
+
+            tapping-term-ms = <300>;
         };
 
         dance_p_P: dance_p_P {
@@ -141,6 +153,8 @@
             label = "DANCE_P_P";
             #binding-cells = <0>;
             bindings = <&kp P>, <&kp LS(P)>;
+
+            tapping-term-ms = <300>;
         };
     };
 };
