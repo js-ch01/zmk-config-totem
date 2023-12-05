@@ -433,9 +433,9 @@
         colemak_dh_layer {
             bindings = <
            &kp Q  &kp W  &kp F    &kp P     &kp B    &kp J     &kp L      &kp U      &kp Y    &kp SEMI
-           &kp A  &kp R  &kp S    &kp T     &kp G    &kp M     &kp N      &kp E      &kp I    &kp O
+           &mt LGUI A        &mt LALT R  &mt LCTRL S  &mt LSHFT T      &kp G        &kp M       &mt LSHFT N  &mt LCTRL E  &mt LALT I  &mt LEFT_GUI O
 &kp LCTRL  &kp Z  &kp X  &kp C    &kp D     &kp V    &kp K     &kp H      &kp COMMA  &kp DOT  &kp FSLH  &key_repeat
-                         &kp TAB  &kp BSPC  &none    &kp RALT  &kp SPACE  &kp ENTER
+                                         &lt 1 TAB    &lt 2 BACKSPACE  &lt 3 DEL    &lt 3 RALT  &lt 2 SPACE  &lt 1 ENTER
             >;
 
             label = "COLEMAK";
