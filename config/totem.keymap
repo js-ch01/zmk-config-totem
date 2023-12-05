@@ -396,7 +396,7 @@
         type_th: type_th {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp T &kp H>, <&macro_tap_time 1>;
+            bindings = <&kp T &kp H>, <&macro_tap>;
 
             label = "TYPE_TH";
         };
@@ -404,7 +404,7 @@
         type_ch: type_ch {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp C &kp H>, <&macro_tap_time 1>;
+            bindings = <&kp C &kp H>, <&macro_tap>;
 
             label = "TYPE_CH";
         };
@@ -412,7 +412,7 @@
         type_sh: type_sh {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp S &kp H>, <&macro_tap_time 200>;
+            bindings = <&kp S &kp H>, <&macro_tap>;
 
             label = "TYPE_SH";
         };
@@ -420,7 +420,7 @@
         type_wh: type_wh {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp W &kp H>, <&macro_tap_time 1>;
+            bindings = <&kp W &kp H>, <&macro_tap>;
 
             label = "TYPE_WH";
         };
@@ -428,7 +428,7 @@
         type_gh: type_gh {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp G &kp H>, <&macro_tap_time 1>;
+            bindings = <&kp G &kp H>, <&macro_tap>;
 
             label = "TYPE_GH";
         };
@@ -436,7 +436,8 @@
         type_ph: type_ph {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp P &kp H>;
+            bindings = <&kp P &kp H>, <&macro_tap>;
+
             label = "TYPE_PH";
         };
     };
