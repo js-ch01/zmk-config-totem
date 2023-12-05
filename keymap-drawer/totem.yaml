@@ -390,5 +390,5 @@ combos:
   k: '&type_th'
   l: [BASE, NAV, NUM, COLEMAK]
 - p: [2, 3]
-  k: '&type_ch'
+  k: '&type_sh'
   l: [BASE, NAV, NUM, COLEMAK]
