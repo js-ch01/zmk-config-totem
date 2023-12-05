@@ -359,7 +359,7 @@ combos:
 - p: [10, 11, 12, 13]
   k: CLEAN
   l: [BASE, CLEAN]
-- p: [6, 16]
+- p: [2, 12]
   k: ':'
   l: [BASE, NAV, NUM, COLEMAK]
 - p: [3, 13]
@@ -410,3 +410,5 @@ combos:
 - p: [25, 14]
   k: ENTER
   l: [BASE, NAV, NUM, MSE, GAME, COLEMAK]
+- p: [6, 16]
+  k: '&key_repeat'
