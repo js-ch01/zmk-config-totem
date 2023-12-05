@@ -234,7 +234,7 @@
 
         combo_colon {
             bindings = <&kp COLON>;
-            key-positions = <6 16>;
+            key-positions = <2 12>;
             timeout-ms = <50>;
             layers = <0 1 2 8>;
         };
@@ -338,6 +338,11 @@
             bindings = <&kp ENTER>;
             key-positions = <25 14>;
             layers = <0 1 2 4 5 8>;
+        };
+
+        combo_repeat {
+            bindings = <&key_repeat>;
+            key-positions = <6 16>;
         };
     };
 
