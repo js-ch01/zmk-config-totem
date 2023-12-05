@@ -436,8 +436,7 @@
         type_ph: type_ph {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp P &kp H>, <&macro_tap_time 1>;
-
+            bindings = <&kp P &kp H>;
             label = "TYPE_PH";
         };
     };
