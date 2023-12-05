@@ -92,6 +92,24 @@
             #binding-cells = <2>;
             tapping-term-ms = <200>;
         };
+
+        gt_hold_gte: gt_hold_gte {
+            compatible = "zmk,behavior-hold-tap";
+            label = "GT_HOLD_GTE";
+            bindings = <&gte>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+        };
+
+        lt_hold_lte: lt_hold_lte {
+            compatible = "zmk,behavior-hold-tap";
+            label = "LT_HOLD_LTE";
+            bindings = <&lte>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+        };
     };
 };
 
@@ -151,14 +169,14 @@
         combo_lt {
             timeout-ms = <50>;
             key-positions = <2 11>;
-            bindings = <&kp LT>;
+            bindings = <&lt_hold_lte 0 LT>;
             layers = <0 1 2>;
         };
 
         combo_gt {
             timeout-ms = <50>;
             key-positions = <7 18>;
-            bindings = <&kp GT>;
+            bindings = <&gt_hold_gte 0 GT>;
             layers = <0 1 2>;
         };
 
@@ -329,6 +347,22 @@
 
             label = "DOUBLE_MIMUS";
         };
+
+        gte: gte {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp GT &kp EQUAL>, <&macro_tap>;
+
+            label = "GTE";
+        };
+
+        lte: lte {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LT &kp EQUAL>, <&macro_tap_time 1>, <&macro_tap>;
+
+            label = "LTE";
+        };
     };
 
     keymap {
@@ -347,10 +381,10 @@
         navi_layer {
             label = "NAV";
             bindings = <
-       &mwh SCROLL_UP    &mwh SCROLL_LEFT  &mmv MOVE_UP    &mwh SCROLL_RIGHT  &mkp LCLK    &kp INS  &kp HOME      &kp UP      &kp END       &kp PG_UP
-       &mwh SCROLL_DOWN  &mmv MOVE_LEFT    &mmv MOVE_DOWN  &mmv MOVE_RIGHT    &mkp MCLK    &trans   &kp LEFT      &kp DOWN    &kp RIGHT     &kp PG_DN
-&to 4  &trans            &trans            &kp LCTRL       &kp LEFT_SHIFT     &mkp RCLK    &trans   &kp LG(DOWN)  &kp LG(UP)  &kp LG(LEFT)  &kp LG(RIGHT)  &trans
-                                           &trans          &trans             &trans       &trans   &trans        &trans
+       &mwh SCROLL_UP    &mwh SCROLL_LEFT  &mmv MOVE_UP    &mwh SCROLL_RIGHT  &mkp LCLK    &kp INS  &kp HOME   &kp UP     &kp END    &kp PG_UP
+       &mwh SCROLL_DOWN  &mmv MOVE_LEFT    &mmv MOVE_DOWN  &mmv MOVE_RIGHT    &mkp MCLK    &trans   &kp LEFT   &kp DOWN   &kp RIGHT  &kp PG_DN
+&to 4  &trans            &mkp LCLK         &kp LCTRL       &kp LEFT_SHIFT     &mkp RCLK    &trans   &mkp LCLK  &mkp MCLK  &mkp RCLK  &trans     &trans
+                                           &trans          &trans             &trans       &trans   &trans     &trans
             >;
         };
 
