@@ -288,7 +288,7 @@
         };
 
         combo_ch {
-            bindings = <&type_ch>;
+            bindings = <&type_sh>;
             key-positions = <2 3>;
             timeout-ms = <50>;
             layers = <0 1 2 8>;
@@ -383,37 +383,37 @@
             label = "TYPE_CH";
         };
 
-        type_ch: type_sh {
+        type_sh: type_sh {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp s &kp H>, <&macro_tap_time 1>;
+            bindings = <&kp S &kp H>, <&macro_tap_time 1>;
 
             label = "TYPE_CH";
         };
 
-        type_ch: type_wh {
+        type_wh: type_wh {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp w &kp H>, <&macro_tap_time 1>;
+            bindings = <&kp W &kp H>, <&macro_tap_time 1>;
 
             label = "TYPE_CH";
         };
 
-        type_ch: type_gh {
+        type_gh: type_gh {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp g &kp H>, <&macro_tap_time 1>;
+            bindings = <&kp G &kp H>, <&macro_tap_time 1>;
 
             label = "TYPE_CH";
         };
 
-        type_ch: type_ph {
+        type_ph: type_ph {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp p &kp H>, <&macro_tap_time 1>;
+            bindings = <&kp P &kp H>, <&macro_tap_time 1>;
 
             label = "TYPE_CH";
-        };        
+        };
     };
 
     keymap {
