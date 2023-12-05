@@ -94,13 +94,6 @@
             tapping-term-ms = <200>;
         };
 
-        mouse_left_dance: mouse_left_dance {
-            compatible = "zmk,behavior-tap-dance";
-            label = "MOUSE_LEFT_DANCE";
-            #binding-cells = <0>;
-            bindings = <&mouse_left_double>, <&mouse_left_trice>;
-        };
-
         dance_q_Q: dance_q_Q {
             compatible = "zmk,behavior-tap-dance";
             label = "DANCE_Q_Q";
