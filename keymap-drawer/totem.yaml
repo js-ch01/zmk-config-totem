@@ -400,5 +400,7 @@ combos:
   l: [BASE, NAV, NUM, COLEMAK]
 - p: [18, 19]
   k: '&type_ch'
+  l: [BASE, NAV, NUM, COLEMAK]
 - p: [11, 10]
   k: '&type_ph'
+  l: [BASE, NAV, NUM, COLEMAK]
