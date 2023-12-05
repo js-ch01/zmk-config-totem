@@ -17,7 +17,7 @@ layers:
   - {t: F, h: LSHFT}
   - G
   - H
-  - {t: J, h: LSHFT}
+  - {t: J, h: RIGHT SHIFT}
   - {t: K, h: LCTRL}
   - {t: L, h: LALT}
   - {t: ;, h: LEFT GUI}
@@ -291,7 +291,7 @@ layers:
   - {t: T, h: LSHFT}
   - G
   - M
-  - {t: N, h: LSHFT}
+  - {t: N, h: RIGHT SHIFT}
   - {t: E, h: LCTRL}
   - {t: I, h: LALT}
   - {t: O, h: LEFT GUI}
