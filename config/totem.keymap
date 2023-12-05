@@ -13,7 +13,6 @@
 // mod-tap
 
 &mt {
-    flavor = "tap-preferred";
     tapping-term-ms = <200>;
 };
 
