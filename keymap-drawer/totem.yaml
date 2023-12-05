@@ -62,15 +62,15 @@ layers:
   - PG DN
   - MSE
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&mkp LCLK'
   - LCTRL
   - LEFT SHIFT
   - '&mkp RCLK'
   - {t: ▽, type: trans}
-  - LG(DOWN)
-  - LG(UP)
-  - LG(LEFT)
-  - LG(RIGHT)
+  - '&mkp LCLK'
+  - '&mkp MCLK'
+  - '&mkp RCLK'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
@@ -297,10 +297,10 @@ combos:
   k: '}'
   l: [BASE, NAV, NUM]
 - p: [2, 11]
-  k: <
+  k: {t: <, h: '&lte'}
   l: [BASE, NAV, NUM]
 - p: [7, 18]
-  k: '>'
+  k: {t: '>', h: '&gte'}
   l: [BASE, NAV, NUM]
 - p: [23, 24]
   k: {t: +, h: '&double_plus'}
