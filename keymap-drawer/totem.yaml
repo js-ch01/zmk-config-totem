@@ -386,13 +386,13 @@ combos:
 - p: [12, 23]
   k: SPACE
   l: [BASE, NAV, NUM, COLEMAK]
-- p: [1, 2]
+- p: [6, 7]
   k: '&type_th'
   l: [BASE, NAV, NUM, COLEMAK]
-- p: [2, 3]
+- p: [10, 11]
   k: '&type_sh'
   l: [BASE, NAV, NUM, COLEMAK]
-- p: [6, 7]
+- p: [1, 2]
   k: '&type_wh'
   l: [BASE, NAV, NUM, COLEMAK]
 - p: [7, 8]
@@ -401,6 +401,6 @@ combos:
 - p: [18, 19]
   k: '&type_ch'
   l: [BASE, NAV, NUM, COLEMAK]
-- p: [11, 10]
+- p: [3, 2]
   k: '&type_ph'
   l: [BASE, NAV, NUM, COLEMAK]
