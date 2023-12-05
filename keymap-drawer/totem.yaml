@@ -274,7 +274,45 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   CLEAN: ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '']
-  COLEMAK: [Q, W, F, P, B, J, L, U, Y, ;, A, R, S, T, G, M, N, E, I, O, LCTRL, Z, X, C, D, V, K, H, ',', ., /, '&key_repeat', TAB, BSPC, '', RALT, SPACE, ENTER]
+  COLEMAK:
+  - Q
+  - W
+  - F
+  - P
+  - B
+  - J
+  - L
+  - U
+  - Y
+  - ;
+  - {t: A, h: LGUI}
+  - {t: R, h: LALT}
+  - {t: S, h: LCTRL}
+  - {t: T, h: LSHFT}
+  - G
+  - M
+  - {t: N, h: LSHFT}
+  - {t: E, h: LCTRL}
+  - {t: I, h: LALT}
+  - {t: O, h: LEFT GUI}
+  - LCTRL
+  - Z
+  - X
+  - C
+  - D
+  - V
+  - K
+  - H
+  - ','
+  - .
+  - /
+  - '&key_repeat'
+  - {t: TAB, h: NAV}
+  - {t: BACKSPACE, h: NUM}
+  - {t: DEL, h: FUN}
+  - {t: RALT, h: FUN}
+  - {t: SPACE, h: NUM}
+  - {t: ENTER, h: NAV}
 combos:
 - p: [1, 0]
   k: ESC
