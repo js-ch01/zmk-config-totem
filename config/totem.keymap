@@ -136,7 +136,7 @@
             timeout-ms = <50>;
             key-positions = <16 17>;
             bindings = <&kp RPAR>;
-            layers = <0 1 2 8>;
+            layers = <0 1 8>;
         };
 
         combo_lbkt {
@@ -150,7 +150,7 @@
             timeout-ms = <50>;
             key-positions = <16 18>;
             bindings = <&kp RBKT>;
-            layers = <0 1 2 8>;
+            layers = <0 1 8>;
         };
 
         combo_lbrc {
@@ -164,7 +164,7 @@
             timeout-ms = <50>;
             key-positions = <17 18>;
             bindings = <&kp RIGHT_BRACE>;
-            layers = <0 1 2 8>;
+            layers = <0 1 8>;
         };
 
         combo_lt {
@@ -199,14 +199,14 @@
             timeout-ms = <50>;
             key-positions = <27 28>;
             bindings = <&minus_hold_double 0 MINUS>;
-            layers = <0 2>;
+            layers = <0 1 8>;
         };
 
         combo_under {
             timeout-ms = <50>;
             key-positions = <28 29>;
             bindings = <&kp UNDER>;
-            layers = <0 2>;
+            layers = <0 1 8>;
         };
 
         combo_dqt {
@@ -226,13 +226,6 @@
             bindings = <&tog 7>;
             key-positions = <10 11 12 13>;
             layers = <0 7>;
-        };
-
-        combo_sqt {
-            bindings = <&kp SQT>;
-            key-positions = <8 18>;
-            timeout-ms = <50>;
-            layers = <0 1 2 8>;
         };
 
         combo_colon {
@@ -284,40 +277,40 @@
             bindings = <&type_th>;
             key-positions = <6 7>;
             timeout-ms = <50>;
-            layers = <0 1 2 8>;
+            layers = <0 8>;
         };
 
         combo_sh {
             bindings = <&type_sh>;
             key-positions = <10 11>;
             timeout-ms = <50>;
-            layers = <0 1 2 8>;
+            layers = <0 8>;
         };
 
         combo_wh {
             bindings = <&type_wh>;
             key-positions = <1 2>;
             timeout-ms = <50>;
-            layers = <0 1 2 8>;
+            layers = <0 8>;
         };
 
         combo_gh {
             bindings = <&type_gh>;
             key-positions = <7 8>;
             timeout-ms = <50>;
-            layers = <0 1 2 8>;
+            layers = <0 8>;
         };
 
         combo_ch {
             bindings = <&type_ch>;
             key-positions = <18 19>;
-            layers = <0 1 2 8>;
+            layers = <0 8>;
         };
 
         combo_ph {
             bindings = <&type_ph>;
             key-positions = <3 2>;
-            layers = <0 1 2 8>;
+            layers = <0 8>;
         };
     };
 
@@ -468,9 +461,9 @@
         num_layer {
             label = "NUM";
             bindings = <
-               &kp GRAVE                    &kp TILDE        &kp CARET     &amps_hold_double 0 AMPS  &pipe_hold_double 0 PIPE    &kp STAR   &kp N7  &kp N8  &kp N9  &kp PLUS
+               &mt TILDE GRAVE              &kp QUESTION     &kp CARET     &amps_hold_double 0 AMPS  &pipe_hold_double 0 PIPE    &kp STAR   &kp N7  &kp N8  &kp N9  &kp PLUS
                &excl_hold_not_euqal 0 EXCL  &kp AT           &kp HASH      &kp DOLLAR                &kp PERCENT                 &kp SLASH  &kp N4  &kp N5  &kp N6  &kp MINUS
-&kp LG(LS(S))  &kp C_PLAY_PAUSE             &kp C_VOLUME_UP  &kp C_VOL_DN  &kp C_MUTE                &kp QUESTION                &kp DOT    &kp N1  &kp N2  &kp N3  &kp BSLH   &kp LG(Z)
+&kp LG(LS(S))  &kp C_PLAY_PAUSE             &kp C_VOLUME_UP  &kp C_VOL_DN  &kp C_MUTE                &kp SQT                     &kp DOT    &kp N1  &kp N2  &kp N3  &kp BSLH   &kp LG(Z)
                                                              &trans        &trans                    &trans                      &trans     &trans  &kp N0
             >;
         };
