@@ -343,6 +343,7 @@
         combo_repeat {
             bindings = <&key_repeat>;
             key-positions = <6 16>;
+            layers = <0 1 2 5 8>;
         };
     };
 
