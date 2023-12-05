@@ -316,37 +316,37 @@ layers:
 combos:
 - p: [1, 0]
   k: ESC
-  l: [BASE, NUM, NAV, GAME]
+  l: [BASE, NAV, NUM, GAME, COLEMAK]
 - p: [12, 13]
   k: (
-  l: [BASE, NAV, NUM]
+  l: [BASE, NAV, NUM, COLEMAK]
 - p: [16, 17]
   k: )
-  l: [BASE, NAV, NUM]
+  l: [BASE, NAV, NUM, COLEMAK]
 - p: [11, 13]
   k: '['
-  l: [BASE, NAV, NUM]
+  l: [BASE, NAV, NUM, COLEMAK]
 - p: [16, 18]
   k: ']'
-  l: [BASE, NAV, NUM]
+  l: [BASE, NAV, NUM, COLEMAK]
 - p: [12, 11]
   k: '{'
-  l: [BASE, NAV, NUM]
+  l: [BASE, NAV, NUM, COLEMAK]
 - p: [17, 18]
   k: '}'
-  l: [BASE, NAV, NUM]
+  l: [BASE, NAV, NUM, COLEMAK]
 - p: [2, 11]
   k: {t: <, h: '&lte'}
-  l: [BASE, NAV, NUM]
+  l: [BASE, NAV, NUM, COLEMAK]
 - p: [7, 18]
   k: {t: '>', h: '&gte'}
-  l: [BASE, NAV, NUM]
+  l: [BASE, NAV, NUM, COLEMAK]
 - p: [23, 24]
   k: {t: +, h: '&double_plus'}
-  l: [BASE, NAV, NUM]
+  l: [BASE, NAV, NUM, COLEMAK]
 - p: [22, 23]
   k: {t: '=', h: '&double_equal'}
-  l: [BASE, NAV, NUM]
+  l: [BASE, NAV, NUM, COLEMAK]
 - p: [27, 28]
   k: {t: '-', h: '&double_mimus'}
   l: [BASE, NUM]
@@ -355,22 +355,22 @@ combos:
   l: [BASE, NUM]
 - p: [7, 17]
   k: '"'
-  l: [BASE, NAV, NUM]
+  l: [BASE, NAV, NUM, COLEMAK]
 - p: [24, 13]
   k: ENTER
-  l: [BASE, NAV, NUM, GAME]
+  l: [BASE, NAV, NUM, GAME, COLEMAK]
 - p: [10, 11, 12, 13]
   k: CLEAN
   l: [BASE, CLEAN]
 - p: [8, 18]
   k: ''''
-  l: [BASE, NAV, NUM]
+  l: [BASE, NAV, NUM, COLEMAK]
 - p: [6, 16]
   k: ':'
-  l: [BASE, NAV, NUM]
+  l: [BASE, NAV, NUM, COLEMAK]
 - p: [3, 13]
   k: '&caps_word'
-  l: [BASE, NUM, NAV]
+  l: [BASE, NAV, NUM, COLEMAK]
 - p: [34, 35]
   k: MSE
   l: [BASE, MSE]
@@ -379,16 +379,16 @@ combos:
   l: [BASE, GAME]
 - p: [16, 27]
   k: BACKSPACE
-  l: [BASE, NAV, NUM, GAME]
+  l: [BASE, NAV, NUM, GAME, COLEMAK]
 - p: [17, 28]
   k: DEL
-  l: [BASE, NAV, NUM, GAME]
+  l: [BASE, NAV, NUM, GAME, COLEMAK]
 - p: [12, 23]
   k: SPACE
-  l: [BASE, NUM, NAV]
+  l: [BASE, NAV, NUM, COLEMAK]
 - p: [1, 2]
   k: '&type_th'
-  l: [BASE, NUM, NAV, COLEMAK]
+  l: [BASE, NAV, NUM, COLEMAK]
 - p: [2, 3]
   k: '&type_ch'
-  l: [BASE, NUM, NAV, COLEMAK]
+  l: [BASE, NAV, NUM, COLEMAK]
