@@ -392,3 +392,13 @@ combos:
 - p: [2, 3]
   k: '&type_sh'
   l: [BASE, NAV, NUM, COLEMAK]
+- p: [6, 7]
+  k: '&type_wh'
+  l: [BASE, NAV, NUM, COLEMAK]
+- p: [7, 8]
+  k: '&type_gh'
+  l: [BASE, NAV, NUM, COLEMAK]
+- p: [18, 19]
+  k: '&type_ch'
+- p: [11, 10]
+  k: '&type_ph'
