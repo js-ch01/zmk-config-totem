@@ -311,11 +311,13 @@
         combo_ch {
             bindings = <&type_ch>;
             key-positions = <18 19>;
+            layers = <0 1 2 8>;
         };
 
         combo_ph {
             bindings = <&type_ph>;
             key-positions = <11 10>;
+            layers = <0 1 2 8>;
         };
     };
 
