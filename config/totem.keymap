@@ -112,10 +112,20 @@
             tapping-term-ms = <200>;
         };
 
-        lt_colemak: lt_colemak {
+        lt_to_colemak: lt_to_colemak {
             compatible = "zmk,behavior-hold-tap";
-            label = "LT_COLEMAK";
-            bindings = <&mo>, <&toggle_colemak>;
+            label = "LT_TO_COLEMAK";
+            bindings = <&mo>, <&to_colemak>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            flavor = "tap-preferred";
+        };
+
+        lt_to_qwerty: lt_to_qwerty {
+            compatible = "zmk,behavior-hold-tap";
+            label = "LT_TO_QWERTY";
+            bindings = <&mo>, <&to_qwerty>;
 
             #binding-cells = <2>;
             tapping-term-ms = <200>;
@@ -411,12 +421,12 @@
             label = "LTE";
         };
 
-        toggle_colemak: toggle_colemak {
+        to_colemak: to_colemak {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&tog 8 &kp RALT>, <&macro_tap>;
+            bindings = <&to 8 &kp RALT>, <&macro_tap>;
 
-            label = "TOGGLE_COLEMAK";
+            label = "TO_COLEMAK";
         };
 
         type_th: type_th {
@@ -466,6 +476,14 @@
 
             label = "TYPE_PH";
         };
+
+        to_qwerty: to_qwerty {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&to 0 &kp RALT>, <&macro_tap>;
+
+            label = "TO_QWERTY";
+        };
     };
 
     keymap {
@@ -474,10 +492,10 @@
         base_qwerty_layer {
             label = "BASE";
             bindings = <
-           &kp Q       &kp W       &kp E        &kp R            &kp T        &kp Y            &kp U        &kp I        &kp O       &kp P
-           &mt LGUI A  &mt LALT S  &mt LCTRL D  &mt LSHFT F      &kp G        &kp H            &mt LSHFT J  &mt LCTRL K  &mt LALT L  &mt LEFT_GUI SEMI
-&kp LCTRL  &mt STAR Z  &kp X       &kp C        &kp V            &kp B        &kp N            &kp M        &kp COMMA    &kp DOT     &mt BACKSLASH SLASH  &kp RIGHT_ALT
-                                   &lt 1 TAB    &lt 2 BACKSPACE  &lt 3 DEL    &lt_colemak 3 0  &lt 2 SPACE  &lt 1 ENTER
+           &kp Q       &kp W       &kp E        &kp R            &kp T        &kp Y               &kp U        &kp I        &kp O       &kp P
+           &mt LGUI A  &mt LALT S  &mt LCTRL D  &mt LSHFT F      &kp G        &kp H               &mt LSHFT J  &mt LCTRL K  &mt LALT L  &mt LEFT_GUI SEMI
+&kp LCTRL  &mt STAR Z  &kp X       &kp C        &kp V            &kp B        &kp N               &kp M        &kp COMMA    &kp DOT     &mt BACKSLASH SLASH  &kp RIGHT_ALT
+                                   &lt 1 TAB    &lt 2 BACKSPACE  &lt 3 DEL    &lt_to_colemak 3 0  &lt 2 SPACE  &lt 1 ENTER
             >;
         };
 
@@ -554,10 +572,10 @@
 
         colemak_dh_layer {
             bindings = <
-           &kp Q       &kp W       &kp F        &kp P            &kp B        &kp J            &kp L        &kp U        &kp Y       &kp SEMI
-           &mt LGUI A  &mt LALT R  &mt LCTRL S  &mt LSHFT T      &kp G        &kp M            &mt LSHFT N  &mt LCTRL E  &mt LALT I  &mt LEFT_GUI O
-&kp LCTRL  &mt STAR Z  &kp X       &kp C        &kp D            &kp V        &kp K            &kp H        &kp COMMA    &kp DOT     &mt BACKSLASH SLASH  &kp RIGHT_ALT
-                                   &lt 1 TAB    &lt 2 BACKSPACE  &lt 3 DEL    &lt_colemak 3 0  &lt 2 SPACE  &lt 1 ENTER
+           &kp Q       &kp W       &kp F        &kp P            &kp B        &kp J              &kp L        &kp U        &kp Y       &kp SEMI
+           &mt LGUI A  &mt LALT R  &mt LCTRL S  &mt LSHFT T      &kp G        &kp M              &mt LSHFT N  &mt LCTRL E  &mt LALT I  &mt LEFT_GUI O
+&kp LCTRL  &mt STAR Z  &kp X       &kp C        &kp D            &kp V        &kp K              &kp H        &kp COMMA    &kp DOT     &mt BACKSLASH SLASH  &kp RIGHT_ALT
+                                   &lt 1 TAB    &lt 2 BACKSPACE  &lt 3 DEL    &lt_to_qwerty 3 0  &lt 2 SPACE  &lt 1 ENTER
             >;
 
             label = "COLEMAK";
