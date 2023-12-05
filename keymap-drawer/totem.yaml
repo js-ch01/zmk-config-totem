@@ -377,7 +377,7 @@ combos:
 - p: [17, 28]
   k: DEL
   l: [BASE, NAV, NUM, GAME, COLEMAK]
-- p: [6, 7]
+- p: [18, 19]
   k: '&type_th'
   l: [BASE, COLEMAK]
 - p: [10, 11]
@@ -389,7 +389,7 @@ combos:
 - p: [7, 8]
   k: '&type_gh'
   l: [BASE, COLEMAK]
-- p: [18, 19]
+- p: [6, 7]
   k: '&type_ch'
   l: [BASE, COLEMAK]
 - p: [3, 2]
