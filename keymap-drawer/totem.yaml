@@ -1,16 +1,16 @@
 layout: {qmk_keyboard: totem}
 layers:
   BASE:
-  - '&dance_q_Q'
-  - '&dance_w_W'
-  - '&dance_e_E'
-  - '&dance_r_R'
-  - '&dance_t_T'
+  - Q
+  - W
+  - E
+  - R
+  - T
   - Y
   - U
   - I
-  - '&dance_o_O'
-  - '&dance_p_P'
+  - O
+  - P
   - {t: A, h: LGUI}
   - {t: S, h: LALT}
   - {t: D, h: LCTRL}
@@ -22,7 +22,7 @@ layers:
   - {t: L, h: LALT}
   - {t: ;, h: LEFT GUI}
   - LCTRL
-  - {t: Z, h: MSE}
+  - {t: Z, h: LEFT SHIFT}
   - X
   - C
   - V
@@ -31,7 +31,7 @@ layers:
   - M
   - ','
   - .
-  - {t: /, h: MSE}
+  - {t: /, h: LEFT SHIFT}
   - '&key_repeat'
   - {t: TAB, h: NAV}
   - {t: BACKSPACE, h: NUM}
@@ -67,10 +67,10 @@ layers:
   - LEFT SHIFT
   - '&mkp RCLK'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LG(DOWN)
+  - LG(UP)
+  - LG(LEFT)
+  - LG(RIGHT)
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
@@ -110,7 +110,7 @@ layers:
   - '2'
   - '3'
   - \
-  - SPACE
+  - LG(Z)
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
@@ -138,7 +138,7 @@ layers:
   - F5
   - F6
   - F11
-  - ''
+  - LS(LC(ESC))
   - APPLICATION
   - ''
   - ''
@@ -178,7 +178,7 @@ layers:
   - '&mmv MOVE_RIGHT'
   - '&mwh SCROLL_DOWN'
   - BASE
-  - {type: held}
+  - ''
   - ''
   - LCTRL
   - LEFT SHIFT
