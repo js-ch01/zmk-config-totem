@@ -32,11 +32,11 @@ layers:
   - ','
   - .
   - {t: /, h: \}
-  - '&toggle_colemak'
+  - RIGHT ALT
   - {t: TAB, h: NAV}
   - {t: BACKSPACE, h: NUM}
   - {t: DEL, h: FUN}
-  - {t: RALT, h: FUN}
+  - {t: '&toggle_colemak', h: FUN}
   - {t: SPACE, h: NUM}
   - {t: ENTER, h: NAV}
   NAV:
@@ -306,11 +306,11 @@ layers:
   - ','
   - .
   - {t: /, h: \}
-  - '&toggle_colemak'
+  - RIGHT ALT
   - {t: TAB, h: NAV}
   - {t: BACKSPACE, h: NUM}
   - {t: DEL, h: FUN}
-  - {t: RALT, h: FUN}
+  - {t: '&toggle_colemak', h: FUN}
   - {t: SPACE, h: NUM}
   - {t: ENTER, h: NAV}
 combos:
