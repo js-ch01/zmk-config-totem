@@ -480,7 +480,7 @@
         to_qwerty: to_qwerty {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&tog 0 &kp RALT>, <&macro_tap>;
+            bindings = <&tog 8 &kp RALT>, <&macro_tap>;
 
             label = "TO_QWERTY";
         };
@@ -579,6 +579,35 @@
             >;
 
             label = "COLEMAK";
+        };
+    };
+
+    conditional_layers {
+        compatible = "zmk,conditional-layers";
+
+        tttt {
+            if-layers = <8 1>;
+            then-layer = <1>;
+        };
+
+        tt {
+            if-layers = <8 2>;
+            then-layer = <2>;
+        };
+
+        d {
+            if-layers = <8 3>;
+            then-layer = <3>;
+        };
+
+        t {
+            if-layers = <8 4>;
+            then-layer = <4>;
+        };
+
+        tgs {
+            if-layers = <8 7>;
+            then-layer = <7>;
         };
     };
 };
