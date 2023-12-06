@@ -22,7 +22,7 @@ layers:
   - {t: L, h: LALT}
   - {t: ;, h: LEFT GUI}
   - LCTRL
-  - {t: Z, h: '*'}
+  - Z
   - X
   - C
   - V
@@ -61,7 +61,7 @@ layers:
   - {t: I, h: LALT}
   - {t: O, h: LEFT GUI}
   - LCTRL
-  - {t: Z, h: '*'}
+  - Z
   - X
   - C
   - D
