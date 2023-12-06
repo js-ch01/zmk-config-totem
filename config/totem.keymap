@@ -486,7 +486,7 @@
             bindings = <
            &kp Q       &kp W       &kp E        &kp R                      &kp T        &kp Y                &kp U                       &kp I        &kp O       &kp P
            &mt LGUI A  &mt LALT S  &mt LCTRL D  &mt_shift_sk LEFT_SHIFT F  &kp G        &kp H                &mt_shift_sk RIGHT_SHIFT J  &mt LCTRL K  &mt LALT L  &mt LEFT_GUI SEMI
-&kp LCTRL  &mt STAR Z  &kp X       &kp C        &kp V                      &kp B        &kp N                &kp M                       &kp COMMA    &kp DOT     &mt BACKSLASH SLASH  &kp RALT
+&kp LCTRL  &kp Z       &kp X       &kp C        &kp V                      &kp B        &kp N                &kp M                       &kp COMMA    &kp DOT     &mt BACKSLASH SLASH  &kp RALT
                                    &lt 2 TAB    &lt 3 BACKSPACE            &lt 4 DEL    &lt_tog_colemak 4 0  &lt 3 SPACE                 &lt 2 ENTER
             >;
         };
@@ -495,7 +495,7 @@
             bindings = <
            &kp Q       &kp W       &kp F        &kp P                      &kp B        &kp J                &kp L                       &kp U        &kp Y       &kp SEMI
            &mt LGUI A  &mt LALT R  &mt LCTRL S  &mt_shift_sk LEFT_SHIFT T  &kp G        &kp M                &mt_shift_sk RIGHT_SHIFT N  &mt LCTRL E  &mt LALT I  &mt LEFT_GUI O
-&kp LCTRL  &mt STAR Z  &kp X       &kp C        &kp D                      &kp V        &kp K                &kp H                       &kp COMMA    &kp DOT     &mt BACKSLASH SLASH  &kp RALT
+&kp LCTRL  &kp Z       &kp X       &kp C        &kp D                      &kp V        &kp K                &kp H                       &kp COMMA    &kp DOT     &mt BACKSLASH SLASH  &kp RALT
                                    &lt 2 TAB    &lt 3 BACKSPACE            &lt 4 DEL    &lt_tog_colemak 4 0  &lt 3 SPACE                 &lt 2 ENTER
             >;
 
