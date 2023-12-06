@@ -39,6 +39,45 @@ layers:
   - {t: RIGHT ALT, h: func}
   - {t: SPACE, h: num}
   - {t: ENTER, h: navi}
+  colemak_dh:
+  - Q
+  - W
+  - F
+  - P
+  - B
+  - J
+  - L
+  - U
+  - Y
+  - ;
+  - {t: A, h: LGUI}
+  - {t: R, h: LALT}
+  - {t: S, h: LCTRL}
+  - {t: T, h: LSHFT}
+  - G
+  - M
+  - {t: N, h: RIGHT SHIFT}
+  - {t: E, h: LCTRL}
+  - {t: I, h: LALT}
+  - {t: O, h: LEFT GUI}
+  - LCTRL
+  - {t: Z, h: '*'}
+  - X
+  - C
+  - D
+  - V
+  - K
+  - H
+  - ','
+  - .
+  - {t: /, h: \}
+  - {t: colemak_dh, h: toggle}
+  - {t: TAB, h: navi}
+  - {t: BACKSPACE, h: num}
+  - {t: DEL, h: func}
+  - {t: RIGHT ALT, h: func}
+  - {t: SPACE, h: num}
+  - {t: ENTER, h: navi}
   navi:
   - '&mwh SCROLL_UP'
   - '&mwh SCROLL_LEFT'
@@ -273,45 +312,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  colemak_dh:
-  - Q
-  - W
-  - F
-  - P
-  - B
-  - J
-  - L
-  - U
-  - Y
-  - ;
-  - {t: A, h: LGUI}
-  - {t: R, h: LALT}
-  - {t: S, h: LCTRL}
-  - {t: T, h: LSHFT}
-  - G
-  - M
-  - {t: N, h: RIGHT SHIFT}
-  - {t: E, h: LCTRL}
-  - {t: I, h: LALT}
-  - {t: O, h: LEFT GUI}
-  - LCTRL
-  - {t: Z, h: '*'}
-  - X
-  - C
-  - D
-  - V
-  - K
-  - H
-  - ','
-  - .
-  - {t: /, h: \}
-  - {t: colemak_dh, h: toggle}
-  - {t: TAB, h: navi}
-  - {t: BACKSPACE, h: num}
-  - {t: DEL, h: func}
-  - {t: RIGHT ALT, h: func}
-  - {t: SPACE, h: num}
-  - {t: ENTER, h: navi}
 combos:
 - p: [1, 0]
   k: ESC
