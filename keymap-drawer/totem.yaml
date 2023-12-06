@@ -21,7 +21,7 @@ layers:
   - {t: K, h: LCTRL}
   - {t: L, h: LALT}
   - {t: ;, h: LEFT GUI}
-  - BT CLR
+  - LCTRL
   - {t: Z, h: '*'}
   - X
   - C
@@ -32,11 +32,11 @@ layers:
   - ','
   - .
   - {t: /, h: \}
-  - {t: colemak_dh, h: toggle}
+  - RALT
   - {t: TAB, h: navi}
   - {t: BACKSPACE, h: num}
   - {t: DEL, h: func}
-  - {t: RIGHT ALT, h: func}
+  - {t: '&tog_colemak', h: func}
   - {t: SPACE, h: num}
   - {t: ENTER, h: navi}
   colemak_dh:
@@ -71,11 +71,11 @@ layers:
   - ','
   - .
   - {t: /, h: \}
-  - {t: colemak_dh, h: toggle}
+  - RALT
   - {t: TAB, h: navi}
   - {t: BACKSPACE, h: num}
   - {t: DEL, h: func}
-  - {t: RIGHT ALT, h: func}
+  - {t: '&tog_colemak', h: func}
   - {t: SPACE, h: num}
   - {t: ENTER, h: navi}
   navi:
