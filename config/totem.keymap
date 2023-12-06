@@ -573,15 +573,5 @@
 
     conditional_layers {
         compatible = "zmk,conditional-layers";
-
-        tt {
-            if-layers = <7 2>;
-            then-layer = <2>;
-        };
-
-        d {
-            if-layers = <7 3>;
-            then-layer = <3>;
-        };
     };
 };
