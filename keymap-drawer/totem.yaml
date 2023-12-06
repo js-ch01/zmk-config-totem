@@ -21,7 +21,7 @@ layers:
   - {t: K, h: LCTRL}
   - {t: L, h: LALT}
   - {t: ;, h: LEFT GUI}
-  - LCTRL
+  - BT CLR
   - {t: Z, h: '*'}
   - X
   - C
