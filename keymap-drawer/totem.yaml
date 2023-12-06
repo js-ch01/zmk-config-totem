@@ -273,7 +273,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  CLEAN: ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '']
   COLEMAK:
   - Q
   - W
@@ -357,8 +356,8 @@ combos:
   k: '"'
   l: [BASE, NAV, NUM, COLEMAK]
 - p: [10, 11, 12, 13]
-  k: CLEAN
-  l: [BASE, CLEAN]
+  k: BASE
+  l: [BASE]
 - p: [2, 12]
   k: ':'
   l: [BASE, NAV, NUM, COLEMAK]
