@@ -1,6 +1,6 @@
 layout: {qmk_keyboard: totem}
 layers:
-  BASE:
+  base_qwerty:
   - Q
   - W
   - E
@@ -32,14 +32,14 @@ layers:
   - ','
   - .
   - {t: /, h: \}
-  - RIGHT ALT
-  - {t: TAB, h: NAV}
-  - {t: BACKSPACE, h: NUM}
-  - {t: DEL, h: FUN}
-  - {t: '&to_colemak', h: FUN}
-  - {t: SPACE, h: NUM}
-  - {t: ENTER, h: NAV}
-  NAV:
+  - {t: colemak_dh, h: toggle}
+  - {t: TAB, h: navi}
+  - {t: BACKSPACE, h: num}
+  - {t: DEL, h: func}
+  - {t: RIGHT ALT, h: func}
+  - {t: SPACE, h: num}
+  - {t: ENTER, h: navi}
+  navi:
   - '&mwh SCROLL_UP'
   - '&mwh SCROLL_LEFT'
   - '&mmv MOVE_UP'
@@ -60,7 +60,7 @@ layers:
   - DOWN
   - RIGHT
   - PG DN
-  - MSE
+  - {t: mouse, h: toggle}
   - {t: ▽, type: trans}
   - '&mkp LCLK'
   - LCTRL
@@ -78,7 +78,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  NUM:
+  num:
   - {t: '`', h: '~'}
   - '?'
   - ^
@@ -117,7 +117,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '0'
-  FUN:
+  func:
   - CAPS
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
@@ -156,7 +156,7 @@ layers:
   - ''
   - ''
   - ''
-  MSE:
+  mouse:
   - '&mwh SCROLL_UP'
   - '&mwh SCROLL_LEFT'
   - '&mmv MOVE_UP'
@@ -177,7 +177,7 @@ layers:
   - '&mmv MOVE_DOWN'
   - '&mmv MOVE_RIGHT'
   - '&mwh SCROLL_DOWN'
-  - BASE
+  - {t: base_qwerty, h: toggle}
   - ''
   - ''
   - LCTRL
@@ -188,14 +188,14 @@ layers:
   - LCTRL
   - ''
   - ''
-  - BASE
+  - {t: base_qwerty, h: toggle}
   - '&mkp LCLK'
   - '&mkp MCLK'
   - '&mkp RCLK'
   - '&mkp LCLK'
   - '&mkp MCLK'
   - '&mkp RCLK'
-  GAME:
+  game:
   - Q
   - W
   - E
@@ -273,7 +273,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  COLEMAK:
+  colemak_dh:
   - Q
   - W
   - F
@@ -305,110 +305,110 @@ layers:
   - ','
   - .
   - {t: /, h: \}
-  - RIGHT ALT
-  - {t: TAB, h: NAV}
-  - {t: BACKSPACE, h: NUM}
-  - {t: DEL, h: FUN}
-  - {t: '&to_qwerty', h: FUN}
-  - {t: SPACE, h: NUM}
-  - {t: ENTER, h: NAV}
+  - {t: colemak_dh, h: toggle}
+  - {t: TAB, h: navi}
+  - {t: BACKSPACE, h: num}
+  - {t: DEL, h: func}
+  - {t: RIGHT ALT, h: func}
+  - {t: SPACE, h: num}
+  - {t: ENTER, h: navi}
 combos:
 - p: [1, 0]
   k: ESC
-  l: [BASE, NAV, NUM, GAME, COLEMAK]
+  l: [base_qwerty, navi, num, game, colemak_dh]
 - p: [12, 13]
   k: (
-  l: [BASE, NAV, NUM, COLEMAK]
+  l: [base_qwerty, navi, num, colemak_dh]
 - p: [16, 17]
   k: )
-  l: [BASE, NAV, COLEMAK]
+  l: [base_qwerty, navi, colemak_dh]
 - p: [11, 13]
   k: '['
-  l: [BASE, NAV, NUM, COLEMAK]
+  l: [base_qwerty, navi, num, colemak_dh]
 - p: [16, 18]
   k: ']'
-  l: [BASE, NAV, COLEMAK]
+  l: [base_qwerty, navi, colemak_dh]
 - p: [12, 11]
   k: '{'
-  l: [BASE, NAV, NUM, COLEMAK]
+  l: [base_qwerty, navi, num, colemak_dh]
 - p: [17, 18]
   k: '}'
-  l: [BASE, NAV, COLEMAK]
+  l: [base_qwerty, navi, colemak_dh]
 - p: [2, 11]
   k: {t: <, h: '&lte'}
-  l: [BASE, NAV, NUM, COLEMAK]
+  l: [base_qwerty, navi, num, colemak_dh]
 - p: [7, 18]
   k: {t: '>', h: '&gte'}
-  l: [BASE, NAV, NUM, COLEMAK]
+  l: [base_qwerty, navi, num, colemak_dh]
 - p: [23, 24]
   k: {t: +, h: '&double_plus'}
-  l: [BASE, NAV, NUM, COLEMAK]
+  l: [base_qwerty, navi, num, colemak_dh]
 - p: [22, 23]
   k: {t: '=', h: '&double_equal'}
-  l: [BASE, NAV, NUM, COLEMAK]
+  l: [base_qwerty, navi, num, colemak_dh]
 - p: [27, 28]
   k: {t: '-', h: '&double_mimus'}
-  l: [BASE, NAV, COLEMAK]
+  l: [base_qwerty, navi, colemak_dh]
 - p: [28, 29]
   k: _
-  l: [BASE, NAV, COLEMAK]
+  l: [base_qwerty, navi, colemak_dh]
 - p: [7, 17]
   k: '"'
-  l: [BASE, NAV, NUM, COLEMAK]
+  l: [base_qwerty, navi, num, colemak_dh]
 - p: [10, 11, 12, 13]
-  k: BASE
-  l: [BASE]
+  k: {t: base_qwerty, h: toggle}
+  l: [base_qwerty]
 - p: [2, 12]
   k: ':'
-  l: [BASE, NAV, NUM, COLEMAK]
+  l: [base_qwerty, navi, num, colemak_dh]
 - p: [3, 13]
   k: '&caps_word'
-  l: [BASE, NAV, NUM, COLEMAK]
+  l: [base_qwerty, navi, num, colemak_dh]
 - p: [34, 35]
-  k: MSE
-  l: [BASE, MSE]
+  k: {t: mouse, h: toggle}
+  l: [base_qwerty, mouse]
 - p: [20, 31]
-  k: GAME
-  l: [BASE, GAME]
+  k: {t: game, h: toggle}
+  l: [base_qwerty, game]
 - p: [16, 27]
   k: BACKSPACE
-  l: [BASE, NAV, NUM, GAME, COLEMAK]
+  l: [base_qwerty, navi, num, game, colemak_dh]
 - p: [17, 28]
   k: DEL
-  l: [BASE, NAV, NUM, GAME, COLEMAK]
+  l: [base_qwerty, navi, num, game, colemak_dh]
 - p: [18, 19]
   k: '&type_th'
-  l: [BASE, COLEMAK]
+  l: [base_qwerty, colemak_dh]
 - p: [10, 11]
   k: '&type_sh'
-  l: [BASE, COLEMAK]
+  l: [base_qwerty, colemak_dh]
 - p: [1, 2]
   k: '&type_wh'
-  l: [BASE, COLEMAK]
+  l: [base_qwerty, colemak_dh]
 - p: [7, 8]
   k: '&type_gh'
-  l: [BASE, COLEMAK]
+  l: [base_qwerty, colemak_dh]
 - p: [6, 7]
   k: '&type_ch'
-  l: [BASE, COLEMAK]
+  l: [base_qwerty, colemak_dh]
 - p: [3, 2]
   k: '&type_ph'
-  l: [BASE, COLEMAK]
+  l: [base_qwerty, colemak_dh]
 - p: [21, 10]
   k: LC(Z)
-  l: [BASE, COLEMAK]
+  l: [base_qwerty, colemak_dh]
 - p: [11, 22]
   k: LC(X)
-  l: [BASE, COLEMAK]
+  l: [base_qwerty, colemak_dh]
 - p: [23, 12]
   k: LC(C)
-  l: [BASE, COLEMAK]
+  l: [base_qwerty, colemak_dh]
 - p: [13, 24]
   k: LC(V)
-  l: [BASE, COLEMAK]
+  l: [base_qwerty, colemak_dh]
 - p: [25, 14]
   k: ENTER
-  l: [BASE, NAV, NUM, MSE, GAME, COLEMAK]
+  l: [base_qwerty, navi, num, mouse, game, colemak_dh]
 - p: [6, 16]
   k: '&key_repeat'
-  l: [BASE, NAV, NUM, GAME, COLEMAK]
+  l: [base_qwerty, navi, num, game, colemak_dh]
