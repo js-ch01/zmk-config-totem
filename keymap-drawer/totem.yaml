@@ -14,10 +14,10 @@ layers:
   - {t: A, h: LGUI}
   - {t: S, h: LALT}
   - {t: D, h: LCTRL}
-  - {t: F, h: LSHFT}
+  - {t: F, h: LEFT SHIFT}
   - G
   - H
-  - {t: J, h: RIGHT SHIFT}
+  - {t: J, h: LEFT SHIFT}
   - {t: K, h: LCTRL}
   - {t: L, h: LALT}
   - {t: ;, h: LEFT GUI}
