@@ -142,98 +142,98 @@
             timeout-ms = <50>;
             key-positions = <1 0>;
             bindings = <&kp ESC>;
-            layers = <0 1 2 5 7>;
+            layers = <0 2 3 6 1>;
         };
 
         combo_lpar {
             timeout-ms = <50>;
             key-positions = <12 13>;
             bindings = <&kp LPAR>;
-            layers = <0 1 2 7>;
+            layers = <0 2 3 1>;
         };
 
         combo_rpar {
             timeout-ms = <50>;
             key-positions = <16 17>;
             bindings = <&kp RPAR>;
-            layers = <0 1 7>;
+            layers = <0 2 1>;
         };
 
         combo_lbkt {
             timeout-ms = <50>;
             key-positions = <11 13>;
             bindings = <&kp LBKT>;
-            layers = <0 1 2 7>;
+            layers = <0 2 3 1>;
         };
 
         combo_rbkt {
             timeout-ms = <50>;
             key-positions = <16 18>;
             bindings = <&kp RBKT>;
-            layers = <0 1 7>;
+            layers = <0 2 1>;
         };
 
         combo_lbrc {
             timeout-ms = <50>;
             key-positions = <12 11>;
             bindings = <&kp LBRC>;
-            layers = <0 1 2 7>;
+            layers = <0 2 3 1>;
         };
 
         combo_rbrc {
             timeout-ms = <50>;
             key-positions = <17 18>;
             bindings = <&kp RIGHT_BRACE>;
-            layers = <0 1 7>;
+            layers = <0 2 1>;
         };
 
         combo_lt {
             timeout-ms = <50>;
             key-positions = <2 11>;
             bindings = <&lt_hold_lte 0 LT>;
-            layers = <0 1 2 7>;
+            layers = <0 2 3 1>;
         };
 
         combo_gt {
             timeout-ms = <50>;
             key-positions = <7 18>;
             bindings = <&gt_hold_gte 0 GT>;
-            layers = <0 1 2 7>;
+            layers = <0 2 3 1>;
         };
 
         combo_plus {
             timeout-ms = <50>;
             key-positions = <23 24>;
             bindings = <&plus_hold_double 0 PLUS>;
-            layers = <0 1 2 7>;
+            layers = <0 2 3 1>;
         };
 
         combo_equal {
             timeout-ms = <50>;
             key-positions = <22 23>;
             bindings = <&euqal_hold_double 0 EQUAL>;
-            layers = <0 1 2 7>;
+            layers = <0 2 3 1>;
         };
 
         combo_minus {
             timeout-ms = <50>;
             key-positions = <27 28>;
             bindings = <&minus_hold_double 0 MINUS>;
-            layers = <0 1 7>;
+            layers = <0 2 1>;
         };
 
         combo_under {
             timeout-ms = <50>;
             key-positions = <28 29>;
             bindings = <&kp UNDER>;
-            layers = <0 1 7>;
+            layers = <0 2 1>;
         };
 
         combo_dqt {
             timeout-ms = <50>;
             key-positions = <7 17>;
             bindings = <&kp DQT>;
-            layers = <0 1 2 7>;
+            layers = <0 2 3 1>;
         };
 
         combo_cleanLayer {
@@ -246,114 +246,114 @@
             bindings = <&kp COLON>;
             key-positions = <2 12>;
             timeout-ms = <50>;
-            layers = <0 1 2 7>;
+            layers = <0 2 3 1>;
         };
 
         combo.capswords {
             bindings = <&caps_word>;
             key-positions = <3 13>;
             timeout-ms = <50>;
-            layers = <0 1 2 7>;
+            layers = <0 2 3 1>;
         };
 
         combo_MSE1 {
-            bindings = <&tog 4>;
+            bindings = <&tog 5>;
             key-positions = <34 35>;
-            layers = <0 4>;
+            layers = <0 5>;
         };
 
         combo_game_layer {
-            bindings = <&tog 5>;
+            bindings = <&tog 6>;
             key-positions = <20 31>;
-            layers = <0 5>;
+            layers = <0 6>;
         };
 
         combo_bspc2 {
             bindings = <&kp BACKSPACE>;
             key-positions = <16 27>;
-            layers = <0 1 2 5 7>;
+            layers = <0 2 3 6 1>;
         };
 
         combo_del2 {
             bindings = <&kp DEL>;
             key-positions = <17 28>;
-            layers = <0 1 2 5 7>;
+            layers = <0 2 3 6 1>;
         };
 
         combo_th {
             bindings = <&type_th>;
             key-positions = <18 19>;
             timeout-ms = <50>;
-            layers = <0 7>;
+            layers = <0 1>;
         };
 
         combo_sh {
             bindings = <&type_sh>;
             key-positions = <10 11>;
             timeout-ms = <50>;
-            layers = <0 7>;
+            layers = <0 1>;
         };
 
         combo_wh {
             bindings = <&type_wh>;
             key-positions = <1 2>;
             timeout-ms = <50>;
-            layers = <0 7>;
+            layers = <0 1>;
         };
 
         combo_gh {
             bindings = <&type_gh>;
             key-positions = <7 8>;
             timeout-ms = <50>;
-            layers = <0 7>;
+            layers = <0 1>;
         };
 
         combo_ch {
             bindings = <&type_ch>;
             key-positions = <6 7>;
-            layers = <0 7>;
+            layers = <0 1>;
         };
 
         combo_ph {
             bindings = <&type_ph>;
             key-positions = <3 2>;
-            layers = <0 7>;
+            layers = <0 1>;
         };
 
         combo_ctrl_z {
             bindings = <&kp LC(Z)>;
             key-positions = <21 10>;
-            layers = <0 7>;
+            layers = <0 1>;
         };
 
         combo_ctrl_x {
             bindings = <&kp LC(X)>;
             key-positions = <11 22>;
-            layers = <0 7>;
+            layers = <0 1>;
         };
 
         combo_ctrl_c {
             bindings = <&kp LC(C)>;
             key-positions = <23 12>;
-            layers = <0 7>;
+            layers = <0 1>;
         };
 
         combo_ctrl_v {
             bindings = <&kp LC(V)>;
             key-positions = <13 24>;
-            layers = <0 7>;
+            layers = <0 1>;
         };
 
         combo_enter {
             bindings = <&kp ENTER>;
             key-positions = <25 14>;
-            layers = <0 1 2 4 5 7>;
+            layers = <0 2 3 5 6 1>;
         };
 
         combo_repeat {
             bindings = <&key_repeat>;
             key-positions = <6 16>;
-            layers = <0 1 2 5 7>;
+            layers = <0 2 3 6 1>;
         };
     };
 
@@ -424,7 +424,7 @@
         to_colemak: to_colemak {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&tog 7 &kp RALT>, <&macro_tap>;
+            bindings = <&tog 1 &kp RALT>, <&macro_tap>;
 
             label = "TO_COLEMAK";
         };
@@ -480,7 +480,7 @@
         to_qwerty: to_qwerty {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&tog 7 &kp RALT>, <&macro_tap>;
+            bindings = <&tog 1 &kp RALT>, <&macro_tap>;
 
             label = "TO_QWERTY";
         };
@@ -494,9 +494,20 @@
             bindings = <
             &kp Q       &kp W       &kp E        &kp R            &kp T        &kp Y            &kp U              &kp I        &kp O       &kp P
             &mt LGUI A  &mt LALT S  &mt LCTRL D  &mt LSHFT F      &kp G        &kp H            &mt RIGHT_SHIFT J  &mt LCTRL K  &mt LALT L  &mt LEFT_GUI SEMI
-&bt BT_CLR  &mt STAR Z  &kp X       &kp C        &kp V            &kp B        &kp N            &kp M              &kp COMMA    &kp DOT     &mt BACKSLASH SLASH  &tog 7
-                                    &lt 1 TAB    &lt 2 BACKSPACE  &lt 3 DEL    &lt 3 RIGHT_ALT  &lt 2 SPACE        &lt 1 ENTER
+&bt BT_CLR  &mt STAR Z  &kp X       &kp C        &kp V            &kp B        &kp N            &kp M              &kp COMMA    &kp DOT     &mt BACKSLASH SLASH  &tog 1
+                                    &lt 2 TAB    &lt 3 BACKSPACE  &lt 4 DEL    &lt 4 RIGHT_ALT  &lt 3 SPACE        &lt 2 ENTER
             >;
+        };
+
+        colemak_dh_layer {
+            bindings = <
+           &kp Q       &kp W       &kp F        &kp P            &kp B        &kp J            &kp L              &kp U        &kp Y       &kp SEMI
+           &mt LGUI A  &mt LALT R  &mt LCTRL S  &mt LSHFT T      &kp G        &kp M            &mt RIGHT_SHIFT N  &mt LCTRL E  &mt LALT I  &mt LEFT_GUI O
+&kp LCTRL  &mt STAR Z  &kp X       &kp C        &kp D            &kp V        &kp K            &kp H              &kp COMMA    &kp DOT     &mt BACKSLASH SLASH  &tog 1
+                                   &lt 2 TAB    &lt 3 BACKSPACE  &lt 4 DEL    &lt 4 RIGHT_ALT  &lt 3 SPACE        &lt 2 ENTER
+            >;
+
+            label = "COLEMAK";
         };
 
         navi_layer {
@@ -504,7 +515,7 @@
             bindings = <
        &mwh SCROLL_UP    &mwh SCROLL_LEFT  &mmv MOVE_UP    &mwh SCROLL_RIGHT  &mkp LCLK    &kp INS  &kp HOME   &kp UP     &kp END    &kp PG_UP
        &mwh SCROLL_DOWN  &mmv MOVE_LEFT    &mmv MOVE_DOWN  &mmv MOVE_RIGHT    &mkp MCLK    &trans   &kp LEFT   &kp DOWN   &kp RIGHT  &kp PG_DN
-&to 4  &trans            &mkp LCLK         &kp LCTRL       &kp LEFT_SHIFT     &mkp RCLK    &trans   &mkp LCLK  &mkp MCLK  &mkp RCLK  &trans     &trans
+&to 5  &trans            &mkp LCLK         &kp LCTRL       &kp LEFT_SHIFT     &mkp RCLK    &trans   &mkp LCLK  &mkp MCLK  &mkp RCLK  &trans     &trans
                                            &trans          &trans             &trans       &trans   &trans     &trans
             >;
         };
@@ -544,7 +555,7 @@
               &kp Q  &kp W  &kp E      &kp R      &kp T             &kp Y          &kp U      &kp I      &kp O    &kp P
               &kp A  &kp S  &kp D      &kp F      &kp G             &kp H          &kp J      &kp K      &kp L    &kp SEMI
 &kp LEFT_ALT  &kp Z  &kp X  &kp C      &kp V      &kp B             &kp N          &kp M      &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
-                            &lt 6 TAB  &kp SPACE  &kp LEFT_SHIFT    &kp RIGHT_ALT  &kp SPACE  &kp ENTER
+                            &lt 7 TAB  &kp SPACE  &kp LEFT_SHIFT    &kp RIGHT_ALT  &kp SPACE  &kp ENTER
             >;
 
             label = "GAME";
@@ -557,17 +568,6 @@
 &kp LS(LC(ESC))  &kp GRAVE  &kp N1  &kp N2  &kp N3  &kp N     &trans  &trans  &trans  &trans  &trans  &trans
                                     &trans  &trans  &trans    &trans  &trans  &trans
             >;
-        };
-
-        colemak_dh_layer {
-            bindings = <
-           &kp Q       &kp W       &kp F        &kp P            &kp B        &kp J            &kp L              &kp U        &kp Y       &kp SEMI
-           &mt LGUI A  &mt LALT R  &mt LCTRL S  &mt LSHFT T      &kp G        &kp M            &mt RIGHT_SHIFT N  &mt LCTRL E  &mt LALT I  &mt LEFT_GUI O
-&kp LCTRL  &mt STAR Z  &kp X       &kp C        &kp D            &kp V        &kp K            &kp H              &kp COMMA    &kp DOT     &mt BACKSLASH SLASH  &tog 7
-                                   &lt 1 TAB    &lt 2 BACKSPACE  &lt 3 DEL    &lt 3 RIGHT_ALT  &lt 2 SPACE        &lt 1 ENTER
-            >;
-
-            label = "COLEMAK";
         };
     };
 
