@@ -312,6 +312,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  clean: ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '']
 combos:
 - p: [1, 0]
   k: ESC
@@ -412,3 +413,6 @@ combos:
 - p: [6, 16]
   k: '&key_repeat'
   l: [base_qwerty, navi, num, game, colemak_dh]
+- p: [32, 33, 34]
+  k: {t: clean, h: toggle}
+  l: [base_qwerty, colemak_dh, clean]
