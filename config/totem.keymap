@@ -430,9 +430,10 @@
         tog_colemak: tog_colemak {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_tap_time 10>, <&tog 1 &kp RALT>;
-
+            bindings = <&tog 1 &kp RALT>;
             label = "TOG_COLEMAK";
+            wait-ms = <30>;
+            tap-ms = <30>;
         };
 
         type_th: type_th {
