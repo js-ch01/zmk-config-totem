@@ -425,6 +425,10 @@ path.combo {
 <text x="314" y="251" class="combo tap">clean</text>
 <text x="314" y="262" class="combo hold">toggle</text>
 </g>
+<g class="combo combopos-34">
+<rect rx="6" ry="6" x="332" y="245" width="28" height="26" class="combo"/>
+<text x="346" y="258" class="combo tap">SPACE</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 366)" class="layer-colemak_dh">
@@ -733,6 +737,10 @@ path.combo {
 <text x="314" y="251" class="combo tap">clean</text>
 <text x="314" y="262" class="combo hold">toggle</text>
 </g>
+<g class="combo combopos-31">
+<rect rx="6" ry="6" x="332" y="245" width="28" height="26" class="combo"/>
+<text x="346" y="258" class="combo tap">SPACE</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 731)" class="layer-navi">
@@ -1015,6 +1023,10 @@ path.combo {
 <rect rx="6" ry="6" x="561" y="71" width="28" height="26" class="combo"/>
 <text x="575" y="84" class="combo tap"><tspan style="font-size: 64%">&amp;key_repeat</tspan></text>
 </g>
+<g class="combo combopos-20">
+<rect rx="6" ry="6" x="332" y="245" width="28" height="26" class="combo"/>
+<text x="346" y="258" class="combo tap">SPACE</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 1097)" class="layer-num">
@@ -1246,6 +1258,10 @@ path.combo {
 <g class="combo combopos-14">
 <rect rx="6" ry="6" x="561" y="71" width="28" height="26" class="combo"/>
 <text x="575" y="84" class="combo tap"><tspan style="font-size: 64%">&amp;key_repeat</tspan></text>
+</g>
+<g class="combo combopos-15">
+<rect rx="6" ry="6" x="332" y="245" width="28" height="26" class="combo"/>
+<text x="346" y="258" class="combo tap">SPACE</text>
 </g>
 </g>
 </g>

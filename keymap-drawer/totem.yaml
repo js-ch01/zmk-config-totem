@@ -416,3 +416,6 @@ combos:
 - p: [32, 33, 34]
   k: {t: clean, h: toggle}
   l: [base_qwerty, colemak_dh, clean]
+- p: [33, 34]
+  k: SPACE
+  l: [base_qwerty, colemak_dh, navi, num]
