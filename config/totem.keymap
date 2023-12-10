@@ -361,6 +361,12 @@
             key-positions = <32 33 34>;
             layers = <0 1 8>;
         };
+
+        combo_space {
+            bindings = <&kp SPACE>;
+            key-positions = <33 34>;
+            layers = <0 1 2 3>;
+        };
     };
 
     macros {
