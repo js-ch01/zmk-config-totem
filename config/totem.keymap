@@ -318,7 +318,7 @@
 
         combo_ctrl_x {
             bindings = <&kp LC(X)>;
-            key-positions = <11 22>;
+            key-positions = <22 11>;
             layers = <0 1>;
         };
 
