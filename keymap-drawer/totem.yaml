@@ -398,7 +398,7 @@ combos:
 - p: [21, 10]
   k: LC(Z)
   l: [base_qwerty, colemak_dh]
-- p: [11, 22]
+- p: [22, 11]
   k: LC(X)
   l: [base_qwerty, colemak_dh]
 - p: [23, 12]
