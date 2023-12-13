@@ -167,10 +167,10 @@ layers:
   - F8
   - F9
   - F12
-  - RCTRL
-  - ''
-  - BRIGHTNESS INC
-  - BRIGHTNESS DEC
+  - {t: LEFT GUI, h: sticky}
+  - {t: LEFT ALT, h: sticky}
+  - {t: LCTRL, h: sticky}
+  - {t: LEFT SHIFT, h: sticky}
   - PP
   - SLCK
   - F4
@@ -179,10 +179,10 @@ layers:
   - F11
   - LS(LC(ESC))
   - APPLICATION
+  - BRIGHTNESS INC
+  - BRIGHTNESS DEC
   - ''
-  - ''
-  - ''
-  - ''
+  - RCTRL
   - PAUSE BREAK
   - F1
   - F2
