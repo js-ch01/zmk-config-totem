@@ -13,7 +13,7 @@
 // mod-tap
 
 &mt {
-    tapping-term-ms = <200>;
+    tapping-term-ms = <300>;
     flavor = "tap-preferred";
 };
 
@@ -125,6 +125,16 @@
         auto_shift: auto_shift {
             compatible = "zmk,behavior-hold-tap";
             label = "AUTO_SHIFT";
+            bindings = <&kp>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            flavor = "tap-preferred";
+        };
+
+        mt_shift: mt_shift {
+            compatible = "zmk,behavior-hold-tap";
+            label = "MT_SHIFT";
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
@@ -497,19 +507,19 @@
         base_qwerty_layer {
             label = "BASE";
             bindings = <
-           &auto_shift LS(Q) Q  &auto_shift LS(W) W  &auto_shift LS(E) E  &auto_shift LS(R) R  &auto_shift LS(T) T    &kp Y                &kp U             &kp I        &auto_shift LS(O) O  &auto_shift LS(P) P
-           &mt LGUI A           &mt LALT S           &mt LCTRL D          &mt LEFT_SHIFT F     &kp G                  &kp H                &mt LEFT_SHIFT J  &mt LCTRL K  &mt LALT L           &mt LEFT_GUI SEMI
-&kp LCTRL  &kp Z                &kp X                &kp C                &kp V                &kp B                  &kp N                &kp M             &kp COMMA    &kp DOT              &mt BACKSLASH SLASH  &kp RALT
-                                                     &lt 2 TAB            &lt 3 BACKSPACE      &lt 4 DEL              &lt_tog_colemak 4 0  &lt 3 SPACE       &lt 2 ENTER
+           &auto_shift LS(Q) Q  &auto_shift LS(W) W  &auto_shift LS(E) E  &auto_shift LS(R) R     &auto_shift LS(T) T    &kp Y                &kp U                   &kp I        &auto_shift LS(O) O  &auto_shift LS(P) P
+           &mt LGUI A           &mt LALT S           &mt LCTRL D          &mt_shift LEFT_SHIFT F  &kp G                  &kp H                &mt_shift LEFT_SHIFT J  &mt LCTRL K  &mt LALT L           &mt LEFT_GUI SEMI
+&kp LCTRL  &kp Z                &kp X                &kp C                &kp V                   &kp B                  &kp N                &kp M                   &kp COMMA    &kp DOT              &mt BACKSLASH SLASH  &kp RALT
+                                                     &lt 2 TAB            &lt 3 BACKSPACE         &lt 4 DEL              &lt_tog_colemak 4 0  &lt 3 SPACE             &lt 2 ENTER
             >;
         };
 
         colemak_dh_layer {
             bindings = <
-           &kp Q       &kp W       &kp F        &kp P             &kp B        &kp J                &kp L             &kp U        &kp Y       &kp SEMI
-           &mt LGUI A  &mt LALT R  &mt LCTRL S  &mt LEFT_SHIFT T  &kp G        &kp M                &mt LEFT_SHIFT N  &mt LCTRL E  &mt LALT I  &mt LEFT_GUI O
-&kp LCTRL  &kp Z       &kp X       &kp C        &kp D             &kp V        &kp K                &kp H             &kp COMMA    &kp DOT     &mt BACKSLASH SLASH  &kp RALT
-                                   &lt 2 TAB    &lt 3 BACKSPACE   &lt 4 DEL    &lt_tog_colemak 4 0  &lt 3 SPACE       &lt 2 ENTER
+           &kp Q       &kp W       &kp F        &kp P                       &kp B        &kp J                &kp L                   &kp U        &kp Y       &kp SEMI
+           &mt LGUI A  &mt LALT R  &mt LCTRL S  &mt_shift LG(LEFT_SHIFT) T  &kp G        &kp M                &mt_shift LEFT_SHIFT N  &mt LCTRL E  &mt LALT I  &mt LEFT_GUI O
+&kp LCTRL  &kp Z       &kp X       &kp C        &kp D                       &kp V        &kp K                &kp H                   &kp COMMA    &kp DOT     &mt BACKSLASH SLASH  &kp RALT
+                                   &lt 2 TAB    &lt 3 BACKSPACE             &lt 4 DEL    &lt_tog_colemak 4 0  &lt 3 SPACE             &lt 2 ENTER
             >;
 
             label = "COLEMAK";
