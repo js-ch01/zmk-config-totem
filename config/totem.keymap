@@ -516,10 +516,10 @@
 
         colemak_dh_layer {
             bindings = <
-           &kp Q       &kp W       &kp F        &kp P                       &kp B        &kp J                &kp L                   &kp U        &kp Y       &kp SEMI
-           &mt LGUI A  &mt LALT R  &mt LCTRL S  &mt_shift LG(LEFT_SHIFT) T  &kp G        &kp M                &mt_shift LEFT_SHIFT N  &mt LCTRL E  &mt LALT I  &mt LEFT_GUI O
-&kp LCTRL  &kp Z       &kp X       &kp C        &kp D                       &kp V        &kp K                &kp H                   &kp COMMA    &kp DOT     &mt BACKSLASH SLASH  &kp RALT
-                                   &lt 2 TAB    &lt 3 BACKSPACE             &lt 4 DEL    &lt_tog_colemak 4 0  &lt 3 SPACE             &lt 2 ENTER
+           &kp Q       &kp W       &kp F        &kp P                   &kp B        &kp J                &kp L                   &kp U        &kp Y       &kp SEMI
+           &mt LGUI A  &mt LALT R  &mt LCTRL S  &mt_shift LEFT_SHIFT T  &kp G        &kp M                &mt_shift LEFT_SHIFT N  &mt LCTRL E  &mt LALT I  &mt LEFT_GUI O
+&kp LCTRL  &kp Z       &kp X       &kp C        &kp D                   &kp V        &kp K                &kp H                   &kp COMMA    &kp DOT     &mt BACKSLASH SLASH  &kp RALT
+                                   &lt 2 TAB    &lt 3 BACKSPACE         &lt 4 DEL    &lt_tog_colemak 4 0  &lt 3 SPACE             &lt 2 ENTER
             >;
 
             label = "COLEMAK";
