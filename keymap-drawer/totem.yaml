@@ -53,7 +53,7 @@ layers:
   - {t: A, h: LGUI}
   - {t: R, h: LALT}
   - {t: S, h: LCTRL}
-  - {t: T, h: LG(LEFT SHIFT)}
+  - {t: T, h: LEFT SHIFT}
   - G
   - M
   - {t: N, h: LEFT SHIFT}
