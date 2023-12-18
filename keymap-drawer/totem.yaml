@@ -419,3 +419,6 @@ combos:
 - p: [33, 34]
   k: SPACE
   l: [base_qwerty, colemak_dh, navi, num]
+- p: [4, 14]
+  k: '&mmv MOVE_RIGHT'
+  l: [colemak_dh]
