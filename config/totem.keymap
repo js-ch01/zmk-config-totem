@@ -377,6 +377,12 @@
             key-positions = <33 34>;
             layers = <0 1 2 3>;
         };
+
+        combo_checkColemak {
+            bindings = <&mmv MOVE_RIGHT>;
+            key-positions = <4 14>;
+            layers = <1>;
+        };
     };
 
     macros {
