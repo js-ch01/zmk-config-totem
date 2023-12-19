@@ -159,56 +159,56 @@
             timeout-ms = <50>;
             key-positions = <12 13>;
             bindings = <&kp LPAR>;
-            layers = <0 2 3 1>;
+            layers = <0 3 1>;
         };
 
         combo_rpar {
             timeout-ms = <50>;
             key-positions = <16 17>;
             bindings = <&kp RPAR>;
-            layers = <0 2 1>;
+            layers = <0 1>;
         };
 
         combo_lbkt {
             timeout-ms = <50>;
             key-positions = <11 13>;
             bindings = <&kp LBKT>;
-            layers = <0 2 3 1>;
+            layers = <0 3 1>;
         };
 
         combo_rbkt {
             timeout-ms = <50>;
             key-positions = <16 18>;
             bindings = <&kp RBKT>;
-            layers = <0 2 1>;
+            layers = <0 1>;
         };
 
         combo_lbrc {
             timeout-ms = <50>;
             key-positions = <12 11>;
             bindings = <&kp LBRC>;
-            layers = <0 2 3 1>;
+            layers = <0 1>;
         };
 
         combo_rbrc {
             timeout-ms = <50>;
             key-positions = <17 18>;
             bindings = <&kp RIGHT_BRACE>;
-            layers = <0 2 1>;
+            layers = <0 1>;
         };
 
         combo_lt {
             timeout-ms = <50>;
             key-positions = <2 11>;
             bindings = <&lt_hold_lte 0 LT>;
-            layers = <0 2 3 1>;
+            layers = <0 3 1>;
         };
 
         combo_gt {
             timeout-ms = <50>;
             key-positions = <7 18>;
             bindings = <&gt_hold_gte 0 GT>;
-            layers = <0 2 3 1>;
+            layers = <0 3 1>;
         };
 
         combo_plus {
@@ -244,12 +244,6 @@
             key-positions = <7 17>;
             bindings = <&kp DQT>;
             layers = <0 2 3 1>;
-        };
-
-        combo_cleanLayer {
-            bindings = <&tog 0>;
-            key-positions = <10 11 12 13>;
-            layers = <0>;
         };
 
         combo_colon {
