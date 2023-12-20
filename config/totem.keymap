@@ -390,7 +390,7 @@
         double_pipe: double_pipe {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp PIPE &kp PIPE>, <&macro_tap>;
+            bindings = <&macro_tap_time 5>, <&kp PIPE &kp PIPE>;
 
             label = "DOUBLE_PIPE";
         };
@@ -462,7 +462,7 @@
         type_th: type_th {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp T &kp H>, <&macro_tap>;
+            bindings = <&macro_tap_time 5>, <&kp T &kp H>;
 
             label = "TYPE_TH";
         };
@@ -470,7 +470,7 @@
         type_ch: type_ch {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp C &kp H>, <&macro_tap>;
+            bindings = <&macro_tap_time 5>, <&kp C &kp H>;
 
             label = "TYPE_CH";
         };
@@ -478,23 +478,15 @@
         type_sh: type_sh {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp S &kp H>, <&macro_tap>;
+            bindings = <&macro_tap_time 5>, <&kp S &kp H>;
 
             label = "TYPE_SH";
-        };
-
-        type_wh: type_wh {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp W &kp H>, <&macro_tap>;
-
-            label = "TYPE_WH";
         };
 
         type_gh: type_gh {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp G &kp H>, <&macro_tap>;
+            bindings = <&macro_tap_time 5>, <&kp G &kp H>;
 
             label = "TYPE_GH";
         };
@@ -502,7 +494,7 @@
         type_ph: type_ph {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp P &kp H>, <&macro_tap>;
+            bindings = <&macro_tap_time 5>, <&kp P &kp H>;
 
             label = "TYPE_PH";
         };
@@ -511,10 +503,18 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
-                <&macro_tap_time 10>,
+                <&macro_tap_time 5>,
                 <&kp O &kp B &kp J &kp E &kp C &kp T>;
 
             label = "TYPE_OBJECT";
+        };
+
+        type_wh: type_wh {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_tap_time 5>, <&kp W &kp H>;
+
+            label = "TYPE_WH";
         };
     };
 
