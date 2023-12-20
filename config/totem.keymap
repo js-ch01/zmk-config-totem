@@ -152,7 +152,7 @@
             timeout-ms = <50>;
             key-positions = <1 0>;
             bindings = <&kp ESC>;
-            layers = <0 2 3 7 1>;
+            layers = <0 2 3 8 1>;
         };
 
         combo_lpar {
@@ -261,27 +261,27 @@
         };
 
         combo_MSE1 {
-            bindings = <&tog 6>;
+            bindings = <&tog 7>;
             key-positions = <34 35>;
-            layers = <0 6>;
+            layers = <0 7>;
         };
 
         combo_game_layer {
-            bindings = <&tog 7>;
+            bindings = <&tog 8>;
             key-positions = <20 31>;
-            layers = <0 7>;
+            layers = <0 8>;
         };
 
         combo_bspc2 {
             bindings = <&kp BACKSPACE>;
             key-positions = <16 27>;
-            layers = <0 2 3 7 1>;
+            layers = <0 2 3 8 1>;
         };
 
         combo_del2 {
             bindings = <&kp DEL>;
             key-positions = <17 28>;
-            layers = <0 2 3 7 1>;
+            layers = <0 2 3 8 1>;
         };
 
         combo_th {
@@ -351,19 +351,19 @@
         combo_enter {
             bindings = <&kp ENTER>;
             key-positions = <25 14>;
-            layers = <0 2 3 6 7 1>;
+            layers = <0 2 3 7 8 1>;
         };
 
         combo_repeat {
             bindings = <&key_repeat>;
             key-positions = <6 16>;
-            layers = <0 2 3 7 1>;
+            layers = <0 2 3 8 1>;
         };
 
         combo_clean {
-            bindings = <&tog 9>;
+            bindings = <&tog 10>;
             key-positions = <32 33 34>;
-            layers = <0 1 9>;
+            layers = <0 1 10>;
         };
 
         combo_space {
@@ -514,19 +514,19 @@
         base_qwerty_layer {
             label = "BASE";
             bindings = <
-           &auto_shift LS(Q) Q  &auto_shift LS(W) W  &auto_shift LS(E) E  &auto_shift LS(R) R     &auto_shift LS(T) T    &kp Y                &kp U                   &kp I        &auto_shift LS(O) O  &auto_shift LS(P) P
-           &mt LGUI A           &mt LALT S           &mt LCTRL D          &mt_shift LEFT_SHIFT F  &kp G                  &kp H                &mt_shift LEFT_SHIFT J  &mt LCTRL K  &mt LALT L           &mt LEFT_GUI SEMI
-&kp LCTRL  &lt 4 Z              &kp X                &kp C                &kp V                   &kp B                  &kp N                &kp M                   &kp COMMA    &kp DOT              &mt BACKSLASH SLASH  &kp RALT
-                                                     &lt 2 TAB            &lt 3 BACKSPACE         &lt 5 DEL              &lt_tog_colemak 5 0  &lt 3 SPACE             &lt 2 ENTER
+                     &auto_shift LS(Q) Q  &auto_shift LS(W) W  &auto_shift LS(E) E  &auto_shift LS(R) R     &auto_shift LS(T) T    &kp Y                &kp U                   &kp I        &auto_shift LS(O) O  &auto_shift LS(P) P
+                     &mt LGUI A           &mt LALT S           &mt LCTRL D          &mt_shift LEFT_SHIFT F  &kp G                  &kp H                &mt_shift LEFT_SHIFT J  &mt LCTRL K  &mt LALT L           &mt LEFT_GUI SEMI
+&lt_tog_colemak 6 0  &lt 4 Z              &kp X                &kp C                &kp V                   &kp B                  &kp N                &kp M                   &kp COMMA    &kp DOT              &mt BACKSLASH SLASH  &kp RALT
+                                                               &lt 2 TAB            &lt 3 BACKSPACE         &lt 5 DEL              &lt_tog_colemak 5 0  &lt 3 SPACE             &lt 2 ENTER
             >;
         };
 
         colemak_dh_layer {
             bindings = <
-           &kp Q       &kp W       &kp F        &kp P                   &kp B        &kp J                &kp L                   &kp U        &kp Y       &kp SEMI
-           &mt LGUI A  &mt LALT R  &mt LCTRL S  &mt_shift LEFT_SHIFT T  &kp G        &kp M                &mt_shift LEFT_SHIFT N  &mt LCTRL E  &mt LALT I  &mt LEFT_GUI O
-&kp LCTRL  &lt 4 Z     &kp X       &kp C        &kp D                   &kp V        &kp K                &kp H                   &kp COMMA    &kp DOT     &mt BACKSLASH SLASH  &kp RALT
-                                   &lt 2 TAB    &lt 3 BACKSPACE         &lt 5 DEL    &lt_tog_colemak 5 0  &lt 3 SPACE             &lt 2 ENTER
+                     &kp Q       &kp W       &kp F        &kp P                   &kp B        &kp J                &kp L                   &kp U        &kp Y       &kp SEMI
+                     &mt LGUI A  &mt LALT R  &mt LCTRL S  &mt_shift LEFT_SHIFT T  &kp G        &kp M                &mt_shift LEFT_SHIFT N  &mt LCTRL E  &mt LALT I  &mt LEFT_GUI O
+&lt_tog_colemak 6 0  &lt 4 Z     &kp X       &kp C        &kp D                   &kp V        &kp K                &kp H                   &kp COMMA    &kp DOT     &mt BACKSLASH SLASH  &kp RALT
+                                             &lt 2 TAB    &lt 3 BACKSPACE         &lt 5 DEL    &lt_tog_colemak 5 0  &lt 3 SPACE             &lt 2 ENTER
             >;
 
             label = "COLEMAK";
@@ -537,7 +537,7 @@
             bindings = <
        &mwh SCROLL_UP    &mwh SCROLL_LEFT  &mmv MOVE_UP    &mwh SCROLL_RIGHT  &mkp LCLK    &kp INS  &kp HOME   &kp UP     &kp END    &kp PG_UP
        &mwh SCROLL_DOWN  &mmv MOVE_LEFT    &mmv MOVE_DOWN  &mmv MOVE_RIGHT    &mkp MCLK    &trans   &kp LEFT   &kp DOWN   &kp RIGHT  &kp PG_DN
-&to 6  &trans            &mkp LCLK         &kp LCTRL       &kp LEFT_SHIFT     &mkp RCLK    &trans   &mkp LCLK  &mkp MCLK  &mkp RCLK  &trans     &trans
+&to 7  &trans            &mkp LCLK         &kp LCTRL       &kp LEFT_SHIFT     &mkp RCLK    &trans   &mkp LCLK  &mkp MCLK  &mkp RCLK  &trans     &trans
                                            &trans          &trans             &trans       &trans   &trans     &trans
             >;
         };
@@ -573,6 +573,17 @@
             >;
         };
 
+        func_left_layer {
+            bindings = <
+        &trans  &kp F7  &kp F8  &kp F9  &kp F12    &trans  &trans  &trans  &trans  &trans
+        &trans  &kp F4  &kp F5  &kp F6  &kp F11    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp F1  &kp F2  &kp F3  &kp F10    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans     &trans  &trans  &trans
+            >;
+
+            label = "FUNC_LEFT";
+        };
+
         mouse_layer {
             label = "MSE";
             bindings = <
@@ -588,7 +599,7 @@
               &kp Q  &kp W  &kp E      &kp R      &kp T             &kp Y          &kp U      &kp I      &kp O    &kp P
               &kp A  &kp S  &kp D      &kp F      &kp G             &kp H          &kp J      &kp K      &kp L    &kp SEMI
 &kp LEFT_ALT  &kp Z  &kp X  &kp C      &kp V      &kp B             &kp N          &kp M      &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
-                            &lt 8 TAB  &kp SPACE  &kp LEFT_SHIFT    &kp RIGHT_ALT  &kp SPACE  &kp ENTER
+                            &lt 9 TAB  &kp SPACE  &kp LEFT_SHIFT    &kp RIGHT_ALT  &kp SPACE  &kp ENTER
             >;
 
             label = "GAME";
