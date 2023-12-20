@@ -510,7 +510,9 @@
         type_object: type_object {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp O &kp B &kp J &kp E &kp C &kp T>, <&macro_tap>;
+            bindings =
+                <&macro_tap_time 10>,
+                <&kp O &kp B &kp J &kp E &kp C &kp T>;
 
             label = "TYPE_OBJECT";
         };
