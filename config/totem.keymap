@@ -378,6 +378,12 @@
             timeout-ms = <50>;
             layers = <0 2 1>;
         };
+
+        combo_type_object {
+            bindings = <&type_object>;
+            key-positions = <16 15>;
+            layers = <0 1>;
+        };
     };
 
     macros {
@@ -499,6 +505,14 @@
             bindings = <&kp P &kp H>, <&macro_tap>;
 
             label = "TYPE_PH";
+        };
+
+        type_object: type_object {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp O &kp B &kp J &kp E &kp C &kp T>, <&macro_tap>;
+
+            label = "TYPE_OBJECT";
         };
     };
 
