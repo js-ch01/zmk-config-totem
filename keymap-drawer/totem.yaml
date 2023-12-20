@@ -22,7 +22,7 @@ layers:
   - {t: L, h: LALT}
   - {t: ;, h: LEFT GUI}
   - LCTRL
-  - Z
+  - {t: Z, h: num_left}
   - X
   - C
   - V
@@ -61,7 +61,7 @@ layers:
   - {t: I, h: LALT}
   - {t: O, h: LEFT GUI}
   - LCTRL
-  - Z
+  - {t: Z, h: num_left}
   - X
   - C
   - D
@@ -156,6 +156,45 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '0'
+  num_left:
+  - LS(STAR)
+  - '7'
+  - '8'
+  - '9'
+  - LS(PLUS)
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '0'
+  - '4'
+  - '5'
+  - '6'
+  - '-'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - '1'
+  - '2'
+  - '3'
+  - \
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   func:
   - CAPS
   - {t: BT, h: '0'}
