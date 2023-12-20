@@ -372,12 +372,6 @@
             layers = <0 1 2 3>;
         };
 
-        combo_checkColemak {
-            bindings = <&mmv MOVE_RIGHT>;
-            key-positions = <4 14>;
-            layers = <1>;
-        };
-
         combo_sq {
             bindings = <&kp SINGLE_QUOTE>;
             key-positions = <8 18>;
