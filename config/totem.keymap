@@ -398,7 +398,7 @@
         double_amp: double_amp {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp AMPS &kp AMPS>, <&macro_tap>;
+            bindings = <&macro_tap_time 5>, <&kp AMPS &kp AMPS>;
 
             label = "DOUBLE_AMP";
         };
@@ -406,7 +406,7 @@
         double_equal: double_equal {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp EQUAL &kp EQUAL>, <&macro_tap>;
+            bindings = <&macro_tap_time 5>, <&kp EQUAL &kp EQUAL>;
 
             label = "DOUBLE_EQUAL";
         };
@@ -414,14 +414,15 @@
         not_equal: not_equal {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp EXCL &kp EQUAL>;
+            bindings = <&macro_tap_time 5>, <&kp EXCL &kp EQUAL>;
+
             label = "NOT_EQUAL";
         };
 
         double_plus: double_plus {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp PLUS &kp PLUS>, <&macro_tap>;
+            bindings = <&macro_tap_time 5>, <&kp PLUS &kp PLUS>;
 
             label = "DOUBLE_PLUS";
         };
@@ -429,7 +430,7 @@
         double_mimus: double_mimus {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp MINUS &kp MINUS>, <&macro_tap>;
+            bindings = <&macro_tap_time 5>, <&kp MINUS &kp MINUS>;
 
             label = "DOUBLE_MIMUS";
         };
@@ -437,7 +438,7 @@
         gte: gte {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp GT &kp EQUAL>, <&macro_tap>;
+            bindings = <&macro_tap_time 5>, <&kp GT &kp EQUAL>;
 
             label = "GTE";
         };
@@ -445,7 +446,7 @@
         lte: lte {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LT &kp EQUAL>, <&macro_tap>;
+            bindings = <&macro_tap_time 5>, <&kp LT &kp EQUAL>;
 
             label = "LTE";
         };
@@ -453,7 +454,8 @@
         tog_colemak: tog_colemak {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&tog 1 &kp RALT>;
+            bindings = <&macro_tap_time 5>, <&tog 1 &kp RALT>;
+
             label = "TOG_COLEMAK";
             wait-ms = <30>;
             tap-ms = <30>;
