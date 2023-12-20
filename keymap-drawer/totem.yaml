@@ -497,3 +497,6 @@ combos:
 - p: [8, 18]
   k: ''''
   l: [base_qwerty, navi, colemak_dh]
+- p: [16, 15]
+  k: '&type_object'
+  l: [base_qwerty, colemak_dh]
