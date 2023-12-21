@@ -452,24 +452,6 @@ combos:
 - p: [17, 28]
   k: DEL
   l: [base_qwerty, navi, num, game, colemak_dh]
-- p: [18, 19]
-  k: '&type_th'
-  l: [base_qwerty, colemak_dh]
-- p: [10, 11]
-  k: '&type_sh'
-  l: [base_qwerty, colemak_dh]
-- p: [1, 2]
-  k: '&type_wh'
-  l: [base_qwerty, colemak_dh]
-- p: [7, 8]
-  k: '&type_gh'
-  l: [base_qwerty, colemak_dh]
-- p: [6, 7]
-  k: '&type_ch'
-  l: [base_qwerty, colemak_dh]
-- p: [3, 2]
-  k: '&type_ph'
-  l: [base_qwerty, colemak_dh]
 - p: [21, 10]
   k: LC(Z)
   l: [base_qwerty, colemak_dh]
