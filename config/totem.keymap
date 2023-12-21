@@ -425,7 +425,7 @@
                      &auto_shift LS(Q) Q  &auto_shift LS(W) W  &auto_shift LS(E) E  &auto_shift LS(R) R     &auto_shift LS(T) T    &kp Y            &kp U                   &kp I        &auto_shift LS(O) O  &auto_shift LS(P) P
                      &mt LGUI A           &mt LALT S           &mt LCTRL D          &mt_shift LEFT_SHIFT F  &kp G                  &kp H            &mt_shift LEFT_SHIFT J  &mt LCTRL K  &mt LALT L           &mt LEFT_GUI SEMI
 &lt_tog_colemak 6 0  &lt 4 Z              &kp X                &kp C                &kp V                   &kp B                  &kp N            &kp M                   &kp COMMA    &kp DOT              &mt BACKSLASH SLASH  &kp RALT
-                                                               &lt 2 TAB            &lt 3 BACKSPACE         &lt 5 DEL              &lt 3 LS(SPACE)  &lt 3 SPACE             &lt 2 ENTER
+                                                               &lt 2 TAB            &lt 3 BACKSPACE         &lt 5 DEL              &lt 5 LS(SPACE)  &lt 3 SPACE             &lt 2 ENTER
             >;
         };
 
