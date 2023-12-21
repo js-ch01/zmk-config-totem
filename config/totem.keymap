@@ -284,46 +284,6 @@
             layers = <0 2 3 8 1>;
         };
 
-        combo_th {
-            bindings = <&type_th>;
-            key-positions = <18 19>;
-            timeout-ms = <50>;
-            layers = <0 1>;
-        };
-
-        combo_sh {
-            bindings = <&type_sh>;
-            key-positions = <10 11>;
-            timeout-ms = <50>;
-            layers = <0 1>;
-        };
-
-        combo_wh {
-            bindings = <&type_wh>;
-            key-positions = <1 2>;
-            timeout-ms = <50>;
-            layers = <0 1>;
-        };
-
-        combo_gh {
-            bindings = <&type_gh>;
-            key-positions = <7 8>;
-            timeout-ms = <50>;
-            layers = <0 1>;
-        };
-
-        combo_ch {
-            bindings = <&type_ch>;
-            key-positions = <6 7>;
-            layers = <0 1>;
-        };
-
-        combo_ph {
-            bindings = <&type_ph>;
-            key-positions = <3 2>;
-            layers = <0 1>;
-        };
-
         combo_ctrl_z {
             bindings = <&kp LC(Z)>;
             key-positions = <21 10>;
