@@ -247,7 +247,7 @@
         };
 
         combo_colon {
-            bindings = <&kp COLON>;
+            bindings = <&kp LS(P)>;
             key-positions = <2 12>;
             timeout-ms = <50>;
             layers = <0 1>;
