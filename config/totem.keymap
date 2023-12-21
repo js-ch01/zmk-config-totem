@@ -314,8 +314,8 @@
             layers = <0 2 3 7 8 1>;
         };
 
-        combo_repeat {
-            bindings = <&key_repeat>;
+        combo_semi {
+            bindings = <&kp SEMI>;
             key-positions = <6 16>;
             layers = <0 2 3 8 1>;
         };
