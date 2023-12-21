@@ -315,7 +315,7 @@
         };
 
         combo_semi {
-            bindings = <&kp SEMI>;
+            bindings = <&kp P>;
             key-positions = <6 16>;
             layers = <0 2 3 8 1>;
         };
