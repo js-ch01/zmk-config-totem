@@ -442,10 +442,10 @@ combos:
   l: [base_qwerty, navi, num, colemak_dh]
 - p: [34, 35]
   k: {t: mouse, h: toggle}
-  l: [base_qwerty, mouse]
+  l: [base_qwerty, mouse, colemak_dh]
 - p: [20, 31]
   k: {t: game, h: toggle}
-  l: [base_qwerty, game]
+  l: [base_qwerty, game, colemak_dh]
 - p: [16, 27]
   k: BACKSPACE
   l: [base_qwerty, navi, num, game, colemak_dh]
