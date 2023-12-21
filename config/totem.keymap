@@ -263,13 +263,13 @@
         combo_MSE1 {
             bindings = <&tog 7>;
             key-positions = <34 35>;
-            layers = <0 7>;
+            layers = <0 7 1>;
         };
 
         combo_game_layer {
             bindings = <&tog 8>;
             key-positions = <20 31>;
-            layers = <0 8>;
+            layers = <0 8 1>;
         };
 
         combo_bspc2 {
