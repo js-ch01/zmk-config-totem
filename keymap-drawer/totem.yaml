@@ -480,7 +480,7 @@ combos:
   k: LC(C)
   l: [base_qwerty, colemak_dh]
 - p: [13, 24]
-  k: LC(V)
+  k: LC(B)
   l: [base_qwerty, colemak_dh]
 - p: [25, 14]
   k: ENTER
