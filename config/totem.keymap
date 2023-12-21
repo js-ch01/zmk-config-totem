@@ -343,7 +343,7 @@
         };
 
         combo_ctrl_v {
-            bindings = <&kp LC(V)>;
+            bindings = <&kp LC(B)>;
             key-positions = <13 24>;
             layers = <0 1>;
         };
