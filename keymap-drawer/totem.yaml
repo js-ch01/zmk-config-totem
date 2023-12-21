@@ -468,7 +468,7 @@ combos:
   k: ENTER
   l: [base_qwerty, navi, num, mouse, game, colemak_dh]
 - p: [6, 16]
-  k: '&key_repeat'
+  k: ;
   l: [base_qwerty, navi, num, game, colemak_dh]
 - p: [32, 33, 34]
   k: {t: clean, h: toggle}
