@@ -36,7 +36,7 @@ layers:
   - {t: TAB, h: navi}
   - {t: BACKSPACE, h: num}
   - {t: DEL, h: func}
-  - {t: '&tog_colemak', h: func}
+  - {t: LS(SPACE), h: num}
   - {t: SPACE, h: num}
   - {t: ENTER, h: navi}
   colemak_dh:
