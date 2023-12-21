@@ -421,10 +421,10 @@ combos:
   l: [base_qwerty, num, colemak_dh]
 - p: [23, 24]
   k: {t: +, h: '&double_plus'}
-  l: [base_qwerty, navi, num, colemak_dh]
+  l: [base_qwerty, num, colemak_dh]
 - p: [22, 23]
   k: {t: '=', h: '&double_equal'}
-  l: [base_qwerty, navi, num, colemak_dh]
+  l: [base_qwerty, num, colemak_dh]
 - p: [27, 28]
   k: {t: '-', h: '&double_mimus'}
   l: [base_qwerty, navi, colemak_dh]
@@ -436,10 +436,10 @@ combos:
   l: [base_qwerty, navi, num, colemak_dh]
 - p: [2, 12]
   k: ':'
-  l: [base_qwerty, navi, num, colemak_dh]
+  l: [base_qwerty, num, colemak_dh]
 - p: [3, 13]
   k: '&caps_word'
-  l: [base_qwerty, navi, num, colemak_dh]
+  l: [base_qwerty, num, colemak_dh]
 - p: [34, 35]
   k: {t: mouse, h: toggle}
   l: [base_qwerty, mouse, colemak_dh]
