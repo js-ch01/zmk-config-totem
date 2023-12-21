@@ -464,7 +464,7 @@
         type_th: type_th {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_tap_time 5>, <&kp T &kp H>;
+            bindings = <&macro_tap_time 5>, <&kp V &kp M>;
 
             label = "TYPE_TH";
         };
@@ -472,7 +472,7 @@
         type_ch: type_ch {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_tap_time 5>, <&kp C &kp H>;
+            bindings = <&macro_tap_time 5>, <&kp C &kp M>;
 
             label = "TYPE_CH";
         };
@@ -480,7 +480,7 @@
         type_sh: type_sh {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_tap_time 5>, <&kp S &kp H>;
+            bindings = <&macro_tap_time 5>, <&kp V &kp M>;
 
             label = "TYPE_SH";
         };
@@ -488,7 +488,7 @@
         type_gh: type_gh {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_tap_time 5>, <&kp G &kp H>;
+            bindings = <&macro_tap_time 5>, <&kp G &kp M>;
 
             label = "TYPE_GH";
         };
@@ -496,25 +496,15 @@
         type_ph: type_ph {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_tap_time 5>, <&kp P &kp H>;
+            bindings = <&macro_tap_time 5>, <&kp S &kp M>;
 
             label = "TYPE_PH";
-        };
-
-        type_object: type_object {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&macro_tap_time 5>,
-                <&kp O &kp B &kp J &kp E &kp C &kp T>;
-
-            label = "TYPE_OBJECT";
         };
 
         type_wh: type_wh {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_tap_time 5>, <&kp W &kp H>;
+            bindings = <&macro_tap_time 5>, <&kp W &kp M>;
 
             label = "TYPE_WH";
         };
