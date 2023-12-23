@@ -22,7 +22,7 @@
 };
 
 &caps_word {
-    continue-list = <UNDERSCORE BACKSPACE DELETE O>;
+    continue-list = <UNDERSCORE BACKSPACE DELETE P>;
 };
 
 &sk {
