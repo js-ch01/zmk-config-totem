@@ -429,7 +429,7 @@ combos:
   k: {t: '-', h: '&double_mimus'}
   l: [base_qwerty, colemak_dh]
 - p: [28, 29]
-  k: _
+  k: {t: _, h: '&double_underscore'}
   l: [base_qwerty, colemak_dh]
 - p: [7, 17]
   k: '"'
@@ -468,7 +468,7 @@ combos:
   k: ENTER
   l: [base_qwerty, navi, num, mouse, game, colemak_dh]
 - p: [6, 16]
-  k: P
+  k: '&key_repeat'
   l: [base_qwerty, navi, num, game, colemak_dh]
 - p: [32, 33, 34]
   k: {t: clean, h: toggle}
