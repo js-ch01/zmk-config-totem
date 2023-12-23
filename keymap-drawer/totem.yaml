@@ -435,7 +435,7 @@ combos:
   k: '"'
   l: [base_qwerty, colemak_dh]
 - p: [2, 12]
-  k: LS(P)
+  k: {t: LS(P), h: '&double_colon'}
   l: [base_qwerty, colemak_dh]
 - p: [3, 13]
   k: '&caps_word'
