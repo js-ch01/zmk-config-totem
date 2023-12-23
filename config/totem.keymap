@@ -160,6 +160,16 @@
             flavor = "tap-preferred";
             tapping-term-ms = <200>;
         };
+
+        colon_hold_double: colon_hold_double {
+            compatible = "zmk,behavior-hold-tap";
+            label = "COLON_HOLD_DOUBLE";
+            bindings = <&double_colon>, <&kp>;
+
+            #binding-cells = <2>;
+            flavor = "tap-preferred";
+            tapping-term-ms = <200>;
+        };
     };
 };
 
@@ -266,7 +276,7 @@
         };
 
         combo_colon {
-            bindings = <&kp LS(P)>;
+            bindings = <&colon_hold_double 0 LS(P)>;
             key-positions = <2 12>;
             timeout-ms = <50>;
             layers = <0 1>;
@@ -440,6 +450,14 @@
             bindings = <&macro_tap_time 5>, <&kp UNDERSCORE &kp UNDERSCORE>;
 
             label = "DOUBLE_UNDERSCORE";
+        };
+
+        double_colon: double_colon {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_tap_time 5>, <&kp COLON &kp COLON>;
+
+            label = "DOUBLE_COLON";
         };
     };
 
