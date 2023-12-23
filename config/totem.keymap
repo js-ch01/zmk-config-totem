@@ -160,26 +160,6 @@
             flavor = "tap-preferred";
             tapping-term-ms = <200>;
         };
-
-        colon_hold_double: colon_hold_double {
-            compatible = "zmk,behavior-hold-tap";
-            label = "COLON_HOLD_DOUBLE";
-            bindings = <&double_colon>, <&kp>;
-
-            #binding-cells = <2>;
-            flavor = "tap-preferred";
-            tapping-term-ms = <200>;
-        };
-
-        semi_hold_semi: semi_hold_semi {
-            compatible = "zmk,behavior-hold-tap";
-            label = "SEMI_HOLD_SEMI";
-            bindings = <&type_semicolon>, <&kp>;
-
-            #binding-cells = <2>;
-            flavor = "tap-preferred";
-            tapping-term-ms = <200>;
-        };
     };
 };
 
@@ -286,7 +266,7 @@
         };
 
         combo_colon {
-            bindings = <&colon_hold_double 0 COLON>;
+            bindings = <&kp COLON>;
             key-positions = <2 12>;
             timeout-ms = <50>;
             layers = <0 1>;
@@ -353,8 +333,8 @@
             layers = <0 2 3 7 8 1>;
         };
 
-        combo_semi {
-            bindings = <&semi_hold_semi 0 SEMICOLON>;
+        combo_repeat {
+            bindings = <&key_repeat>;
             key-positions = <6 16>;
             layers = <0 2 3 8 1>;
         };
@@ -374,13 +354,6 @@
         combo_sq {
             bindings = <&kp SINGLE_QUOTE>;
             key-positions = <8 18>;
-            timeout-ms = <50>;
-            layers = <0 1>;
-        };
-
-        combo_repeat {
-            bindings = <&key_repeat>;
-            key-positions = <1 11>;
             timeout-ms = <50>;
             layers = <0 1>;
         };
@@ -467,22 +440,6 @@
             bindings = <&macro_tap_time 5>, <&kp UNDERSCORE &kp UNDERSCORE>;
 
             label = "DOUBLE_UNDERSCORE";
-        };
-
-        double_colon: double_colon {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&macro_tap_time 5>, <&kp COLON &kp COLON>;
-
-            label = "DOUBLE_COLON";
-        };
-
-        type_semicolon: type_semicolon {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&macro_tap_time 5>, <&kp SEMICOLON>;
-
-            label = "TYPE_SEMICOLON";
         };
     };
 
