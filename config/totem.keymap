@@ -276,7 +276,7 @@
         };
 
         combo_colon {
-            bindings = <&colon_hold_double 0 LS(P)>;
+            bindings = <&colon_hold_double 0 COLON>;
             key-positions = <2 12>;
             timeout-ms = <50>;
             layers = <0 1>;
