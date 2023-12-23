@@ -468,7 +468,7 @@ combos:
   k: ENTER
   l: [base_qwerty, navi, num, mouse, game, colemak_dh]
 - p: [6, 16]
-  k: '&key_repeat'
+  k: {t: ;, h: '&type_semicolon'}
   l: [base_qwerty, navi, num, game, colemak_dh]
 - p: [32, 33, 34]
   k: {t: clean, h: toggle}
@@ -478,4 +478,7 @@ combos:
   l: [base_qwerty, colemak_dh, navi, num]
 - p: [8, 18]
   k: ''''
+  l: [base_qwerty, colemak_dh]
+- p: [1, 11]
+  k: '&key_repeat'
   l: [base_qwerty, colemak_dh]
