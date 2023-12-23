@@ -22,7 +22,7 @@
 };
 
 &caps_word {
-    continue-list = <UNDERSCORE BACKSPACE DELETE SEMICOLON>;
+    continue-list = <UNDERSCORE BACKSPACE DELETE>;
 };
 
 &sk {
@@ -88,6 +88,7 @@
 
             #binding-cells = <2>;
             tapping-term-ms = <200>;
+            flavor = "tap-preferred";
         };
 
         minus_hold_double: minus_hold_double {
@@ -97,6 +98,7 @@
 
             #binding-cells = <2>;
             tapping-term-ms = <200>;
+            flavor = "tap-preferred";
         };
 
         gt_hold_gte: gt_hold_gte {
@@ -106,6 +108,7 @@
 
             #binding-cells = <2>;
             tapping-term-ms = <200>;
+            flavor = "tap-preferred";
         };
 
         lt_hold_lte: lt_hold_lte {
@@ -115,6 +118,7 @@
 
             #binding-cells = <2>;
             tapping-term-ms = <200>;
+            flavor = "tap-preferred";
         };
 
         lt_tog_colemak: lt_tog_colemak {
@@ -145,6 +149,16 @@
             #binding-cells = <2>;
             tapping-term-ms = <200>;
             flavor = "tap-preferred";
+        };
+
+        under_hold_double: under_hold_double {
+            compatible = "zmk,behavior-hold-tap";
+            label = "UNDER_HOLD_DOUBLE";
+            bindings = <&double_underscore>, <&kp>;
+
+            #binding-cells = <2>;
+            flavor = "tap-preferred";
+            tapping-term-ms = <200>;
         };
     };
 };
@@ -240,7 +254,7 @@
         combo_under {
             timeout-ms = <50>;
             key-positions = <28 29>;
-            bindings = <&kp UNDER>;
+            bindings = <&under_hold_double 0 UNDERSCORE>;
             layers = <0 1>;
         };
 
@@ -319,8 +333,8 @@
             layers = <0 2 3 7 8 1>;
         };
 
-        combo_semi {
-            bindings = <&kp P>;
+        combo_repeat {
+            bindings = <&key_repeat>;
             key-positions = <6 16>;
             layers = <0 2 3 8 1>;
         };
@@ -418,6 +432,14 @@
             label = "TOG_COLEMAK";
             wait-ms = <30>;
             tap-ms = <30>;
+        };
+
+        double_underscore: double_underscore {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_tap_time 5>, <&kp UNDERSCORE &kp UNDERSCORE>;
+
+            label = "DOUBLE_UNDERSCORE";
         };
     };
 
