@@ -217,14 +217,14 @@
         };
 
         combo_lt {
-            timeout-ms = <38>;
+            timeout-ms = <45>;
             key-positions = <2 11>;
             bindings = <&lt_hold_lte 0 LT>;
             layers = <0 1>;
         };
 
         combo_gt {
-            timeout-ms = <38>;
+            timeout-ms = <45>;
             key-positions = <7 18>;
             bindings = <&gt_hold_gte 0 GT>;
             layers = <0 1>;
