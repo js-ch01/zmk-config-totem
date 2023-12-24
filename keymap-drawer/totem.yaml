@@ -143,7 +143,7 @@ layers:
   - VOLUME UP
   - VOL DN
   - MUTE
-  - ''''
+  - ','
   - .
   - '1'
   - '2'
