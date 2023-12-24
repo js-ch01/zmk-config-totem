@@ -196,7 +196,7 @@
         };
 
         combo_rbkt {
-            timeout-ms = <38>;
+            timeout-ms = <30>;
             key-positions = <16 18>;
             bindings = <&kp RBKT>;
             layers = <0 1>;
