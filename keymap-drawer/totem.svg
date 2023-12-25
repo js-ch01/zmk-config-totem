@@ -412,36 +412,6 @@ path.combo {
 <rect rx="6" ry="6" x="686" y="77" width="28" height="26" class="combo"/>
 <text x="700" y="90" class="combo tap">&#x27;</text>
 </g>
-<g class="combo combopos-29">
-<path d="M294,117 l-202,-4" class="combo"/>
-<path d="M294,117 l202,4" class="combo"/>
-<rect rx="6" ry="6" x="280" y="104" width="28" height="26" class="combo"/>
-<text x="294" y="117" class="combo tap">LS(Q)</text>
-</g>
-<g class="combo combopos-30">
-<path d="M328,91 l-169,-26" class="combo"/>
-<path d="M328,91 l169,26" class="combo"/>
-<rect rx="6" ry="6" x="314" y="78" width="28" height="26" class="combo"/>
-<text x="328" y="91" class="combo tap">LS(W)</text>
-</g>
-<g class="combo combopos-31">
-<path d="M362,75 l-135,-41" class="combo"/>
-<path d="M362,75 l135,41" class="combo"/>
-<rect rx="6" ry="6" x="348" y="62" width="28" height="26" class="combo"/>
-<text x="362" y="75" class="combo tap">LS(F)</text>
-</g>
-<g class="combo combopos-32">
-<path d="M391,88 l-105,-28" class="combo"/>
-<path d="M391,88 l105,28" class="combo"/>
-<rect rx="6" ry="6" x="377" y="75" width="28" height="26" class="combo"/>
-<text x="391" y="88" class="combo tap">LS(P)</text>
-</g>
-<g class="combo combopos-33">
-<path d="M421,93 l-76,-23" class="combo"/>
-<path d="M421,93 l76,23" class="combo"/>
-<rect rx="6" ry="6" x="407" y="80" width="28" height="26" class="combo"/>
-<text x="421" y="93" class="combo tap">LS(B)</text>
-</g>
 </g>
 </g>
 <g transform="translate(30, 366)" class="layer-colemak_dh">
@@ -748,36 +718,6 @@ path.combo {
 <g class="combo combopos-28">
 <rect rx="6" ry="6" x="686" y="77" width="28" height="26" class="combo"/>
 <text x="700" y="90" class="combo tap">&#x27;</text>
-</g>
-<g class="combo combopos-29">
-<path d="M294,117 l-202,-4" class="combo"/>
-<path d="M294,117 l202,4" class="combo"/>
-<rect rx="6" ry="6" x="280" y="104" width="28" height="26" class="combo"/>
-<text x="294" y="117" class="combo tap">LS(Q)</text>
-</g>
-<g class="combo combopos-30">
-<path d="M328,91 l-169,-26" class="combo"/>
-<path d="M328,91 l169,26" class="combo"/>
-<rect rx="6" ry="6" x="314" y="78" width="28" height="26" class="combo"/>
-<text x="328" y="91" class="combo tap">LS(W)</text>
-</g>
-<g class="combo combopos-31">
-<path d="M362,75 l-135,-41" class="combo"/>
-<path d="M362,75 l135,41" class="combo"/>
-<rect rx="6" ry="6" x="348" y="62" width="28" height="26" class="combo"/>
-<text x="362" y="75" class="combo tap">LS(F)</text>
-</g>
-<g class="combo combopos-32">
-<path d="M391,88 l-105,-28" class="combo"/>
-<path d="M391,88 l105,28" class="combo"/>
-<rect rx="6" ry="6" x="377" y="75" width="28" height="26" class="combo"/>
-<text x="391" y="88" class="combo tap">LS(P)</text>
-</g>
-<g class="combo combopos-33">
-<path d="M421,93 l-76,-23" class="combo"/>
-<path d="M421,93 l76,23" class="combo"/>
-<rect rx="6" ry="6" x="407" y="80" width="28" height="26" class="combo"/>
-<text x="421" y="93" class="combo tap">LS(B)</text>
 </g>
 </g>
 </g>
