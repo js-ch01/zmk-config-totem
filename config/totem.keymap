@@ -357,6 +357,36 @@
             timeout-ms = <38>;
             layers = <0 1>;
         };
+
+        combo_Q {
+            bindings = <&kp LS(Q)>;
+            key-positions = <16 0>;
+            layers = <0 1>;
+        };
+
+        combo_W {
+            bindings = <&kp LS(W)>;
+            key-positions = <16 1>;
+            layers = <0 1>;
+        };
+
+        combo_F {
+            bindings = <&kp LS(F)>;
+            key-positions = <16 2>;
+            layers = <0 1>;
+        };
+
+        combo_P {
+            bindings = <&kp LS(P)>;
+            key-positions = <16 3>;
+            layers = <0 1>;
+        };
+
+        combo_B {
+            bindings = <&kp LS(B)>;
+            key-positions = <16 4>;
+            layers = <0 1>;
+        };
     };
 
     macros {
