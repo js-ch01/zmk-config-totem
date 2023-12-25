@@ -417,6 +417,14 @@ path.combo {
 <rect rx="6" ry="6" x="64" y="128" width="28" height="26" class="combo"/>
 <text x="78" y="141" class="combo tap">LS(Q)</text>
 </g>
+<g class="combo combopos-32">
+<rect rx="6" ry="6" x="686" y="77" width="28" height="26" class="combo"/>
+<text x="700" y="90" class="combo tap">LS(O)</text>
+</g>
+<g class="combo combopos-33">
+<rect rx="6" ry="6" x="750" y="128" width="28" height="26" class="combo"/>
+<text x="764" y="141" class="combo tap">LS(P)</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 366)" class="layer-colemak_dh">
@@ -735,6 +743,14 @@ path.combo {
 <g class="combo combopos-31">
 <rect rx="6" ry="6" x="64" y="128" width="28" height="26" class="combo"/>
 <text x="78" y="141" class="combo tap">LS(Q)</text>
+</g>
+<g class="combo combopos-32">
+<rect rx="6" ry="6" x="686" y="77" width="28" height="26" class="combo"/>
+<text x="700" y="90" class="combo tap">LS(O)</text>
+</g>
+<g class="combo combopos-33">
+<rect rx="6" ry="6" x="750" y="128" width="28" height="26" class="combo"/>
+<text x="764" y="141" class="combo tap">LS(P)</text>
 </g>
 </g>
 </g>

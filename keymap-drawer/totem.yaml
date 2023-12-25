@@ -488,3 +488,9 @@ combos:
 - p: [0, 10]
   k: LS(Q)
   l: [base_qwerty, colemak_dh]
+- p: [8, 18]
+  k: LS(O)
+  l: [base_qwerty, colemak_dh]
+- p: [19, 9]
+  k: LS(P)
+  l: [base_qwerty, colemak_dh]
