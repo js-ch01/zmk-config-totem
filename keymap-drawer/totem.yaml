@@ -1,16 +1,16 @@
 layout: {qmk_keyboard: totem}
 layers:
   base_qwerty:
-  - {t: Q, h: LS(Q)}
-  - {t: W, h: LS(W)}
-  - {t: E, h: LS(E)}
-  - {t: R, h: LS(R)}
-  - {t: T, h: LS(T)}
+  - Q
+  - W
+  - E
+  - R
+  - T
   - Y
   - U
   - I
-  - {t: O, h: LS(O)}
-  - {t: P, h: LS(P)}
+  - O
+  - P
   - {t: A, h: LGUI}
   - {t: S, h: LALT}
   - {t: D, h: LCTRL}
@@ -434,12 +434,6 @@ combos:
 - p: [7, 17]
   k: '"'
   l: [base_qwerty, colemak_dh]
-- p: [2, 12]
-  k: LS(P)
-  l: [base_qwerty, colemak_dh]
-- p: [3, 13]
-  k: '&caps_word'
-  l: [base_qwerty, colemak_dh]
 - p: [34, 35]
   k: {t: mouse, h: toggle}
   l: [base_qwerty, mouse, colemak_dh]
@@ -478,4 +472,19 @@ combos:
   l: [base_qwerty, colemak_dh, navi, num]
 - p: [8, 18]
   k: ''''
+  l: [base_qwerty, colemak_dh]
+- p: [13, 14]
+  k: LS(B)
+  l: [base_qwerty, colemak_dh]
+- p: [13, 3]
+  k: LS(SEMICOLON)
+  l: [base_qwerty, colemak_dh]
+- p: [12, 2]
+  k: LS(F)
+  l: [base_qwerty, colemak_dh]
+- p: [1, 11]
+  k: LS(W)
+  l: [base_qwerty, colemak_dh]
+- p: [0, 10]
+  k: LS(Q)
   l: [base_qwerty, colemak_dh]
