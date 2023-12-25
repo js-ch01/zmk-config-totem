@@ -470,24 +470,12 @@ combos:
 - p: [33, 34]
   k: SPACE
   l: [base_qwerty, colemak_dh, navi, num]
-- p: [13, 14]
-  k: LS(T)
+- p: [22, 24]
+  k: ':'
   l: [base_qwerty, colemak_dh]
-- p: [13, 3]
-  k: LS(R)
+- p: [27, 29]
+  k: ;
   l: [base_qwerty, colemak_dh]
-- p: [12, 2]
-  k: LS(E)
-  l: [base_qwerty, colemak_dh]
-- p: [1, 11]
-  k: LS(W)
-  l: [base_qwerty, colemak_dh]
-- p: [0, 10]
-  k: LS(Q)
-  l: [base_qwerty, colemak_dh]
-- p: [8, 18]
-  k: LS(O)
-  l: [base_qwerty, colemak_dh]
-- p: [19, 9]
-  k: LS(P)
+- p: [3, 13]
+  k: '&type_th'
   l: [base_qwerty, colemak_dh]
