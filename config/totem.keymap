@@ -356,19 +356,19 @@
             layers = <0 1>;
         };
 
-        combo_B {
+        combo_T {
             bindings = <&kp LS(T)>;
             key-positions = <13 14>;
             layers = <0 1>;
         };
 
-        combo_P {
+        combo_R {
             bindings = <&kp LS(R)>;
             key-positions = <13 3>;
             layers = <0 1>;
         };
 
-        combo_F {
+        combo_E {
             bindings = <&kp LS(E)>;
             key-positions = <12 2>;
             layers = <0 1>;
@@ -383,6 +383,18 @@
         combo_Q {
             bindings = <&kp LS(Q)>;
             key-positions = <0 10>;
+            layers = <0 1>;
+        };
+
+        combo_O {
+            bindings = <&kp LS(O)>;
+            key-positions = <8 18>;
+            layers = <0 1>;
+        };
+
+        combo_P {
+            bindings = <&kp LS(P)>;
+            key-positions = <19 9>;
             layers = <0 1>;
         };
     };
