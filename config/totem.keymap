@@ -360,31 +360,31 @@
 
         combo_Q {
             bindings = <&kp LS(Q)>;
-            key-positions = <16 0>;
+            key-positions = <0 17>;
             layers = <0 1>;
         };
 
         combo_W {
             bindings = <&kp LS(W)>;
-            key-positions = <16 1>;
+            key-positions = <1 17>;
             layers = <0 1>;
         };
 
         combo_F {
             bindings = <&kp LS(F)>;
-            key-positions = <16 2>;
+            key-positions = <2 17>;
             layers = <0 1>;
         };
 
         combo_P {
             bindings = <&kp LS(P)>;
-            key-positions = <16 3>;
+            key-positions = <3 17>;
             layers = <0 1>;
         };
 
         combo_B {
             bindings = <&kp LS(B)>;
-            key-positions = <16 4>;
+            key-positions = <4 17>;
             layers = <0 1>;
         };
     };
