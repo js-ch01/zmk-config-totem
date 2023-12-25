@@ -479,3 +479,18 @@ combos:
 - p: [8, 18]
   k: ''''
   l: [base_qwerty, colemak_dh]
+- p: [16, 0]
+  k: LS(Q)
+  l: [base_qwerty, colemak_dh]
+- p: [16, 1]
+  k: LS(W)
+  l: [base_qwerty, colemak_dh]
+- p: [16, 2]
+  k: LS(F)
+  l: [base_qwerty, colemak_dh]
+- p: [16, 3]
+  k: LS(P)
+  l: [base_qwerty, colemak_dh]
+- p: [16, 4]
+  k: LS(B)
+  l: [base_qwerty, colemak_dh]
