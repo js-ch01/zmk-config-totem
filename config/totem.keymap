@@ -357,7 +357,7 @@
         };
 
         combo_B {
-            bindings = <&kp LS(V)>;
+            bindings = <&kp LS(T)>;
             key-positions = <13 14>;
             layers = <0 1>;
         };
@@ -369,7 +369,7 @@
         };
 
         combo_F {
-            bindings = <&kp LS(T)>;
+            bindings = <&kp LS(E)>;
             key-positions = <12 2>;
             layers = <0 1>;
         };
