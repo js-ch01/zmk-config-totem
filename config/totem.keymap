@@ -357,19 +357,19 @@
         };
 
         combo_B {
-            bindings = <&kp LS(B)>;
+            bindings = <&kp LS(V)>;
             key-positions = <13 14>;
             layers = <0 1>;
         };
 
         combo_P {
-            bindings = <&kp LS(SEMICOLON)>;
+            bindings = <&kp LS(R)>;
             key-positions = <13 3>;
             layers = <0 1>;
         };
 
         combo_F {
-            bindings = <&kp LS(F)>;
+            bindings = <&kp LS(T)>;
             key-positions = <12 2>;
             layers = <0 1>;
         };
