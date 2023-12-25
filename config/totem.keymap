@@ -349,45 +349,21 @@
             layers = <0 1 2 3>;
         };
 
-        combo_T {
-            bindings = <&kp LS(T)>;
-            key-positions = <13 14>;
+        combo_colon {
+            bindings = <&kp COLON>;
+            key-positions = <22 24>;
             layers = <0 1>;
         };
 
-        combo_R {
-            bindings = <&kp LS(R)>;
-            key-positions = <13 3>;
+        combo_semi {
+            bindings = <&kp SEMICOLON>;
+            key-positions = <27 29>;
             layers = <0 1>;
         };
 
-        combo_E {
-            bindings = <&kp LS(E)>;
-            key-positions = <12 2>;
-            layers = <0 1>;
-        };
-
-        combo_W {
-            bindings = <&kp LS(W)>;
-            key-positions = <1 11>;
-            layers = <0 1>;
-        };
-
-        combo_Q {
-            bindings = <&kp LS(Q)>;
-            key-positions = <0 10>;
-            layers = <0 1>;
-        };
-
-        combo_O {
-            bindings = <&kp LS(O)>;
-            key-positions = <8 18>;
-            layers = <0 1>;
-        };
-
-        combo_P {
-            bindings = <&kp LS(P)>;
-            key-positions = <19 9>;
+        combo_th {
+            bindings = <&type_th>;
+            key-positions = <3 13>;
             layers = <0 1>;
         };
     };
@@ -473,6 +449,14 @@
             bindings = <&macro_tap_time 5>, <&kp UNDERSCORE &kp UNDERSCORE>;
 
             label = "DOUBLE_UNDERSCORE";
+        };
+
+        type_th: type_th {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_tap_time 5>, <&kp T &kp H>;
+
+            label = "TYPE_TH";
         };
     };
 
