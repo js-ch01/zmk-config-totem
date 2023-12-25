@@ -56,7 +56,7 @@ layers:
   - {t: T, h: LEFT SHIFT}
   - G
   - M
-  - {t: N, h: LEFT SHIFT}
+  - {t: N, h: LSHFT}
   - {t: E, h: LCTRL}
   - {t: I, h: LALT}
   - {t: O, h: LEFT GUI}
