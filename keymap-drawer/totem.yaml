@@ -143,7 +143,7 @@ layers:
   - VOLUME UP
   - VOL DN
   - MUTE
-  - ','
+  - ''''
   - .
   - '1'
   - '2'
@@ -470,9 +470,6 @@ combos:
 - p: [33, 34]
   k: SPACE
   l: [base_qwerty, colemak_dh, navi, num]
-- p: [8, 18]
-  k: ''''
-  l: [base_qwerty, colemak_dh]
 - p: [13, 14]
   k: LS(T)
   l: [base_qwerty, colemak_dh]
