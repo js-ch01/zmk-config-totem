@@ -448,7 +448,7 @@
         type_th: type_th {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_tap_time 5>, <&kp B &kp M>;
+            bindings = <&macro_tap_time 5>, <&kp V &kp M>;
 
             label = "TYPE_TH";
         };
