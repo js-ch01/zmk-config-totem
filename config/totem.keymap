@@ -230,14 +230,14 @@
 
         combo_lt {
             timeout-ms = <45>;
-            key-positions = <2 11>;
+            key-positions = <22 24>;
             bindings = <&lt_hold_lte 0 LT>;
             layers = <0 1>;
         };
 
         combo_gt {
             timeout-ms = <45>;
-            key-positions = <7 18>;
+            key-positions = <27 29>;
             bindings = <&gt_hold_gte 0 GT>;
             layers = <0 1>;
         };
@@ -350,14 +350,8 @@
         };
 
         combo_colon {
-            bindings = <&kp COLON>;
-            key-positions = <22 24>;
-            layers = <0 1>;
-        };
-
-        combo_semi {
-            bindings = <&kp SEMICOLON>;
-            key-positions = <27 29>;
+            bindings = <&kp SQT>;
+            key-positions = <18 8>;
             layers = <0 1>;
         };
 
@@ -454,7 +448,7 @@
         type_th: type_th {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_tap_time 5>, <&kp T &kp H>;
+            bindings = <&macro_tap_time 5>, <&kp B &kp M>;
 
             label = "TYPE_TH";
         };
