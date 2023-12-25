@@ -399,15 +399,15 @@ path.combo {
 </g>
 <g class="combo combopos-27">
 <rect rx="6" ry="6" x="282" y="103" width="28" height="26" class="combo"/>
-<text x="296" y="116" class="combo tap">LS(B)</text>
+<text x="296" y="116" class="combo tap">LS(V)</text>
 </g>
 <g class="combo combopos-28">
 <rect rx="6" ry="6" x="253" y="71" width="28" height="26" class="combo"/>
-<text x="267" y="84" class="combo tap"><tspan style="font-size: 60%">LS(SEMICOLON)</tspan></text>
+<text x="267" y="84" class="combo tap">LS(R)</text>
 </g>
 <g class="combo combopos-29">
 <rect rx="6" ry="6" x="193" y="43" width="28" height="26" class="combo"/>
-<text x="207" y="56" class="combo tap">LS(F)</text>
+<text x="207" y="56" class="combo tap">LS(T)</text>
 </g>
 <g class="combo combopos-30">
 <rect rx="6" ry="6" x="128" y="77" width="28" height="26" class="combo"/>
@@ -718,15 +718,15 @@ path.combo {
 </g>
 <g class="combo combopos-27">
 <rect rx="6" ry="6" x="282" y="103" width="28" height="26" class="combo"/>
-<text x="296" y="116" class="combo tap">LS(B)</text>
+<text x="296" y="116" class="combo tap">LS(V)</text>
 </g>
 <g class="combo combopos-28">
 <rect rx="6" ry="6" x="253" y="71" width="28" height="26" class="combo"/>
-<text x="267" y="84" class="combo tap"><tspan style="font-size: 60%">LS(SEMICOLON)</tspan></text>
+<text x="267" y="84" class="combo tap">LS(R)</text>
 </g>
 <g class="combo combopos-29">
 <rect rx="6" ry="6" x="193" y="43" width="28" height="26" class="combo"/>
-<text x="207" y="56" class="combo tap">LS(F)</text>
+<text x="207" y="56" class="combo tap">LS(T)</text>
 </g>
 <g class="combo combopos-30">
 <rect rx="6" ry="6" x="128" y="77" width="28" height="26" class="combo"/>
