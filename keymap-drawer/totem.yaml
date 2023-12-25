@@ -474,13 +474,13 @@ combos:
   k: ''''
   l: [base_qwerty, colemak_dh]
 - p: [13, 14]
-  k: LS(V)
+  k: LS(T)
   l: [base_qwerty, colemak_dh]
 - p: [13, 3]
   k: LS(R)
   l: [base_qwerty, colemak_dh]
 - p: [12, 2]
-  k: LS(T)
+  k: LS(E)
   l: [base_qwerty, colemak_dh]
 - p: [1, 11]
   k: LS(W)
