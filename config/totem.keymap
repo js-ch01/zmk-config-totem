@@ -355,7 +355,7 @@
             layers = <0 1>;
         };
 
-        combo_th {
+        combo_space2 {
             bindings = <&kp SPACE>;
             key-positions = <3 13>;
             layers = <0 1>;
@@ -443,14 +443,6 @@
             bindings = <&macro_tap_time 5>, <&kp UNDERSCORE &kp UNDERSCORE>;
 
             label = "DOUBLE_UNDERSCORE";
-        };
-
-        type_th: type_th {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&macro_tap_time 5>, <&kp F &kp M>;
-
-            label = "TYPE_TH";
         };
     };
 
