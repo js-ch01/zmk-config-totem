@@ -403,7 +403,7 @@ path.combo {
 </g>
 <g class="combo combopos-27">
 <rect rx="6" ry="6" x="253" y="71" width="28" height="26" class="combo"/>
-<text x="267" y="84" class="combo tap"><tspan style="font-size: 88%">&amp;type_th</tspan></text>
+<text x="267" y="84" class="combo tap">SPACE</text>
 </g>
 </g>
 </g>
@@ -710,7 +710,7 @@ path.combo {
 </g>
 <g class="combo combopos-27">
 <rect rx="6" ry="6" x="253" y="71" width="28" height="26" class="combo"/>
-<text x="267" y="84" class="combo tap"><tspan style="font-size: 88%">&amp;type_th</tspan></text>
+<text x="267" y="84" class="combo tap">SPACE</text>
 </g>
 </g>
 </g>
@@ -1453,9 +1453,9 @@ path.combo {
 <g transform="translate(30, 2193)" class="layer-func_left">
 <text x="0" y="28" class="label">func_left:</text>
 <g transform="translate(0, 56)">
-<g transform="translate(73, 113) rotate(-10.0)" class="key trans keypos-0">
-<rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key trans"/>
-<text x="0" y="0" class="key trans tap">▽</text>
+<g transform="translate(73, 113) rotate(-10.0)" class="key keypos-0">
+<rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 60%">&amp;tog_colemak</tspan></text>
 </g>
 <g transform="translate(140, 62) rotate(-4.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>

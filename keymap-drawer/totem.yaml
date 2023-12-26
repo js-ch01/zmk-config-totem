@@ -235,7 +235,7 @@ layers:
   - ''
   - ''
   func_left:
-  - {t: ▽, type: trans}
+  - '&tog_colemak'
   - F7
   - F8
   - F9
@@ -474,5 +474,5 @@ combos:
   k: ''''
   l: [base_qwerty, colemak_dh]
 - p: [3, 13]
-  k: '&type_th'
+  k: SPACE
   l: [base_qwerty, colemak_dh]
