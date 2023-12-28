@@ -100,7 +100,7 @@ layers:
   - RIGHT
   - PG DN
   - {t: mouse, h: toggle}
-  - {t: ▽, type: trans}
+  - LEFT GUI
   - '&mkp LCLK'
   - LCTRL
   - LEFT SHIFT
@@ -294,7 +294,7 @@ layers:
   - '&mmv MOVE_DOWN'
   - '&mmv MOVE_RIGHT'
   - '&mwh SCROLL_DOWN'
-  - {t: mouse, h: toggle}
+  - {t: base_qwerty, h: toggle}
   - ''
   - ''
   - LCTRL
@@ -305,7 +305,7 @@ layers:
   - LCTRL
   - ''
   - ''
-  - {t: mouse, h: toggle}
+  - {t: base_qwerty, h: toggle}
   - '&mkp LCLK'
   - '&mkp MCLK'
   - '&mkp RCLK'
@@ -484,4 +484,4 @@ combos:
   l: [base_qwerty, colemak_dh, navi, num]
 - p: [33, 34]
   k: {t: mouse, h: toggle}
-  l: [base_qwerty, colemak_dh, navi, num]
+  l: [base_qwerty, colemak_dh, mouse]
