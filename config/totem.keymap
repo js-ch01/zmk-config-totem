@@ -264,7 +264,7 @@
             timeout-ms = <38>;
             key-positions = <17 28>;
             bindings = <&kp DQT>;
-            layers = <0 1>;
+            layers = <0 1 2 3>;
         };
 
         combo_MSE1 {
@@ -279,13 +279,13 @@
             layers = <0 8 1>;
         };
 
-        combo_bspc2 {
+        combo_bspc {
             bindings = <&kp BACKSPACE>;
             key-positions = <16 6>;
             layers = <0 2 3 8 1>;
         };
 
-        combo_del2 {
+        combo_del {
             bindings = <&kp DEL>;
             key-positions = <17 7>;
             layers = <0 2 3 8 1>;
@@ -327,28 +327,22 @@
             layers = <0 1 10>;
         };
 
-        combo_space {
-            bindings = <&kp SPACE>;
-            key-positions = <33 34>;
+        combo_sqt {
+            bindings = <&kp SQT>;
+            key-positions = <18 29>;
             layers = <0 1 2 3>;
         };
 
-        combo_colon {
-            bindings = <&kp SQT>;
-            key-positions = <18 29>;
-            layers = <0 1>;
-        };
-
-        combo_space2 {
+        combo_space {
             bindings = <&kp SPACE>;
             key-positions = <2 12>;
-            layers = <0 1>;
+            layers = <0 1 2 3>;
         };
 
-        combo_enter2 {
+        combo_enter {
             bindings = <&kp ENTER>;
             key-positions = <3 13>;
-            layers = <0 1>;
+            layers = <0 1 2 3>;
         };
 
         combo_ctrl_shitf_v {
@@ -361,6 +355,12 @@
             bindings = <&kp CAPSLOCK>;
             key-positions = <1 11>;
             layers = <0 1>;
+        };
+
+        combo_esc2 {
+            bindings = <&kp ESC>;
+            key-positions = <16 27>;
+            layers = <0 1 2 3>;
         };
     };
 
