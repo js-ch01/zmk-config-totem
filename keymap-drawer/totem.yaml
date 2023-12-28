@@ -294,7 +294,7 @@ layers:
   - '&mmv MOVE_DOWN'
   - '&mmv MOVE_RIGHT'
   - '&mwh SCROLL_DOWN'
-  - {t: base_qwerty, h: toggle}
+  - {t: mouse, h: toggle}
   - ''
   - ''
   - LCTRL
@@ -305,7 +305,7 @@ layers:
   - LCTRL
   - ''
   - ''
-  - {t: base_qwerty, h: toggle}
+  - {t: mouse, h: toggle}
   - '&mkp LCLK'
   - '&mkp MCLK'
   - '&mkp RCLK'
@@ -481,4 +481,7 @@ combos:
   l: [base_qwerty, colemak_dh]
 - p: [16, 27]
   k: ESC
+  l: [base_qwerty, colemak_dh, navi, num]
+- p: [33, 34]
+  k: {t: mouse, h: toggle}
   l: [base_qwerty, colemak_dh, navi, num]
