@@ -157,7 +157,7 @@ layers:
   - {t: ▽, type: trans}
   - '0'
   num_left:
-  - LS(STAR)
+  - '*'
   - '7'
   - '8'
   - '9'
@@ -431,7 +431,7 @@ combos:
 - p: [28, 29]
   k: {t: _, h: '&double_underscore'}
   l: [base_qwerty, colemak_dh]
-- p: [7, 17]
+- p: [17, 28]
   k: '"'
   l: [base_qwerty, colemak_dh]
 - p: [34, 35]
@@ -440,10 +440,10 @@ combos:
 - p: [20, 31]
   k: {t: game, h: toggle}
   l: [base_qwerty, game, colemak_dh]
-- p: [16, 27]
+- p: [16, 6]
   k: BACKSPACE
   l: [base_qwerty, navi, num, game, colemak_dh]
-- p: [17, 28]
+- p: [17, 7]
   k: DEL
   l: [base_qwerty, navi, num, game, colemak_dh]
 - p: [21, 10]
@@ -458,10 +458,7 @@ combos:
 - p: [13, 24]
   k: LC(B)
   l: [base_qwerty, colemak_dh]
-- p: [25, 14]
-  k: ENTER
-  l: [base_qwerty, navi, num, mouse, game, colemak_dh]
-- p: [6, 16]
+- p: [8, 18]
   k: '&key_repeat'
   l: [base_qwerty, navi, num, game, colemak_dh]
 - p: [32, 33, 34]
@@ -470,9 +467,18 @@ combos:
 - p: [33, 34]
   k: SPACE
   l: [base_qwerty, colemak_dh, navi, num]
-- p: [18, 8]
+- p: [18, 29]
   k: ''''
   l: [base_qwerty, colemak_dh]
-- p: [3, 13]
+- p: [2, 12]
   k: SPACE
+  l: [base_qwerty, colemak_dh]
+- p: [3, 13]
+  k: ENTER
+  l: [base_qwerty, colemak_dh]
+- p: [14, 25]
+  k: LS(LC(B))
+  l: [base_qwerty, colemak_dh]
+- p: [1, 11]
+  k: CAPSLOCK
   l: [base_qwerty, colemak_dh]
