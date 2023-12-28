@@ -433,7 +433,7 @@ combos:
   l: [base_qwerty, colemak_dh]
 - p: [17, 28]
   k: '"'
-  l: [base_qwerty, colemak_dh]
+  l: [base_qwerty, colemak_dh, navi, num]
 - p: [34, 35]
   k: {t: mouse, h: toggle}
   l: [base_qwerty, mouse, colemak_dh]
@@ -464,21 +464,21 @@ combos:
 - p: [32, 33, 34]
   k: {t: clean, h: toggle}
   l: [base_qwerty, colemak_dh, clean]
-- p: [33, 34]
-  k: SPACE
-  l: [base_qwerty, colemak_dh, navi, num]
 - p: [18, 29]
   k: ''''
-  l: [base_qwerty, colemak_dh]
+  l: [base_qwerty, colemak_dh, navi, num]
 - p: [2, 12]
   k: SPACE
-  l: [base_qwerty, colemak_dh]
+  l: [base_qwerty, colemak_dh, navi, num]
 - p: [3, 13]
   k: ENTER
-  l: [base_qwerty, colemak_dh]
+  l: [base_qwerty, colemak_dh, navi, num]
 - p: [14, 25]
   k: LS(LC(B))
   l: [base_qwerty, colemak_dh]
 - p: [1, 11]
   k: CAPSLOCK
   l: [base_qwerty, colemak_dh]
+- p: [16, 27]
+  k: ESC
+  l: [base_qwerty, colemak_dh, navi, num]
