@@ -366,7 +366,7 @@
         combo_mse2 {
             bindings = <&tog 7>;
             key-positions = <33 34>;
-            layers = <0 1 2 3>;
+            layers = <0 1 7>;
         };
     };
 
@@ -483,7 +483,7 @@
             bindings = <
        &mwh SCROLL_UP    &mwh SCROLL_LEFT  &mmv MOVE_UP    &mwh SCROLL_RIGHT  &mkp LCLK    &kp INS  &kp HOME   &kp UP     &kp END    &kp PG_UP
        &mwh SCROLL_DOWN  &mmv MOVE_LEFT    &mmv MOVE_DOWN  &mmv MOVE_RIGHT    &mkp MCLK    &trans   &kp LEFT   &kp DOWN   &kp RIGHT  &kp PG_DN
-&to 7  &trans            &mkp LCLK         &kp LCTRL       &kp LEFT_SHIFT     &mkp RCLK    &trans   &mkp LCLK  &mkp MCLK  &mkp RCLK  &trans     &trans
+&to 7  &kp LEFT_GUI      &mkp LCLK         &kp LCTRL       &kp LEFT_SHIFT     &mkp RCLK    &trans   &mkp LCLK  &mkp MCLK  &mkp RCLK  &trans     &trans
                                            &trans          &trans             &trans       &trans   &trans     &trans
             >;
         };
@@ -535,7 +535,7 @@
             bindings = <
        &mwh SCROLL_UP    &mwh SCROLL_LEFT  &mmv MOVE_UP    &mwh SCROLL_RIGHT  &none        &none      &mwh SCROLL_LEFT  &mmv MOVE_UP    &mwh SCROLL_RIGHT  &mwh SCROLL_UP
        &mwh SCROLL_DOWN  &mmv MOVE_LEFT    &mmv MOVE_DOWN  &mmv MOVE_RIGHT    &trans       &trans     &mmv MOVE_LEFT    &mmv MOVE_DOWN  &mmv MOVE_RIGHT    &mwh SCROLL_DOWN
-&to 7  &none             &none             &kp LCTRL       &kp LEFT_SHIFT     &trans       &trans     &kp LEFT_SHIFT    &kp LCTRL       &none              &none             &to 7
+&to 0  &none             &none             &kp LCTRL       &kp LEFT_SHIFT     &trans       &trans     &kp LEFT_SHIFT    &kp LCTRL       &none              &none             &to 0
                                            &mkp LCLK       &mkp MCLK          &mkp RCLK    &mkp LCLK  &mkp MCLK         &mkp RCLK
             >;
         };
