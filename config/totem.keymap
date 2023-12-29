@@ -507,7 +507,7 @@
             bindings = <
        &mwh SCROLL_LEFT  &mwh SCROLL_DOWN  &mwh SCROLL_UP  &mwh SCROLL_RIGHT  &mkp LCLK    &kp INS  &kp HOME   &kp UP     &kp END    &kp PG_UP
        &kp LEFT_GUI      &mkp LCLK         &kp LCTRL       &kp LEFT_SHIFT     &mkp MCLK    &trans   &kp LEFT   &kp DOWN   &kp RIGHT  &kp PG_DN
-&to 7  &kp LEFT_GUI      &mkp LCLK         &kp LCTRL       &kp LEFT_SHIFT     &mkp RCLK    &trans   &mkp LCLK  &mkp MCLK  &mkp RCLK  &trans     &trans
+&to 7  &mmv MOVE_LEFT      &mmv MOVE_DOWN     &mmv MOVE_UP      &mmv MOVE_RIGHT     &mkp RCLK    &trans   &mkp LCLK  &mkp MCLK  &mkp RCLK  &trans     &trans
                                            &trans          &trans             &trans       &trans   &trans     &trans
             >;
         };
