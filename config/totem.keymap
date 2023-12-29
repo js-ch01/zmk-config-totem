@@ -9,7 +9,6 @@
 #define SYS  3
 #define MSE  4
 #define ETC  5
-
 #define U_MOUSE_MOVE_MAX 2000
 #define U_MOUSE_SCROLL_MAX 100
 
@@ -34,6 +33,10 @@
 
 &mmv {
     time-to-max-speed-ms = <400>;
+};
+
+&mwh {
+    time-to-max-speed-ms = <500>;
 };
 
 //      ┏━━━━┳━━━━┳━━━━┳━━━━┳━━━━┓  ┏━━━━┳━━━━┳━━━━┳━━━━┳━━━━┓
@@ -533,7 +536,7 @@
             bindings = <
         &kp ASTERISK  &kp N7  &kp N8  &kp N9  &kp LS(PLUS)    &trans  &trans  &trans  &trans  &trans
         &kp N0        &kp N4  &kp N5  &kp N6  &kp MINUS       &trans  &trans  &trans  &trans  &trans
-&trans  &trans        &kp N1  &kp N2  &kp N3  &kp BSLH        &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp N0        &kp N1  &kp N2  &kp N3  &kp BSLH        &trans  &trans  &trans  &trans  &trans  &trans
                               &trans  &trans  &trans          &trans  &trans  &trans
             >;
 
