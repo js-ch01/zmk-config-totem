@@ -167,13 +167,13 @@
             require-prior-idle-ms = <60>;
         };
 
-        mt_scroll: mt_scroll {
+        ht_scroll: ht_scroll {
             compatible = "zmk,behavior-hold-tap";
-            label = "MT_SCROLL";
+            label = "HT_SCROLL";
             bindings = <&mwh>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <160>;
             flavor = "tap-preferred";
         };
     };
@@ -476,7 +476,7 @@
             bindings = <
                      &kp Q       &kp W                   &kp E                     &kp R                        &kp T        &kp Y            &kp U                         &kp I        &kp O       &kp P
                      &mt LGUI A  &mt LALT S              &mt LCTRL D               &mt_shift_left LEFT_SHIFT F  &kp G        &kp H            &mt_shift_right LEFT_SHIFT J  &mt LCTRL K  &mt LALT L  &mt LEFT_GUI SEMI
-&lt_tog_colemak 6 0  &lt 4 Z     &mt_scroll SCROLL_UP X  &mt_scroll SCROLL_DOWN C  &kp V                        &kp B        &kp N            &kp M                         &kp COMMA    &kp DOT     &mt BACKSLASH SLASH  &kp RALT
+&lt_tog_colemak 6 0  &lt 4 Z     &ht_scroll SCROLL_UP X  &ht_scroll SCROLL_DOWN C  &kp V                        &kp B        &kp N            &kp M                         &kp COMMA    &kp DOT     &mt BACKSLASH SLASH  &kp RALT
                                                          &lt 2 TAB                 &lt 3 BACKSPACE              &lt 5 DEL    &lt 5 LS(SPACE)  &lt 3 SPACE                   &lt 2 ENTER
             >;
         };
