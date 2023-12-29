@@ -227,7 +227,7 @@ layers:
   - F2
   - F3
   - F10
-  - '&bootloader'
+  - {t: ▽, type: trans}
   - ''
   - ''
   - {type: held}
