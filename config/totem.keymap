@@ -494,10 +494,10 @@
         base_qwerty_layer {
             label = "BASE";
             bindings = <
-                     &lt 4 Q                     &kp W                       &kp E                     &kp R                        &kp T           &kp Y            &kp U                         &kp I        &kp O       &kp P
-                     &mt LGUI A                  &mt LALT S                  &mt LCTRL D               &mt_shift_left LEFT_SHIFT F  &kp G           &kp H            &mt_shift_right LEFT_SHIFT J  &mt LCTRL K  &mt LALT L  &mt LEFT_GUI SEMI
-&lt_tog_colemak 6 0  &ht_mouse_move MOVE_LEFT Z  &ht_mouse_move MOVE_DOWN X  &ht_mouse_move MOVE_UP C  &kp V                        &kp B           &kp N            &kp M                         &kp COMMA    &kp DOT     &mt BACKSLASH SLASH  &kp RALT
-                                                                             &lt 2 TAB                 &lt 3 BACKSPACE              &lt 5 DELETE    &lt 5 LS(SPACE)  &lt 3 SPACE                   &lt 2 ENTER
+                     &lt 4 Q     &kp W       &kp E        &kp R                        &kp T           &kp Y            &kp U                         &kp I        &kp O       &kp P
+                     &mt LGUI A  &mt LALT S  &mt LCTRL D  &mt_shift_left LEFT_SHIFT F  &kp G           &kp H            &mt_shift_right LEFT_SHIFT J  &mt LCTRL K  &mt LALT L  &mt LEFT_GUI SEMI
+&lt_tog_colemak 6 0  &lt 4 Z     &kp X       &kp C        &kp V                        &kp B           &kp N            &kp M                         &kp COMMA    &kp DOT     &mt BACKSLASH SLASH  &kp RALT
+                                             &lt 2 TAB    &lt 3 BACKSPACE              &lt 5 DELETE    &lt 5 LS(SPACE)  &lt 3 SPACE                   &lt 2 ENTER
             >;
         };
 
@@ -515,10 +515,10 @@
         navi_layer {
             label = "NAV";
             bindings = <
-       &mwh SCROLL_LEFT  &mkp MCLK       &mwh SCROLL_RIGHT  &trans          &mwh SCROLL_UP      &kp INS  &kp HOME   &kp UP     &kp END    &kp PG_UP
-       &kp LEFT_GUI      &mmv MOVE_UP    &kp LCTRL          &kp LEFT_SHIFT  &mwh SCROLL_DOWN    &trans   &kp LEFT   &kp DOWN   &kp RIGHT  &kp PG_DN
-&to 7  &mmv MOVE_LEFT    &mmv MOVE_DOWN  &mmv MOVE_RIGHT    &mkp LCLK       &mkp RCLK           &trans   &mkp LCLK  &mkp MCLK  &mkp RCLK  &trans     &trans
-                                         &trans             &trans          &trans              &trans   &trans     &trans
+       &mwh SCROLL_UP    &mwh SCROLL_LEFT  &mmv MOVE_UP    &mwh SCROLL_RIGHT  &mkp LCLK    &kp INS  &kp HOME   &kp UP     &kp END    &kp PG_UP
+       &mwh SCROLL_DOWN  &mmv MOVE_LEFT    &mmv MOVE_DOWN  &mmv MOVE_RIGHT    &mkp MCLK    &trans   &kp LEFT   &kp DOWN   &kp RIGHT  &kp PG_DN
+&to 7  &kp LEFT_GUI      &mkp LCLK         &kp LCTRL       &kp LEFT_SHIFT     &mkp RCLK    &trans   &mkp LCLK  &mkp MCLK  &mkp RCLK  &trans     &trans
+                                           &trans          &trans             &trans       &trans   &trans     &trans
             >;
         };
 
@@ -548,7 +548,7 @@
             bindings = <
                  &kp CAPS           &bt BT_SEL 0          &bt BT_SEL 1          &bt BT_SEL 2    &bt BT_CLR       &kp PSCRN        &kp F7  &kp F8  &kp F9  &kp F12
                  &sk LEFT_GUI       &sk LEFT_ALT          &sk LCTRL             &sk LEFT_SHIFT  &none            &kp SLCK         &kp F4  &kp F5  &kp F6  &kp F11
-&kp LS(LC(ESC))  &kp K_APPLICATION  &kp C_BRIGHTNESS_INC  &kp C_BRIGHTNESS_DEC  &kp RCTRL       &kp RIGHT_ALT    &kp PAUSE_BREAK  &kp F1  &kp F2  &kp F3  &kp F10  &trans
+&kp LS(LC(ESC))  &kp K_APPLICATION  &kp C_BRIGHTNESS_INC  &kp C_BRIGHTNESS_DEC  &kp RCTRL       &kp RIGHT_ALT    &kp PAUSE_BREAK  &kp F1  &kp F2  &kp F3  &kp F10  &bootloader
                                                           &none                 &none           &none            &none            &none   &none
             >;
         };
