@@ -206,7 +206,7 @@ path.combo {
 <text x="0" y="0" class="key tap">
 <tspan x="0" dy="-1.7999999999999998em" style="font-size: 64%">&amp;mt_scroll</tspan><tspan x="0" dy="1.2em" style="font-size: 64%">SCROLL_VERT</tspan>
 <tspan x="0" dy="1.2em" style="font-size: 64%">X</tspan>
-<tspan x="0" dy="1.2em" style="font-size: 64%">-20</tspan>
+<tspan x="0" dy="1.2em" style="font-size: 64%">0</tspan>
 </text>
 </g>
 <g transform="translate(207, 140)" class="key keypos-23">
