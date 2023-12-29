@@ -22,9 +22,9 @@ layers:
   - {t: L, h: LALT}
   - {t: ;, h: LEFT GUI}
   - {t: '&tog_colemak', h: func_left}
-  - {t: Z, h: '&mmv MOVE_LEFT'}
-  - {t: X, h: '&mmv MOVE_DOWN'}
-  - {t: C, h: '&mmv MOVE_UP'}
+  - {t: Z, h: num_left}
+  - X
+  - C
   - V
   - B
   - N
@@ -79,31 +79,31 @@ layers:
   - {t: SPACE, h: num}
   - {t: ENTER, h: navi}
   navi:
-  - '&mwh SCROLL_LEFT'
-  - '&mkp MCLK'
-  - '&mwh SCROLL_RIGHT'
-  - {t: ▽, type: trans}
   - '&mwh SCROLL_UP'
+  - '&mwh SCROLL_LEFT'
+  - '&mmv MOVE_UP'
+  - '&mwh SCROLL_RIGHT'
+  - '&mkp LCLK'
   - INS
   - HOME
   - UP
   - END
   - PG UP
-  - LEFT GUI
-  - '&mmv MOVE_UP'
-  - LCTRL
-  - LEFT SHIFT
   - '&mwh SCROLL_DOWN'
+  - '&mmv MOVE_LEFT'
+  - '&mmv MOVE_DOWN'
+  - '&mmv MOVE_RIGHT'
+  - '&mkp MCLK'
   - {t: ▽, type: trans}
   - LEFT
   - DOWN
   - RIGHT
   - PG DN
   - {t: mouse, h: toggle}
-  - '&mmv MOVE_LEFT'
-  - '&mmv MOVE_DOWN'
-  - '&mmv MOVE_RIGHT'
+  - LEFT GUI
   - '&mkp LCLK'
+  - LCTRL
+  - LEFT SHIFT
   - '&mkp RCLK'
   - {t: ▽, type: trans}
   - '&mkp LCLK'
@@ -227,7 +227,7 @@ layers:
   - F2
   - F3
   - F10
-  - {t: ▽, type: trans}
+  - '&bootloader'
   - ''
   - ''
   - {type: held}
