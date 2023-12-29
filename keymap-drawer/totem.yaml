@@ -25,7 +25,7 @@ layers:
   - {t: Z, h: '&mmv MOVE_LEFT'}
   - {t: X, h: '&mmv MOVE_DOWN'}
   - {t: C, h: '&mmv MOVE_UP'}
-  - {t: V, h: '&mmv MOVE_RIGHT'}
+  - V
   - B
   - N
   - M
@@ -35,7 +35,7 @@ layers:
   - RALT
   - {t: TAB, h: navi}
   - {t: BACKSPACE, h: num}
-  - '&mkp LCLK'
+  - {t: DELETE, h: func}
   - {t: LS(SPACE), h: func}
   - {t: SPACE, h: num}
   - {t: ENTER, h: navi}
@@ -80,20 +80,20 @@ layers:
   - {t: ENTER, h: navi}
   navi:
   - '&mwh SCROLL_LEFT'
-  - '&mwh SCROLL_DOWN'
-  - '&mwh SCROLL_UP'
+  - '&mkp MCLK'
   - '&mwh SCROLL_RIGHT'
-  - '&mkp LCLK'
+  - {t: ▽, type: trans}
+  - '&mwh SCROLL_UP'
   - INS
   - HOME
   - UP
   - END
   - PG UP
   - LEFT GUI
-  - '&mkp LCLK'
+  - '&mmv MOVE_UP'
   - LCTRL
   - LEFT SHIFT
-  - '&mkp MCLK'
+  - '&mwh SCROLL_DOWN'
   - {t: ▽, type: trans}
   - LEFT
   - DOWN
@@ -102,8 +102,8 @@ layers:
   - {t: mouse, h: toggle}
   - '&mmv MOVE_LEFT'
   - '&mmv MOVE_DOWN'
-  - '&mmv MOVE_UP'
   - '&mmv MOVE_RIGHT'
+  - '&mkp LCLK'
   - '&mkp RCLK'
   - {t: ▽, type: trans}
   - '&mkp LCLK'
@@ -230,8 +230,8 @@ layers:
   - {t: ▽, type: trans}
   - ''
   - ''
-  - ''
   - {type: held}
+  - ''
   - ''
   - ''
   func_left:
