@@ -35,7 +35,7 @@ layers:
   - RALT
   - {t: TAB, h: navi}
   - {t: BACKSPACE, h: num}
-  - {t: DEL, h: func}
+  - '&mkp LCLK'
   - {t: LS(SPACE), h: func}
   - {t: SPACE, h: num}
   - {t: ENTER, h: navi}
@@ -230,8 +230,8 @@ layers:
   - {t: ▽, type: trans}
   - ''
   - ''
-  - {type: held}
   - ''
+  - {type: held}
   - ''
   - ''
   func_left:
@@ -483,5 +483,5 @@ combos:
   k: ESC
   l: [base_qwerty, colemak_dh, navi, num]
 - p: [33, 34]
-  k: {t: mouse, h: toggle}
+  k: func
   l: [base_qwerty, colemak_dh, mouse]
