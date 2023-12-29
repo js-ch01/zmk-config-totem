@@ -391,8 +391,8 @@
             layers = <0 1>;
         };
 
-        combo_esc2 {
-            bindings = <&kp ESC>;
+        combo_num0 {
+            bindings = <&kp N0>;
             key-positions = <16 27>;
             layers = <0 1 2 3>;
         };
@@ -401,6 +401,12 @@
             bindings = <&tog 7>;
             key-positions = <33 34>;
             layers = <0 1 7>;
+        };
+
+        combo_num1 {
+            bindings = <&kp N1>;
+            key-positions = <26 15>;
+            layers = <0 1 2 3>;
         };
     };
 
