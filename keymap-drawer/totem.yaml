@@ -1,7 +1,7 @@
 layout: {qmk_keyboard: totem}
 layers:
   base_qwerty:
-  - Q
+  - {t: Q, h: num_left}
   - W
   - E
   - R
@@ -22,10 +22,10 @@ layers:
   - {t: L, h: LALT}
   - {t: ;, h: LEFT GUI}
   - {t: '&tog_colemak', h: func_left}
-  - {t: Z, h: num_left}
-  - {t: X, h: '&mwh SCROLL_UP'}
-  - {t: C, h: '&mwh SCROLL_DOWN'}
-  - V
+  - {t: Z, h: '&mmv MOVE_LEFT'}
+  - {t: X, h: '&mmv MOVE_UP'}
+  - {t: C, h: '&mmv MOVE_DOWN'}
+  - {t: V, h: '&mmv MOVE_RIGHT'}
   - B
   - N
   - M
@@ -79,9 +79,9 @@ layers:
   - {t: SPACE, h: num}
   - {t: ENTER, h: navi}
   navi:
-  - '&mwh SCROLL_UP'
   - '&mwh SCROLL_LEFT'
-  - '&mmv MOVE_UP'
+  - '&mwh SCROLL_DOWN'
+  - '&mwh SCROLL_UP'
   - '&mwh SCROLL_RIGHT'
   - '&mkp LCLK'
   - INS
@@ -89,10 +89,10 @@ layers:
   - UP
   - END
   - PG UP
-  - '&mmv MOVE_LEFT'
-  - '&mmv MOVE_UP'
-  - '&mmv MOVE_DOWN'
-  - '&mmv MOVE_RIGHT'
+  - LEFT GUI
+  - '&mkp LCLK'
+  - LCTRL
+  - LEFT SHIFT
   - '&mkp MCLK'
   - {t: ▽, type: trans}
   - LEFT
@@ -157,7 +157,7 @@ layers:
   - {t: ▽, type: trans}
   - '0'
   num_left:
-  - '*'
+  - {t: '*', type: held}
   - '7'
   - '8'
   - '9'
@@ -178,7 +178,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - '1'
   - '2'
   - '3'
