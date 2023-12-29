@@ -398,7 +398,7 @@
         };
 
         combo_mouse_layer {
-            bindings = <&mo 7>;
+            bindings = <&tog 7>;
             key-positions = <33 34>;
             layers = <0 1 7>;
         };
