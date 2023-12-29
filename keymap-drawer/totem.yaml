@@ -23,8 +23,8 @@ layers:
   - {t: ;, h: LEFT GUI}
   - {t: '&tog_colemak', h: func_left}
   - {t: Z, h: '&mmv MOVE_LEFT'}
-  - {t: X, h: '&mmv MOVE_UP'}
-  - {t: C, h: '&mmv MOVE_DOWN'}
+  - {t: X, h: '&mmv MOVE_DOWN'}
+  - {t: C, h: '&mmv MOVE_UP'}
   - {t: V, h: '&mmv MOVE_RIGHT'}
   - B
   - N
@@ -80,8 +80,8 @@ layers:
   - {t: ENTER, h: navi}
   navi:
   - '&mwh SCROLL_LEFT'
-  - '&mwh SCROLL_DOWN'
   - '&mwh SCROLL_UP'
+  - '&mwh SCROLL_DOWN'
   - '&mwh SCROLL_RIGHT'
   - '&mkp LCLK'
   - INS
@@ -101,8 +101,8 @@ layers:
   - PG DN
   - {t: mouse, h: toggle}
   - '&mmv MOVE_LEFT'
-  - '&mmv MOVE_DOWN'
   - '&mmv MOVE_UP'
+  - '&mmv MOVE_DOWN'
   - '&mmv MOVE_RIGHT'
   - '&mkp RCLK'
   - {t: ▽, type: trans}
