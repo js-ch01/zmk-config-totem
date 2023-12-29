@@ -23,7 +23,7 @@ layers:
   - {t: ;, h: LEFT GUI}
   - {t: '&tog_colemak', h: func_left}
   - {t: Z, h: num_left}
-  - {t: X, h: '&mwh SCROLL_UP'}
+  - '&mt_scroll SCROLL_VERT X 20'
   - {t: C, h: '&mwh SCROLL_DOWN'}
   - V
   - B
