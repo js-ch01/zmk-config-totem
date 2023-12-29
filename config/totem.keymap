@@ -397,8 +397,8 @@
             layers = <0 1 2 3>;
         };
 
-        combo_func_layer {
-            bindings = <&mo 5>;
+        combo_mouse_layer {
+            bindings = <&mo 7>;
             key-positions = <33 34>;
             layers = <0 1 7>;
         };
