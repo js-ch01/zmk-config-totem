@@ -100,10 +100,10 @@ layers:
   - RIGHT
   - PG DN
   - {t: mouse, h: toggle}
-  - LEFT GUI
-  - '&mkp LCLK'
-  - LCTRL
-  - LEFT SHIFT
+  - '&mmv MOVE_LEFT'
+  - '&mmv MOVE_DOWN'
+  - '&mmv MOVE_UP'
+  - '&mmv MOVE_RIGHT'
   - '&mkp RCLK'
   - {t: ▽, type: trans}
   - '&mkp LCLK'

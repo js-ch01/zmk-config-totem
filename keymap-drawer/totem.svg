@@ -857,23 +857,25 @@ path.combo {
 <g transform="translate(93, 223) rotate(-10.0)" class="key keypos-21">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">LEFT</tspan><tspan x="0" dy="1.2em">GUI</tspan>
+<tspan x="0" dy="-0.6em" style="font-size: 78%">&amp;mmv</tspan><tspan x="0" dy="1.2em" style="font-size: 78%">MOVE_LEFT</tspan>
 </text>
 </g>
 <g transform="translate(147, 174) rotate(-4.0)" class="key keypos-22">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">&amp;mkp</tspan><tspan x="0" dy="1.2em">LCLK</tspan>
+<tspan x="0" dy="-0.6em" style="font-size: 78%">&amp;mmv</tspan><tspan x="0" dy="1.2em" style="font-size: 78%">MOVE_DOWN</tspan>
 </text>
 </g>
 <g transform="translate(207, 140)" class="key keypos-23">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
-<text x="0" y="0" class="key tap">LCTRL</text>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.6em">&amp;mmv</tspan><tspan x="0" dy="1.2em">MOVE_UP</tspan>
+</text>
 </g>
 <g transform="translate(267, 168)" class="key keypos-24">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">LEFT</tspan><tspan x="0" dy="1.2em">SHIFT</tspan>
+<tspan x="0" dy="-0.6em" style="font-size: 70%">&amp;mmv</tspan><tspan x="0" dy="1.2em" style="font-size: 70%">MOVE_RIGHT</tspan>
 </text>
 </g>
 <g transform="translate(326, 177)" class="key keypos-25">
