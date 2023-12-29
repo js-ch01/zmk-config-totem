@@ -534,7 +534,7 @@
         braces_lr: braces_lr {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_tap_time 5>, <&kp RBKT &kp RBRC>;
+            bindings = <&macro_tap_time 5>, <&kp LBRC &kp RBRC>;
 
             label = "BRACES_LR";
         };
@@ -542,7 +542,7 @@
         brackets_lr: brackets_lr {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_tap_time 5>, <&kp LBKT &kp LBRC>;
+            bindings = <&macro_tap_time 5>, <&kp LBKT &kp RBKT>;
 
             label = "BRACKETS_LR";
         };
