@@ -307,8 +307,8 @@ layers:
   - ''
   - {t: base_qwerty, h: toggle}
   - '&mkp LCLK'
-  - '&mkp MCLK'
-  - '&mkp RCLK'
+  - {t: '&mkp MCLK', type: held}
+  - {t: '&mkp RCLK', type: held}
   - '&mkp LCLK'
   - '&mkp MCLK'
   - '&mkp RCLK'
@@ -483,5 +483,5 @@ combos:
   k: ESC
   l: [base_qwerty, colemak_dh, navi, num]
 - p: [33, 34]
-  k: func
+  k: mouse
   l: [base_qwerty, colemak_dh, mouse]
