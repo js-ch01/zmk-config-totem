@@ -196,6 +196,36 @@
             flavor = "tap-preferred";
             quick-tap-ms = <200>;
         };
+
+        ht_lpar_hold_lr: ht_lpar_hold_lr {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HT_LPAR_HOLD_LR";
+            bindings = <&parenthesis_lr>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            flavor = "tap-preferred";
+        };
+
+        ht_lbrace_hold_lr: ht_lbrace_hold_lr {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HT_LBRACE_HOLD_LR";
+            bindings = <&braces_lr>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            flavor = "tap-preferred";
+        };
+
+        ht_lbracket_hold_lr: ht_lbracket_hold_lr {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HT_LBRACKET_HOLD_LR";
+            bindings = <&brackets_lr>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            flavor = "tap-preferred";
+        };
     };
 };
 
@@ -213,7 +243,7 @@
         combo_lpar {
             timeout-ms = <38>;
             key-positions = <12 13>;
-            bindings = <&kp LPAR>;
+            bindings = <&ht_lpar_hold_lr 0 LEFT_PARENTHESIS>;
             layers = <0 1>;
         };
 
@@ -227,7 +257,7 @@
         combo_lbkt {
             timeout-ms = <38>;
             key-positions = <11 13>;
-            bindings = <&kp LBKT>;
+            bindings = <&ht_lbracket_hold_lr 0 LEFT_BRACKET>;
             layers = <0 1>;
         };
 
@@ -241,7 +271,7 @@
         combo_lbrc {
             timeout-ms = <38>;
             key-positions = <12 11>;
-            bindings = <&kp LBRC>;
+            bindings = <&ht_lbrace_hold_lr 0 LEFT_BRACE>;
             layers = <0 1>;
         };
 
@@ -491,6 +521,30 @@
             bindings = <&macro_tap_time 5>, <&kp UNDERSCORE &kp UNDERSCORE>;
 
             label = "DOUBLE_UNDERSCORE";
+        };
+
+        parenthesis_lr: parenthesis_lr {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_tap_time 5>, <&kp LPAR &kp RPAR>;
+
+            label = "PARENTHESIS_LR";
+        };
+
+        braces_lr: braces_lr {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_tap_time 5>, <&kp RBKT &kp RBRC>;
+
+            label = "BRACES_LR";
+        };
+
+        brackets_lr: brackets_lr {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_tap_time 5>, <&kp LBKT &kp LBRC>;
+
+            label = "BRACKETS_LR";
         };
     };
 
