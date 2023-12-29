@@ -11,6 +11,7 @@
 #define ETC  5
 
 #define U_MOUSE_MOVE_MAX 2000
+#define U_MOUSE_SCROLL_MAX 100
 
 &mt {
     tapping-term-ms = <300>;
