@@ -480,8 +480,11 @@ combos:
   k: CAPSLOCK
   l: [base_qwerty, colemak_dh]
 - p: [16, 27]
-  k: ESC
+  k: '0'
   l: [base_qwerty, colemak_dh, navi, num]
 - p: [33, 34]
   k: {t: mouse, h: toggle}
   l: [base_qwerty, colemak_dh, mouse]
+- p: [26, 15]
+  k: '1'
+  l: [base_qwerty, colemak_dh, navi, num]
