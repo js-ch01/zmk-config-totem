@@ -1,7 +1,7 @@
 layout: {qmk_keyboard: totem}
 layers:
   base_qwerty:
-  - {t: Q, h: num_left}
+  - Q
   - W
   - E
   - R
@@ -157,7 +157,7 @@ layers:
   - {t: ▽, type: trans}
   - '0'
   num_left:
-  - {t: '*', type: held}
+  - '*'
   - '7'
   - '8'
   - '9'
@@ -178,7 +178,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '0'
+  - {t: '0', type: held}
   - '1'
   - '2'
   - '3'
