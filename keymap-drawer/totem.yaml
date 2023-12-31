@@ -419,24 +419,6 @@ combos:
 - p: [27, 29]
   k: {t: '>', h: '&gte'}
   l: [base, colemak_dh]
-- p: [23, 24]
-  k: {t: +, h: '&double_plus'}
-  l: [base, colemak_dh]
-- p: [22, 23]
-  k: {t: '=', h: '&double_equal'}
-  l: [base, colemak_dh]
-- p: [27, 28]
-  k: {t: '-', h: '&double_mimus'}
-  l: [base, colemak_dh]
-- p: [28, 29]
-  k: {t: _, h: '&double_underscore'}
-  l: [base, colemak_dh]
-- p: [17, 28]
-  k: '"'
-  l: [base, colemak_dh, navi, num_sym]
-- p: [34, 35]
-  k: {t: mouse, h: toggle}
-  l: [base, mouse, colemak_dh]
 - p: [20, 31]
   k: {t: game, h: toggle}
   l: [base, game, colemak_dh]
@@ -464,9 +446,6 @@ combos:
 - p: [32, 33, 34]
   k: {t: clean, h: toggle}
   l: [base, colemak_dh, clean]
-- p: [18, 29]
-  k: ''''
-  l: [base, colemak_dh, navi, num_sym]
 - p: [2, 12]
   k: SPACE
   l: [base, colemak_dh, navi, num_sym, num_left]
