@@ -575,20 +575,20 @@
         navi_layer {
             label = "NAV";
             bindings = <
-        &trans        &trans        &trans     &trans      &trans    &kp INS  &kp HOME   &kp UP     &kp END    &kp PG_UP
-        &kp LEFT_GUI  &kp LEFT_ALT  &kp LCTRL  &kp LSHIFT  &trans    &trans   &kp LEFT   &kp DOWN   &kp RIGHT  &kp PG_DN
-&trans  &trans        &trans        &trans     &trans      &trans    &trans   &mkp LCLK  &mkp MCLK  &mkp RCLK  &trans     &trans
-                                    &trans     &trans      &trans    &trans   &trans     &trans
+        &trans        &trans        &trans     &trans      &trans    &kp INS                 &kp HOME                &kp UP     &kp END                  &kp PG_UP
+        &kp LEFT_GUI  &kp LEFT_ALT  &kp LCTRL  &kp LSHIFT  &trans    &trans                  &kp LEFT                &kp DOWN   &kp RIGHT                &kp PG_DN
+&trans  &trans        &trans        &trans     &trans      &trans    &kp LS(LG(LEFT_ARROW))  &kp LC(LG(LEFT_ARROW))  &mkp MCLK  &kp LC(LG(RIGHT_ARROW))  &kp LS(LG(RIGHT_ARROW))  &trans
+                                    &trans     &trans      &trans    &trans                  &trans                  &trans
             >;
         };
 
         mouse_layer {
             label = "MSE";
             bindings = <
-       &mwh SCROLL_UP    &mwh SCROLL_LEFT  &mmv MOVE_UP    &mwh SCROLL_RIGHT  &none        &none      &mwh SCROLL_LEFT  &mmv MOVE_UP    &mwh SCROLL_RIGHT  &mwh SCROLL_UP
-       &mwh SCROLL_DOWN  &mmv MOVE_LEFT    &mmv MOVE_DOWN  &mmv MOVE_RIGHT    &trans       &trans     &mmv MOVE_LEFT    &mmv MOVE_DOWN  &mmv MOVE_RIGHT    &mwh SCROLL_DOWN
-&to 0  &none             &none             &kp LCTRL       &kp LEFT_SHIFT     &trans       &trans     &kp LEFT_SHIFT    &kp LCTRL       &none              &none             &to 0
-                                           &mkp LCLK       &mkp MCLK          &mkp RCLK    &mkp LCLK  &mkp MCLK         &mkp RCLK
+       &mwh SCROLL_UP    &mwh SCROLL_LEFT  &mmv MOVE_UP    &mwh SCROLL_RIGHT  &none     &none      &mwh SCROLL_LEFT  &mmv MOVE_UP  &mwh SCROLL_RIGHT  &mwh SCROLL_UP
+       &mwh SCROLL_DOWN  &mmv MOVE_LEFT    &mmv MOVE_DOWN  &mmv MOVE_RIGHT    &trans    &trans     &kp LSHIFT        &kp LCTRL     &kp LEFT_ALT       &kp LEFT_GUI
+&to 0  &none             &mkp LCLK         &mkp MCLK       &mkp RCLK          &trans    &trans     &trans            &trans        &none              &none           &to 0
+                                           &trans          &trans             &trans    &mkp LCLK  &mkp MCLK         &mkp RCLK
             >;
         };
 
