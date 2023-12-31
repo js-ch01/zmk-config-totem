@@ -104,7 +104,7 @@ layers:
   - '&mkp LCLK'
   - '&mkp MCLK'
   - '&mkp RCLK'
-  - ''
+  - LCTRL
   - ''
   - '&mkp LCLK'
   - '&mkp MCLK'
@@ -249,7 +249,7 @@ layers:
   - {t: LEFT ALT, h: sticky}
   - {t: LCTRL, h: sticky}
   - {t: LEFT SHIFT, h: sticky}
-  - APPLICATION
+  - LC(D)
   - SLCK
   - F4
   - F5
@@ -270,7 +270,7 @@ layers:
   - BRIGHTNESS INC
   - BRIGHTNESS DEC
   - {type: held}
-  - ''
+  - APPLICATION
   - ''
   - ''
   func_left:
