@@ -122,37 +122,37 @@ layers:
   - '&mwh SCROLL_LEFT'
   - '&mmv MOVE_UP'
   - '&mwh SCROLL_RIGHT'
-  - NEXT
+  - '&mkp MB4'
   - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
   - '&mwh SCROLL_DOWN'
   - '&mmv MOVE_LEFT'
   - '&mmv MOVE_DOWN'
   - '&mmv MOVE_RIGHT'
-  - PREV
-  - {t: ▽, type: trans}
+  - '&mkp MB5'
+  - ''
   - LSHIFT
   - LCTRL
   - LEFT ALT
   - LEFT GUI
-  - {t: base, h: toggle}
+  - '&mkp LCLK'
   - LG(LS(V))
   - '&mkp LCLK'
   - '&mkp MCLK'
   - '&mkp RCLK'
-  - FAST FORWARD
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - ''
   - ''
-  - {t: base, h: toggle}
+  - '&mkp LCLK'
+  - '&mkp MCLK'
+  - '&mkp RCLK'
+  - ''
+  - ''
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
   - '&mkp LCLK'
   - '&mkp MCLK'
   - '&mkp RCLK'
@@ -189,7 +189,7 @@ layers:
   - '3'
   - \
   - LG(Z)
-  - {t: ▽, type: trans}
+  - TAB
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -260,13 +260,13 @@ layers:
   - LC(LG(F))
   - LS(LG(F))
   - LS(LC(LG(F)))
-  - LS(LC(LG(M)))
+  - LS(LC(LG(S)))
   - PAUSE BREAK
   - F1
   - F2
   - F3
   - F10
-  - {t: ▽, type: trans}
+  - LOCKING NUM
   - BRIGHTNESS INC
   - BRIGHTNESS DEC
   - {type: held}
