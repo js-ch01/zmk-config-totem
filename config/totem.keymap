@@ -248,7 +248,7 @@
         };
 
         combo_rpar {
-            timeout-ms = <30>;
+            timeout-ms = <33>;
             key-positions = <16 17>;
             bindings = <&kp RPAR>;
             layers = <0 1>;
@@ -262,7 +262,7 @@
         };
 
         combo_rbkt {
-            timeout-ms = <30>;
+            timeout-ms = <33>;
             key-positions = <16 18>;
             bindings = <&kp RBKT>;
             layers = <0 1>;
