@@ -89,10 +89,10 @@ layers:
   - UP
   - END
   - PG UP
-  - '&mwh SCROLL_DOWN'
-  - '&mmv MOVE_LEFT'
-  - '&mmv MOVE_DOWN'
-  - '&mmv MOVE_RIGHT'
+  - LEFT GUI
+  - LEFT ALT
+  - LCTRL
+  - LSHIFT
   - '&mkp MCLK'
   - {t: ▽, type: trans}
   - LEFT
@@ -117,6 +117,45 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  mouse:
+  - '&mwh SCROLL_UP'
+  - '&mwh SCROLL_LEFT'
+  - '&mmv MOVE_UP'
+  - '&mwh SCROLL_RIGHT'
+  - ''
+  - ''
+  - '&mwh SCROLL_LEFT'
+  - '&mmv MOVE_UP'
+  - '&mwh SCROLL_RIGHT'
+  - '&mwh SCROLL_UP'
+  - '&mwh SCROLL_DOWN'
+  - '&mmv MOVE_LEFT'
+  - '&mmv MOVE_DOWN'
+  - '&mmv MOVE_RIGHT'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&mmv MOVE_LEFT'
+  - '&mmv MOVE_DOWN'
+  - '&mmv MOVE_RIGHT'
+  - '&mwh SCROLL_DOWN'
+  - {t: base_qwerty, h: toggle}
+  - ''
+  - ''
+  - LCTRL
+  - LEFT SHIFT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LEFT SHIFT
+  - LCTRL
+  - ''
+  - ''
+  - {t: base_qwerty, h: toggle}
+  - '&mkp LCLK'
+  - '&mkp MCLK'
+  - '&mkp RCLK'
+  - '&mkp LCLK'
+  - '&mkp MCLK'
+  - '&mkp RCLK'
   num:
   - {t: '`', h: '~'}
   - '?'
@@ -273,45 +312,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  mouse:
-  - '&mwh SCROLL_UP'
-  - '&mwh SCROLL_LEFT'
-  - '&mmv MOVE_UP'
-  - '&mwh SCROLL_RIGHT'
-  - ''
-  - ''
-  - '&mwh SCROLL_LEFT'
-  - '&mmv MOVE_UP'
-  - '&mwh SCROLL_RIGHT'
-  - '&mwh SCROLL_UP'
-  - '&mwh SCROLL_DOWN'
-  - '&mmv MOVE_LEFT'
-  - '&mmv MOVE_DOWN'
-  - '&mmv MOVE_RIGHT'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&mmv MOVE_LEFT'
-  - '&mmv MOVE_DOWN'
-  - '&mmv MOVE_RIGHT'
-  - '&mwh SCROLL_DOWN'
-  - {t: base_qwerty, h: toggle}
-  - ''
-  - ''
-  - LCTRL
-  - LEFT SHIFT
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - LEFT SHIFT
-  - LCTRL
-  - ''
-  - ''
-  - {t: base_qwerty, h: toggle}
-  - '&mkp LCLK'
-  - '&mkp MCLK'
-  - '&mkp RCLK'
-  - '&mkp LCLK'
-  - '&mkp MCLK'
-  - '&mkp RCLK'
   game:
   - Q
   - W
