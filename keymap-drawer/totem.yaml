@@ -78,45 +78,6 @@ layers:
   - {t: '&tog_colemak', h: func}
   - {t: SPACE, h: num_sym}
   - {t: ENTER, h: navi}
-  navi:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - INS
-  - HOME
-  - UP
-  - END
-  - PG UP
-  - LEFT GUI
-  - LEFT ALT
-  - LCTRL
-  - LSHIFT
-  - {t: ▽, type: trans}
-  - ''
-  - LEFT
-  - DOWN
-  - RIGHT
-  - PG DN
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - LS(LG(LEFT ARROW))
-  - LC(LG(LEFT ARROW))
-  - LC(LG(V))
-  - LC(LG(RIGHT ARROW))
-  - LS(LG(RIGHT ARROW))
-  - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
   mouse:
   - '&mwh SCROLL_UP'
   - '&mwh SCROLL_LEFT'
@@ -156,6 +117,45 @@ layers:
   - '&mkp LCLK'
   - '&mkp MCLK'
   - '&mkp RCLK'
+  navi:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - INS
+  - HOME
+  - UP
+  - END
+  - PG UP
+  - LEFT GUI
+  - LEFT ALT
+  - LCTRL
+  - LSHIFT
+  - {t: ▽, type: trans}
+  - ''
+  - LEFT
+  - DOWN
+  - RIGHT
+  - PG DN
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LS(LG(LEFT ARROW))
+  - LC(LG(LEFT ARROW))
+  - LC(LG(V))
+  - LC(LG(RIGHT ARROW))
+  - LS(LG(RIGHT ARROW))
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
   num_sym:
   - {t: '`', h: '~'}
   - '?'
