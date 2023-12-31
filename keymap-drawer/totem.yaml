@@ -139,7 +139,7 @@ layers:
   - LEFT ALT
   - LEFT GUI
   - {t: base, h: toggle}
-  - LG(LS(S))
+  - LG(LS(V))
   - '&mkp LCLK'
   - '&mkp MCLK'
   - '&mkp RCLK'
@@ -257,10 +257,10 @@ layers:
   - F11
   - LS(LC(ESC))
   - RIGHT META
-  - LC(LG(B))
-  - LS(LG(B))
-  - LS(LC(LG(B)))
-  - LS(LC(LG(P)))
+  - LC(LG(F))
+  - LS(LG(F))
+  - LS(LC(LG(F)))
+  - LS(LC(LG(M)))
   - PAUSE BREAK
   - F1
   - F2
