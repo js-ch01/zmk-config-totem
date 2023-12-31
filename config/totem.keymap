@@ -575,10 +575,10 @@
         navi_layer {
             label = "NAV";
             bindings = <
-       &mwh SCROLL_UP  &mwh SCROLL_LEFT  &mmv MOVE_UP  &mwh SCROLL_RIGHT  &mkp LCLK    &kp INS  &kp HOME   &kp UP     &kp END    &kp PG_UP
-       &kp LEFT_GUI    &kp LEFT_ALT      &kp LCTRL     &kp LSHIFT         &mkp MCLK    &trans   &kp LEFT   &kp DOWN   &kp RIGHT  &kp PG_DN
-&to 3  &kp LEFT_GUI    &mkp LCLK         &kp LCTRL     &kp LEFT_SHIFT     &mkp RCLK    &trans   &mkp LCLK  &mkp MCLK  &mkp RCLK  &trans     &trans
-                                         &trans        &trans             &trans       &trans   &trans     &trans
+        &trans        &trans        &trans     &trans      &trans    &kp INS  &kp HOME   &kp UP     &kp END    &kp PG_UP
+        &kp LEFT_GUI  &kp LEFT_ALT  &kp LCTRL  &kp LSHIFT  &trans    &trans   &kp LEFT   &kp DOWN   &kp RIGHT  &kp PG_DN
+&trans  &trans        &trans        &trans     &trans      &trans    &trans   &mkp LCLK  &mkp MCLK  &mkp RCLK  &trans     &trans
+                                    &trans     &trans      &trans    &trans   &trans     &trans
             >;
         };
 
