@@ -221,14 +221,14 @@ layers:
   - '1'
   - '2'
   - '3'
+  - .
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '0'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -274,7 +274,7 @@ layers:
   - ''
   - ''
   func_left:
-  - '&tog_colemak'
+  - ''
   - F7
   - F8
   - F9
@@ -284,7 +284,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
   - F4
   - F5
   - F6
@@ -295,7 +295,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
+  - ''
   - F1
   - F2
   - F3
@@ -394,7 +394,7 @@ layers:
 combos:
 - p: [1, 0]
   k: ESC
-  l: [base, navi, num_sym, game, colemak_dh]
+  l: [base, navi, num_sym, game, colemak_dh, num_left]
 - p: [12, 13]
   k: {t: (, h: '&parenthesis_lr'}
   l: [base, colemak_dh]
@@ -469,10 +469,10 @@ combos:
   l: [base, colemak_dh, navi, num_sym]
 - p: [2, 12]
   k: SPACE
-  l: [base, colemak_dh, navi, num_sym]
+  l: [base, colemak_dh, navi, num_sym, num_left]
 - p: [3, 13]
   k: ENTER
-  l: [base, colemak_dh, navi, num_sym]
+  l: [base, colemak_dh, navi, num_sym, num_left]
 - p: [14, 25]
   k: LS(LC(B))
   l: [base, colemak_dh]
