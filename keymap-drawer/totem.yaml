@@ -105,11 +105,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&mkp LCLK'
+  - LS(LG(LEFT ARROW))
+  - LC(LG(LEFT ARROW))
   - '&mkp MCLK'
-  - '&mkp RCLK'
-  - {t: ▽, type: trans}
+  - LC(LG(RIGHT ARROW))
+  - LS(LG(RIGHT ARROW))
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
@@ -134,25 +134,25 @@ layers:
   - '&mmv MOVE_RIGHT'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&mmv MOVE_LEFT'
-  - '&mmv MOVE_DOWN'
-  - '&mmv MOVE_RIGHT'
-  - '&mwh SCROLL_DOWN'
+  - LSHIFT
+  - LCTRL
+  - LEFT ALT
+  - LEFT GUI
   - {t: base_qwerty, h: toggle}
   - ''
-  - ''
-  - LCTRL
-  - LEFT SHIFT
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - LEFT SHIFT
-  - LCTRL
-  - ''
-  - ''
-  - {t: base_qwerty, h: toggle}
   - '&mkp LCLK'
   - '&mkp MCLK'
   - '&mkp RCLK'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - {t: base_qwerty, h: toggle}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '&mkp LCLK'
   - '&mkp MCLK'
   - '&mkp RCLK'
