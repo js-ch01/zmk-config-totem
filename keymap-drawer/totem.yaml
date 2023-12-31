@@ -94,7 +94,7 @@ layers:
   - LCTRL
   - LSHIFT
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
   - LEFT
   - DOWN
   - RIGHT
@@ -110,7 +110,7 @@ layers:
   - '&mkp MCLK'
   - LC(LG(RIGHT ARROW))
   - LS(LG(RIGHT ARROW))
-  - {t: ▽, type: trans}
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
