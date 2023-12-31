@@ -79,11 +79,11 @@ layers:
   - {t: SPACE, h: num}
   - {t: ENTER, h: navi}
   navi:
-  - '&mwh SCROLL_UP'
-  - '&mwh SCROLL_LEFT'
-  - '&mmv MOVE_UP'
-  - '&mwh SCROLL_RIGHT'
-  - '&mkp LCLK'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - INS
   - HOME
   - UP
@@ -93,18 +93,18 @@ layers:
   - LEFT ALT
   - LCTRL
   - LSHIFT
-  - '&mkp MCLK'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LEFT
   - DOWN
   - RIGHT
   - PG DN
-  - {t: mouse, h: toggle}
-  - LEFT GUI
-  - '&mkp LCLK'
-  - LCTRL
-  - LEFT SHIFT
-  - '&mkp RCLK'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&mkp LCLK'
   - '&mkp MCLK'
