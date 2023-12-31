@@ -575,9 +575,9 @@
         navi_layer {
             label = "NAV";
             bindings = <
-        &trans        &trans        &trans     &trans      &trans    &kp INS                 &kp HOME                &kp UP     &kp END                  &kp PG_UP
-        &kp LEFT_GUI  &kp LEFT_ALT  &kp LCTRL  &kp LSHIFT  &trans    &none                   &kp LEFT                &kp DOWN   &kp RIGHT                &kp PG_DN
-&trans  &trans        &trans        &trans     &trans      &trans    &kp LS(LG(LEFT_ARROW))  &kp LC(LG(LEFT_ARROW))  &mkp MCLK  &kp LC(LG(RIGHT_ARROW))  &kp LS(LG(RIGHT_ARROW))  &none
+        &trans        &trans        &trans     &trans      &trans    &kp INS                 &kp HOME                &kp UP         &kp END                  &kp PG_UP
+        &kp LEFT_GUI  &kp LEFT_ALT  &kp LCTRL  &kp LSHIFT  &trans    &none                   &kp LEFT                &kp DOWN       &kp RIGHT                &kp PG_DN
+&trans  &trans        &trans        &trans     &trans      &trans    &kp LS(LG(LEFT_ARROW))  &kp LC(LG(LEFT_ARROW))  &kp LC(LG(V))  &kp LC(LG(RIGHT_ARROW))  &kp LS(LG(RIGHT_ARROW))  &none
                                     &trans     &trans      &trans    &trans                  &trans                  &trans
             >;
         };
