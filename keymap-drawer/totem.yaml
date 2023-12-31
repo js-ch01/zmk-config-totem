@@ -107,7 +107,7 @@ layers:
   - {t: ▽, type: trans}
   - LS(LG(LEFT ARROW))
   - LC(LG(LEFT ARROW))
-  - '&mkp MCLK'
+  - LC(LG(V))
   - LC(LG(RIGHT ARROW))
   - LS(LG(RIGHT ARROW))
   - ''
