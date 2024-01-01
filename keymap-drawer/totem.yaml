@@ -470,3 +470,6 @@ combos:
 - p: [10, 0]
   k: LC(LS(Z))
   l: [base, colemak_dh]
+- p: [18, 29]
+  k: '9'
+  l: [base, colemak_dh, num_sym]
