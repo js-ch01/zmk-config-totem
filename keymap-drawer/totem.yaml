@@ -467,3 +467,6 @@ combos:
 - p: [17, 28]
   k: '1'
   l: [base, colemak_dh, num_sym]
+- p: [10, 0]
+  k: LC(LS(Z))
+  l: [base, colemak_dh]

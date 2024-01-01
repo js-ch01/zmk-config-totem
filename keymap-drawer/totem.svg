@@ -394,6 +394,10 @@ path.combo {
 <rect rx="6" ry="6" x="620" y="99" width="28" height="26" class="combo"/>
 <text x="634" y="112" class="combo tap">1</text>
 </g>
+<g class="combo combopos-25">
+<rect rx="6" ry="6" x="64" y="128" width="28" height="26" class="combo"/>
+<text x="78" y="141" class="combo tap"><tspan style="font-size: 78%">LC(LS(Z))</tspan></text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 366)" class="layer-colemak_dh">
@@ -689,6 +693,10 @@ path.combo {
 <g class="combo combopos-24">
 <rect rx="6" ry="6" x="620" y="99" width="28" height="26" class="combo"/>
 <text x="634" y="112" class="combo tap">1</text>
+</g>
+<g class="combo combopos-25">
+<rect rx="6" ry="6" x="64" y="128" width="28" height="26" class="combo"/>
+<text x="78" y="141" class="combo tap"><tspan style="font-size: 78%">LC(LS(Z))</tspan></text>
 </g>
 </g>
 </g>
