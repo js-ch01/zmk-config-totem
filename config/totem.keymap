@@ -373,7 +373,7 @@
         combo_num0 {
             bindings = <&kp N0>;
             key-positions = <16 27>;
-            layers = <0 1 3 4>;
+            layers = <0 1 4>;
         };
 
         combo_mouse_layer {
@@ -384,8 +384,8 @@
 
         combo_num1 {
             bindings = <&kp N1>;
-            key-positions = <26 15>;
-            layers = <0 1 3 4>;
+            key-positions = <17 28>;
+            layers = <0 1 4>;
         };
     };
 
