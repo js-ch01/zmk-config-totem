@@ -179,8 +179,8 @@ layers:
   - {t: '-', h: '&double_mimus'}
   - LG(LS(S))
   - '~'
-  - {t: '=', h: '&double_equal'}
   - _
+  - {t: '=', h: '&double_equal'}
   - '"'
   - ''''
   - .
