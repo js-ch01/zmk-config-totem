@@ -387,6 +387,12 @@
             key-positions = <17 28>;
             layers = <0 1 4>;
         };
+
+        combo_ctrl_z_shift {
+            bindings = <&kp LC(LS(Z))>;
+            key-positions = <10 0>;
+            layers = <0 1>;
+        };
     };
 
     macros {
