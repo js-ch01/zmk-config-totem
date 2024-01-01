@@ -399,6 +399,27 @@
             key-positions = <18 29>;
             layers = <0 1 4>;
         };
+
+        combo_equal {
+            bindings = <&euqal_hold_double 0 EQUAL>;
+            key-positions = <22 23>;
+            timeout-ms = <45>;
+            layers = <0 1 4>;
+        };
+
+        combo_plus {
+            bindings = <&plus_hold_double 0 PLUS>;
+            key-positions = <23 24>;
+            timeout-ms = <45>;
+            layers = <0 1 4>;
+        };
+
+        combo_minus {
+            bindings = <&minus_hold_double 0 MINUS>;
+            key-positions = <21 22>;
+            timeout-ms = <45>;
+            layers = <0 1 4>;
+        };
     };
 
     macros {
@@ -556,10 +577,10 @@
         num_sym_layer {
             label = "NUM_SYM";
             bindings = <
-               &mt TILDE GRAVE              &kp QUESTION    &kp CARET                   &amps_hold_double 0 AMPS  &pipe_hold_double 0 PIPE    &kp STAR   &kp N7  &kp N8  &kp N9  &plus_hold_double 0 PLUS
-               &excl_hold_not_euqal 0 EXCL  &kp AT          &kp HASH                    &kp DOLLAR                &kp PERCENT                 &kp SLASH  &kp N4  &kp N5  &kp N6  &minus_hold_double 0 MINUS
-&kp LG(LS(S))  &kp TILDE                    &kp UNDERSCORE  &euqal_hold_double 0 EQUAL  &kp DQT                   &kp SQT                     &kp DOT    &kp N1  &kp N2  &kp N3  &kp BSLH                    &kp LG(Z)
-                                                            &kp TAB                     &trans                    &trans                      &trans     &trans  &kp N0
+               &mt TILDE GRAVE              &kp QUESTION                &kp CARET  &amps_hold_double 0 AMPS  &pipe_hold_double 0 PIPE    &kp STAR   &kp N7  &kp N8  &kp N9  &plus_hold_double 0 PLUS
+               &excl_hold_not_euqal 0 EXCL  &kp AT                      &kp HASH   &kp DOLLAR                &kp PERCENT                 &kp SLASH  &kp N4  &kp N5  &kp N6  &minus_hold_double 0 MINUS
+&kp LG(LS(S))  &kp TILDE                    &euqal_hold_double 0 EQUAL  &kp UNDER  &kp DQT                   &kp SQT                     &kp DOT    &kp N1  &kp N2  &kp N3  &kp BSLH                    &kp LG(Z)
+                                                                        &kp TAB    &trans                    &trans                      &trans     &trans  &kp N0
             >;
         };
 
