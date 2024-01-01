@@ -400,25 +400,25 @@ combos:
   l: [base, colemak_dh, num_sym]
 - p: [16, 17]
   k: )
-  l: [base, colemak_dh]
+  l: [base, colemak_dh, num_sym]
 - p: [11, 13]
   k: {t: '[', h: '&brackets_lr'}
   l: [base, colemak_dh, num_sym]
 - p: [16, 18]
   k: ']'
-  l: [base, colemak_dh]
+  l: [base, colemak_dh, num_sym]
 - p: [12, 11]
   k: {t: '{', h: '&braces_lr'}
   l: [base, colemak_dh, num_sym]
 - p: [17, 18]
   k: '}'
-  l: [base, colemak_dh]
+  l: [base, colemak_dh, num_sym]
 - p: [22, 24]
   k: {t: <, h: '&lte'}
   l: [base, colemak_dh, num_sym]
 - p: [27, 29]
   k: {t: '>', h: '&gte'}
-  l: [base, colemak_dh]
+  l: [base, colemak_dh, num_sym]
 - p: [20, 31]
   k: {t: game, h: toggle}
   l: [base, game, colemak_dh]
@@ -451,7 +451,7 @@ combos:
   l: [base, colemak_dh, navi, num_sym, num_left]
 - p: [3, 13]
   k: ENTER
-  l: [base, colemak_dh, navi, num_sym, num_left]
+  l: [base, colemak_dh, navi, num_sym, num_left, game]
 - p: [14, 25]
   k: LS(LC(B))
   l: [base, colemak_dh]
