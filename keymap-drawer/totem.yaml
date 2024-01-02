@@ -482,9 +482,9 @@ combos:
 - p: [21, 22]
   k: {t: '-', h: '&double_mimus'}
   l: [base, colemak_dh, num_sym]
-- p: [1, 2]
+- p: [2, 3]
   k: LG(GRAVE)
   l: [base, colemak_dh]
-- p: [2, 3]
+- p: [2, 1]
   k: LG(LS(GRAVE))
   l: [base, colemak_dh]
