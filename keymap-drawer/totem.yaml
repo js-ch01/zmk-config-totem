@@ -307,8 +307,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - PP
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LEFT ARROW
+  - RIGHT ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
