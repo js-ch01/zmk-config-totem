@@ -420,6 +420,18 @@
             timeout-ms = <45>;
             layers = <0 1 4>;
         };
+
+        combo_win+grave {
+            bindings = <&kp LG(GRAVE)>;
+            key-positions = <1 2>;
+            layers = <0 1>;
+        };
+
+        combo_win+tlide {
+            bindings = <&kp LG(LS(GRAVE))>;
+            key-positions = <2 3>;
+            layers = <0 1>;
+        };
     };
 
     macros {
