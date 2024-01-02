@@ -423,13 +423,13 @@
 
         combo_win+grave {
             bindings = <&kp LG(GRAVE)>;
-            key-positions = <1 2>;
+            key-positions = <2 3>;
             layers = <0 1>;
         };
 
         combo_win+tlide {
             bindings = <&kp LG(LS(GRAVE))>;
-            key-positions = <2 3>;
+            key-positions = <2 1>;
             layers = <0 1>;
         };
     };
