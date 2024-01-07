@@ -247,7 +247,7 @@
             timeout-ms = <33>;
             key-positions = <16 17>;
             bindings = <&kp RPAR>;
-            layers = <0 1 4>;
+            layers = <0 1>;
         };
 
         combo_lbkt {
@@ -261,7 +261,7 @@
             timeout-ms = <33>;
             key-positions = <16 18>;
             bindings = <&kp RBKT>;
-            layers = <0 1 4>;
+            layers = <0 1>;
         };
 
         combo_lbrc {
@@ -275,7 +275,7 @@
             timeout-ms = <33>;
             key-positions = <17 18>;
             bindings = <&kp RIGHT_BRACE>;
-            layers = <0 1 4>;
+            layers = <0 1>;
         };
 
         combo_lt {
