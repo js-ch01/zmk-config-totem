@@ -400,19 +400,19 @@ combos:
   l: [base, colemak_dh, num_sym]
 - p: [16, 17]
   k: )
-  l: [base, colemak_dh, num_sym]
+  l: [base, colemak_dh]
 - p: [11, 13]
   k: {t: '[', h: '&brackets_lr'}
   l: [base, colemak_dh, num_sym]
 - p: [16, 18]
   k: ']'
-  l: [base, colemak_dh, num_sym]
+  l: [base, colemak_dh]
 - p: [12, 11]
   k: {t: '{', h: '&braces_lr'}
   l: [base, colemak_dh, num_sym]
 - p: [17, 18]
   k: '}'
-  l: [base, colemak_dh, num_sym]
+  l: [base, colemak_dh]
 - p: [22, 24]
   k: {t: <, h: '&lte'}
   l: [base, colemak_dh, num_sym]
