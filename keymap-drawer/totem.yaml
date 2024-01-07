@@ -21,7 +21,7 @@ layers:
   - {t: K, h: LCTRL}
   - {t: L, h: LALT}
   - {t: ;, h: LEFT GUI}
-  - {t: '&tog_colemak', h: func_left}
+  - LCTRL
   - {t: Z, h: num_left}
   - X
   - C
@@ -271,7 +271,7 @@ layers:
   - BRIGHTNESS DEC
   - {type: held}
   - APPLICATION
-  - ''
+  - '&tog_colemak'
   - ''
   func_left:
   - VOLUME UP
