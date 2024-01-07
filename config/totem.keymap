@@ -562,10 +562,10 @@
         base_layer {
             label = "BASE";
             bindings = <
-                     &kp Q       &kp W       &kp E        &kp R                        &kp T           &kp Y            &kp U                         &kp I        &kp O       &kp P
-                     &mt LGUI A  &mt LALT S  &mt LCTRL D  &mt_shift_left LEFT_SHIFT F  &kp G           &kp H            &mt_shift_right LEFT_SHIFT J  &mt LCTRL K  &mt LALT L  &mt LEFT_GUI SEMI
-&lt_tog_colemak 7 0  &lt 5 Z     &kp X       &kp C        &kp V                        &kp B           &kp N            &kp M                         &kp COMMA    &kp DOT     &mt BACKSLASH SLASH  &kp RALT
-                                             &lt 2 TAB    &lt 4 BACKSPACE              &lt 6 DELETE    &lt 6 LS(SPACE)  &lt 4 SPACE                   &lt 3 ENTER
+           &kp Q       &kp W       &kp E        &kp R                        &kp T           &kp Y            &kp U                         &kp I        &kp O       &kp P
+           &mt LGUI A  &mt LALT S  &mt LCTRL D  &mt_shift_left LEFT_SHIFT F  &kp G           &kp H            &mt_shift_right LEFT_SHIFT J  &mt LCTRL K  &mt LALT L  &mt LEFT_GUI SEMI
+&kp LCTRL  &lt 5 Z     &kp X       &kp C        &kp V                        &kp B           &kp N            &kp M                         &kp COMMA    &kp DOT     &mt BACKSLASH SLASH  &kp RALT
+                                   &lt 2 TAB    &lt 4 BACKSPACE              &lt 6 DELETE    &lt 6 LS(SPACE)  &lt 4 SPACE                   &lt 3 ENTER
             >;
         };
 
@@ -624,10 +624,10 @@
         func_layer {
             label = "FUN";
             bindings = <
-                 &kp RCTRL       &bt BT_SEL 0   &bt BT_SEL 1          &bt BT_SEL 2          &bt BT_CLR           &kp PSCRN          &kp F7  &kp F8  &kp F9  &kp F12
-                 &sk LEFT_GUI    &sk LEFT_ALT   &sk LCTRL             &sk LEFT_SHIFT        &kp LC(D)            &kp SLCK           &kp F4  &kp F5  &kp F6  &kp F11
-&kp LS(LC(ESC))  &kp RIGHT_META  &kp LC(LG(F))  &kp LS(LG(F))         &kp LS(LC(LG(F)))     &kp LS(LC(LG(S)))    &kp PAUSE_BREAK    &kp F1  &kp F2  &kp F3  &kp F10  &kp LOCKING_NUM
-                                                &kp C_BRIGHTNESS_INC  &kp C_BRIGHTNESS_DEC  &none                &kp K_APPLICATION  &none   &none
+                 &kp RCTRL       &bt BT_SEL 0   &bt BT_SEL 1          &bt BT_SEL 2          &bt BT_CLR           &kp PSCRN          &kp F7        &kp F8  &kp F9  &kp F12
+                 &sk LEFT_GUI    &sk LEFT_ALT   &sk LCTRL             &sk LEFT_SHIFT        &kp LC(D)            &kp SLCK           &kp F4        &kp F5  &kp F6  &kp F11
+&kp LS(LC(ESC))  &kp RIGHT_META  &kp LC(LG(F))  &kp LS(LG(F))         &kp LS(LC(LG(F)))     &kp LS(LC(LG(S)))    &kp PAUSE_BREAK    &kp F1        &kp F2  &kp F3  &kp F10  &kp LOCKING_NUM
+                                                &kp C_BRIGHTNESS_INC  &kp C_BRIGHTNESS_DEC  &none                &kp K_APPLICATION  &tog_colemak  &none
             >;
         };
 
