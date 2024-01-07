@@ -488,3 +488,9 @@ combos:
 - p: [2, 1]
   k: LG(LS(GRAVE))
   l: [base, colemak_dh]
+- p: [27, 28]
+  k: {t: '-', h: '&double_mimus'}
+  l: [base, colemak_dh]
+- p: [28, 29]
+  k: {t: _, h: '&double_underscore'}
+  l: [base, colemak_dh]
