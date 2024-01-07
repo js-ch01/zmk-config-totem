@@ -104,7 +104,7 @@ layers:
   - '&mkp LCLK'
   - '&mkp MCLK'
   - '&mkp RCLK'
-  - LCTRL
+  - ''
   - ''
   - '&mkp LCLK'
   - '&mkp MCLK'
