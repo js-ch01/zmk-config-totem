@@ -217,7 +217,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: '0', type: held}
   - '1'
   - '2'
   - '3'
