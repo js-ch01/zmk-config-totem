@@ -179,7 +179,7 @@ layers:
   - {t: '-', h: '&double_mimus'}
   - LG(LS(S))
   - '~'
-  - {t: '=', h: '&double_equal'}
+  - ','
   - _
   - '"'
   - ''''
