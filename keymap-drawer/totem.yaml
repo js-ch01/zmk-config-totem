@@ -313,32 +313,32 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   game:
+  - T
   - Q
   - W
   - E
   - R
-  - T
   - Y
   - U
   - I
   - O
   - P
+  - LCTRL
   - A
   - S
   - D
   - F
-  - G
   - H
   - J
   - K
   - L
   - ;
   - LEFT ALT
+  - LEFT SHIFT
   - Z
   - X
   - C
   - V
-  - B
   - N
   - M
   - ','
@@ -356,7 +356,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Y
+  - T
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -366,7 +366,7 @@ layers:
   - '4'
   - '5'
   - '6'
-  - H
+  - G
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -377,7 +377,7 @@ layers:
   - '1'
   - '2'
   - '3'
-  - N
+  - B
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
