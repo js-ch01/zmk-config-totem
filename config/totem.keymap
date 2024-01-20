@@ -19,25 +19,15 @@
     quick-tap-ms = <200>;
 };
 
-&lt {
-    quick-tap-ms = <200>;
-};
+&lt { quick-tap-ms = <200>; };
 
-&caps_word {
-    continue-list = <UNDERSCORE BACKSPACE DELETE>;
-};
+&caps_word { continue-list = <UNDERSCORE BACKSPACE DELETE>; };
 
-&sk {
-    release-after-ms = <1700>;
-};
+&sk { release-after-ms = <1700>; };
 
-&mmv {
-    time-to-max-speed-ms = <400>;
-};
+&mmv { time-to-max-speed-ms = <400>; };
 
-&mwh {
-    time-to-max-speed-ms = <500>;
-};
+&mwh { time-to-max-speed-ms = <500>; };
 
 //      ┏━━━━┳━━━━┳━━━━┳━━━━┳━━━━┓  ┏━━━━┳━━━━┳━━━━┳━━━━┳━━━━┓
 //      ┃ 0  ┃ 1  ┃ 2  ┃ 3  ┃ 4  ┃  ┃ 5  ┃ 6  ┃ 7  ┃ 8  ┃ 9  ┃
@@ -645,10 +635,10 @@
 
         game_layer {
             bindings = <
-              &kp Q  &kp W  &kp E      &kp R      &kp T             &kp Y          &kp U      &kp I      &kp O    &kp P
-              &kp A  &kp S  &kp D      &kp F      &kp G             &kp H          &kp J      &kp K      &kp L    &kp SEMI
-&kp LEFT_ALT  &kp Z  &kp X  &kp C      &kp V      &kp B             &kp N          &kp M      &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
-                            &lt 9 TAB  &kp SPACE  &kp LEFT_SHIFT    &kp RIGHT_ALT  &kp SPACE  &kp ENTER
+              &kp T           &kp Q  &kp W      &kp E      &kp R             &kp Y          &kp U      &kp I      &kp O    &kp P
+              &kp LCTRL       &kp A  &kp S      &kp D      &kp F             &kp H          &kp J      &kp K      &kp L    &kp SEMI
+&kp LEFT_ALT  &kp LEFT_SHIFT  &kp Z  &kp X      &kp C      &kp V             &kp N          &kp M      &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
+                                     &lt 9 TAB  &kp SPACE  &kp LEFT_SHIFT    &kp RIGHT_ALT  &kp SPACE  &kp ENTER
             >;
 
             label = "GAME";
@@ -656,9 +646,9 @@
 
         game_num_layer {
             bindings = <
-                 &trans     &trans  &trans  &trans  &kp Y     &trans  &trans  &trans  &trans  &trans
-                 &trans     &kp N4  &kp N5  &kp N6  &kp H     &trans  &trans  &trans  &trans  &trans
-&kp LS(LC(ESC))  &kp GRAVE  &kp N1  &kp N2  &kp N3  &kp N     &trans  &trans  &trans  &trans  &trans  &trans
+                 &trans     &trans  &trans  &trans  &kp T     &trans  &trans  &trans  &trans  &trans
+                 &trans     &kp N4  &kp N5  &kp N6  &kp G     &trans  &trans  &trans  &trans  &trans
+&kp LS(LC(ESC))  &kp GRAVE  &kp N1  &kp N2  &kp N3  &kp B     &trans  &trans  &trans  &trans  &trans  &trans
                                     &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
@@ -675,7 +665,5 @@
         };
     };
 
-    conditional_layers {
-        compatible = "zmk,conditional-layers";
-    };
+    conditional_layers { compatible = "zmk,conditional-layers"; };
 };
