@@ -84,7 +84,7 @@ layers:
   - '&mmv MOVE_UP'
   - '&mwh SCROLL_RIGHT'
   - '&mkp MB4'
-  - ''
+  - PAGE UP
   - ''
   - ''
   - ''
@@ -94,7 +94,7 @@ layers:
   - '&mmv MOVE_DOWN'
   - '&mmv MOVE_RIGHT'
   - '&mkp MB5'
-  - ''
+  - PAGE DOWN
   - LSHIFT
   - LCTRL
   - LEFT ALT
