@@ -60,7 +60,7 @@ layers:
   - LCTRL
   - LEFT ALT
   - LEFT GUI
-  - '&mkp LCLK'
+  - ''
   - LG(LS(V))
   - '&mkp LCLK'
   - '&mkp MCLK'
