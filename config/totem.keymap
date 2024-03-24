@@ -601,8 +601,8 @@
             label = "FUN";
             bindings = <
                  &kp RCTRL       &bt BT_SEL 0   &bt BT_SEL 1          &bt BT_SEL 2          &bt BT_CLR           &kp PSCRN          &kp F7        &kp F8  &kp F9  &kp F12
-                 &sk LEFT_GUI    &sk LEFT_ALT   &sk LCTRL             &sk LEFT_SHIFT        &kp LC(D)            &kp SLCK           &kp F4        &kp F5  &kp F6  &kp F11
-&kp LS(LC(ESC))  &kp RIGHT_META  &kp LC(LG(F))  &kp LS(LG(F))         &kp LS(LC(LG(F)))     &kp LS(LC(LG(S)))    &kp PAUSE_BREAK    &kp F1        &kp F2  &kp F3  &kp F10  &kp LOCKING_NUM
+                 &sk LEFT_GUI    &sk LEFT_ALT   &sk LCTRL             &sk LEFT_SHIFT        &kp LC(S)            &kp SLCK           &kp F4        &kp F5  &kp F6  &kp F11
+&kp LS(LC(ESC))  &kp RIGHT_META  &kp LC(LG(T))  &kp LS(LG(T))         &kp LS(LC(LG(T)))     &kp LS(LC(LG(R)))    &kp PAUSE_BREAK    &kp F1        &kp F2  &kp F3  &kp F10  &kp LOCKING_NUM
                                                 &kp C_BRIGHTNESS_INC  &kp C_BRIGHTNESS_DEC  &none                &kp K_APPLICATION  &tog_colemak  &none
             >;
         };
