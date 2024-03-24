@@ -36,46 +36,7 @@ layers:
   - {t: TAB, h: mouse}
   - {t: BACKSPACE, h: num_sym}
   - {t: DELETE, h: func}
-  - {t: LS(SPACE), h: func}
-  - {t: SPACE, h: num_sym}
-  - {t: ENTER, h: navi}
-  colemak_dh:
-  - Q
-  - W
-  - F
-  - P
-  - B
-  - J
-  - L
-  - U
-  - Y
-  - ;
-  - {t: A, h: LGUI}
-  - {t: R, h: LALT}
-  - {t: S, h: LCTRL}
-  - {t: T, h: LEFT SHIFT}
-  - G
-  - M
-  - {t: N, h: LSHFT}
-  - {t: E, h: LCTRL}
-  - {t: I, h: LALT}
-  - {t: O, h: LEFT GUI}
-  - {t: '&tog_colemak', h: func_left}
-  - {t: Z, h: num_left}
-  - X
-  - C
-  - D
-  - V
-  - K
-  - H
-  - ','
-  - .
-  - {t: /, h: \}
-  - RALT
-  - {t: TAB, h: mouse}
-  - {t: BACKSPACE, h: num_sym}
-  - {t: DEL, h: func}
-  - {t: '&tog_colemak', h: func}
+  - {t: RIGHT ALT, h: func}
   - {t: SPACE, h: num_sym}
   - {t: ENTER, h: navi}
   mouse:
@@ -394,103 +355,103 @@ layers:
 combos:
 - p: [1, 0]
   k: ESC
-  l: [base, navi, num_sym, game, colemak_dh, num_left]
+  l: [base, navi, num_sym, game, num_left]
 - p: [12, 13]
   k: {t: (, h: '&parenthesis_lr'}
-  l: [base, colemak_dh, num_sym]
+  l: [base, num_sym]
 - p: [16, 17]
   k: )
-  l: [base, colemak_dh]
+  l: [base]
 - p: [11, 13]
   k: {t: '[', h: '&brackets_lr'}
-  l: [base, colemak_dh, num_sym]
+  l: [base, num_sym]
 - p: [16, 18]
   k: ']'
-  l: [base, colemak_dh]
+  l: [base]
 - p: [12, 11]
   k: {t: '{', h: '&braces_lr'}
-  l: [base, colemak_dh, num_sym]
+  l: [base, num_sym]
 - p: [17, 18]
   k: '}'
-  l: [base, colemak_dh]
+  l: [base]
 - p: [22, 24]
   k: {t: <, h: '&lte'}
-  l: [base, colemak_dh, num_sym]
+  l: [base, num_sym]
 - p: [27, 29]
   k: {t: '>', h: '&gte'}
-  l: [base, colemak_dh, num_sym]
+  l: [base, num_sym]
 - p: [20, 31]
   k: {t: game, h: toggle}
-  l: [base, game, colemak_dh]
+  l: [base, game]
 - p: [16, 6]
   k: BACKSPACE
-  l: [base, navi, num_sym, game, colemak_dh]
+  l: [base, navi, num_sym, game]
 - p: [17, 7]
   k: DEL
-  l: [base, navi, num_sym, game, colemak_dh]
+  l: [base, navi, num_sym, game]
 - p: [21, 10]
   k: LC(Z)
-  l: [base, colemak_dh]
+  l: [base]
 - p: [22, 11]
   k: LC(X)
-  l: [base, colemak_dh]
+  l: [base]
 - p: [23, 12]
   k: LC(C)
-  l: [base, colemak_dh]
+  l: [base]
 - p: [13, 24]
-  k: LC(B)
-  l: [base, colemak_dh]
+  k: LC(V)
+  l: [base]
 - p: [8, 18]
   k: '&key_repeat'
-  l: [base, navi, num_sym, game, colemak_dh]
+  l: [base, navi, num_sym, game]
 - p: [32, 33, 34]
   k: {t: clean, h: toggle}
-  l: [base, colemak_dh, clean]
+  l: [base, clean]
 - p: [2, 12]
   k: SPACE
-  l: [base, colemak_dh, navi, num_sym, num_left]
+  l: [base, navi, num_sym, num_left]
 - p: [3, 13]
   k: ENTER
-  l: [base, colemak_dh, navi, num_sym, num_left, game]
+  l: [base, navi, num_sym, num_left, game]
 - p: [14, 25]
-  k: LS(LC(B))
-  l: [base, colemak_dh]
+  k: LS(LC(V))
+  l: [base]
 - p: [1, 11]
   k: CAPSLOCK
-  l: [base, colemak_dh]
+  l: [base]
 - p: [16, 27]
   k: '0'
-  l: [base, colemak_dh, num_sym]
+  l: [base, num_sym]
 - p: [1, 3]
   k: {t: mouse, h: toggle}
-  l: [base, colemak_dh, mouse]
+  l: [base, mouse]
 - p: [17, 28]
   k: '1'
-  l: [base, colemak_dh, num_sym]
+  l: [base, num_sym]
 - p: [10, 0]
   k: LC(LS(Z))
-  l: [base, colemak_dh]
+  l: [base]
 - p: [18, 29]
   k: '9'
-  l: [base, colemak_dh, num_sym]
+  l: [base, num_sym]
 - p: [22, 23]
   k: {t: '=', h: '&double_equal'}
-  l: [base, colemak_dh, num_sym]
+  l: [base, num_sym]
 - p: [23, 24]
   k: {t: +, h: '&double_plus'}
-  l: [base, colemak_dh, num_sym]
+  l: [base, num_sym]
 - p: [21, 22]
   k: {t: '-', h: '&double_mimus'}
-  l: [base, colemak_dh, num_sym]
+  l: [base, num_sym]
 - p: [2, 3]
   k: LG(GRAVE)
-  l: [base, colemak_dh]
+  l: [base]
 - p: [2, 1]
   k: LG(LS(GRAVE))
-  l: [base, colemak_dh]
+  l: [base]
 - p: [27, 28]
   k: {t: '-', h: '&double_mimus'}
-  l: [base, colemak_dh]
+  l: [base]
 - p: [28, 29]
   k: {t: _, h: '&double_underscore'}
-  l: [base, colemak_dh]
+  l: [base]
