@@ -1326,7 +1326,7 @@ path.combo {
 </g>
 <g transform="translate(326, 121)" class="key keypos-14">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
-<text x="0" y="0" class="key tap">LC(D)</text>
+<text x="0" y="0" class="key tap">LC(S)</text>
 </g>
 <g transform="translate(516, 121)" class="key keypos-15">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
@@ -1360,19 +1360,19 @@ path.combo {
 </g>
 <g transform="translate(147, 174) rotate(-4.0)" class="key keypos-22">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 78%">LC(LG(F))</tspan></text>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 78%">LC(LG(T))</tspan></text>
 </g>
 <g transform="translate(207, 140)" class="key keypos-23">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 78%">LS(LG(F))</tspan></text>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 78%">LS(LG(T))</tspan></text>
 </g>
 <g transform="translate(267, 168)" class="key keypos-24">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 60%">LS(LC(LG(F)))</tspan></text>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 60%">LS(LC(LG(T)))</tspan></text>
 </g>
 <g transform="translate(326, 177)" class="key keypos-25">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 60%">LS(LC(LG(S)))</tspan></text>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 60%">LS(LC(LG(R)))</tspan></text>
 </g>
 <g transform="translate(516, 177)" class="key keypos-26">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
