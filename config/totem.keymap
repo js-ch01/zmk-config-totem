@@ -553,7 +553,7 @@
             bindings = <
              &kp Q       &kp W       &kp E        &kp R                        &kp T           &kp Y            &kp U                         &kp I        &kp O       &kp P
              &mt LGUI A  &mt LALT S  &mt LCTRL D  &mt_shift_left LEFT_SHIFT F  &kp G           &kp H            &mt_shift_right LEFT_SHIFT J  &mt LCTRL K  &mt LALT L  &mt LEFT_GUI SEMI
-&lt 6 LCTRL  &lt 4 Z     &kp X       &kp C        &kp V                        &kp B           &kp N            &kp M                         &kp COMMA    &kp DOT     &mt BACKSLASH SLASH  &kp RALT
+&lt 6 LCTRL  &lt 4 Z     &kp X       &kp C        &kp V                        &kp B           &kp N            &kp M                         &kp COMMA    &kp DOT     &mt BACKSLASH SLASH  &kp LG(LS(S))
                                      &lt 1 TAB    &lt 3 BACKSPACE              &lt 5 DELETE    &lt 5 RIGHT_ALT  &lt 3 SPACE                   &lt 2 ENTER
             >;
         };
@@ -561,10 +561,10 @@
         mouse_layer {
             label = "MSE";
             bindings = <
-       &mwh SCROLL_UP    &mwh SCROLL_LEFT  &mmv MOVE_UP    &mwh SCROLL_RIGHT  &mkp MB4    &kp PAGE_UP    &kp LA(N)   &none      &none         &none
-       &mwh SCROLL_DOWN  &mmv MOVE_LEFT    &mmv MOVE_DOWN  &mmv MOVE_RIGHT    &mkp MB5    &kp PAGE_DOWN  &kp LSHIFT  &kp LCTRL  &kp LEFT_ALT  &kp LEFT_GUI
-&none  &kp LG(LS(D))     &mkp LCLK         &mkp MCLK       &mkp RCLK          &none       &none          &mkp LCLK   &mkp MCLK  &mkp RCLK     &none         &none
-                                           &none           &none              &none       &mkp LCLK      &mkp MCLK   &mkp RCLK
+       &mwh SCROLL_UP    &mwh SCROLL_LEFT  &mmv MOVE_UP    &mwh SCROLL_RIGHT  &mkp MB4    &none      &none       &none      &none         &none
+       &mwh SCROLL_DOWN  &mmv MOVE_LEFT    &mmv MOVE_DOWN  &mmv MOVE_RIGHT    &mkp MB5    &none      &kp LSHIFT  &kp LCTRL  &kp LEFT_ALT  &kp LEFT_GUI
+&none  &kp LG(LS(D))     &mkp LCLK         &mkp MCLK       &mkp RCLK          &none       &none      &mkp LCLK   &mkp MCLK  &mkp RCLK     &none         &none
+                                           &none           &none              &none       &mkp LCLK  &mkp MCLK   &mkp RCLK
             >;
         };
 
@@ -573,7 +573,7 @@
             bindings = <
         &trans        &trans        &trans     &trans      &trans    &kp INS                 &kp HOME                &kp UP         &kp END                  &kp PG_UP
         &kp LEFT_GUI  &kp LEFT_ALT  &kp LCTRL  &kp LSHIFT  &trans    &none                   &kp LEFT                &kp DOWN       &kp RIGHT                &kp PG_DN
-&trans  &trans        &trans        &trans     &trans      &trans    &kp LS(LG(LEFT_ARROW))  &kp LC(LG(LEFT_ARROW))  &kp LC(LG(V))  &kp LC(LG(RIGHT_ARROW))  &kp LS(LG(RIGHT_ARROW))  &none
+&trans  &trans        &trans        &trans     &trans      &trans    &kp LS(LG(LEFT_ARROW))  &kp LC(LG(LEFT_ARROW))  &kp LC(LG(D))  &kp LC(LG(RIGHT_ARROW))  &kp LS(LG(RIGHT_ARROW))  &none
                                     &trans     &trans      &trans    &trans                  &trans                  &trans
             >;
         };
@@ -592,7 +592,7 @@
             bindings = <
         &kp ASTERISK  &kp N7  &kp N8  &kp N9          &kp PLUS           &trans  &trans  &trans  &trans  &trans
         &kp SLASH     &kp N4  &kp N5  &kp N6          &kp MINUS          &trans  &trans  &trans  &trans  &trans
-&trans  &kp N0        &kp N1  &kp N2  &kp N3          &kp DOT            &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &none         &kp N1  &kp N2  &kp N3          &kp DOT            &trans  &trans  &trans  &trans  &trans  &trans
                               &kp N0  &kp LEFT_ARROW  &kp RIGHT_ARROW    &trans  &trans  &trans
             >;
 
