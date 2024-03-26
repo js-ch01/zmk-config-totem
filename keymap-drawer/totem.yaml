@@ -118,7 +118,7 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   num_sym:
-  - {t: '`', h: '~'}
+  - '`'
   - '?'
   - ^
   - {t: '&', h: '&double_amp'}
@@ -141,9 +141,9 @@ layers:
   - LG(LS(S))
   - '~'
   - ','
-  - _
   - '"'
   - ''''
+  - _
   - .
   - '1'
   - '2'
