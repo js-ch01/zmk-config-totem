@@ -32,7 +32,7 @@ layers:
   - ','
   - .
   - {t: /, h: \}
-  - RALT
+  - LG(LS(S))
   - {t: TAB, h: mouse}
   - {t: BACKSPACE, h: num_sym}
   - {t: DELETE, h: func}
@@ -45,8 +45,8 @@ layers:
   - '&mmv MOVE_UP'
   - '&mwh SCROLL_RIGHT'
   - '&mkp MB4'
-  - PAGE UP
-  - LA(N)
+  - ''
+  - ''
   - ''
   - ''
   - ''
@@ -55,7 +55,7 @@ layers:
   - '&mmv MOVE_DOWN'
   - '&mmv MOVE_RIGHT'
   - '&mkp MB5'
-  - PAGE DOWN
+  - ''
   - LSHIFT
   - LCTRL
   - LEFT ALT
@@ -107,7 +107,7 @@ layers:
   - {t: ▽, type: trans}
   - LS(LG(LEFT ARROW))
   - LC(LG(LEFT ARROW))
-  - LC(LG(V))
+  - LC(LG(D))
   - LC(LG(RIGHT ARROW))
   - LS(LG(RIGHT ARROW))
   - ''
@@ -178,7 +178,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: '0', type: held}
+  - {type: held}
   - '1'
   - '2'
   - '3'
