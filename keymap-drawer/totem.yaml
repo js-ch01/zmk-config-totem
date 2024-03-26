@@ -210,7 +210,7 @@ layers:
   - {t: LEFT ALT, h: sticky}
   - {t: LCTRL, h: sticky}
   - {t: LEFT SHIFT, h: sticky}
-  - LC(S)
+  - LC(D)
   - SLCK
   - F4
   - F5
