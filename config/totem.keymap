@@ -470,7 +470,7 @@
             bindings = <&kp LG(TAB)>;
             key-positions = <11 12 13>;
             layers = <0>;
-            timeout-ms = <45>;
+            timeout-ms = <50>;
         };
     };
 
