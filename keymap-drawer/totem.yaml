@@ -462,7 +462,7 @@ combos:
   k: '"'
   l: [base, num_sym]
 - p: [7, 18]
-  k: ''''
+  k: Gui+ TAB
   l: [base, num_sym]
 - p: [11, 10]
   k: Gui+ TAB
