@@ -460,7 +460,7 @@
         };
 
         combo_sq {
-            bindings = <&kp SQT>;
+            bindings = <&kp LG(TAB)>;
             key-positions = <7 18>;
             layers = <0 3>;
             timeout-ms = <45>;
