@@ -16,7 +16,7 @@ layers:
   - {t: D, h: LCTRL}
   - {t: F, h: LEFT SHIFT}
   - G
-  - H
+  - {t: H, h: H}
   - {t: J, h: LEFT SHIFT}
   - {t: K, h: LCTRL}
   - {t: L, h: LALT}
@@ -32,7 +32,7 @@ layers:
   - ','
   - .
   - {t: /, h: \}
-  - LG(LS(S))
+  - Gui+Sft+ S
   - {t: TAB, h: mouse}
   - {t: BACKSPACE, h: num_sym}
   - {t: DELETE, h: func}
@@ -61,7 +61,7 @@ layers:
   - LEFT ALT
   - LEFT GUI
   - ''
-  - LG(LS(D))
+  - Gui+Sft+ D
   - '&mkp LCLK'
   - '&mkp MCLK'
   - '&mkp RCLK'
@@ -84,7 +84,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - INS
+  - {t: ▽, type: trans}
   - HOME
   - UP
   - END
@@ -94,7 +94,7 @@ layers:
   - LCTRL
   - LSHIFT
   - {t: ▽, type: trans}
-  - ''
+  - INSERT
   - LEFT
   - DOWN
   - RIGHT
@@ -105,11 +105,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LS(LG(LEFT ARROW))
-  - LC(LG(LEFT ARROW))
-  - LC(LG(D))
-  - LC(LG(RIGHT ARROW))
-  - LS(LG(RIGHT ARROW))
+  - Sft+Gui+ LEFT ARROW
+  - Ctl+Gui+ LEFT ARROW
+  - Ctl+Gui+ D
+  - Ctl+Gui+ RIGHT ARROW
+  - Sft+Gui+ RIGHT ARROW
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -138,18 +138,18 @@ layers:
   - '5'
   - '6'
   - '-'
-  - LG(LS(S))
-  - '~'
+  - Gui+Sft+ S
+  - INSERT
   - ','
-  - '"'
-  - ''''
+  - '['
+  - ']'
   - _
   - .
   - '1'
   - '2'
   - '3'
   - \
-  - LG(Z)
+  - Gui+ Z
   - TAB
   - {type: held}
   - {t: ▽, type: trans}
@@ -210,18 +210,18 @@ layers:
   - {t: LEFT ALT, h: sticky}
   - {t: LCTRL, h: sticky}
   - {t: LEFT SHIFT, h: sticky}
-  - LC(D)
+  - Ctl+ D
   - SLCK
   - F4
   - F5
   - F6
   - F11
-  - LS(LC(ESC))
+  - Sft+Ctl+ ESC
   - RIGHT META
-  - LC(LG(T))
-  - LS(LG(T))
-  - LS(LC(LG(T)))
-  - LS(LC(LG(R)))
+  - Ctl+Gui+ T
+  - Sft+Gui+ T
+  - Sft+Ctl+Gui+ T
+  - Sft+Ctl+Gui+ R
   - PAUSE BREAK
   - F1
   - F2
@@ -333,7 +333,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LS(LC(ESC))
+  - Sft+Ctl+ ESC
   - '`'
   - '1'
   - '2'
@@ -390,16 +390,16 @@ combos:
   k: DEL
   l: [base, navi, num_sym, game]
 - p: [21, 10]
-  k: LC(Z)
+  k: Ctl+ Z
   l: [base]
 - p: [22, 11]
-  k: LC(X)
+  k: Ctl+ X
   l: [base]
 - p: [23, 12]
-  k: LC(C)
+  k: Ctl+ C
   l: [base]
 - p: [13, 24]
-  k: LC(V)
+  k: Ctl+ V
   l: [base]
 - p: [8, 18]
   k: '&key_repeat'
@@ -414,7 +414,7 @@ combos:
   k: ENTER
   l: [base, navi, num_sym, num_left, game]
 - p: [14, 25]
-  k: LS(LC(V))
+  k: Sft+Ctl+ V
   l: [base]
 - p: [1, 11]
   k: CAPSLOCK
@@ -429,7 +429,7 @@ combos:
   k: '1'
   l: [base, num_sym]
 - p: [10, 0]
-  k: LC(LS(Z))
+  k: Ctl+Sft+ Z
   l: [base]
 - p: [18, 29]
   k: '9'
@@ -444,10 +444,10 @@ combos:
   k: {t: '-', h: '&double_mimus'}
   l: [base, num_sym]
 - p: [2, 3]
-  k: LG(GRAVE)
+  k: Gui+ `
   l: [base]
 - p: [2, 1]
-  k: LG(LS(GRAVE))
+  k: Gui+Sft+ `
   l: [base]
 - p: [27, 28]
   k: {t: '-', h: '&double_mimus'}
@@ -455,3 +455,12 @@ combos:
 - p: [28, 29]
   k: {t: _, h: '&double_underscore'}
   l: [base]
+- p: [0, 3]
+  k: Alt+ F4
+  l: [base]
+- p: [2, 11]
+  k: '"'
+  l: [base, num_sym]
+- p: [7, 18]
+  k: ''''
+  l: [base, num_sym]
