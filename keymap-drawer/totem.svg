@@ -488,7 +488,7 @@ path.combo {
 <path d="M206,104 l-43,9" class="combo"/>
 <path d="M206,104 l41,5" class="combo"/>
 <rect rx="6" ry="6" x="192" y="91" width="28" height="26" class="combo"/>
-<text x="206" y="104" class="combo tap"><tspan style="font-size: 88%">&amp;win_tab</tspan></text>
+<text x="206" y="104" class="combo tap">A</text>
 </g>
 </g>
 </g>

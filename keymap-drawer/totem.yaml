@@ -465,5 +465,5 @@ combos:
   k: ''''
   l: [base, num_sym]
 - p: [11, 12, 13]
-  k: '&win_tab'
+  k: A
   l: [base]
