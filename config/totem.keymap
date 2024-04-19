@@ -467,7 +467,7 @@
         };
 
         combo_win+tab {
-            bindings = <&kp LG(TAB)>;
+            bindings = <&win_tab>;
             key-positions = <11 12 13>;
             layers = <0>;
             timeout-ms = <50>;
@@ -579,6 +579,19 @@
             bindings = <&macro_tap_time 5>, <&kp LBKT &kp RBKT>;
 
             label = "BRACKETS_LR";
+        };
+
+        win_tab: win_tab {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_tap_time 5>,
+                <&macro_press>,
+                <&kp LEFT_WIN>,
+                <&macro_tap>,
+                <&kp TAB>;
+
+            label = "WIN_TAB";
         };
     };
 
