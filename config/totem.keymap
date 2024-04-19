@@ -1,7 +1,7 @@
-#include <dt-bindings/zmk/mouse.h>
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/mouse.h>
 
 #define BASE 0
 #define NAV  1
@@ -210,6 +210,15 @@
             #binding-cells = <2>;
             tapping-term-ms = <200>;
             flavor = "tap-preferred";
+        };
+
+        mt_h: mt_h {
+            compatible = "zmk,behavior-hold-tap";
+            label = "MT_H";
+            bindings = <&kp>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <300>;
         };
     };
 };
@@ -435,6 +444,26 @@
             timeout-ms = <45>;
             layers = <0>;
         };
+
+        combo_altF4 {
+            bindings = <&kp LA(F4)>;
+            key-positions = <0 3>;
+            layers = <0>;
+        };
+
+        combo_dq {
+            bindings = <&kp DQT>;
+            key-positions = <2 11>;
+            layers = <0 3>;
+            timeout-ms = <45>;
+        };
+
+        combo_sq {
+            bindings = <&kp SQT>;
+            key-positions = <7 18>;
+            layers = <0 3>;
+            timeout-ms = <45>;
+        };
     };
 
     macros {
@@ -552,7 +581,7 @@
             label = "BASE";
             bindings = <
              &kp Q       &kp W       &kp E        &kp R                        &kp T           &kp Y            &kp U                         &kp I        &kp O       &kp P
-             &mt LGUI A  &mt LALT S  &mt LCTRL D  &mt_shift_left LEFT_SHIFT F  &kp G           &kp H            &mt_shift_right LEFT_SHIFT J  &mt LCTRL K  &mt LALT L  &mt LEFT_GUI SEMI
+             &mt LGUI A  &mt LALT S  &mt LCTRL D  &mt_shift_left LEFT_SHIFT F  &kp G           &mt_h H H        &mt_shift_right LEFT_SHIFT J  &mt LCTRL K  &mt LALT L  &mt LEFT_GUI SEMI
 &lt 6 LCTRL  &lt 4 Z     &kp X       &kp C        &kp V                        &kp B           &kp N            &kp M                         &kp COMMA    &kp DOT     &mt BACKSLASH SLASH  &kp LG(LS(S))
                                      &lt 1 TAB    &lt 3 BACKSPACE              &lt 5 DELETE    &lt 5 RIGHT_ALT  &lt 3 SPACE                   &lt 2 ENTER
             >;
@@ -571,8 +600,8 @@
         navi_layer {
             label = "NAV";
             bindings = <
-        &trans        &trans        &trans     &trans      &trans    &kp INS                 &kp HOME                &kp UP         &kp END                  &kp PG_UP
-        &kp LEFT_GUI  &kp LEFT_ALT  &kp LCTRL  &kp LSHIFT  &trans    &none                   &kp LEFT                &kp DOWN       &kp RIGHT                &kp PG_DN
+        &trans        &trans        &trans     &trans      &trans    &trans                  &kp HOME                &kp UP         &kp END                  &kp PG_UP
+        &kp LEFT_GUI  &kp LEFT_ALT  &kp LCTRL  &kp LSHIFT  &trans    &kp INSERT              &kp LEFT                &kp DOWN       &kp RIGHT                &kp PG_DN
 &trans  &trans        &trans        &trans     &trans      &trans    &kp LS(LG(LEFT_ARROW))  &kp LC(LG(LEFT_ARROW))  &kp LC(LG(D))  &kp LC(LG(RIGHT_ARROW))  &kp LS(LG(RIGHT_ARROW))  &none
                                     &trans     &trans      &trans    &trans                  &trans                  &trans
             >;
@@ -581,10 +610,10 @@
         num_sym_layer {
             label = "NUM_SYM";
             bindings = <
-               &kp GRAVE                    &kp QUESTION  &kp CARET          &amps_hold_double 0 AMPS  &pipe_hold_double 0 PIPE    &kp STAR   &kp N7  &kp N8  &kp N9  &kp PLUS
-               &excl_hold_not_euqal 0 EXCL  &kp AT        &kp HASH           &kp DOLLAR                &kp PERCENT                 &kp SLASH  &kp N4  &kp N5  &kp N6  &kp MINUS
-&kp LG(LS(S))  &kp TILDE                    &kp COMMA     &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE          &kp UNDERSCORE              &kp DOT    &kp N1  &kp N2  &kp N3  &kp BSLH   &kp LG(Z)
-                                                          &kp TAB            &trans                    &trans                      &trans     &trans  &kp N0
+               &kp GRAVE                    &kp QUESTION  &kp CARET         &amps_hold_double 0 AMPS  &pipe_hold_double 0 PIPE    &kp STAR   &kp N7  &kp N8  &kp N9  &kp PLUS
+               &excl_hold_not_euqal 0 EXCL  &kp AT        &kp HASH          &kp DOLLAR                &kp PERCENT                 &kp SLASH  &kp N4  &kp N5  &kp N6  &kp MINUS
+&kp LG(LS(S))  &kp INSERT                   &kp COMMA     &kp LEFT_BRACKET  &kp RIGHT_BRACKET         &kp UNDERSCORE              &kp DOT    &kp N1  &kp N2  &kp N3  &kp BSLH   &kp LG(Z)
+                                                          &kp TAB           &trans                    &trans                      &trans     &trans  &kp N0
             >;
         };
 
