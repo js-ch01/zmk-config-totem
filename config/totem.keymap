@@ -467,8 +467,8 @@
         };
 
         combo_win+tab {
-            bindings = <&kp A>;
-            key-positions = <11 12 13>;
+            bindings = <&kp LG(A)>;
+            key-positions = <11 10>;
             layers = <0>;
             timeout-ms = <50>;
         };
