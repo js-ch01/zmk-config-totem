@@ -460,15 +460,15 @@
         };
 
         combo_sq {
-            bindings = <&kp LG(TAB)>;
-            key-positions = <7 18>;
+            bindings = <&kp SQT>;
+            key-positions = <13 2>;
             layers = <0 3>;
             timeout-ms = <45>;
         };
 
         combo_win+tab {
             bindings = <&kp LG(TAB)>;
-            key-positions = <11 10>;
+            key-positions = <16 17 18>;
             layers = <0>;
             timeout-ms = <50>;
         };
