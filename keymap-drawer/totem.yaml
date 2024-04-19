@@ -465,5 +465,5 @@ combos:
   k: ''''
   l: [base, num_sym]
 - p: [11, 10]
-  k: Gui+ A
+  k: Gui+ TAB
   l: [base]
