@@ -464,6 +464,6 @@ combos:
 - p: [7, 18]
   k: ''''
   l: [base, num_sym]
-- p: [11, 12, 13]
-  k: A
+- p: [11, 10]
+  k: Gui+ A
   l: [base]
