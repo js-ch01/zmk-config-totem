@@ -56,7 +56,7 @@ layers:
   - '&mmv MOVE_RIGHT'
   - '&mkp MB5'
   - ''
-  - {t: J, h: '&mmv MOVE_LEFT'}
+  - '&mmv MOVE_LEFT'
   - '&mmv MOVE_DOWN'
   - '&mmv MOVE_RIGHT'
   - ''
