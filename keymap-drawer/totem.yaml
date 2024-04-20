@@ -32,7 +32,7 @@ layers:
   - ','
   - .
   - {t: /, h: \}
-  - Gui+Sft+ S
+  - LEFT SHIFT
   - {t: TAB, h: mouse}
   - {t: BACKSPACE, h: num_sym}
   - {t: DELETE, h: func}
@@ -47,7 +47,7 @@ layers:
   - '&mkp MB4'
   - ''
   - ''
-  - ''
+  - '&mmv MOVE_UP'
   - ''
   - ''
   - '&mwh SCROLL_DOWN'
@@ -56,10 +56,10 @@ layers:
   - '&mmv MOVE_RIGHT'
   - '&mkp MB5'
   - ''
-  - LSHIFT
-  - LCTRL
-  - LEFT ALT
-  - LEFT GUI
+  - {t: J, h: '&mmv MOVE_LEFT'}
+  - '&mmv MOVE_DOWN'
+  - '&mmv MOVE_RIGHT'
+  - ''
   - ''
   - Gui+Sft+ D
   - '&mkp LCLK'
@@ -217,7 +217,7 @@ layers:
   - F6
   - F11
   - Sft+Ctl+ ESC
-  - RIGHT META
+  - Sft+Gui+ S
   - Ctl+Gui+ T
   - Sft+Gui+ T
   - Sft+Ctl+Gui+ T
@@ -231,9 +231,9 @@ layers:
   - BRIGHTNESS INC
   - BRIGHTNESS DEC
   - {type: held}
+  - RIGHT ALT
   - APPLICATION
-  - '&tog_colemak'
-  - ''
+  - RIGHT CONTROL
   func_left:
   - VOLUME UP
   - F7
