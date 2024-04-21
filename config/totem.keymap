@@ -598,7 +598,7 @@
         num_sym_layer {
             label = "NUM_SYM";
             bindings = <
-               &kp GRAVE                    &kp QUESTION  &kp CARET         &amps_hold_double 0 AMPS  &pipe_hold_double 0 PIPE    &kp STAR   &kp N7  &kp N8  &kp N9  &kp PLUS
+               &mt TILDE GRAVE              &kp QUESTION  &kp CARET         &amps_hold_double 0 AMPS  &pipe_hold_double 0 PIPE    &kp STAR   &kp N7  &kp N8  &kp N9  &kp PLUS
                &excl_hold_not_euqal 0 EXCL  &kp AT        &kp HASH          &kp DOLLAR                &kp PERCENT                 &kp SLASH  &kp N4  &kp N5  &kp N6  &kp MINUS
 &kp LG(LS(S))  &kp INSERT                   &kp COMMA     &kp LEFT_BRACKET  &kp RIGHT_BRACKET         &kp UNDERSCORE              &kp DOT    &kp N1  &kp N2  &kp N3  &kp BSLH   &kp LG(Z)
                                                           &kp TAB           &trans                    &trans                      &trans     &trans  &kp N0
