@@ -3,4 +3,6 @@ include:
     shield: totem_left #rgbled_widget
   - board: seeeduino_xiao_ble
     shield: totem_right #rgbled_widget
+  - board: seeeduino_xiao_ble
+    shield: totem_dongle
 # there is no settingsreset (needed) for the XIAO
