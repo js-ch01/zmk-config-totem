@@ -462,6 +462,13 @@
             layers = <0>;
             timeout-ms = <50>;
         };
+
+        combo_win+tab2 {
+            bindings = <&kp LG(TAB)>;
+            key-positions = <11 12 13>;
+            timeout-ms = <50>;
+            layers = <0>;
+        };
     };
 
     macros {
