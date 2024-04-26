@@ -469,4 +469,4 @@ combos:
   l: [base]
 - p: [11, 12, 13]
   k: Gui+ TAB
-  l: [base]
+  l: [base, num_sym]
