@@ -458,13 +458,6 @@
 
         combo_win+tab {
             bindings = <&kp LG(TAB)>;
-            key-positions = <16 17 18>;
-            layers = <0>;
-            timeout-ms = <50>;
-        };
-
-        combo_win+tab2 {
-            bindings = <&kp LG(TAB)>;
             key-positions = <22 23 24>;
             timeout-ms = <40>;
             layers = <0 3>;
