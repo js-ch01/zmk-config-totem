@@ -467,3 +467,6 @@ combos:
 - p: [16, 17, 18]
   k: Gui+ TAB
   l: [base]
+- p: [11, 12, 13]
+  k: Gui+ TAB
+  l: [base]
