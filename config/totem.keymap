@@ -466,7 +466,7 @@
         combo_win+tab2 {
             bindings = <&kp LG(TAB)>;
             key-positions = <11 12 13>;
-            timeout-ms = <50>;
+            timeout-ms = <38>;
             layers = <0>;
         };
     };
