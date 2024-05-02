@@ -347,8 +347,8 @@
             layers = <0 2 3 4 7>;
         };
 
-        combo_ctrl_shitf_v {
-            bindings = <&kp LS(LC(V))>;
+        combo_ctrl_alt_c {
+            bindings = <&kp LC(LA(C))>;
             key-positions = <14 25>;
             layers = <0>;
         };
