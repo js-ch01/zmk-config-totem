@@ -414,7 +414,7 @@ combos:
   k: ENTER
   l: [base, navi, num_sym, num_left, game]
 - p: [14, 25]
-  k: Sft+Ctl+ V
+  k: Ctl+Alt+ C
   l: [base]
 - p: [1, 11]
   k: CAPSLOCK

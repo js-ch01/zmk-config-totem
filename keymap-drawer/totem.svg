@@ -399,7 +399,7 @@ path.combo {
 <g class="combo combopos-20">
 <rect rx="6" ry="6" x="312" y="136" width="28" height="26" class="combo"/>
 <text x="326" y="149" class="combo tap">
-<tspan x="326" dy="-0.6em" style="font-size: 88%">Sft+Ctl+</tspan><tspan x="326" dy="1.2em" style="font-size: 88%">V</tspan>
+<tspan x="326" dy="-0.6em" style="font-size: 88%">Ctl+Alt+</tspan><tspan x="326" dy="1.2em" style="font-size: 88%">C</tspan>
 </text>
 </g>
 <g class="combo combopos-21">
