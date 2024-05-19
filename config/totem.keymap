@@ -219,7 +219,7 @@
         compatible = "zmk,combos";
 
         combo_esc {
-            timeout-ms = <38>;
+            timeout-ms = <39>;
             key-positions = <1 0>;
             bindings = <&kp ESC>;
             layers = <0 2 3 7 4>;
