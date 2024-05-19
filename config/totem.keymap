@@ -569,7 +569,7 @@
             label = "BASE";
             bindings = <
              &kp Q       &kp W       &kp E        &kp R                        &kp T           &kp Y            &kp U                         &kp I        &kp O       &kp P
-             &mt LGUI A  &mt LALT S  &mt LCTRL D  &mt_shift_left LEFT_SHIFT F  &kp G           &mt_h H H        &mt_shift_right LEFT_SHIFT J  &mt LCTRL K  &mt LALT L  &mt LEFT_GUI SEMI
+             &mt LGUI A  &mt LALT S  &mt LCTRL D  &mt_shift_left LEFT_SHIFT F  &kp G           &kp H            &mt_shift_right LEFT_SHIFT J  &mt LCTRL K  &mt LALT L  &mt LEFT_GUI SEMI
 &lt 6 LCTRL  &lt 4 Z     &kp X       &kp C        &kp V                        &kp B           &kp N            &kp M                         &kp COMMA    &kp DOT     &mt BACKSLASH SLASH  &kp LEFT_SHIFT
                                      &lt 1 TAB    &lt 3 BACKSPACE              &lt 5 DELETE    &lt 5 RIGHT_ALT  &lt 3 SPACE                   &lt 2 ENTER
             >;
