@@ -377,8 +377,8 @@
             layers = <0 3>;
         };
 
-        combo_ctrl_z_shift {
-            bindings = <&kp LC(LS(Z))>;
+        combo_ctrl+a {
+            bindings = <&kp LC(A)>;
             key-positions = <10 0>;
             layers = <0>;
         };
@@ -459,13 +459,6 @@
         combo_win+tab {
             bindings = <&kp LG(TAB)>;
             key-positions = <22 23 24>;
-            timeout-ms = <40>;
-            layers = <0>;
-        };
-
-        combo_ctrl+a {
-            bindings = <&kp LC(A)>;
-            key-positions = <10 11>;
             timeout-ms = <40>;
             layers = <0>;
         };
