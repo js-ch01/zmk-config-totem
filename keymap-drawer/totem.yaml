@@ -448,10 +448,10 @@ combos:
   l: [base, clean]
 - p: [2, 12]
   k: SPACE
-  l: [base, navi, num_sym, num_left]
+  l: [base, navi, num_sym, num_left, arrow_left]
 - p: [3, 13]
   k: ENTER
-  l: [base, navi, num_sym, num_left, game]
+  l: [base, navi, num_sym, num_left, game, arrow_left]
 - p: [14, 25]
   k: Ctl+Alt+ C
   l: [base]
