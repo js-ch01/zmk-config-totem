@@ -32,7 +32,7 @@ layers:
   - ','
   - .
   - {t: /, h: \}
-  - LEFT SHIFT
+  - INSERT
   - {t: TAB, h: mouse}
   - {t: BACKSPACE, h: num_sym}
   - {t: DELETE, h: func}
@@ -197,9 +197,9 @@ layers:
   - {t: ▽, type: trans}
   arrow_left:
   - {type: held}
-  - {t: ▽, type: trans}
+  - HOME
   - UP ARROW
-  - {t: ▽, type: trans}
+  - END
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
