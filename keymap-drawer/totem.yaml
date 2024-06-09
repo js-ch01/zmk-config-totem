@@ -32,7 +32,7 @@ layers:
   - ','
   - .
   - {t: /, h: \}
-  - INSERT
+  - PRINTSCREEN
   - {t: TAB, h: mouse}
   - {t: BACKSPACE, h: num_sym}
   - {t: DELETE, h: func}
