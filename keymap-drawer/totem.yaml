@@ -435,10 +435,10 @@ combos:
   k: Ctl+ X
   l: [base]
 - p: [23, 12]
-  k: Ctl+ C
+  k: Ctl+ INSERT
   l: [base]
 - p: [13, 24]
-  k: Ctl+ V
+  k: Sft+ INSERT
   l: [base]
 - p: [8, 18]
   k: '&key_repeat'
