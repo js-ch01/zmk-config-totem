@@ -311,14 +311,14 @@
             layers = <0>;
         };
 
-        combo_ctrl_c {
-            bindings = <&kp LC(C)>;
+        combo_copy_insert {
+            bindings = <&kp LC(INSERT)>;
             key-positions = <23 12>;
             layers = <0>;
         };
 
-        combo_ctrl_v {
-            bindings = <&kp LC(V)>;
+        combo_paste_insert {
+            bindings = <&kp LS(INSERT)>;
             key-positions = <13 24>;
             layers = <0>;
         };
