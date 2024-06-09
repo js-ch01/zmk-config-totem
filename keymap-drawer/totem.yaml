@@ -32,7 +32,7 @@ layers:
   - ','
   - .
   - {t: /, h: \}
-  - PRINTSCREEN
+  - LEFT SHIFT
   - {t: TAB, h: mouse}
   - {t: BACKSPACE, h: num_sym}
   - {t: DELETE, h: func}
@@ -84,7 +84,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - INSERT
   - HOME
   - UP
   - END
@@ -94,7 +94,7 @@ layers:
   - LCTRL
   - LSHIFT
   - {t: ▽, type: trans}
-  - INSERT
+  - Ctl+ INSERT
   - LEFT
   - DOWN
   - RIGHT
@@ -105,11 +105,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Sft+Gui+ LEFT ARROW
+  - Sft+ INSERT
   - Ctl+Gui+ LEFT ARROW
   - Ctl+Gui+ D
   - Ctl+Gui+ RIGHT ARROW
-  - Sft+Gui+ RIGHT ARROW
+  - {t: ▽, type: trans}
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -210,6 +210,7 @@ layers:
   - LEFT ARROW
   - DOWN ARROW
   - RIGHT ARROW
+  - Ctl+ INSERT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -220,8 +221,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Sft+ INSERT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -435,10 +435,10 @@ combos:
   k: Ctl+ X
   l: [base]
 - p: [23, 12]
-  k: Ctl+ INSERT
+  k: Ctl+ C
   l: [base]
 - p: [13, 24]
-  k: Sft+ INSERT
+  k: Ctl+ V
   l: [base]
 - p: [8, 18]
   k: '&key_repeat'
