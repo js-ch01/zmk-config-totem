@@ -118,8 +118,8 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   num_sym:
-  - {t: '`', h: '~'}
-  - '?'
+  - '`'
+  - '~'
   - ^
   - {t: '&', h: '&double_amp'}
   - {t: '|', h: '&double_pipe'}
@@ -140,7 +140,7 @@ layers:
   - '-'
   - Gui+Sft+ S
   - INSERT
-  - ','
+  - '?'
   - '['
   - ']'
   - _
