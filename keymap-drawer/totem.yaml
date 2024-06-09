@@ -256,7 +256,7 @@ layers:
   - F6
   - F11
   - Sft+Ctl+ ESC
-  - Sft+Gui+ S
+  - PRINTSCREEN
   - Ctl+Gui+ T
   - Sft+Gui+ T
   - Sft+Ctl+Gui+ T
