@@ -17,10 +17,10 @@ layers:
   - {t: F, h: LEFT SHIFT}
   - G
   - H
-  - {t: J, h: LEFT SHIFT}
-  - {t: K, h: LCTRL}
-  - {t: L, h: LALT}
-  - {t: ;, h: LEFT GUI}
+  - {t: J, h: RIGHT SHIFT}
+  - {t: K, h: RIGHT CONTROL}
+  - {t: L, h: LEFT ALT}
+  - {t: ;, h: RIGHT GUI}
   - {t: LCTRL, h: func_left}
   - {t: Z, h: num_left}
   - X
