@@ -1,7 +1,7 @@
 layout: {qmk_keyboard: totem}
 layers:
   base:
-  - {t: Q, h: arrow_left}
+  - Q
   - W
   - E
   - R
@@ -26,7 +26,7 @@ layers:
   - X
   - C
   - V
-  - B
+  - {t: B, h: arrow_left}
   - N
   - M
   - ','
@@ -94,7 +94,7 @@ layers:
   - LCTRL
   - LSHIFT
   - {t: ▽, type: trans}
-  - Ctl+ INSERT
+  - {t: ▽, type: trans}
   - LEFT
   - DOWN
   - RIGHT
@@ -105,7 +105,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Sft+ INSERT
+  - {t: ▽, type: trans}
   - Ctl+Gui+ LEFT ARROW
   - Ctl+Gui+ D
   - Ctl+Gui+ RIGHT ARROW
@@ -138,7 +138,7 @@ layers:
   - '5'
   - '6'
   - '-'
-  - Gui+Sft+ S
+  - {t: ▽, type: trans}
   - INSERT
   - '?'
   - '['
@@ -150,7 +150,7 @@ layers:
   - '3'
   - \
   - Gui+ Z
-  - TAB
+  - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -190,17 +190,17 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '0'
-  - LEFT ARROW
-  - RIGHT ARROW
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   arrow_left:
-  - {type: held}
+  - {t: ▽, type: trans}
   - HOME
   - UP ARROW
   - END
-  - {t: ▽, type: trans}
+  - Ctl+ INSERT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -210,18 +210,18 @@ layers:
   - LEFT ARROW
   - DOWN ARROW
   - RIGHT ARROW
-  - Ctl+ INSERT
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - Sft+ INSERT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -257,10 +257,10 @@ layers:
   - F11
   - Sft+Ctl+ ESC
   - PRINTSCREEN
-  - Ctl+Gui+ T
-  - Sft+Gui+ T
-  - Sft+Ctl+Gui+ T
-  - Sft+Ctl+Gui+ R
+  - APP
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - PAUSE BREAK
   - F1
   - F2
