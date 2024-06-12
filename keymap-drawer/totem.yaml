@@ -1,7 +1,7 @@
 layout: {qmk_keyboard: totem}
 layers:
   base:
-  - Q
+  - {t: Q, h: WM_LEFT}
   - W
   - E
   - R
@@ -222,6 +222,45 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  WM_LEFT:
+  - {type: held}
+  - Gui+Sft+ UP ARROW
+  - Gui+ UP ARROW
+  - Gui+Sft+ DOWN
+  - Ctl+ UP ARROW
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Gui+ LEFT ARROW
+  - Gui+ DOWN ARROW
+  - Gui+ RIGHT
+  - Ctl+ DOWN
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Gui+ /
+  - Gui+ M
+  - Gui+ O
+  - Gui+ Y
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
