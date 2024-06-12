@@ -222,7 +222,7 @@
             timeout-ms = <39>;
             key-positions = <1 0>;
             bindings = <&kp ESC>;
-            layers = <0 2 3 8 4>;
+            layers = <0 2 3 9 4>;
         };
 
         combo_lpar {
@@ -282,21 +282,21 @@
         };
 
         combo_game_layer {
-            bindings = <&tog 8>;
+            bindings = <&tog 9>;
             key-positions = <20 31>;
-            layers = <0 8>;
+            layers = <0 9>;
         };
 
         combo_bspc {
             bindings = <&kp BACKSPACE>;
             key-positions = <16 6>;
-            layers = <0 2 3 8>;
+            layers = <0 2 3 9>;
         };
 
         combo_del {
             bindings = <&kp DEL>;
             key-positions = <17 7>;
-            layers = <0 2 3 8>;
+            layers = <0 2 3 9>;
         };
 
         combo_ctrl_z {
@@ -326,13 +326,13 @@
         combo_repeat {
             bindings = <&key_repeat>;
             key-positions = <8 18>;
-            layers = <0 2 3 8>;
+            layers = <0 2 3 9>;
         };
 
         combo_clean {
-            bindings = <&tog 10>;
+            bindings = <&tog 11>;
             key-positions = <32 33 34>;
-            layers = <0 10>;
+            layers = <0 11>;
         };
 
         combo_space {
@@ -344,7 +344,7 @@
         combo_enter {
             bindings = <&kp ENTER>;
             key-positions = <3 13>;
-            layers = <0 2 3 4 8 5>;
+            layers = <0 2 3 4 9 5>;
         };
 
         combo_ctrl_alt_c {
@@ -568,10 +568,10 @@
         base_layer {
             label = "BASE";
             bindings = <
-             &kp Q       &kp W       &kp E        &kp R                        &kp T           &kp Y            &kp U                          &kp I                &kp O           &kp P
+             &lt 6 Q     &kp W       &kp E        &kp R                        &kp T           &kp Y            &kp U                          &kp I                &kp O           &kp P
              &mt LGUI A  &mt LALT S  &mt LCTRL D  &mt_shift_left LEFT_SHIFT F  &kp G           &kp H            &mt_shift_right RIGHT_SHIFT J  &mt RIGHT_CONTROL K  &mt LEFT_ALT L  &mt RIGHT_GUI SEMI
-&lt 7 LCTRL  &lt 4 Z     &kp X       &kp C        &kp V                        &lt 5 B         &kp N            &kp M                          &kp COMMA            &kp DOT         &mt BACKSLASH SLASH  &kp LEFT_SHIFT
-                                     &lt 1 TAB    &lt 3 BACKSPACE              &lt 6 DELETE    &lt 6 RIGHT_ALT  &lt 3 SPACE                    &lt 2 ENTER
+&lt 8 LCTRL  &lt 4 Z     &kp X       &kp C        &kp V                        &lt 5 B         &kp N            &kp M                          &kp COMMA            &kp DOT         &mt BACKSLASH SLASH  &kp LEFT_SHIFT
+                                     &lt 1 TAB    &lt 3 BACKSPACE              &lt 7 DELETE    &lt 7 RIGHT_ALT  &lt 3 SPACE                    &lt 2 ENTER
             >;
         };
 
@@ -625,6 +625,15 @@
             >;
         };
 
+        WM_LEFT {
+            bindings = <
+        &trans  &kp LG(LS(UP_ARROW))  &kp LG(UP_ARROW)    &kp LG(LS(DOWN))  &kp LC(UP_ARROW)    &trans  &trans  &trans  &trans  &trans
+        &trans  &kp LG(LEFT_ARROW)    &kp LG(DOWN_ARROW)  &kp LG(RIGHT)     &kp LC(DOWN)        &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp LG(SLASH)         &kp LG(M)           &kp LG(O)         &kp LG(Y)           &trans  &trans  &trans  &trans  &trans  &trans
+                                      &trans              &trans            &trans              &trans  &trans  &trans
+            >;
+        };
+
         func_layer {
             label = "FUN";
             bindings = <
@@ -648,10 +657,10 @@
 
         game_layer {
             bindings = <
-              &kp T           &kp Q  &kp W      &kp E      &kp R             &kp Y          &kp U      &kp I      &kp O    &kp P
-              &kp LCTRL       &kp A  &kp S      &kp D      &kp F             &kp H          &kp J      &kp K      &kp L    &kp SEMI
-&kp LEFT_ALT  &kp LEFT_SHIFT  &kp Z  &kp X      &kp C      &kp V             &kp N          &kp M      &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
-                                     &lt 9 TAB  &kp SPACE  &kp LEFT_SHIFT    &kp RIGHT_ALT  &kp SPACE  &kp ENTER
+              &kp T           &kp Q  &kp W       &kp E      &kp R             &kp Y          &kp U      &kp I      &kp O    &kp P
+              &kp LCTRL       &kp A  &kp S       &kp D      &kp F             &kp H          &kp J      &kp K      &kp L    &kp SEMI
+&kp LEFT_ALT  &kp LEFT_SHIFT  &kp Z  &kp X       &kp C      &kp V             &kp N          &kp M      &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
+                                     &lt 10 TAB  &kp SPACE  &kp LEFT_SHIFT    &kp RIGHT_ALT  &kp SPACE  &kp ENTER
             >;
 
             label = "GAME";
