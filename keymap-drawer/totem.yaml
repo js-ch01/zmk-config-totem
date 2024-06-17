@@ -296,10 +296,10 @@ layers:
   - F11
   - Sft+Ctl+ ESC
   - PRINTSCREEN
-  - APP
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Gui+Ctl+ T
+  - Gui+Sft+ T
+  - Gui+Sft+Ctl+ T
+  - Gui+Ctl+Sft+ R
   - PAUSE BREAK
   - F1
   - F2
