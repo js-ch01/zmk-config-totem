@@ -405,7 +405,7 @@
 
         combo_wintab {
             bindings = <&kp LG(TAB)>;
-            key-positions = <25 24>;
+            key-positions = <25 33>;
             timeout-ms = <45>;
             layers = <0 3>;
         };
