@@ -542,6 +542,6 @@ combos:
 - p: [18, 7]
   k: ''''
   l: [base, num_sym]
-- p: [22, 23, 24]
+- p: [11, 12, 13]
   k: Gui+ TAB
   l: [base]
