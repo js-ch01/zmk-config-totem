@@ -405,7 +405,7 @@
 
         combo_wintab {
             bindings = <&kp LG(TAB)>;
-            key-positions = <21 22>;
+            key-positions = <25 24>;
             timeout-ms = <45>;
             layers = <0 3>;
         };
@@ -454,13 +454,6 @@
             key-positions = <18 7>;
             layers = <0 3>;
             timeout-ms = <45>;
-        };
-
-        combo_win+tab {
-            bindings = <&kp LG(TAB)>;
-            key-positions = <11 10>;
-            timeout-ms = <36>;
-            layers = <0>;
         };
     };
 
@@ -618,10 +611,10 @@
 
         arrow_left {
             bindings = <
-        &trans  &kp HOME        &kp UP_ARROW    &kp END          &kp LC(INSERT)    &trans  &trans  &trans  &trans  &trans
-        &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LS(INSERT)    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans          &trans          &trans           &none             &trans  &trans  &trans  &trans  &trans  &trans
-                                &trans          &trans           &trans            &trans  &trans  &trans
+        &kp TAB  &kp HOME                &kp UP_ARROW    &kp END            &kp LC(INSERT)    &trans  &trans  &trans  &trans  &trans
+        &trans   &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW    &kp LS(INSERT)    &trans  &trans  &trans  &trans  &trans
+&trans  &trans   &kp LC(LG(LEFT_ARROW))  &trans          &kp LC(LG(RIGHT))  &none             &trans  &trans  &trans  &trans  &trans  &trans
+                                         &trans          &trans             &trans            &trans  &trans  &trans
             >;
         };
 
