@@ -518,7 +518,7 @@ combos:
 - p: [23, 24]
   k: {t: +, h: '&double_plus'}
   l: [base, num_sym]
-- p: [25, 24]
+- p: [25, 33]
   k: Gui+ TAB
   l: [base, num_sym]
 - p: [2, 3]
