@@ -403,8 +403,8 @@
             layers = <0 3>;
         };
 
-        combo_minus {
-            bindings = <&minus_hold_double 0 MINUS>;
+        combo_wintab {
+            bindings = <&kp LG(TAB)>;
             key-positions = <21 22>;
             timeout-ms = <45>;
             layers = <0 3>;
@@ -458,7 +458,7 @@
 
         combo_win+tab {
             bindings = <&kp LG(TAB)>;
-            key-positions = <11 12 13>;
+            key-positions = <11 10>;
             timeout-ms = <36>;
             layers = <0>;
         };
