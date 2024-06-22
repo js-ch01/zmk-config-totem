@@ -519,7 +519,7 @@ combos:
   k: {t: +, h: '&double_plus'}
   l: [base, num_sym]
 - p: [21, 22]
-  k: {t: '-', h: '&double_mimus'}
+  k: Gui+ TAB
   l: [base, num_sym]
 - p: [2, 3]
   k: Gui+ `
@@ -542,6 +542,6 @@ combos:
 - p: [18, 7]
   k: ''''
   l: [base, num_sym]
-- p: [11, 12, 13]
+- p: [11, 10]
   k: Gui+ TAB
   l: [base]
