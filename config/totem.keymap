@@ -459,7 +459,7 @@
         combo_win+tab {
             bindings = <&kp LG(TAB)>;
             key-positions = <11 12 13>;
-            timeout-ms = <40>;
+            timeout-ms = <36>;
             layers = <0>;
         };
     };
