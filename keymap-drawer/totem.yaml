@@ -196,7 +196,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   arrow_left:
-  - {t: ▽, type: trans}
+  - TAB
   - HOME
   - UP ARROW
   - END
@@ -218,9 +218,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - Ctl+Gui+ LEFT ARROW
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Ctl+Gui+ RIGHT
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -518,7 +518,7 @@ combos:
 - p: [23, 24]
   k: {t: +, h: '&double_plus'}
   l: [base, num_sym]
-- p: [21, 22]
+- p: [25, 24]
   k: Gui+ TAB
   l: [base, num_sym]
 - p: [2, 3]
@@ -542,6 +542,3 @@ combos:
 - p: [18, 7]
   k: ''''
   l: [base, num_sym]
-- p: [11, 10]
-  k: Gui+ TAB
-  l: [base]
