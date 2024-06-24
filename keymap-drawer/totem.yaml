@@ -219,7 +219,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Ctl+Gui+ LEFT ARROW
-  - Gui+ DOWN
+  - Gui+Sft+ DOWN
   - Ctl+Gui+ RIGHT
   - {type: held}
   - {t: ▽, type: trans}
