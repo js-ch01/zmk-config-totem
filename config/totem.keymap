@@ -561,10 +561,10 @@
         base_layer {
             label = "BASE";
             bindings = <
-             &lt 6 Q     &kp W       &kp E        &kp R                        &kp T           &kp Y            &kp U                          &kp I                &kp O           &kp P
-             &mt LGUI A  &mt LALT S  &mt LCTRL D  &mt_shift_left LEFT_SHIFT F  &kp G           &kp H            &mt_shift_right RIGHT_SHIFT J  &mt RIGHT_CONTROL K  &mt LEFT_ALT L  &mt RIGHT_GUI SEMI
-&lt 8 LCTRL  &lt 4 Z     &kp X       &kp C        &kp V                        &lt 5 B         &kp N            &kp M                          &kp COMMA            &kp DOT         &mt BACKSLASH SLASH  &kp LEFT_SHIFT
-                                     &lt 1 TAB    &lt 3 BACKSPACE              &lt 7 DELETE    &lt 7 RIGHT_ALT  &lt 3 SPACE                    &lt 2 ENTER
+             &lt 6 Q     &kp W       &kp E        &kp R                        &kp T           &kp Y            &kp U                         &kp I               &kp O           &kp P
+             &mt LGUI A  &mt LALT S  &mt LCTRL D  &mt_shift_left LEFT_SHIFT F  &kp G           &kp H            &mt_shift_right LEFT_SHIFT J  &mt LEFT_CONTROL K  &mt LEFT_ALT L  &mt LEFT_GUI SEMI
+&lt 8 LCTRL  &lt 4 Z     &kp X       &kp C        &kp V                        &lt 5 B         &kp N            &kp M                         &kp COMMA           &kp DOT         &mt BACKSLASH SLASH  &kp LEFT_SHIFT
+                                     &lt 1 TAB    &lt 3 BACKSPACE              &lt 7 DELETE    &lt 7 RIGHT_ALT  &lt 3 SPACE                   &lt 2 ENTER
             >;
         };
 
@@ -581,10 +581,10 @@
         navi_layer {
             label = "NAV";
             bindings = <
-        &trans        &trans        &trans     &trans      &trans    &kp INSERT  &kp HOME                &kp UP         &kp END                  &kp PG_UP
-        &kp LEFT_GUI  &kp LEFT_ALT  &kp LCTRL  &kp LSHIFT  &trans    &trans      &kp LEFT                &kp DOWN       &kp RIGHT                &kp PG_DN
-&trans  &trans        &trans        &trans     &trans      &trans    &trans      &kp LC(LG(LEFT_ARROW))  &kp LC(LG(D))  &kp LC(LG(RIGHT_ARROW))  &trans     &none
-                                    &trans     &trans      &trans    &trans      &trans                  &trans
+        &trans         &trans         &trans             &trans           &trans    &kp INSERT  &kp HOME                &kp UP         &kp END                  &kp PG_UP
+        &kp LEFT_GUI   &kp LEFT_ALT   &kp LCTRL          &kp LSHIFT       &trans    &trans      &kp LEFT                &kp DOWN       &kp RIGHT                &kp PG_DN
+&trans  &kp RIGHT_GUI  &kp RIGHT_ALT  &kp RIGHT_CONTROL  &kp RIGHT_SHIFT  &trans    &trans      &kp LC(LG(LEFT_ARROW))  &kp LC(LG(D))  &kp LC(LG(RIGHT_ARROW))  &trans     &none
+                                      &trans             &trans           &trans    &trans      &trans                  &trans
             >;
         };
 
@@ -613,7 +613,7 @@
             bindings = <
         &kp TAB  &kp HOME                &kp UP_ARROW    &kp END            &kp LC(INSERT)    &trans  &trans  &trans  &trans  &trans
         &trans   &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW    &kp LS(INSERT)    &trans  &trans  &trans  &trans  &trans
-&trans  &trans   &kp LC(LG(LEFT_ARROW))  &trans          &kp LC(LG(RIGHT))  &none             &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans   &kp LC(LG(LEFT_ARROW))  &kp LG(DOWN)    &kp LC(LG(RIGHT))  &none             &trans  &trans  &trans  &trans  &trans  &trans
                                          &trans          &trans             &trans            &trans  &trans  &trans
             >;
         };
