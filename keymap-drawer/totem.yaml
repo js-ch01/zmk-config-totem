@@ -17,10 +17,10 @@ layers:
   - {t: F, h: LEFT SHIFT}
   - G
   - H
-  - {t: J, h: RIGHT SHIFT}
-  - {t: K, h: RIGHT CONTROL}
+  - {t: J, h: LEFT SHIFT}
+  - {t: K, h: LEFT CONTROL}
   - {t: L, h: LEFT ALT}
-  - {t: ;, h: RIGHT GUI}
+  - {t: ;, h: LEFT GUI}
   - {t: LCTRL, h: func_left}
   - {t: Z, h: num_left}
   - X
@@ -100,10 +100,10 @@ layers:
   - RIGHT
   - PG DN
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - RIGHT GUI
+  - RIGHT ALT
+  - RIGHT CONTROL
+  - RIGHT SHIFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Ctl+Gui+ LEFT ARROW
@@ -219,7 +219,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Ctl+Gui+ LEFT ARROW
-  - {t: ▽, type: trans}
+  - Gui+ DOWN
   - Ctl+Gui+ RIGHT
   - {type: held}
   - {t: ▽, type: trans}
