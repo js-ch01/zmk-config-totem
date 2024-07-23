@@ -228,7 +228,7 @@
         combo_lpar {
             timeout-ms = <38>;
             key-positions = <12 13>;
-            bindings = <&ht_lpar_hold_lr 0 LEFT_PARENTHESIS>;
+            bindings = <&kp LEFT_PARENTHESIS>;
             layers = <0 3>;
         };
 
