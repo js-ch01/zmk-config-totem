@@ -435,7 +435,7 @@ combos:
   k: ESC
   l: [base, navi, num_sym, game, num_left]
 - p: [12, 13]
-  k: {t: (, h: '&parenthesis_lr'}
+  k: (
   l: [base, num_sym]
 - p: [16, 17]
   k: )
