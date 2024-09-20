@@ -1,7 +1,7 @@
 layout: {qmk_keyboard: totem}
 layers:
   base:
-  - {t: Q, h: WM_LEFT}
+  - Q
   - W
   - E
   - R
@@ -235,7 +235,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   WM_LEFT:
-  - {type: held}
+  - {t: ▽, type: trans}
   - Gui+Sft+ UP ARROW
   - Gui+ UP ARROW
   - Gui+Sft+ DOWN
@@ -345,9 +345,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - PP
-  - LEFT ARROW
-  - RIGHT ARROW
+  - Y
+  - H
+  - N
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
