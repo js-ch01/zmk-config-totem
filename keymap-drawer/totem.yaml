@@ -413,13 +413,10 @@ combos:
   l: ['0', clean]
 - p: [2, 12]
   k: SPACE
-  l: ['0', '1', 2+SYM, NAV_LEFT, NAV_LEFT]
+  l: ['0', '1', 2+SYM]
 - p: [3, 13]
   k: ENTER
   l: ['0', '1', 2+SYM, NAV_LEFT, GAME, NAV_LEFT]
-- p: [14, 25]
-  k: Ctl+Alt+ C
-  l: ['0']
 - p: [1, 11]
   k: CAPSLOCK
   l: ['0']
