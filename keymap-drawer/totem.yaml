@@ -1,6 +1,6 @@
 layout: {qmk_keyboard: totem}
 layers:
-  base:
+  '0':
   - Q
   - W
   - E
@@ -22,102 +22,24 @@ layers:
   - {t: L, h: LEFT ALT}
   - {t: ;, h: LEFT GUI}
   - {t: LCTRL, h: func_left}
-  - {t: Z, h: num_left}
+  - {t: Z, h: NAV_LEFT}
   - X
   - C
   - V
-  - {t: B, h: arrow_left}
+  - {t: B, h: NAV_LEFT}
   - N
   - M
   - ','
   - .
   - {t: /, h: \}
   - LEFT SHIFT
-  - {t: TAB, h: mouse}
-  - {t: BACKSPACE, h: num_sym}
+  - {t: TAB, h: NUM_LEFT}
+  - {t: BACKSPACE, h: 2+SYM}
   - {t: DELETE, h: func}
   - {t: RIGHT ALT, h: func}
-  - {t: SPACE, h: num_sym}
-  - {t: ENTER, h: navi}
-  mouse:
-  - '&mwh SCROLL_UP'
-  - '&mwh SCROLL_LEFT'
-  - '&mmv MOVE_UP'
-  - '&mwh SCROLL_RIGHT'
-  - '&mkp MB4'
-  - ''
-  - '&mwh SCROLL_LEFT'
-  - '&mmv MOVE_UP'
-  - '&mwh SCROLL_RIGHT'
-  - '&mwh SCROLL_UP'
-  - '&mwh SCROLL_DOWN'
-  - '&mmv MOVE_LEFT'
-  - '&mmv MOVE_DOWN'
-  - '&mmv MOVE_RIGHT'
-  - '&mkp MB5'
-  - ''
-  - '&mmv MOVE_LEFT'
-  - '&mmv MOVE_DOWN'
-  - '&mmv MOVE_RIGHT'
-  - '&mwh SCROLL_DOWN'
-  - ''
-  - Gui+Sft+ D
-  - '&mkp LCLK'
-  - '&mkp MCLK'
-  - '&mkp RCLK'
-  - ''
-  - ''
-  - '&mkp LCLK'
-  - '&mkp MCLK'
-  - '&mkp RCLK'
-  - ''
-  - ''
-  - {type: held}
-  - ''
-  - ''
-  - '&mkp LCLK'
-  - '&mkp MCLK'
-  - '&mkp RCLK'
-  navi:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - INSERT
-  - HOME
-  - UP
-  - END
-  - PG UP
-  - LEFT GUI
-  - LEFT ALT
-  - LCTRL
-  - LSHIFT
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - LEFT
-  - DOWN
-  - RIGHT
-  - PG DN
-  - {t: ▽, type: trans}
-  - RIGHT GUI
-  - RIGHT ALT
-  - RIGHT CONTROL
-  - RIGHT SHIFT
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Ctl+Gui+ LEFT ARROW
-  - Ctl+Gui+ D
-  - Ctl+Gui+ RIGHT ARROW
-  - {t: ▽, type: trans}
-  - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  num_sym:
+  - {t: SPACE, h: 2+SYM}
+  - {t: ENTER, h: '1'}
+  2+SYM:
   - '`'
   - '~'
   - ^
@@ -156,7 +78,89 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '0'
-  num_left:
+  '1':
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - INSERT
+  - HOME
+  - UP
+  - END
+  - PG UP
+  - LEFT GUI
+  - LEFT ALT
+  - LCTRL
+  - LSHIFT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LEFT
+  - DOWN
+  - RIGHT
+  - PG DN
+  - {t: ▽, type: trans}
+  - RIGHT GUI
+  - RIGHT ALT
+  - RIGHT CONTROL
+  - RIGHT SHIFT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Ctl+Gui+ LEFT ARROW
+  - Ctl+Gui+ D
+  - Ctl+Gui+ RIGHT ARROW
+  - {t: ▽, type: trans}
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  GAME:
+  - T
+  - Q
+  - W
+  - E
+  - R
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - LCTRL
+  - A
+  - S
+  - D
+  - F
+  - H
+  - J
+  - K
+  - L
+  - ;
+  - LEFT ALT
+  - LEFT SHIFT
+  - Z
+  - X
+  - C
+  - V
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - RSHFT
+  - {t: TAB, h: game_num}
+  - SPACE
+  - LEFT SHIFT
+  - RIGHT ALT
+  - SPACE
+  - ENTER
+  MOUSE: ['&mwh SCROLL_UP', '&mwh SCROLL_LEFT', '&mmv MOVE_UP', '&mwh SCROLL_RIGHT', '&mkp MB4', '', '&mwh SCROLL_LEFT', '&mmv MOVE_UP', '&mwh SCROLL_RIGHT', '&mwh
+      SCROLL_UP', '&mwh SCROLL_DOWN', '&mmv MOVE_LEFT', '&mmv MOVE_DOWN', '&mmv MOVE_RIGHT', '&mkp MB5', '', '&mmv MOVE_LEFT', '&mmv MOVE_DOWN', '&mmv MOVE_RIGHT',
+    '&mwh SCROLL_DOWN', '', Gui+Sft+ D, '&mkp LCLK', '&mkp MCLK', '&mkp RCLK', '', '', '&mkp LCLK', '&mkp MCLK', '&mkp RCLK', '', '', '', '', '', '&mkp LCLK', '&mkp
+      MCLK', '&mkp RCLK']
+  NUM_LEFT:
   - '*'
   - '7'
   - '8'
@@ -178,7 +182,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - ''
   - '1'
   - '2'
   - '3'
@@ -189,13 +193,13 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '0'
+  - {t: '0', type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  arrow_left:
+  NAV_LEFT:
   - TAB
   - HOME
   - UP ARROW
@@ -217,50 +221,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - Ctl+Gui+ LEFT ARROW
   - Gui+Sft+ DOWN
   - Ctl+Gui+ RIGHT
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  WM_LEFT:
-  - {t: ▽, type: trans}
-  - Gui+Sft+ UP ARROW
-  - Gui+ UP ARROW
-  - Gui+Sft+ DOWN
-  - Ctl+ UP ARROW
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Gui+ LEFT ARROW
-  - Gui+ DOWN ARROW
-  - Gui+ RIGHT
-  - Ctl+ DOWN
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Gui+ /
-  - Gui+ M
-  - Gui+ O
-  - Gui+ Y
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -351,45 +316,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  game:
-  - T
-  - Q
-  - W
-  - E
-  - R
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - LCTRL
-  - A
-  - S
-  - D
-  - F
-  - H
-  - J
-  - K
-  - L
-  - ;
-  - LEFT ALT
-  - LEFT SHIFT
-  - Z
-  - X
-  - C
-  - V
-  - N
-  - M
-  - ','
-  - .
-  - /
-  - RSHFT
-  - {t: TAB, h: game_num}
-  - SPACE
-  - LEFT SHIFT
-  - RIGHT ALT
-  - SPACE
-  - ENTER
   game_num:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -433,112 +359,112 @@ layers:
 combos:
 - p: [1, 0]
   k: ESC
-  l: [base, navi, num_sym, game, num_left]
+  l: ['0', '1', 2+SYM, GAME, NAV_LEFT]
 - p: [12, 13]
   k: (
-  l: [base, num_sym]
+  l: ['0', 2+SYM]
 - p: [16, 17]
   k: )
-  l: [base]
+  l: ['0']
 - p: [11, 13]
   k: {t: '[', h: '&brackets_lr'}
-  l: [base, num_sym]
+  l: ['0', 2+SYM]
 - p: [16, 18]
   k: ']'
-  l: [base]
+  l: ['0']
 - p: [12, 11]
   k: {t: '{', h: '&braces_lr'}
-  l: [base, num_sym]
+  l: ['0', 2+SYM]
 - p: [17, 18]
   k: '}'
-  l: [base]
+  l: ['0']
 - p: [22, 24]
   k: {t: <, h: '&lte'}
-  l: [base, num_sym]
+  l: ['0', 2+SYM]
 - p: [27, 29]
   k: {t: '>', h: '&gte'}
-  l: [base, num_sym]
+  l: ['0', 2+SYM]
 - p: [20, 31]
-  k: {t: game, h: toggle}
-  l: [base, game]
+  k: {t: GAME, h: toggle}
+  l: ['0', GAME]
 - p: [16, 6]
   k: BACKSPACE
-  l: [base, navi, num_sym, game]
+  l: ['0', '1', 2+SYM, GAME]
 - p: [17, 7]
   k: DEL
-  l: [base, navi, num_sym, game]
+  l: ['0', '1', 2+SYM, GAME]
 - p: [21, 10]
   k: Ctl+ Z
-  l: [base]
+  l: ['0']
 - p: [22, 11]
   k: Ctl+ X
-  l: [base]
+  l: ['0']
 - p: [23, 12]
   k: Ctl+ C
-  l: [base]
+  l: ['0']
 - p: [13, 24]
   k: Ctl+ V
-  l: [base]
+  l: ['0']
 - p: [8, 18]
   k: '&key_repeat'
-  l: [base, navi, num_sym, game]
+  l: ['0', '1', 2+SYM, GAME]
 - p: [32, 33, 34]
   k: {t: clean, h: toggle}
-  l: [base, clean]
+  l: ['0', clean]
 - p: [2, 12]
   k: SPACE
-  l: [base, navi, num_sym, num_left, arrow_left]
+  l: ['0', '1', 2+SYM, NAV_LEFT, NAV_LEFT]
 - p: [3, 13]
   k: ENTER
-  l: [base, navi, num_sym, num_left, game, arrow_left]
+  l: ['0', '1', 2+SYM, NAV_LEFT, GAME, NAV_LEFT]
 - p: [14, 25]
   k: Ctl+Alt+ C
-  l: [base]
+  l: ['0']
 - p: [1, 11]
   k: CAPSLOCK
-  l: [base]
+  l: ['0']
 - p: [16, 27]
   k: '0'
-  l: [base, num_sym]
+  l: ['0', 2+SYM]
 - p: [1, 3]
-  k: {t: mouse, h: toggle}
-  l: [base, mouse]
+  k: {t: NUM_LEFT, h: toggle}
+  l: ['0', NUM_LEFT]
 - p: [17, 28]
   k: '1'
-  l: [base, num_sym]
+  l: ['0', 2+SYM]
 - p: [10, 0]
   k: Ctl+ A
-  l: [base]
+  l: ['0']
 - p: [18, 29]
   k: '9'
-  l: [base, num_sym]
+  l: ['0', 2+SYM]
 - p: [22, 23]
   k: {t: '=', h: '&double_equal'}
-  l: [base, num_sym]
+  l: ['0', 2+SYM]
 - p: [23, 24]
   k: {t: +, h: '&double_plus'}
-  l: [base, num_sym]
+  l: ['0', 2+SYM]
 - p: [25, 33]
   k: Gui+ TAB
-  l: [base, num_sym]
+  l: ['0', 2+SYM]
 - p: [2, 3]
   k: Gui+ `
-  l: [base]
+  l: ['0']
 - p: [2, 1]
   k: Gui+Sft+ `
-  l: [base]
+  l: ['0']
 - p: [27, 28]
   k: {t: '-', h: '&double_mimus'}
-  l: [base]
+  l: ['0']
 - p: [28, 29]
   k: {t: _, h: '&double_underscore'}
-  l: [base]
+  l: ['0']
 - p: [0, 3]
   k: Alt+ F4
-  l: [base]
+  l: ['0']
 - p: [2, 11]
   k: '"'
-  l: [base, num_sym]
+  l: ['0', 2+SYM]
 - p: [18, 7]
   k: ''''
-  l: [base, num_sym]
+  l: ['0', 2+SYM]
