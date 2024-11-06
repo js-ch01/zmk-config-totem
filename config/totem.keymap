@@ -222,14 +222,14 @@
             timeout-ms = <39>;
             key-positions = <1 0>;
             bindings = <&kp ESC>;
-            layers = <0 2 3 9 4>;
+            layers = <0 2 1 3 6>;
         };
 
         combo_lpar {
             timeout-ms = <38>;
             key-positions = <12 13>;
             bindings = <&kp LEFT_PARENTHESIS>;
-            layers = <0 3>;
+            layers = <0 1>;
         };
 
         combo_rpar {
@@ -243,7 +243,7 @@
             timeout-ms = <38>;
             key-positions = <11 13>;
             bindings = <&ht_lbracket_hold_lr 0 LEFT_BRACKET>;
-            layers = <0 3>;
+            layers = <0 1>;
         };
 
         combo_rbkt {
@@ -257,7 +257,7 @@
             timeout-ms = <38>;
             key-positions = <12 11>;
             bindings = <&ht_lbrace_hold_lr 0 LEFT_BRACE>;
-            layers = <0 3>;
+            layers = <0 1>;
         };
 
         combo_rbrc {
@@ -271,32 +271,32 @@
             timeout-ms = <45>;
             key-positions = <22 24>;
             bindings = <&lt_hold_lte 0 LT>;
-            layers = <0 3>;
+            layers = <0 1>;
         };
 
         combo_gt {
             timeout-ms = <45>;
             key-positions = <27 29>;
             bindings = <&gt_hold_gte 0 GT>;
-            layers = <0 3>;
+            layers = <0 1>;
         };
 
         combo_game_layer {
-            bindings = <&tog 9>;
+            bindings = <&tog 3>;
             key-positions = <20 31>;
-            layers = <0 9>;
+            layers = <0 3>;
         };
 
         combo_bspc {
             bindings = <&kp BACKSPACE>;
             key-positions = <16 6>;
-            layers = <0 2 3 9>;
+            layers = <0 2 1 3>;
         };
 
         combo_del {
             bindings = <&kp DEL>;
             key-positions = <17 7>;
-            layers = <0 2 3 9>;
+            layers = <0 2 1 3>;
         };
 
         combo_ctrl_z {
@@ -326,25 +326,25 @@
         combo_repeat {
             bindings = <&key_repeat>;
             key-positions = <8 18>;
-            layers = <0 2 3 9>;
+            layers = <0 2 1 3>;
         };
 
         combo_clean {
-            bindings = <&tog 11>;
+            bindings = <&tog 10>;
             key-positions = <32 33 34>;
-            layers = <0 11>;
+            layers = <0 10>;
         };
 
         combo_space {
             bindings = <&kp SPACE>;
             key-positions = <2 12>;
-            layers = <0 2 3 4 5>;
+            layers = <0 2 1 6 6>;
         };
 
         combo_enter {
             bindings = <&kp ENTER>;
             key-positions = <3 13>;
-            layers = <0 2 3 4 9 5>;
+            layers = <0 2 1 6 3 6>;
         };
 
         combo_ctrl_alt_c {
@@ -362,19 +362,19 @@
         combo_num0 {
             bindings = <&kp N0>;
             key-positions = <16 27>;
-            layers = <0 3>;
+            layers = <0 1>;
         };
 
         combo_mouse_layer {
-            bindings = <&tog 1>;
+            bindings = <&tog 5>;
             key-positions = <1 3>;
-            layers = <0 1>;
+            layers = <0 5>;
         };
 
         combo_num1 {
             bindings = <&kp N1>;
             key-positions = <17 28>;
-            layers = <0 3>;
+            layers = <0 1>;
         };
 
         combo_ctrl+a {
@@ -386,28 +386,28 @@
         combo_num9 {
             bindings = <&kp N9>;
             key-positions = <18 29>;
-            layers = <0 3>;
+            layers = <0 1>;
         };
 
         combo_equal {
             bindings = <&euqal_hold_double 0 EQUAL>;
             key-positions = <22 23>;
             timeout-ms = <45>;
-            layers = <0 3>;
+            layers = <0 1>;
         };
 
         combo_plus {
             bindings = <&plus_hold_double 0 PLUS>;
             key-positions = <23 24>;
             timeout-ms = <45>;
-            layers = <0 3>;
+            layers = <0 1>;
         };
 
         combo_wintab {
             bindings = <&kp LG(TAB)>;
             key-positions = <25 33>;
             timeout-ms = <45>;
-            layers = <0 3>;
+            layers = <0 1>;
         };
 
         combo_win+grave {
@@ -445,14 +445,14 @@
         combo_dq {
             bindings = <&kp DQT>;
             key-positions = <2 11>;
-            layers = <0 3>;
+            layers = <0 1>;
             timeout-ms = <45>;
         };
 
         combo_sq {
             bindings = <&kp SQT>;
             key-positions = <18 7>;
-            layers = <0 3>;
+            layers = <0 1>;
             timeout-ms = <45>;
         };
     };
@@ -558,38 +558,16 @@
     keymap {
         compatible = "zmk,keymap";
 
-        base_layer {
-            label = "BASE";
+        BASE {
             bindings = <
              &kp Q       &kp W       &kp E        &kp R                        &kp T           &kp Y            &kp U                         &kp I               &kp O           &kp P
              &mt LGUI A  &mt LALT S  &mt LCTRL D  &mt_shift_left LEFT_SHIFT F  &kp G           &kp H            &mt_shift_right LEFT_SHIFT J  &mt LEFT_CONTROL K  &mt LEFT_ALT L  &mt LEFT_GUI SEMI
-&lt 8 LCTRL  &lt 4 Z     &kp X       &kp C        &kp V                        &lt 5 B         &kp N            &kp M                         &kp COMMA           &kp DOT         &mt BACKSLASH SLASH  &kp LEFT_SHIFT
-                                     &lt 1 TAB    &lt 3 BACKSPACE              &lt 7 DELETE    &lt 7 RIGHT_ALT  &lt 3 SPACE                   &lt 2 ENTER
+&lt 8 LCTRL  &lt 6 Z     &kp X       &kp C        &kp V                        &lt 6 B         &kp N            &kp M                         &kp COMMA           &kp DOT         &mt BACKSLASH SLASH  &kp LEFT_SHIFT
+                                     &lt 5 TAB    &lt 1 BACKSPACE              &lt 7 DELETE    &lt 7 RIGHT_ALT  &lt 1 SPACE                   &lt 2 ENTER
             >;
         };
 
-        mouse_layer {
-            label = "MSE";
-            bindings = <
-       &mwh SCROLL_UP    &mwh SCROLL_LEFT  &mmv MOVE_UP    &mwh SCROLL_RIGHT  &mkp MB4    &none      &mwh SCROLL_LEFT  &mmv MOVE_UP    &mwh SCROLL_RIGHT  &mwh SCROLL_UP
-       &mwh SCROLL_DOWN  &mmv MOVE_LEFT    &mmv MOVE_DOWN  &mmv MOVE_RIGHT    &mkp MB5    &none      &mmv MOVE_LEFT    &mmv MOVE_DOWN  &mmv MOVE_RIGHT    &mwh SCROLL_DOWN
-&none  &kp LG(LS(D))     &mkp LCLK         &mkp MCLK       &mkp RCLK          &none       &none      &mkp LCLK         &mkp MCLK       &mkp RCLK          &none             &none
-                                           &none           &none              &none       &mkp LCLK  &mkp MCLK         &mkp RCLK
-            >;
-        };
-
-        navi_layer {
-            label = "NAV";
-            bindings = <
-        &trans         &trans         &trans             &trans           &trans    &kp INSERT  &kp HOME                &kp UP         &kp END                  &kp PG_UP
-        &kp LEFT_GUI   &kp LEFT_ALT   &kp LCTRL          &kp LSHIFT       &trans    &trans      &kp LEFT                &kp DOWN       &kp RIGHT                &kp PG_DN
-&trans  &kp RIGHT_GUI  &kp RIGHT_ALT  &kp RIGHT_CONTROL  &kp RIGHT_SHIFT  &trans    &trans      &kp LC(LG(LEFT_ARROW))  &kp LC(LG(D))  &kp LC(LG(RIGHT_ARROW))  &trans     &none
-                                      &trans             &trans           &trans    &trans      &trans                  &trans
-            >;
-        };
-
-        num_sym_layer {
-            label = "NUM_SYM";
+        NUM+SYM {
             bindings = <
         &kp GRAVE                    &kp TILDE     &kp CARET         &amps_hold_double 0 AMPS  &pipe_hold_double 0 PIPE    &kp STAR   &kp N7  &kp N8  &kp N9  &kp PLUS
         &excl_hold_not_euqal 0 EXCL  &kp AT        &kp HASH          &kp DOLLAR                &kp PERCENT                 &kp SLASH  &kp N4  &kp N5  &kp N6  &kp MINUS
@@ -598,32 +576,48 @@
             >;
         };
 
-        num_left {
+        NAV {
+            bindings = <
+        &trans         &trans         &trans             &trans           &trans    &kp INSERT  &kp HOME                &kp UP         &kp END                  &kp PG_UP
+        &kp LEFT_GUI   &kp LEFT_ALT   &kp LCTRL          &kp LSHIFT       &trans    &trans      &kp LEFT                &kp DOWN       &kp RIGHT                &kp PG_DN
+&trans  &kp RIGHT_GUI  &kp RIGHT_ALT  &kp RIGHT_CONTROL  &kp RIGHT_SHIFT  &trans    &trans      &kp LC(LG(LEFT_ARROW))  &kp LC(LG(D))  &kp LC(LG(RIGHT_ARROW))  &trans     &none
+                                      &trans             &trans           &trans    &trans      &trans                  &trans
+            >;
+        };
+
+        GAME {
+            bindings = <
+              &kp T           &kp Q  &kp W      &kp E      &kp R             &kp Y          &kp U      &kp I      &kp O    &kp P
+              &kp LCTRL       &kp A  &kp S      &kp D      &kp F             &kp H          &kp J      &kp K      &kp L    &kp SEMI
+&kp LEFT_ALT  &kp LEFT_SHIFT  &kp Z  &kp X      &kp C      &kp V             &kp N          &kp M      &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
+                                     &lt 9 TAB  &kp SPACE  &kp LEFT_SHIFT    &kp RIGHT_ALT  &kp SPACE  &kp ENTER
+            >;
+        };
+
+        MOUSE {
+            bindings = <
+       &mwh SCROLL_UP    &mwh SCROLL_LEFT  &mmv MOVE_UP    &mwh SCROLL_RIGHT  &mkp MB4    &none      &mwh SCROLL_LEFT  &mmv MOVE_UP    &mwh SCROLL_RIGHT  &mwh SCROLL_UP
+       &mwh SCROLL_DOWN  &mmv MOVE_LEFT    &mmv MOVE_DOWN  &mmv MOVE_RIGHT    &mkp MB5    &none      &mmv MOVE_LEFT    &mmv MOVE_DOWN  &mmv MOVE_RIGHT    &mwh SCROLL_DOWN
+&none  &kp LG(LS(D))     &mkp LCLK         &mkp MCLK       &mkp RCLK          &none       &none      &mkp LCLK         &mkp MCLK       &mkp RCLK          &none             &none
+                                           &none           &none              &none       &mkp LCLK  &mkp MCLK         &mkp RCLK
+            >;
+        };
+
+        NUM_LEFT {
             bindings = <
         &kp ASTERISK  &kp N7  &kp N8  &kp N9  &kp PLUS     &trans  &trans  &trans  &trans  &trans
         &kp SLASH     &kp N4  &kp N5  &kp N6  &kp MINUS    &trans  &trans  &trans  &trans  &trans
 &trans  &none         &kp N1  &kp N2  &kp N3  &kp DOT      &trans  &trans  &trans  &trans  &trans  &trans
                               &kp N0  &trans  &trans       &trans  &trans  &trans
             >;
-
-            label = "NUM_LEFT_LAYER";
         };
 
-        arrow_left {
+        NAV_LEFT {
             bindings = <
         &kp TAB  &kp HOME                &kp UP_ARROW      &kp END            &kp LC(INSERT)    &trans  &trans  &trans  &trans  &trans
         &trans   &kp LEFT_ARROW          &kp DOWN_ARROW    &kp RIGHT_ARROW    &kp LS(INSERT)    &trans  &trans  &trans  &trans  &trans
 &trans  &trans   &kp LC(LG(LEFT_ARROW))  &kp LG(LS(DOWN))  &kp LC(LG(RIGHT))  &none             &trans  &trans  &trans  &trans  &trans  &trans
                                          &trans            &trans             &trans            &trans  &trans  &trans
-            >;
-        };
-
-        WM_LEFT {
-            bindings = <
-        &trans  &kp LG(LS(UP_ARROW))  &kp LG(UP_ARROW)    &kp LG(LS(DOWN))  &kp LC(UP_ARROW)    &trans  &trans  &trans  &trans  &trans
-        &trans  &kp LG(LEFT_ARROW)    &kp LG(DOWN_ARROW)  &kp LG(RIGHT)     &kp LC(DOWN)        &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &kp LG(SLASH)         &kp LG(M)           &kp LG(O)         &kp LG(Y)           &trans  &trans  &trans  &trans  &trans  &trans
-                                      &trans              &trans            &trans              &trans  &trans  &trans
             >;
         };
 
@@ -646,17 +640,6 @@
             >;
 
             label = "FUNC_LEFT";
-        };
-
-        game_layer {
-            bindings = <
-              &kp T           &kp Q  &kp W       &kp E      &kp R             &kp Y          &kp U      &kp I      &kp O    &kp P
-              &kp LCTRL       &kp A  &kp S       &kp D      &kp F             &kp H          &kp J      &kp K      &kp L    &kp SEMI
-&kp LEFT_ALT  &kp LEFT_SHIFT  &kp Z  &kp X       &kp C      &kp V             &kp N          &kp M      &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
-                                     &lt 10 TAB  &kp SPACE  &kp LEFT_SHIFT    &kp RIGHT_ALT  &kp SPACE  &kp ENTER
-            >;
-
-            label = "GAME";
         };
 
         game_num_layer {
