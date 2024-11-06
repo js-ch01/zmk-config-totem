@@ -338,19 +338,13 @@
         combo_space {
             bindings = <&kp SPACE>;
             key-positions = <2 12>;
-            layers = <0 2 1 6 6>;
+            layers = <0 2 1>;
         };
 
         combo_enter {
             bindings = <&kp ENTER>;
             key-positions = <3 13>;
             layers = <0 2 1 6 3 6>;
-        };
-
-        combo_ctrl_alt_c {
-            bindings = <&kp LC(LA(C))>;
-            key-positions = <14 25>;
-            layers = <0>;
         };
 
         combo_caps {
