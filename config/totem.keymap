@@ -561,7 +561,7 @@
             >;
         };
 
-        NUM+SYM {
+        NUM_SYM {
             bindings = <
         &kp GRAVE                    &kp TILDE     &kp CARET         &amps_hold_double 0 AMPS  &pipe_hold_double 0 PIPE    &kp STAR   &kp N7  &kp N8  &kp N9  &kp PLUS
         &excl_hold_not_euqal 0 EXCL  &kp AT        &kp HASH          &kp DOLLAR                &kp PERCENT                 &kp SLASH  &kp N4  &kp N5  &kp N6  &kp MINUS
