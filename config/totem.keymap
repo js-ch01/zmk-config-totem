@@ -608,10 +608,10 @@
 
         NAV_LEFT {
             bindings = <
-        &kp TAB  &kp HOME                &kp UP_ARROW      &kp END            &kp LC(INSERT)    &trans  &trans  &trans  &trans  &trans
-        &trans   &kp LEFT_ARROW          &kp DOWN_ARROW    &kp RIGHT_ARROW    &kp LS(INSERT)    &trans  &trans  &trans  &trans  &trans
-&trans  &trans   &kp LC(LG(LEFT_ARROW))  &kp LG(LS(DOWN))  &kp LC(LG(RIGHT))  &none             &trans  &trans  &trans  &trans  &trans  &trans
-                                         &trans            &trans             &trans            &trans  &trans  &trans
+             &kp TAB  &kp HOME                &kp UP_ARROW      &kp END            &kp LC(INSERT)    &trans  &trans  &trans  &trans  &trans
+             &trans   &kp LEFT_ARROW          &kp DOWN_ARROW    &kp RIGHT_ARROW    &kp LS(INSERT)    &trans  &trans  &trans  &trans  &trans
+&bootloader  &trans   &kp LC(LG(LEFT_ARROW))  &kp LG(LS(DOWN))  &kp LC(LG(RIGHT))  &none             &trans  &trans  &trans  &trans  &trans  &trans
+                                              &trans            &trans             &trans            &trans  &trans  &trans
             >;
         };
 
