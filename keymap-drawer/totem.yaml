@@ -21,7 +21,7 @@ layers:
   - {t: K, h: RCTRL}
   - {t: L, h: RALT}
   - {t: ;, h: RGUI}
-  - LSHFT
+  - A
   - Z
   - X
   - C
@@ -32,12 +32,12 @@ layers:
   - ','
   - .
   - /
-  - \
-  - DEL
+  - Z
   - {t: TAB, h: NAVI}
+  - {t: BACKSPACE, h: NAVI}
   - {t: SPACE, h: ADJ}
-  - RET
-  - {t: ESC, h: SYM}
+  - {t: RIGHT ALT, h: ADJ}
+  - {t: SPACE, h: SYM}
   - BSPC
   NAVI:
   - ESC
@@ -72,8 +72,8 @@ layers:
   - KP 3
   - KP MULTIPLY
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ADJ
   - KP 0
