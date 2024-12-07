@@ -35,7 +35,7 @@ layers:
   - \
   - DEL
   - {t: TAB, h: NAVI}
-  - SPACE
+  - {t: SPACE, h: ADJ}
   - RET
   - {t: ESC, h: SYM}
   - BSPC
@@ -151,9 +151,9 @@ layers:
   - F10
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   TVP 1:
