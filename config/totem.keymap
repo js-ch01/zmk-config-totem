@@ -26,7 +26,6 @@
             key-positions = <0 1>;
             bindings = <&kp ESC>;
         };
-
     };
 
     keymap {
@@ -51,10 +50,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-           &kp Q       &kp W       &kp E        &kp R        &kp T          &kp Y    &kp U        &kp I        &kp O       &kp P
-           &mt LGUI A  &mt LALT S  &mt LCTRL D  &mt LSHFT F  &kp G          &kp H    &mt RSHFT J  &mt RCTRL K  &mt RALT L  &mt RGUI SEMICOLON
-&kp LSHFT  &kp Z       &kp X       &kp C        &kp V        &kp B          &kp N    &kp M        &kp COMMA    &kp DOT     &kp FSLH            &kp BSLH
-                                   &kp DEL      &lt NAV TAB  &lt 3 SPACE    &kp RET  &lt SYM ESC  &kp BSPC
+       &kp Q       &kp W       &kp E        &kp R              &kp T          &kp Y            &kp U          &kp I        &kp O       &kp P
+       &mt LGUI A  &mt LALT S  &mt LCTRL D  &mt LSHFT F        &kp G          &kp H            &mt RSHFT J    &mt RCTRL K  &mt RALT L  &mt RGUI SEMICOLON
+&kp A  &kp Z       &kp X       &kp C        &kp V              &kp B          &kp N            &kp M          &kp COMMA    &kp DOT     &kp FSLH            &kp Z
+                               &lt 1 TAB    &lt NAV BACKSPACE  &lt 3 SPACE    &lt 3 RIGHT_ALT  &lt SYM SPACE  &kp BSPC
             >;
         };
 
