@@ -35,10 +35,10 @@ layers:
   - Z
   - {t: TAB, h: NAVI}
   - {t: BACKSPACE, h: NAVI}
-  - {t: SPACE, h: ADJ}
+  - {t: DELETE, h: ADJ}
   - {t: RIGHT ALT, h: ADJ}
   - {t: SPACE, h: SYM}
-  - BSPC
+  - {t: ENTER, h: NAVI}
   NAVI:
   - ESC
   - BT CLR
@@ -51,9 +51,9 @@ layers:
   - KP 9
   - KP PLUS
   - LSHFT
-  - LEFT
+  - '&mmv MOVE_LEFT'
   - DOWN
-  - RIGHT
+  - '&mmv MOVE_RIGHT'
   - '['
   - ']'
   - KP 4
