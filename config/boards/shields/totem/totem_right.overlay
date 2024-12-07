@@ -6,9 +6,9 @@
 
 #include "totem.dtsi"
 
-&default_transform {
-    col-offset = <5>;
-};
+//&default_transform {
+//    col-offset = <5>;
+}//;
 
 &kscan0 {
     col-gpios
