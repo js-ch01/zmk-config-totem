@@ -34,7 +34,7 @@ layers:
   - /
   - Z
   - {t: TAB, h: NAVI}
-  - {t: BACKSPACE, h: NAVI}
+  - {t: BACK SPACE, h: NAVI}
   - {t: DELETE, h: ADJ}
   - {t: RIGHT ALT, h: ADJ}
   - {t: SPACE, h: SYM}
@@ -127,7 +127,7 @@ layers:
   - F7
   - F8
   - F9
-  - F12
+  - DEV TOOLS
   - '&bootloader'
   - BT NXT
   - {t: ▽, type: trans}
@@ -205,7 +205,7 @@ layers:
   - F7
   - F8
   - F9
-  - F12
+  - DEV TOOLS
   - {type: held}
   - Sft+ LEFT
   - Ctl+ F17
@@ -229,7 +229,7 @@ layers:
   - F10
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Ctl+ F12
+  - Ctl+ DEV TOOLS
   - Ctl+ F11
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
