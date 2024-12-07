@@ -237,5 +237,3 @@ layers:
 combos:
 - p: [0, 1]
   k: ESC
-- p: [11, 12, 13]
-  k: {t: TVP 1, h: toggle}
