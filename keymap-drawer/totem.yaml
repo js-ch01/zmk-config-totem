@@ -1,6 +1,6 @@
 layout: {qmk_keyboard: totem}
 layers:
-  BASE2:
+  BASE:
   - Q
   - W
   - E
