@@ -2,24 +2,315 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/outputs.h>
+#include <dt-bindings/zmk/mouse.h>
 
-// #include <dt-bindings/zmk/mouse.h>
+&sk { release-after-ms = <1700>; };
 
-&mt {
-    quick-tap-ms = <100>;
-    global-quick-tap;
-    flavor = "tap-preferred";
-    tapping-term-ms = <170>;
-};
+&lt { quick-tap-ms = <200>; };
 
 / {
+    behaviors {
+        ht_hm_rshft: hm_Rshift {
+            compatible = "zmk,behavior-hold-tap";
+            label = "ht_hm_rshft";
+            bindings = <&kp>, <&kp>;
+
+            #binding-cells = <2>;
+            flavor = "tap-preferred";
+            tapping-term-ms = <155>;
+        };
+
+        ht_hm_lshft: hm_Lshift {
+            compatible = "zmk,behavior-hold-tap";
+            label = "ht_hm_lshft";
+            bindings = <&kp>, <&kp>;
+
+            #binding-cells = <2>;
+            flavor = "tap-preferred";
+            tapping-term-ms = <155>;
+        };
+
+        ht_hm: homerow_mod {
+            compatible = "zmk,behavior-hold-tap";
+            label = "Homerow Mod";
+            bindings = <&kp>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <220>;
+            quick-tap-ms = <150>;
+            flavor = "tap-preferred";
+        };
+
+        gt_gte: gt_hold_gte {
+            compatible = "zmk,behavior-hold-tap";
+            label = "GT_GTE";
+            bindings = <&gte>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            flavor = "tap-preferred";
+        };
+
+        lt_lte: lt_hold_lte {
+            compatible = "zmk,behavior-hold-tap";
+            label = "LT_LTE";
+            bindings = <&lte>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            flavor = "tap-preferred";
+        };
+
+        lpar_lr: lpar_hold_lr {
+            compatible = "zmk,behavior-hold-tap";
+            label = "LPAR_LR";
+            bindings = <&double_parenthesis_lr>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            flavor = "tap-preferred";
+        };
+
+        lbrace_lr: lbrace_hold_lr {
+            compatible = "zmk,behavior-hold-tap";
+            label = "LBRACE_LR";
+            bindings = <&double_braces_lr>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            flavor = "tap-preferred";
+        };
+
+        lbracket_lr: lbracket_hold_lr {
+            compatible = "zmk,behavior-hold-tap";
+            label = "LBRACKET_LR";
+            bindings = <&double_brackets_lr>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            flavor = "tap-preferred";
+        };
+
+        lt_mkp: lt_moL_mouseKP {
+            compatible = "zmk,behavior-hold-tap";
+            label = "LT_MOUSEKP";
+            bindings = <&mo>, <&mkp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+        };
+
+        ht_mkp: ht_mouseKP_KP {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HT_MOUSEKP";
+            bindings = <&mkp>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <220>;
+            quick-tap-ms = <150>;
+            flavor = "tap-preferred";
+        };
+    };
+
     combos {
         compatible = "zmk,combos";
 
-        combo_esc {
-            timeout-ms = <51>;
-            key-positions = <0 1>;
-            bindings = <&kp ESC>;
+        combo_lpar {
+            timeout-ms = <45>;
+            key-positions = <16 15>;
+            bindings = <&lpar_lr 0 LEFT_PARENTHESIS>;
+            layers = <0 1>;
+        };
+
+        combo_rpar {
+            timeout-ms = <45>;
+            key-positions = <19 20>;
+            bindings = <&kp RPAR>;
+            layers = <0>;
+        };
+
+        combo_lbkt {
+            timeout-ms = <45>;
+            key-positions = <14 16>;
+            bindings = <&lbracket_lr 0 LEFT_BRACKET>;
+            layers = <0 1>;
+        };
+
+        combo_rbkt {
+            timeout-ms = <45>;
+            key-positions = <19 21>;
+            bindings = <&kp RBKT>;
+            layers = <0>;
+        };
+
+        combo_lbrc {
+            timeout-ms = <45>;
+            key-positions = <14 15>;
+            bindings = <&lbrace_lr 0 LEFT_BRACE>;
+            layers = <0>;
+        };
+
+        combo_rbrc {
+            timeout-ms = <45>;
+            key-positions = <20 21>;
+            bindings = <&kp RIGHT_BRACE>;
+            layers = <0>;
+        };
+
+        combo_game_layer {
+            bindings = <&tog 4>;
+            key-positions = <24 35>;
+            layers = <0 4>;
+        };
+
+        combo_bspc {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <7 19>;
+            layers = <0 1 2>;
+        };
+
+        combo_copy {
+            bindings = <&kp LC(C)>;
+            key-positions = <27 15>;
+            layers = <0>;
+        };
+
+        combo_clean {
+            bindings = <&tog 11>;
+            key-positions = <36 37 38>;
+            layers = <0 11>;
+        };
+
+        combo_space {
+            bindings = <&kp SPACE>;
+            key-positions = <4 16>;
+            layers = <0 1 2 5>;
+        };
+
+        combo_num0 {
+            bindings = <&kp N0>;
+            key-positions = <31 19>;
+            layers = <0 1 5>;
+        };
+
+        combo_num1 {
+            bindings = <&kp NUMBER_1>;
+            key-positions = <32 20>;
+            layers = <0 1 5>;
+        };
+
+        combo_num9 {
+            bindings = <&kp N9>;
+            key-positions = <33 21>;
+            layers = <0 1 5>;
+        };
+
+        combo_meta+a {
+            bindings = <&kp LG(A)>;
+            key-positions = <38 37>;
+            layers = <0 1>;
+        };
+
+        combo_altF4 {
+            bindings = <&kp LA(F4)>;
+            key-positions = <1 4>;
+            layers = <0>;
+        };
+
+        combo_toggle_Trackball {
+            bindings = <&tog 8>;
+            key-positions = <31 34>;
+            layers = <0 8 9>;
+        };
+
+        combo_enterL {
+            bindings = <&kp ENTER>;
+            key-positions = <25 26>;
+            layers = <0 1 2 4>;
+        };
+
+        combo_enterR {
+            bindings = <&kp ENTER>;
+            key-positions = <34 33>;
+            layers = <0 1 2 4>;
+        };
+
+        combo_delL {
+            bindings = <&kp DELETE>;
+            key-positions = <28 26>;
+            layers = <0 1 2 4>;
+        };
+
+        combo_delR {
+            bindings = <&kp DELETE>;
+            key-positions = <31 33>;
+            layers = <0 1 2 4>;
+        };
+
+        combo_escL {
+            bindings = <&kp ESCAPE>;
+            key-positions = <28 27>;
+            layers = <0 1 2 4>;
+        };
+
+        combo_escR {
+            bindings = <&kp ESCAPE>;
+            key-positions = <31 32>;
+            layers = <0 1 2 4>;
+        };
+
+        combo_mb4 {
+            bindings = <&mkp MB4>;
+            key-positions = <27 26>;
+            layers = <0 1 2 4>;
+        };
+
+        combo_mb5 {
+            bindings = <&mkp MB5>;
+            key-positions = <32 33>;
+            layers = <0 1 2 4>;
+        };
+    };
+
+    macros {
+        gte: gte {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_tap_time 5>, <&kp GT &kp EQUAL>;
+
+            label = "GTE";
+        };
+
+        lte: lte {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_tap_time 5>, <&kp LT &kp EQUAL>;
+
+            label = "LTE";
+        };
+
+        double_parenthesis_lr: double_parenthesis_lr {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_tap_time 5>, <&kp LPAR &kp RPAR>;
+
+            label = "DOUBLE_PARENTHESIS_LR";
+        };
+
+        double_braces_lr: double_braces_lr {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_tap_time 5>, <&kp LBRC &kp RBRC>;
+
+            label = "DOUBLE_BRACES_LR";
+        };
+
+        double_brackets_lr: double_brackets_lr {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_tap_time 5>, <&kp LBKT &kp RBKT>;
+
+            label = "DOUBLE_BRACKETS_LR";
         };
     };
 
