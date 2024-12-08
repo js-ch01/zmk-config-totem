@@ -28,11 +28,11 @@ on:
         default: "config"
         required: false
         type: string
-      # parse_args:
-      #   description: "Map of keyboard names to extra `keymap parse` args, e.g. `corne:'--layer-names Def Lwr Rse Fun'`"
-      #   default: "charybdis: '-b keymap-drawer/charybdis.yaml'"
-      #   required: false
-      #   type: string
+      parse_args:
+        description: "Map of keyboard names to extra `keymap parse` args, e.g. `corne:'--layer-names Def Lwr Rse Fun'`"
+        default: "totem: '-b keymap-drawer/totem.yaml'"
+        required: false
+        type: string
       draw_args:
         description: "Map of keyboard names to extra `keymap draw` args, e.g. `corne:'-k corne_rotated -l LAYOUT_split_3x5_3'`"
         default: ""
