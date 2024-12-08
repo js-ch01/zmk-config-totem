@@ -1,0 +1,160 @@
+layers:
+  BASE:
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - {t: A, h: LGUI}
+  - {t: S, h: LALT}
+  - {t: D, h: LCTRL}
+  - {t: F, h: LSHFT}
+  - G
+  - H
+  - {t: J, h: RSHFT}
+  - {t: K, h: RCTRL}
+  - {t: L, h: RALT}
+  - {t: ;, h: RGUI}
+  - LEFT SHIFT
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - RIGHT SHIFT
+  - {t: TAB, h: NAVI}
+  - {t: BACKSPACE, h: SYM}
+  - {t: DELETE, h: ADJ}
+  - {t: RIGHT ALT, h: ADJ}
+  - {t: SPACE, h: SYM}
+  - {t: ENTER, h: NAVI}
+  NAVI:
+  - ESC
+  - BT CLR
+  - UP
+  - '='
+  - '{'
+  - '}'
+  - KP 7
+  - KP 8
+  - KP 9
+  - KP PLUS
+  - LSHFT
+  - LEFT
+  - DOWN
+  - RIGHT
+  - '['
+  - ']'
+  - KP 4
+  - KP 5
+  - KP 6
+  - KP MINUS
+  - {t: ▽, type: trans}
+  - DEL
+  - PG UP
+  - CAPS
+  - PG DN
+  - (
+  - )
+  - KP 1
+  - KP 2
+  - KP 3
+  - KP MULTIPLY
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ADJ
+  - KP 0
+  - {t: ▽, type: trans}
+  SYM:
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
+  - ^
+  - '&'
+  - AGr+ U
+  - ''''
+  - '"'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - MUTE
+  - Sft+AGr+ 4
+  - AGr+ 5
+  - AGr+ 4
+  - AGr+ O
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - VOL DN
+  - VOL UP
+  - PREV
+  - NEXT
+  - \
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - PP
+  - {t: ▽, type: trans}
+  ADJ:
+  - {t: ▽, type: trans}
+  - BT CLR
+  - OUT TOG
+  - {t: ▽, type: trans}
+  - '&bootloader'
+  - {t: ▽, type: trans}
+  - F7
+  - F8
+  - F9
+  - F12
+  - {t: ▽, type: trans}
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - F4
+  - F5
+  - F6
+  - F11
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&studio_unlock'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - F1
+  - F2
+  - F3
+  - F10
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+combos:
+- p: [0, 1]
+  k: ESC
