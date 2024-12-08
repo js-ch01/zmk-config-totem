@@ -116,42 +116,36 @@
         compatible = "zmk,combos";
 
         combo_lpar {
-            timeout-ms = <50>;
             key-positions = <16 15>;
             bindings = <&lpar_lr 0 LEFT_PARENTHESIS>;
             layers = <0 1>;
         };
 
         combo_rpar {
-            timeout-ms = <45>;
             key-positions = <19 20>;
             bindings = <&kp RPAR>;
             layers = <0>;
         };
 
         combo_lbkt {
-            timeout-ms = <45>;
             key-positions = <14 16>;
             bindings = <&lbracket_lr 0 LEFT_BRACKET>;
             layers = <0 1>;
         };
 
         combo_rbkt {
-            timeout-ms = <45>;
             key-positions = <19 21>;
             bindings = <&kp RBKT>;
             layers = <0>;
         };
 
         combo_lbrc {
-            timeout-ms = <45>;
             key-positions = <14 15>;
             bindings = <&lbrace_lr 0 LEFT_BRACE>;
             layers = <0>;
         };
 
         combo_rbrc {
-            timeout-ms = <45>;
             key-positions = <20 21>;
             bindings = <&kp RIGHT_BRACE>;
             layers = <0>;
